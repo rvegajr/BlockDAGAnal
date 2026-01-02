@@ -1,0 +1,13 @@
+Primary Color: #7E44FF
+Secondary Color: #FF8D44
+Accent Color: #44FFED
+
+Text Colors:
+Headings: #FFFFFF
+Body Text: #D1D1D1
+Subdued Text: #A1A1A1
+
+Background Colors: 
+Page Background: #1C1C1E
+Card Background: #2C2C2E
+Hover Highlight: #44475A

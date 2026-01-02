@@ -1,0 +1,50 @@
+# Phoenix Network CrewAI Swarm Requirements
+# ==========================================
+
+# Core CrewAI Framework
+crewai==0.30.11
+crewai-tools==0.2.6
+
+# Language Models
+langchain==0.2.5
+langchain-anthropic==0.1.15
+langchain-openai==0.1.7
+langchain-community==0.2.5
+
+# OpenAI/Anthropic clients
+openai==1.30.1
+anthropic==0.26.0
+
+# Development Tools
+python-dotenv==1.0.0
+pydantic==2.7.1
+pydantic-settings==2.3.1
+
+# Async Support
+asyncio==3.4.3
+aiohttp==3.9.5
+
+# Utilities
+requests==2.31.0
+typing-extensions==4.11.0
+colorama==0.4.6
+rich==13.7.1
+
+# Data Processing
+pandas==2.2.2
+numpy==1.26.4
+
+# Git Integration
+GitPython==3.1.43
+
+# Web Search Tools (optional)
+google-serp-api==2.0.4
+
+# Monitoring
+prometheus-client==0.20.0
+psutil==5.9.8
+
+# Testing (optional)
+pytest==8.2.0
+pytest-asyncio==0.23.6
+pytest-mock==3.14.0

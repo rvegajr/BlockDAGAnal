@@ -1,0 +1,814 @@
+Full, what are you supposed to build, etc.
+So we just get started in two minutes, hoping you guys are all excited regarding it.
+Oh, I'm very excited. I think that this is where we build the value right here.
+Yeah, as someone who's been working on the tech side of things, the main net.
+When we are ready, we want to make sure that we are supporting in a fabrication so that people with
+the tokens can interact with any of the applications and create more value within the ecosystem.
+So you have that's where my goal is, and that's where I'm supposed to be helping all the developers over here to get started and just to build something on their own.
+You know, what I just put out there in the AMA and stuff is that we got a lot of investors
+that are also running nodes. I know that we have about 91 node operators that we all coordinate together
+and we've written the scripts for backing up our nodes and doing all kinds of stuff.
+Speaking of which, Alan, we need a bootstrap yesterday that's official from you guys.
+We're doing one ourselves, but if we had an official bootstrap that we could get these nodes up and run with.
+Anyways, so nodes and then we got people that have purchased miners and were really looking forward to the miners
+and getting mining and then having them as well working on building apps.
+And everybody comes from different walks of life and experience different problems that we've seen in the world that we want to decentralized
+and to be able to take the people that are, when we say all in, that's what I mean all in, they're invested.
+They're running nodes. They're mining the network. They're building applications and solving problems.
+And I'm just so excited. Harris is one guy that is just that.
+Yeah, talking about nodes. I'll be, we talked about nodes earlier supporting one of these.
+So people don't really have to run them on their own.
+So I'll be just going through it. I'll be also showing like one of our node operators.
+You don't really have to run nodes on your own anymore, or even if it's not stable, like you can just spin up a new cloud node like on your own very fast,
+which is actually really good for the developers who will be building over here.
+So yeah, I'm actually excited to, you know, introduce you guys to that and just to get started.
+And we have around, you know, we have around 15 people in the call. I think now is a good time to get started.
+So I'll make sure this is interactive. So you guys have your chance to ask questions and you guys can go through my slides with me.
+So it's my sound clear and can you guys see the slides?
+Yeah, sounds good.
+Perfect.
+Yeah, perfect. So I think we can get started now.
+It's already two minutes past the time. So welcome everyone.
+Builders, founders, explorers from all over the world.
+You are officially made it to the amazing chain race, the global build block tag buildathon.
+In the past, we have run multiple hackathons and we had multiple projects emerging from it.
+And we are excited to have our initiative further.
+So this time, we come up with a buildathon and we are not even calling it a hackathon major labor because it's something that is completely different.
+So over the next few months, we will race through six waves of innovations, with our $50,000 in price pool,
+for people who will build, iterate and ship the product into a production level state.
+And this is where innovation meet execution across multiple lanes such as AI, TFI and infrastructure.
+So I'm actually as excited as you guys to kickstart and help you with the journey towards creating a production level application.
+So I'm just wondering where you guys are all from.
+Is everybody from Asia or is everybody from Europe?
+So the American whatever it is, just leave any mochi in the chat.
+I'll just go through it.
+And I hope you guys are excited to build.
+So like I said, we are live here.
+So feel free to ask any questions, react or connect in real time.
+So this is not just an hackathon.
+That's why we are calling it a buildathon.
+We are going to build and help you with the moment to create a more innovation towards decentralization.
+So let's just get started.
+So regarding block tag, I'm pretty sure I can already see a couple of family faces over here,
+which means that you guys are already familiar regarding block tag and what we guys are already doing.
+And for the new people who are here to explore the buildathon or it's just to explore building on top of this.
+So the heart of the event is block tag, a high performance upgradeable block chain.
+We are helping to build like real world scalability in a way to products.
+So imagine a world where blocks don't wait in line.
+They form a tag while dating parallel and you can start building things in such an amazing way.
+And obviously we are not the first layer one.
+We are obviously one of the elements out there in the market right now.
+There are other already existing elements such as Ethereum or Bitcoin or some recently the ones called abstract one at.
+But the way we do things is we are using a tag architecture, which will make things a much more smoother.
+So what we obviously want to do, we are focusing on a few things like account abstraction.
+You know, the minor integration we are obviously focusing on wasting contracts, explorers and QA and tooling.
+And there are some other ideas we want to also focus on like NFTs, DeFi, centric tools.
+I obviously go with a simple build blockchain that is fast secure and developer first.
+As one of the core people in the building of the chain, what I obviously focus on is.
+Even though I focus on the community, what I'm more interested in is obviously the developers.
+And for people who have already, you know, experimented with the tag architecture, you already know.
+It's not a new technology.
+It's a technology that has been on multiple networks or that has been in multiple architectures.
+So we are just exploring that in a blockchain.
+So has anybody worked with a tag architecture if you have done a place leave any mochi or anything in the chat.
+So I can also look forward to it.
+Sure.
+I can also see that a lot of people have been joining in from Cape Town, Chuanasburg, Nigeria.
+So I'm surprised there's no one from Asia.
+That is pretty surprising to me because our last hackathon 80% of people have been joining in from Asia.
+Yeah, a lot of people from Africa and South America, South Africa.
+And I can see one person from USA, interesting.
+So this is actually good to be obviously looking into much better geographic location than the last hackathon.
+Anyway, for people I'm assuming you guys haven't really interacted with the tag architecture, which is completely fine.
+We are taking care of it.
+So now that I'm talking about the buildathon, like what exactly is the amazing chain race?
+So we have multiple phases.
+We will be looking into it.
+And just to give a one line of regarding what the amazing chain races, it's a triple phase buildathon.
+And like I said, the six phases are, sorry, the six phases are divided into three phases.
+And the first phase, which is our week one and week two, which is an ideation and the scaffold phase, where you actually scaffold your vision.
+So if I'm a builder, this is the phase where I come with the idea that I want to build on.
+And I look forward to it being validated from the judges.
+If I were to build an NFT marketplace, this is where I come in with the architecture.
+And you get it validated from judges to go forward.
+And the second phase, which is week three and week four, which is the MVP and the feedback phase, where you create the initial MVP.
+And you get feedback from the judges and you iterate towards it.
+And finally, the phase three, which is the polishing and the proof phase, is week five and weeks.
+It's this is where you will find your product and make it production level ready.
+And you get feedback from our engineers directly so that you can make it ready for our main net launch.
+And obviously, you can order to your smart contact over here.
+And yeah, you will have four tracks, which means you will have to build choose one of these tracks to build from.
+Obviously, I said, I will probably like understand, everyone will be having different ideas.
+So you can choose any track. We have the T5 speed wave track. We have the NFT grant brick stack.
+We have the build the track and we have further and faster track.
+I'll be going deeper into it in the coming slides.
+And again, the goal is pretty simple. You go from a concept to an MVP to a production ready proof of your product.
+And if you already know what you're building, like feel free to.
+If you're orchestrating of this public, like feel free to drop any hints in the chat section.
+And I can obviously give you a proper feedback directly or you can ask me at the end of the call.
+I'll be happy to discuss your idea on what you want to build.
+If you, that is like if you already, you know, comfortable with sharing it or you can do it privately with me.
+I will be giving my telegram.
+So you can discuss it with me directly and I can give you some architectural proof.
+I hope this much is pretty much clear. Now let's go deep into the tracks.
+So like I said, these are the four tracks that we have.
+So the default track is where the financial logic meets innovation.
+So this is where you can build anything related to T5.
+If I am a developer, I would probably build something related to a X or I will probably build a yield generating board.
+Or I can build something like a stable coin, which has property utility within the ecosystem.
+So it's completely up to you on what you want to build.
+So that would be the probably the most complicated one to build on top of.
+So if you are a beginner, then I would probably ask you to stay away from it.
+If you are an intermediate or if you are, you know, a proper professional developer, then probably you can look really deep into T5 because that is something that will be obviously be very useful and used within the ecosystem.
+That's what I feel as a developer.
+Then we have the NFT grandparents. This is where you can build anything with digital assets.
+This simply means that few things that I can think of as an AI driven intelligent NFT or you can build an AI driven NFT marketplace where people can come in.
+They can generate an image and make it to an NFT within the block tag ecosystem.
+Or you can build an dynamic marketplace, you can build a dynamic NFT or you can build an external relation.
+Collectible experience like the cryptocurrency or the ACC infinity.
+So that's also completely up to you. Like we are fully open to anything that you want to do.
+And the third track is the build the track. This is where you can come in.
+I'm pretty sure a lot of people in the blockchain field might want to build a developer tooling.
+So this can be like explorers, this can be wallets, this can be SDKs, these can be performance tool.
+Something that I would probably build would be SDKs because that will be used in the ecosystem.
+And finally, the last one is the further and the faster track.
+This is where you can use AI to build anything.
+Again, it's completely up to you. What do you want to build? It can be an autonomous agent, which will take, which will look into your wallet.
+And if you ask it to trade like $1,000, it will take the best trade in the network itself.
+So again, we are open to any kind of innovations.
+So like whichever track suits you, you can look into it.
+And if you already know what track that you're building on, then feel free to drop the track name in the chat.
+Like I'll be happy to again, like discuss on it.
+So this slide is very important on what you want to build.
+And like I said, I can already see someone saying something called cameified app that gives a reason to use feedback token.
+Again, like we are not really focusing on the game track over here.
+But like I said, if you're building any of these tracks, if you're building an AI agent, you can make it cameified.
+Again, that is completely up to you. Even though we don't generally have a track for gaming in general.
+We are happy to, you know, we are happy to fit that into any of these already existing tracks.
+So completely up to you.
+And I can see you read that your return, I have a non-profit organization for veterans.
+And I want to be able to platform for industrialized fundraising campaigns for veteran issues.
+Again, yeah, that is also, yeah, like we are open to it.
+So the only thing that you have to make sure is make sure you fit it under any of these tracks.
+Something that I can think of.
+If you can make it an NFT and you can fit it into your platform, then yeah, that can be.
+That's what it is.
+We create a story based on NFTs and the people can look at the story and determine what they want to do.
+And then they purchase the NFTs.
+And they actually get to determine where their funds go as opposed to most veterans issues go towards a general pool.
+And the organization determines how it's distributed.
+The individual, the donor can decide what they want to donate to.
+Right.
+I think, yeah, I think that's a fantastic idea.
+So if we go into high level scale, like I'm just thinking from a high level how it's a, it essentially is.
+It technically is a campaign website using blockchain.
+And you fit your organization directly into it using and you're also using NFTs on top of it.
+So as a high level, obviously, it fits under our tracks.
+So if that's what you want to make, then obviously, we'll be happy to, you know, judge it.
+And in each way of you can submit any kind of iterations, we will give you feedback.
+Non top of it.
+So even if you don't, when the ultimate prize pool, like we are obviously for iterating it for each way.
+We already have a voting section.
+So in that way, you can earn some prize pool.
+And yeah, we will obviously be helping you, you know, support it within the blockchain ecosystem.
+So yeah, that is also valid area.
+And yeah, obviously, we'll be looking forward to, you know, giving you more feedbacks to build it on top of it.
+Yeah.
+Yeah.
+Sure.
+Any more ideas?
+Like I said, you can ask at the end of the slide.
+So feel free to ask me.
+So moving forward.
+The next one will be the built on structures.
+So like I said, let's break down on how the build on actually works.
+Because I've been mentioning six waves over three months.
+So let's talk about it.
+So every two waves for my face and each face as it's on the words.
+So like I said, each face has five thousand dollars in prices.
+So like I said, we want and we do, which is the ideation and scarf fold face.
+This is very beautiful foundation.
+Establish your concept.
+You have five thousand dollars in a price fold.
+So for everyone who will be submitting a proper.
+Like I said, there should be a proper submission.
+You will be getting a share of the price.
+Depending on the number of words that you'll be getting.
+So you cannot submit to just anything.
+You'll have to submit a proper, you know, ideation and a proper scarf fold.
+Based on the guidelines that we give you, which will be further communicated to you via email.
+But this is the high level overview.
+The second like week three and week four, we have the MVP and feedback.
+Again, this will have five thousand dollars in prices according to the number of words that you get from the judges and the prototype and proper submission.
+If you don't submit a proper submission and if you miss one of the waves.
+Then you can obviously participate in the next wave.
+And you can get a try segment from some of it.
+Some people might not give a proper submission.
+In that case, we will be able to qualify in you from the initial waves.
+But that doesn't mean you won't be able to participate.
+Which simply means that you'll be able to participate in next waves that are coming up.
+We have six waves.
+So if you miss one wave, that is completely fine.
+And you will be getting feedbacks at the end of each waves.
+So you can iterate your project based on that and you can earn a share of it.
+So again, the suggest the wave price pool.
+The total price pool is obviously $50,000 across waves, tracks and grant prices.
+Remember the prices stack.
+Which means that you can win per wave per track and take the grant price also.
+So keep building and obviously consistent obviously base of.
+Now, let's talk about what you need to submit.
+So in phase one.
+The IITs and the scaffold face.
+I'll be obviously giving you an email where you have to.
+Aware with everything that you have to submit.
+But just to give you a high level overview.
+Then the IITs and scaffold face.
+You should be submitting a repository scaffold with the like initial.
+Initial initial code and the scan be a conceptual.
+A diagram, this can be a conceptual note on how you're trying to take it forward.
+And you can have a prototype mockup or prototype snapshot.
+Any kind of UI that's completely up to you.
+In phase two, obviously you will, this is where you need to have a working MVP.
+If you don't have a working MVP at this face, then.
+You will be disqualified and you should have a hosted demo.
+You're not hosted in a website just use a free hosting service like.
+Worse to give a hosted summary so that the judges or the people can.
+You know, interact with it.
+And obviously you should have a demo video.
+They should be maximum four minutes.
+Because I'm assuming we'll be getting like more than 20 to 30 submissions.
+So if you don't keep it under four minutes, you can already do the math.
+On how many hours it's going to take us to judge it.
+So just try to keep it under four minutes.
+Anything above four minutes won't be judged.
+And obviously you need to have a next milestone and updates return on it.
+So please please please have milestones for what we've done in the next phase.
+And finally in phase three, this you should have a final demo with full functionality.
+Which is very compulsory.
+You should have a final demo.
+You should have a documentation and a roadmap on how your product work.
+And how you're going to take it forward for the building further.
+And you should have a verified smart contact.
+So since you're building on a block tag network, which is a blockchain essentially.
+You will have smart contacts.
+Which can be cross verified with our explorer.
+So please please please have that written.
+Either in as a read me or just have it directly noted in your.
+Get up read me and we will cross ticket.
+The judges will verify this.
+So please have it.
+And again.
+If you're in VPS in perfect.
+Obviously at the end of each wave.
+You will be getting feedback early.
+So iteration, like I said, iterating.
+Beat the perfection.
+So just keep on iterating your.
+You know, MVP and at the end of the each wave.
+You can have a proper.
+And again, also mission should have a public repository and a more video is mandatory for evaluation.
+If at any case, you won't have it.
+Then you will be to score if I directly because we won't be able to.
+Uh, verify or cross verified.
+Now, uh, next slide is probably the most.
+Uh, exciting one or the most important one.
+Uh, that you as will be waiting for.
+So, like I said, as earlier 15k will be.
+Uh, given to you across multiple VAPs.
+Depending on the iteration and depending on the number of votes that you get.
+And, uh, consistent progress will obviously pay off.
+And again, there's 50,000 dollars.
+Uh, total price pool.
+Combine combining VAPs tracks and championship prices.
+So at the end of the hackathon, depending on the number of votes that you get.
+And depending on the how the judges first you.
+Uh, see your project.
+I think, uh, that's how you will be judged.
+The grand prize winner will be the best overall project.
+Who will be back walking up.
+Available 25,000.
+Uh, you know, USD.
+Uh, this can be used to iterate your project quality project further and take it to production.
+The second prize winner is the rounder of product.
+This can be, uh, the second best project.
+Again, you'll be getting 15,000 dollars.
+Um, and again, the third prize is the best project.
+You'll be getting 10,000 dollars to make your project production level ready and make ready for the main net launch.
+Obviously, the winners will be, will be getting featured in our social media,
+documentation, main net showcases.
+Every pages you will be supported and the marketing team will help you.
+Have your product across the market.
+And everyone in our community who would love to interact with your smart contract or your product will be interacting with it.
+Our engineers after the hackathon, even if you win or not, you can obviously keep building.
+Our engineers will help you iterate the project further.
+Me personally will give you a guarantee to help you guys out.
+So, um, yeah, even if you don't win, you can still get your product into the main net.
+We will be giving you, uh, any kind of opportunity.
+Uh, again, we have a grants program of, uh, without the prizes.
+So, even if you don't win, you can keep building and you can come back to us in one month.
+And you can apply for the grants program.
+We have around 100, 100K in grants, uh, so that will be given to any any projects that will,
+that the grant community, the grant council thing will be, uh, really good within our ecosystem.
+And finally, now you guys might be thinking, how exactly are we judging this?
+Um, so have we judged, uh, or have we score your project?
+We'll be based on technical excellence.
+So, how technically your project is, how the performance, how the integration with our block tag networkers.
+So, that will be one of the major things, uh, where we will be judging your product on.
+But that is not the only thing.
+So, I'm assuming a lot of people here are not very technical.
+So, uh, 30 percentage of, um, your product, or whatever you're making,
+30 percentage will be on the recommendation and clarity.
+Uh, so there are quality, there are programs.
+That's why I'm going to tell you to maintain a proper read me, uh, for each, each of your products.
+So, the judges can go through it easily.
+And again, innovation and user experience, uh, contains 30 percentage of the, uh, weight.
+So, originality. So, is it an original product?
+Uh, and will the users within the block tag ecosystem will find value in this?
+And again, there are some bonus points for collaboration, community engagement and persistence across multiple base.
+So, uh, maybe one tip would be to don't just build alone.
+Like, cannot share and help others within the ecosystem.
+Like, a community collaboration, uh, does get noticed.
+So, feel free to help each others, uh, during the phase of the hackathon.
+And yeah, we will be obviously helping you guys out.
+The, um, like, I will be in the telegram group.
+I will be helping you out in this court, whatever it is, that whatever you need help with.
+So, any, any questions regarding judging,
+feel free to put a turn on the chat.
+I can see some questions already.
+Can you give me feedback on what I've already built?
+I would love to see if I'm going in the right direction.
+Yeah. So, that's why we have multiple waves.
+Like I said, we have six waves.
+So, you'll be getting feedback at the end of each wave.
+So, at the end of week one, you'll be getting feedback on what you should
+I trade more or what you should focus on more.
+So, yes, Harris, you'll be getting feedback at the end of each week.
+So, that you can build it much further.
+It's possible that I change my track after the registration.
+Yes, it is possible.
+Just make sure at the end of each wave that you properly write it down, um, during the submission
+that you have changed your track.
+Um, and obviously, we are happy if you can build a product on any of the tracks that you're comfortable with.
+At a combination of this presentation is important.
+Yes, I will be sending a separate email with even with the slides of this.
+Plus, I will be giving you guys all a starter kit for you guys to, you know, get started with.
+What days are we meeting? Do we meet on video? How long?
+They ran me through the first day.
+So, the meeting, um, so meeting as completely, uh, we haven't planned anything officially.
+So, it's completely depends on how we want it.
+So, if we have 20 projects and if you want a one-on-one session, or if you don't even want to get on video,
+like if you want to just text me, like I will be giving my direct handle.
+So, feel free to, you know, about me anytime, like I'll be obviously helping you guys out.
+Uh, the meeting, uh, we don't have the official dates.
+So, the meeting, like let me, let me get you guys with official dates.
+Or if you guys want, uh, you know, bi-weekly meeting, or weekly meeting, or if you want a one-on-one session with me.
+Uh, just feel free to text me, like I will obviously make time with my core as at the end of the day to help you guys to build the product.
+And help you guys to get it into production.
+So, meeting like I said, feel free to, like, text me.
+Uh, let's get on a one-on-one as soon as possible.
+I just want to say thank you so much, Alan.
+Um, you know, for the community to see your involvement and how you're willing to help developers and to build these apps on chain.
+Uh, it's, it's so heartening, you know, um, is there any way that we can talk about the speed of the chain and, and, and, and what we expect out of it.
+And, and what we're working with now or anything like that.
+Uh, so we have the new network that that's network launched.
+So, I haven't personally tested a lot in the awakening test net.
+I have been working more with the primordial one.
+So, personally, I have an impact with the awakening one.
+So, I cannot comment on it.
+But what I can comment is whatever, uh, that you're building right now.
+Uh, one huge huge case would be my vote, which would require fast block confirmation.
+That is already being, uh, you know, created within our, uh, you know, developer community.
+Someone has been building that and, um, um, like we, like our previous test net.
+We've been getting a lot of a lot of feedback that the test net has been going down.
+So, for, uh, we are fully, you know, our time has been really good.
+And the block timing, then everything has been pretty great.
+So, uh, massuming like there won't be any issue.
+And even if there's any issue, like I myself will be a guiding you guys with it.
+So, uh, that's as much as I can say regarding the test net, I know.
+You as the builder will be cross testing it.
+So, uh, even if there's something feel free to put it up in the telegram chat or the discord.
+Like I'll be, you know, communicating with the engineers, uh, just to be fully transparent.
+We had it out time, uh, for our awakening net, uh, awakening test net work.
+Uh, I think around, uh, four days back.
+Uh, but since we are officially being supported by one of our,
+uh, cloud network, uh, the developers won't face any issue.
+So, that is fully taken care of.
+Oh, that is fine.
+Uh, I can see more questions.
+So, up to those asking, can I change my track after registration?
+Uh, the registration, uh, track is just to get an idea regarding what you guys are building on.
+So, obviously, you can change your track.
+Just make sure to mention it during submission.
+And I will be going, uh, forward with it.
+So, don't worry, uh, on what track that you are registered on.
+You can completely change it.
+That is just to get a consensus.
+I weakly meeting would help us more.
+Uh, yeah, weakly meeting would be very helpful.
+Let me try the current bandwidth of the team.
+Like, I'm one of the technical person.
+Uh, we have more people in operation.
+So, I'm not sure how technical these people can, uh, the team can go into it.
+So, let me see, uh, in case of my absence, someone can look into it and fill you up.
+At the same time, like I said, I'm 24, not 24-7.
+Obviously, I have to sleep.
+But I'm pretty much available, uh, most of the time, uh, in telegram.
+So, feel free to text me with any questions.
+And feel free to text in the telegram chat, also.
+So, I have a few guys out.
+Uh, so, give your ask, can we match two tracks?
+Obviously, it's possible if you want to build, if you want to mix NFTs and AI.
+And you can, you want to build something like an AI generated.
+Or NFTs marketplace.
+You can mix it.
+We are completely open to it.
+Uh, only us.
+Give us feedback.
+Clear key points.
+Must be done for next year.
+Uh, it is easier to focus.
+Yes, that is one of my goal to be asked as, um,
+um, pick it up friendly as feedback.
+And as possible.
+Can we get a copy of the slides?
+Yes, you will be getting an email.
+Uh, within next two days regarding this.
+Plus, you'll be getting a starter kit.
+Uh, in an ocean for you guys to easily focus on.
+So, don't worry about that.
+You'll be getting everything.
+Can we get, yeah, you will be getting all the soft copies.
+That will be taken care of.
+Don't worry.
+Perfect.
+Now, moving on.
+Obviously, you don't have to build anything.
+An isolation will be.
+We all did set everything up for you.
+And we already have the documentation and STK's created.
+Um, like I said, in the starter kit, everything will be taken care of.
+I will just show you after after all the slides.
+Uh, we have scaffolds template for you guys to get started.
+And the mentorship, if we will try to keep it.
+Uh, it's a monthly office of our written over here.
+Uh, but I will be available in telegram at any time.
+So, let's, if you are stuck at some point.
+Let's get on one one call.
+Uh, weekly or by weekly.
+Um, like I said, I will be giving my maximum support for the next three months.
+So, feel free to, uh, you know, uh, get as much support from me.
+And regarding the community, uh, I just created a community for you guys to get priority support.
+Uh, feel free to join this telegram group.
+I put it in the chat.
+Feel free to join that just to get priority support because I'm online.
+Most of the time in telegram.
+So, please feel free to join that.
+And yeah, you can ask any questions over there.
+I would say telegram would be much faster than discord.
+So, yeah.
+And finally, uh, get ready to build.
+Um, I'm pretty sure, uh, all of you are already registered on the built on portal.
+So, people who were seeing this, the coding after, after the, after the, after the call.
+Uh, place register on our portal.
+And form or join a team.
+You can find your teammate and discord.
+You can find your teammate and telegram.
+Uh, feel free to do that.
+Uh, now they get some mission for way once.
+Careful.
+Um, I trade for a ship often and build it forward.
+Uh, I will be giving you what some mission requirements are in a separate email.
+But, uh, get ready to, uh, for the submission for way once.
+So start preparing on what you're building.
+Have a diagram.
+I have a proper use case.
+Have, uh, things properly written.
+And like I said, I will be giving you feedback of it.
+And yeah, that is pretty much everything.
+Now, uh, I'm open to Q&A for the next five minutes.
+And I'll also show you guys, um, some things that we have prepared for you.
+That will be given to you.
+And, uh, if you guys are happy with it.
+Let's move towards it.
+Let me just share another.
+Just give me a second.
+You guys should be seeing the.
+Right.
+So this is pretty much, uh, our hackathon guide kit.
+Um, this will have the entire recording.
+It'll be over here.
+The link will be updated over here.
+Telegram group.
+And I put my direct, um, telegram handle here for you to directly contact me.
+And this is a high level overview of the structures,
+about these ideation for you to get started.
+And over here, I will also return the.
+Just give me a second.
+Uh, yeah.
+I will also return, um, the where you can access the block tag documentation kit.
+I will also return the hard ad configuration for any developer to get started.
+This smart contact ID where you can start coding our contract wizard.
+Uh, any kind of, you know, support that you need with, uh,
+etherjs or any of the frameworks.
+And all the socket APS that you're supporting.
+And the network configuration for you to access it very fast.
+I have listed it over here.
+I will be sending it over to you guys.
+The RPC, the earlier RPC URL.
+That's lower the, uh, faucet and external RPC.
+So this is what I was talking about.
+Let me just share this.
+This is a cloud supported network that we partnered with now notes.
+So you can access your block tag RPC notes, which means you don't really have to run.
+In your computer anymore, the developers can run it over here.
+It is completely free.
+We've been supporting.
+We've been working with them to give you as, um, you know,
+undisputed support.
+And like you can see over here.
+The network update has been 99.95 person, which means you won't
+phase an issues like our past networks.
+And this is a cloud RPC notes feel free to, uh, you know,
+test it out feel free to get your own.
+Private RPC URL over here.
+Just sign up and get one.
+Uh, I listed it in the.
+Kita over here.
+And obviously, I, um, listed everything from the block tags,
+smart contact ID to contact the server to block that slower to the
+faucet.
+To the RPC notes, everything for you guys to get started.
+And again, I just gave you a TLDR on the dagger architecture,
+which makes our blockchain different from all the other ones out there.
+Uh, and again, one major thing to make sure this smart contact, uh,
+is supported from eight point, uh, one nine version.
+So make sure to write your smart contacts upwards to eight point one nine.
+And we support hard at level remix.
+Uh, we support any kind of open supply standards.
+And these are some high level ideas.
+So hackathon just don't directly copy this.
+If you have something like this, just come directly to me and, uh,
+like sprained some a little bit, but this one is just for you to get started.
+Most of this are a high level ideas.
+So it's not big enough friendly.
+So feel free to discuss it or feel free to get inspiration from this.
+And we have some quick start guide, uh,
+which you can access it over here.
+And like I said, support and resources are available.
+So don't don't worry regarding any of the if you guys are stuck.
+Like I said, you can look into this toolkit.
+And you can, you know, develop on top of it.
+And, um, I already shared the URL.
+This is our official block tag build on support.
+Uh, and yeah, I can already see three people joined.
+More people will be joining during the course of the hackathon.
+So feel free to join.
+This is where our team can give you feedbacks or can give you help as soon as possible.
+Um, yeah, that is pretty much everything.
+Now feel free to ask any questions.
+Uh, the link is in working.
+Uh, okay, I'm not sure.
+Uh, for some people, the link is not working.
+I'm not sure why.
+Uh, just message me or just email me after this.
+We will debug it.
+Telegram to fast.
+I'm not sure what you meant.
+The telegram language is expired.
+Okay, fine.
+Just email me after this or I will be mailing you with a new link.
+Can we get this? Yes, this is the starter kit.
+I will be mailing you all a copy of this.
+Telegram link is that spread.
+I'm not sure why you're showing expired for some people because I can see some people joined.
+But it's not a problem.
+Uh, I'll be sending you a new URL after this.
+So yeah, that is everything.
+Uh, any questions now would be the best time to ask.
+Everything is recorded by the way.
+It's not a problem.
+I think you pretty much covered quite a bit of it.
+Um, myself out.
+And obviously there's going to be a lot of questions as we go.
+Um, you know, but I think once we review this.
+Uh, data that you put out.
+I also haven't.
+Sorry.
+Going by.
+But once we are able to review the document.
+The document that you said to us and stuff like that will definitely have some more questions.
+Right.
+Um, of course.
+Yeah, I'll be sending you a starter kit for you.
+Because obviously you guys need a maximum support from us.
+When you're getting started, I'm pretty sure a lot of people are new.
+So you'll be getting feedback for your project.
+I'll be walking through you guys to everything.
+So don't worry regarding anything.
+I can already see a lot of people saying the telegram link is not working.
+Let's debug it together after this.
+I'll be helping you guys out.
+My email is over there.
+And I'll be mostly taking care of the technical stuff.
+I would like to keep myself less with the operation stuff.
+So sadly, uh, Lisa or Lisa, she couldn't join this call.
+Uh, she's traveling today.
+Uh, otherwise she would be over here.
+Uh, as excited as ever.
+So I'm pretty sure she'll be there doing the next call.
+So I'll look her in to help you guys with the operations or any kind of.
+Uh, anything that you guys need.
+Lisa has been moving our day today and has a beautiful new place.
+Yeah, um, she was supposed to join the call.
+But she's still traveling right now.
+Otherwise she would be here.
+I think everyone will help.
+She's my favorite.
+She's everyone's favorite.
+Yeah, um, I can see Harris wrote.
+I'm brand new.
+Uh, that is also completely fine.
+Uh, what I can do for you is obviously at the end of the wave.
+You'll be getting any idea.
+Uh, you already have, uh, if you don't, if you cannot wait for the feedback,
+just like I said, uh, just ask and the telegram or directly contact me in telegram.
+Let's print some a little bit and let's see how I can help you with some of the resources,
+which will be taken up friendly.
+So you don't have to worry about it.
+Like we'll be there.
+I'll walk you through.
+Hopefully, by the end of this, a lot of us know what we're doing.
+Uh, yeah, I mean, uh, like I'm a developer, uh,
+like I personally participate in a lot of hackathon and build a thorn.
+So even this year, especially like I have done more than like 10 hackathons.
+So I, uh, in the weekends, I am a total geek.
+I like to build products over the weekends.
+So that's what I do.
+Uh, I love to code a lot.
+I love to build a lot.
+I would I trade a lot.
+So that's what I like to do.
+So you know, whenever I see you guys building like it excites me a lot.
+So I can give you some tips from my own experience.
+So feel free to leverage me, uh, maximum.
+And like I said, I've been into blockchain fields since 2019.
+I've been doing a lot of, uh, Ethereum soldity works.
+I worked for some chains like stock net, which is not exactly a soldity,
+but yeah, I work for a couple of chains.
+Um, so like I said, I'll be helping you with technical stuff maximum.
+Don't worry, you're recording any of it.
+If you are beginners, if you don't understand also, I'll be giving you like beginner level resources.
+Um, so, so like I said, don't worry about it.
+Like I've been in your in your shoes.
+So I know how you guys approach things as a beginner.
+So, uh, like I said, the idea is the most important thing.
+And building as the second rating.
+And yeah, yeah, I've been getting a lot of curious thing.
+The telegram language expired.
+Don't worry, like I'll be giving you guys with a new link.
+In case that one expires, I'll personally add you guys into the telegram chat.
+Don't worry about it.
+Just just email me or wait for the next email.
+Good. I'm glad it's expired because I might say live statement.
+Of course.
+Uh, yeah, I put my email publicly.
+So feel free to email me regarding any technical.
+You know, if you're not part of the hackathon.
+If you want to know any technical things.
+Please, could you be technical?
+I'm a technical person.
+So if you want to know it.
+You know, like I said, I'm live streaming this.
+So hopefully people watch this as it comes up here in the next few days weeks.
+And they get excited.
+And they hear what you had to say here, Joseph.
+And, uh, Maryland.
+And, um, you know, go ahead and sign up because just because you didn't make it by November 1st.
+You know, you can sign up a little late and still be able to participate.
+Yeah, uh, thanks for opening that up for it.
+So the most important thing is this will be put the next three months.
+Which means you have enough time to learn something that you don't know.
+And I trade and build something and take it to production level.
+Or if someone just watches this video like, uh, you know, two months into the hackathon,
+you can still, uh, you can sell box pit.
+We might probably be in the fifth or six live by then.
+But again, you're open to submit, uh, your project.
+Well, we might have people that have currently got projects on Ethereum or something like that.
+And that's being EVM compatible.
+Maybe they hear about it.
+Want to take their project from Ethereum and bring it over.
+And it's already, you know, most developed and they can, um,
+You know, participate.
+Yeah.
+So that is one important thing.
+So if you want to, uh, make sure the people are participating, uh,
+Start from scratch.
+But at the same time, uh, we want to also make sure people who already have it,
+Sting project that are already live in Ethereum.
+If you can build the same thing in block tag.
+Uh, and I traded because if you don't have a lot of things like USDT or our stable coin that are live.
+So there are a lot of limitations already.
+So, uh, you can look at one of the, uh,
+You know, pain points over there.
+You can build one of the tackling one of the pain points.
+You can build something.
+Uh, so we are happy to give you a feedback based on that.
+But again, uh, just to keep it fair to all the participants that are starting from, uh,
+You know, wave one.
+If you are already, uh, submitting an existing project,
+I would probably be only judging it during wave five or wave six to just keep it fair to all the participants.
+Right.
+That are participating from wave one.
+So yeah.
+Mm-hmm.
+Yeah, I think that's pretty much everything.
+Uh, I, I hope you guys are excited to get started because I am excited to help you guys get started.
+And I trade and build, build the product with you guys together.
+I'll be judging like I'll be one of the judges that the two judges will be someone from the engineering team.
+So, uh, like I said, uh, I'll be judging it giving you guys a major feedback.
+So I'm excited to see, uh, what you guys will be building.
+So, uh, happy looking forward to it.
+Thank you so much, Alan.
+Thank you so much, guys.
+Uh, like I said, the video is recorded.
+So I'll give you guys a look.
+It's along with a starter kit.
+And yeah, that's pretty much it.
+Take care, guys.
+Thank you.
+If you want to watch the video again, you can go to the Bot Dragon Wester's YouTube channel.
+And it's live right there.
+And it's available right now.
+Perfect.
+Thank you.
+Thank you.
+Thank you.
+All right.
+Let me get off of this screen.
+Hey, read.
+Uh, we're live on the channel.
+Sorry, I don't know what the heck he was going to say.
+So, uh, I didn't trust it.
+Bear with me while I get a, um, I got to switch my camera over.
+Turn, turn, turn, turn, turn.
+Okay.
+And it always messes up the size.
+All right.
+That's pretty close.
+You're welcome.
+Miss Katherine.
+So that's one of our developers, Alan Joseph.
+And, uh, he's going to be available to us for three months to answer all of our questions.
+I mean, I've heard so many questions about people.
+Is this real?
+Are we, do we have something?
+Is this thing?
+Look, if you want to know for sure, sign up.
+Start building something.
+Come up with an idea.
+And, uh, let's do it.
+You're welcome, Katherine.
+You know, Katherine.
+You're one of my favorites of people of like.
+She's so funny.
+Y'all.
+You have no idea.
+She's got that, that.
+Perfect.
+Dry humor.
+It is just cracks me up.
+Anyways.
+I don't see a whole bunch of questions in here, so I'm not going to make this extended.
+But, um, yeah, if you want to see what this bag structure is all about and be able
+to interface interact with the, um, with the chain, you know, now is the time.
+You got three months.
+Let's do this.
+Happy Halloween, everyone.
+Oh, my God.
+I've been scrambling to build something before this video started, so relieved.
+You know, Master Commander, this is not a hackathon.
+It's a builder phone.
+Um, there's all kinds of information out there.
+I highly recommend that you watch Lisa's video as well.
+Lisa talked about it.
+You know, I know that it's very difficult for everybody to spend as much time as I do on this.
+I can understand, and I don't try to, you know, judge that not everybody can see or can
+can spend the time to really know all the details.
+But, but we try to put it out there as best as possible.
+And this is three months.
+It runs from November 1st to January 31st.
+And, um, yeah, no, Master Commander.
+This was just getting signed up.
+All you got to do is sign up right now.
+And then, um, you can even come late to the party.
+If you haven't signed up, you can sign up here in a week or two weeks or whatever.
+If you've got a project that's almost fully developed, then, you know, you can sign up
+December January and still be involved.
+But the key is is that a lot of value is going to come to our chain from this and we're down to four viewers.
+So I'm going to go ahead and close it.
+Happy Halloween, everyone.
+It's been a heck of a month.
+It's been a heck of a month.
+But we have a lot of big wins.
+We've done a lot of things.
+And, um,

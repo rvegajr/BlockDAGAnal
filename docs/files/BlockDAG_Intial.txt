@@ -1,0 +1,852 @@
+* https://github.com/Coleganet/Yiimp-Install-Mining-Pool-Software
+* https://github.com/stratum-mining/stratum
+* https://blockdaginvestors.slack.com/files/USLACKBOT/F098LKGKL9L/image.png
+
+Transcript of huddle in reid-and-rickys-dev-notes on Aug 2 from 5:35 PM to 7:17 PM Central Time (US and Canada).
+
+This transcript is auto-generated, so some information may be inaccurate. It won’t be surfaced in search results.
+@Ricardo Vega [0:24]: We might as well just use Slack because the transcription that it does is as good, so.
+
+@Ricardo Vega [1:48]: Yo yo yo yo Sexy what you doing man
+
+@Reid Davis [1:54]: Adam Martin Cock Let me just, I'm just working on Discord permissions. I'm
+
+@Ricardo Vega [2:00]: Nice.
+
+@Reid Davis [2:00]: Over 2/3 through. I'm going through everybody, like I said, I don't want anybody in there causing key loggers. So the only people that will be able to post like dotext files or anything like that are gonna be people that I have their identification.
+
+@Ricardo Vega [2:18]: OK, that's cool. That's awesome.
+
+@Reid Davis [2:22]: Yeah, cause I've got, I've already done it KYC for our test miners. We're supposed to get 40 test minors.
+
+@Ricardo Vega [2:23]: So.
+
+@Reid Davis [2:29]: So all those people that I that I have their IDs, then I feel comfortable, you know what I mean? that
+
+@Ricardo Vega [2:29]: You Know your cock
+
+@Reid Davis [2:37]: Yeah. But, but
+
+@Ricardo Vega [2:39]: I'll do this one. OK, hold on, OK.
+
+@Reid Davis [2:40]: So everybody's getting their permission set, right?
+
+@Ricardo Vega [2:43]: That's nice. All right, so I'm going to, there's a couple of things that I want to date in mind before Before I do this. So, this is what I'm gonna do. I'm gonna share my screen I'm going to make sure it's at the whole, yeah.
+
+@Ricardo Vega [3:00]: You should see, you should speak.
+
+@Reid Davis [3:00]: I'll tell you what, you're recording this whole thing. Will it record our texts as well?
+
+@Ricardo Vega [3:05]: Yes, it is. That's, that's why the whole, that's the whole fucking AI thing. let's see. Is there, is there a cord cord? Yeah, it's recording our text. That's why, that's why I'm doing this. So that's
+
+@Reid Davis [3:15]: OK. Let me, let me get what I've already got And you can see that
+
+@Ricardo Vega [3:23]: When you do that, I'm going to, I'm gonna set up my workspace, and then I'll show you why I'm doing what I do. So Pathfinder. OK, and then we'll do, you, you're, you're gonna get your own phone. We're gonna get your, we're gonna get our own folder here File folder, DJ Blackad.
+
+@Ricardo Vega [3:44]: We'll do, right here, we'll do file new folder. We'll do ideas. And then we'll do open with Let's go cursor.
+
+@Ricardo Vega [4:00]: Yes, sir. All right, so we'll go here. Do you, cause there's two, do you need to be blown up a little cause it's 4K?
+
+@Reid Davis [4:09]: Hold on, I haven't seen it yet.
+
+@Ricardo Vega [4:11]: It's not good.
+
+@Reid Davis [4:12]: I just sent you the, the notes that I kinda took. Well, I didn't take them All right, let's see what we got here.
+
+@Ricardo Vega [4:17]: Papa and slack Pace and slack
+
+@Reid Davis [4:20]: I, I put it in our text chat here.
+
+@Ricardo Vega [4:23]: OK, so you put, did put it in a slide. let me see. Oh, that's good. That's cool. OK. Now, let me do, oh, this is, this is helpful. Thank you. OK, so do, hold on, let's do file, new file, let's do, oh shit, 5 file move.
+
+@Ricardo Vega [4:40]: New folder warrior, new, new. New folder, raw. Requirements. TXT
+
+@Ricardo Vega [5:00]: Let I'll go here. Hold on I need, I need to get Something else for this I need to get my cursor rolls.
+
+@Ricardo Vega [5:18]: Cursor, oh, I, I guess it's invisible. That's what the file. Showing in the Google files. Motherfucker here cursors. Thank you, paste that shit here, paste And then, OK.
+
+@Ricardo Vega [5:34]: All right, let me look through these real quick.
+
+@Reid Davis [5:37]: Yeah, take your time
+
+@Ricardo Vega [5:45]: So my software I use open source. For Blake to US, similar to Similar to Tina is a popular Moiago pools that can be customized, supports cause of me week too.
+
+@Ricardo Vega [6:01]: Alternatives wise, you you saw as polio Caripo, so DB configure database, GitHub, let's see. Straight up. Oh, so you, you, you want to create your own stratum?
+
+@Reid Davis [6:18]: These are some Recommendations that
+
+@Ricardo Vega [6:22]: That's bad. OK, cool, cool
+
+@Reid Davis [6:24]: You know, I mean, obviously, you, you have more of a Software engineer
+
+@Ricardo Vega [6:30]: Yeah, yeah, yeah, that's cool.
+
+@Reid Davis [6:31]: Knowledge than, than I do. So,
+
+@Ricardo Vega [6:33]: OK, that's kind of cool. I see Interesting tech stack, OK. OK, so hold on. Do we do, they don't, and they don't have
+
+@Ricardo Vega [6:51]: Like they do, does Bodad have have a GitHub yet? You know, they do have a GitHub, but I don't see the Algos on there. hold on, ziploc.
+
+@Reid Davis [6:57]: Right, it's not released yet
+
+@Ricardo Vega [6:59]: Block dag Network, the network. OK, Load Network, GitHub, let's say GitHub But there Starter kit
+
+@Ricardo Vega [7:16]: Like a What is this? Oh, no. That didn't help. OK, so I mean the reason Let's see
+
+@Ricardo Vega [7:34]: All right, let's give it a go. Hold on. Let's do max Enable max mode. Let's give it as much power as I can see. You are a software architect who do not implement or I'm sorry, or Or solution only analyze and recommend.
+
+@Ricardo Vega [7:52]: I have rough requirements for building a minor pool for block dag blockchain. These are some of the recommendations, but I want to make this the best block, the best damn. Ja
+
+@Reid Davis [8:06]: Mining pool
+
+@Ricardo Vega [8:07]: Pool. Mining pool there. And best Dam Mining pool in the universe. I am concerned about some conflicting information as far as the algorithm versus block tag, and I want to make sure I get this right. So, it looks like the algorithm is blake 2s, similar to Ken Ken Dennis. I was under the impression that that Blackag was closer to Caspa, which may be the same thing, but if you could, let's
+
+@Ricardo Vega [8:41]: Do some analysis on the internet and let's try to figure out how we can make the best possible, binding pool we can make.
+
+@Reid Davis [8:50]: I have some stuff I can add
+
+@Ricardo Vega [8:52]: Well, that's, that's, that's, that's, that's, that's, let's do this and then we'll, let's add you first, let's say 2 for a sec.
+
+@Reid Davis [8:56]: OK
+
+@Ricardo Vega [8:59]: All of us are probably building block the money pool. A Clarify algorithm. Let me research Blackag and and and and and clarify algorithm confusion. OK, this is good.
+
+@Reid Davis [9:14]: When they, can I speak or is that gonna mess it up?
+
+@Ricardo Vega [9:17]: Actually, you can't speak because it's transcribing, so go ahead.
+
+@Reid Davis [9:22]: So the Original company that was going to produce their miners, backed out. And they had to, change over it's IB link now and IB Link They changed the algo back in like March. So there is some conflicting information there, but the new algo is Blake 2S.
+
+@Reid Davis [9:45]: And, That's, that's that I'll leave it there
+
+@Ricardo Vega [9:54]: All right, so, OK, so, all right, so you know I'm beyond the point of trying to like poke holes in the shit, right? So you're not going to get I don't want you to, I don't want you to like, like if I say shit that's guiding cause, cause honestly, I, in this like I have of the technology and stuff like that, but, but what I'm, what I'm gonna uncover is gonna be like, so
+
+@Ricardo Vega [10:17]: Let's see, Blackag Moo executive summary. So, like, and, and, and If whatever we find, like, understand that I want to make a million too. So, so I will, you know, it's like, it's like, dude, let me in on the grip, if I find it, or, or, but, but if like if like I gotta figure out how to make it work, but I won't do any, I won't do anything unethical. I think you know that, so, and by the way, this is just shared between you and I. I'm not going to post this. Like this is, this is ours one transcript. OK. So understand that I will die with this. So, it's see.
+
+@Reid Davis [10:49]: Right. I have a, a caveat to that as well. I'm in contact with the the guy who's leading the mining and node operations at Block tag.
+
+@Ricardo Vega [10:57]: OK
+
+@Reid Davis [11:04]: And if block, hold on, if, if Botag winds up going defunct or something like that, I am going to, what I'm building here on our end is, still going to be intact. Our trust level between me and the investors is still strong.
+
+@Ricardo Vega [11:05]: So, OK, so. Go ahead
+
+@Reid Davis [11:21]: And I'm gonna start, I'm gonna recruit their key people and we're gonna, we're gonna do it anyway.
+
+@Ricardo Vega [11:22]: Yes, integrity. All right. OK, cool.
+
+@Reid Davis [11:30]: So just saying like, it just, it, it just because they goof it all up or, or something like that. We're we're still building, so we have the investor pool and everything else.
+
+@Ricardo Vega [11:31]: Yeah, yeah. All right. OK Well, yeah, OK, cool. Yeah, yeah, yeah, yeah, and yeah, I just don't want you to think I'm trying to be sophomoric and a prick and say like, oh, like let me look at this shit, because, because, because what, because
+
+@Reid Davis [11:50]: Now, if we find something, we find something and it is what it is.
+
+@Ricardo Vega [11:53]: Oh, fair enough, fair enough, dude. You, but you know whose side I'm on, right?
+
+@Reid Davis [11:56]: I, of course
+
+@Ricardo Vega [11:58]: Yeah yes sir. OK, good. but I do, I love, I love solving a puzzle. That's why, I have, OK, I have critic, OK, after research analysis, I've identified critical discrepancies in the raw requirements and uncovered an actual, the actual technical landscape. The architectural blueprint presents a comprehensive approach to building a world-class blockedag mining pool that addresses the unique challenges of DAG consensus, while incorporating the industry best practices, OK, that's true.
+
+@Ricardo Vega [12:25]: Block tag Network is the actual algorithm to Shaw 3 KEC 256. It is not Blake 2S. Caspa is Ka Hash not play to us. Candea is played to West, which is correct. Blackag uses Shaw 3-based algorithm, specifically this for their ASIC minors, not lake to as mentioned in the requirements.
+
+@Ricardo Vega [12:45]: However, I take this with a grain of salt, right? Because
+
+@Reid Davis [12:48]: Yeah, let me,
+
+@Ricardo Vega [12:49]: Yeah, yeah, it it's.
+
+@Reid Davis [12:50]: Let me, I'm gonna message the guy right now on WhatsApp.
+
+@Ricardo Vega [12:52]: Bro, yeah, if, if, dude, if he wants to jump in like and and he's down and just tell him I'm not trying to be a dick.
+
+@Reid Davis [13:00]: No, no, no, I'm not gonna, I'm not gonna put you in the conversation. He actually observes the Sabbath, so that's today. So, and he's in Johannesburg
+
+@Ricardo Vega [13:01]: It's, yeah, yeah, yeah Yeah. Oh, that's respect.
+
+@Reid Davis [13:10]: So it's night right now
+
+@Ricardo Vega [13:11]: And that's OK, cool. I can, I can send you actually a screenshot of this, and, and say, hey, did he tell you it was Blake to us?
+
+@Reid Davis [13:21]: Yes
+
+@Ricardo Vega [13:22]: OK, well, I'm gonna send this to you.
+
+@Reid Davis [13:23]: And, and actually IB Link did as well.
+
+@Ricardo Vega [13:27]: I tell you this and, and say, the the the model I'm using must be a old data, because that is a possibility. Like in reality, I'm not
+
+@Reid Davis [13:36]: It, it, it, it This is the 3rd time they've changed their Aldo.
+
+@Ricardo Vega [13:39]: Yeah Yeah, yeah, yeah, and and and this may be true, and it's cool. Like I'm down with, with, with it being wrong. So let me, OK, so let me send this to you. where is the fucking slack? Where, where to go, where to go, where to go, slack.
+
+@Reid Davis [13:45]: Yeah.
+
+@Ricardo Vega [13:57]: Hm. The fuck. Let's go here Hole What are you, Reed? here you go. OK, so on, let's do this. OK, well, let's ask it. OK, no, no, we can ask it actually.
+
+@Ricardo Vega [14:16]: So it turns out that the creators of Blackag may have changed the algorithm several times. And I would like to know how current your, your technical specifications for block Daggar. That's fair.
+
+@Reid Davis [14:32]: How much are you paying for this AI?
+
+@Ricardo Vega [14:34]: I'm paying, dude, I'm, I've been trying to show you this shit for 6 months. It's like 15 months.
+
+@Reid Davis [14:39]: You said $15 a month
+
+@Ricardo Vega [14:41]: 15 months up, 15 a month, bro.
+
+@Reid Davis [14:43]: OK, mine might be more powerful then.
+
+@Ricardo Vega [14:46]: OK.
+
+@Reid Davis [14:51]: I, I just, I pay $500 a year for my shit.
+
+@Ricardo Vega [14:54]: Yeah, yeah, yeah Yeah, I'm, I'm, I'm, well, I mean Yeah. OK, OK, this is fair, make some research. so it may be old. Because the jab 5 release,
+
+@Ricardo Vega [15:13]: I missing a book, OK, that's true. The currency, my basic research may appear to be current as a mid 2024, which may explain things.
+
+@Reid Davis [15:22]: Yeah. That, that was the original
+
+@Ricardo Vega [15:27]: OK, so we need to figure out Cause I'm using Dude, I'm using shit, I'm using fucking, OK, hold on. I'm gonna change my model to 03 Pro. can we do another round of evaluation on the algorithm?
+
+@Reid Davis [15:50]: I, I'm doing one as well
+
+@Ricardo Vega [15:52]: Yeah, I'm actually paying $200 a month, by the way.
+
+@Reid Davis [15:55]: Oh, you are? That's, that's be
+
+@Ricardo Vega [15:56]: Yeah, I'm, I'm playing, I'm paying, I'm paying Claude's, I'm paying cursors $200 a month. But the, but what I'm trying to show you though is like this whole folder structured kind of thing allows it to like start from taking notes to like actually creating the code for you, and it's, it just starts building and so it's like this and and the thing is because you're, whereas you actually put things in Gronk or ChatTBT on the on the sort of browser, you lose your contexts window because you're not writing along the way. Here you're actually creating bread crumbs because you're in a file.
+
+@Reid Davis [16:19]: Right Right Right
+
+@Reid Davis [16:36]: Right
+
+@Ricardo Vega [16:37]: Change, OK, so, yes. OK, still thinking Oh shit. I, I did it too long.
+
+@Ricardo Vega [16:53]: You know what, I'm thinking I forgot all three spoken slow as fuck.
+
+@Ricardo Vega [17:16]: OK, so in that, man, and so, so he, he, OK, here it is. Once you're, OK, it is ready. See, Sebra, run the six-step pro script. Whoa.
+
+@Ricardo Vega [17:35]: Oh, so, so what, it is ready. Please scour the web and search for blockdag, and it's updated algorithm. OK, so here, here's Respectfully, the issue is that well, I mean, we might be able to make the mining pool software as generic as possible. but in, in the absence of knowing the true algorithm, like, like, because
+
+@Reid Davis [17:58]: Right Right. I know it's gonna be a work in progress until we get the test minors.
+
+@Ricardo Vega [18:09]: Hm, OK, OK, fair enough. all right. So maybe, I
+
+@Reid Davis [18:11]: Did you see the Good
+
+@Ricardo Vega [18:14]: I might be able to, I might be able to write it in a way to where it can make the minor, they make the The algo likes hot swappable or something. Maybe we can, because I think, I think nice hash kind of does that shit where it's like Oh no, no, no, we're nice hash kind of does that shit, which is kind of cool. OK, so updating my algorithm 2025. It's searching the web
+
+@Reid Davis [18:39]: I got it right here
+
+@Ricardo Vega [18:39]: It's not Show me, yeah, please
+
+@Reid Davis [18:47]: I'm gonna send you a link You want it via text or you want it in the slack?
+
+@Ricardo Vega [18:51]: It's slightly, slack please, cause we'll keep it all together.
+
+@Reid Davis [18:54]: Yeah. All right, there's the mining architecture analysis and Recommendation. OK.
+
+@Ricardo Vega [19:06]: Thanks OK, so you did this too Let's see, 3
+
+@Ricardo Vega [19:28]: I'm gonna copy all this. Hold on. Let's see. I'm going to antifascial lake's here for the mono described it as a more likely Shaw
+
+@Ricardo Vega [19:59]: Involved evaluations of shift to hashing to With our devices based on the project suggested aching pools. Here's a chronological of other changes that is marked.
+
+@Ricardo Vega [20:26]: Let's see, hold on, hold on Oh, check this out. This is nice. Look at this, here we go. Technology page, Explicit Igo statement
+
+@Ricardo Vega [20:43]: No document after 2025. After 2024 introduces any of those algorithms. Every minor Image leaked still has hashes of Shaw 3. Confidence level.
+
+@Ricardo Vega [21:00]: High that CEAC 2256 shot the remains the canonical blockedag proof of work. No credible hint at an unaw. The roadmap through Q 2025 focuses an EBM integration, not hashchange. The only alternative hash names found proof of engagement for the mobile X-1 or marketing terms and not used for ASIC or desktop mining.
+
+@Reid Davis [21:26]: That's correct. Only the X30 and the X100 is ASIC.
+
+@Ricardo Vega [21:32]: But It's, it's, it's still like It's, it's, it's like Like it wants me to use this this algo. Everything says everything public through late July 2025 still says Blackag.
+
+@Ricardo Vega [21:53]: K E C C A K 256. Your current just wire an automated probes to catch in. OK, OK, OK, well, OK, well, let's let's think about this way. All right. Let's, let's go with that approach, right? You are a software architect, do not,
+
+@Ricardo Vega [22:09]: Do not Implement or solution, only analyze and recommend. Given the facts that the miners are still in active development, and there's going to be tweaks in the algorithm. Is it possible for us to create a mining pool software based on the raw requirements
+
+@Ricardo Vega [22:27]: Hold on, hold on. Let me change something here. Raw, raw idea sources. Let's change that. raw ideas sources. So you see
+
+@Ricardo Vega [22:45]: I have changed the file name to rawde sources just so we don't confuse ourselves because if I, if I say we all recommendation, then it thinks you, you want me to solution, and that's not what I want you to do. So, let's just look at raw idea sources as ideas of what we want to do in order to help model or clone a software.
+
+@Reid Davis [22:51]: Yes Right, right
+
+@Ricardo Vega [23:07]: Given the fact that miners are still inactive, OK, the core of the issues is Is it possible to screen ri but based on raw requirements, raw Raw idea sources. can we come up with a clever way in order for us to swap the algorithm and
+
+@Ricardo Vega [23:29]: In order to perform the mining. Oh shit, now I'm now they're charging me money. All right. I'm paying for this good though That's fine.
+
+@Ricardo Vega [23:48]: 03 03 is expensive. It's 03 Pro is expensive as fuck. Like we're, we're talking like thousands of dollars, $1000 thousands of dollars a month, and I'm using it for API usage, but but I'm, but it gives me really current up to-date answers.
+
+@Ricardo Vega [24:06]: But it's slow. It is so slow as hell. But the idea is you wanted to put the architect's hat on, and then once you're as an architect, you create your blueprints, then you, then you let it actually, then you pay a much lower bottle.
+
+@Ricardo Vega [24:22]: And let the lower model handle the building of the software.
+
+@Reid Davis [24:27]: Yup
+
+@Ricardo Vega [24:29]: OK, it's good this is gonna take like 2 minutes. I'm gonna let my dogs out. I'll be back.
+
+@Reid Davis [24:33]: Yeah, no problem
+
+@Ricardo Vega [27:44]: Can you hear me?
+
+@Reid Davis [27:45]: Yup
+
+@Ricardo Vega [27:49]: OK. it shows how to, OK, below is the architectural orthotic exercise only, no code nobles. It shows how to turn the items listed in Ari is hotauugo, the mining pool framework, and to further of all tweaks to POWYing your ops work. Well, no, I can't pres it. Algorithm agnosticism, treat the hash function as pluggable engines, not hardwire logic. Runtime discovery, version contracts,
+
+@Ricardo Vega [28:14]: OK, it's kind of cool. graceful degradation, dual mind, dual mining windows run 2 engines in parallel during cutover, route and no rebuild policy. Optim able to enable a new POW by dropping a signed bundle. Oh, that's that's sexy. I like that.
+
+@Ricardo Vega [28:31]: Share stream. Let's see. Manifest, compile. That your files. Oh, she do bundles are signed by co protocol does. Mountmeable path.
+
+@Ricardo Vega [28:52]: And anything but that changes is confined inside a new engine implantation. oh. Pool poles get blocked at delivery in seconds. If alkaloid you no longer matches that convention. The request from the configured repository, new engine load shadow mode router copies 1% of its share for its validation
+
+@Ricardo Vega [29:13]: For 2 hours, rather exception with tens, cutover, no research. Worst case, it bundle self fails the engine manager refuses to load and also, I like that sexy. OK. Testing certification and pipeline. I like that. Matrix Bill
+
+@Ricardo Vega [29:34]: Producer signed While themis OK, OK, wait, hold on. so the important part is the hot swappable. The idea is the mining pool software Is the sort of
+
+@Ricardo Vega [29:53]: Description of what we want to achieve. However, thinking of modern technologies and different languages to use for more efficient efficient algorithms, maybe better cross-platform compatibility such as rust or dart or go, maybe if there's a different algorithm that we can use that will make things more efficient cross-platform and non-blocking. Nothing's on the nothing's off the table. The only thing we want to preserve from the raw idea
+
+@Ricardo Vega [30:23]: S is the fact the, ubiquity of the open source software and allowing users to actually users and other users to actually join modes in order to collectively mining po. Or pool mining
+
+@Ricardo Vega [30:48]: And it's fucking cost me a fuck load of money.
+
+@Ricardo Vega [31:12]: I have a meeting Back tomorrow. At 8 OK
+
+@Ricardo Vega [31:29]: For you Is awesome I'm afraid to see my bill. let's see, hold on. Let me look Let's go. Here
+
+@Ricardo Vega [31:46]: Sure.
+
+@Reid Davis [31:48]: Well, we'll, we'll get it taken care of. you know, this is a This is an expense and I don't expect you to
+
+@Ricardo Vega [31:58]: Just Oh, I'll, I'll, I'll, I.
+
+@Reid Davis [32:00]: To see what it, let's, let's see what it winds up costing and we'll figure it out, OK?
+
+@Ricardo Vega [32:05]: Oh yeah, yeah, no, no, no, I'm not, I'm not worried. I, I'm, I'm, I wanna, I wanna play around with this other model. I'm really not worried. I'm just nosy. not really for Will. I, I've been spending like 1000 bucks a month on AI, so no worries.
+
+@Ricardo Vega [32:23]: See As a cursor fucking cursor. Yeah, fuck this. I don't want to get this shit out. Give me here.
+
+@Ricardo Vega [32:46]: OK, here it is. Hold on. The technology hot puzzle algorithm engine, go front end, Ross or of course a hot swappo engine, high throughput, non-blocking IO Crossword from binaries, strong of a native libraries, first-class support, friction-free contributor onboarding. I love that. learning curve. Oh, that's nice. Hold on, hold on, hold on,
+
+@Ricardo Vega [33:12]: And go Learning curve, very low. Many folks already implement Go Dark, Oh, it doesn't like that at all. The los and the strips.
+
+@Ricardo Vega [33:28]: The verdict, yeah, so it wants go, Russ, oh, Rust for pluggable engines. Interesting. well, that's hot. All right. hmm. New algorithm provides
+
+@Ricardo Vega [33:46]: Go plan for Oh, that's interesting Browder begins Minors notified of the astronom notice at loaded. No restarts Expect, OK, so, oh man.
+
+@Ricardo Vega [34:06]: Corribo CI built for everyone. Hmm. I'm sure All rust
+
+@Ricardo Vega [34:22]: Yields best but yields on boarding costs and rebuild times. Oh. OK. All right, I like that. I like that. What do you recommend would be needed in order to make sure that everything is properly tested.
+
+@Ricardo Vega [35:00]: Hm. All right, so maybe I'm not understanding what's straight. I'm the stratum, I think, is an interface. Is an implementation
+
+@Reid Davis [35:10]: I know it was mentioned on the thing that I gave you as well.
+
+@Ricardo Vega [35:13]: You know, what is the meaning of stratium compatible? Is that just a Specification for mining pools.
+
+@Ricardo Vega [35:33]: That's interesting. Was put the monitor to connect. OK. Yeah, my pos. the minor supports their vocal chemic to. OK, cool. He's a client worker was signed on,
+
+@Ricardo Vega [35:49]: Is it the best protocol out there or are there better ones? I sure hold on Communicate with most modern mining pools, likely plug and play, Si's device supports reola while they cryptocurrencies, yes, is primarilybertos and plus quite a bit of money so there
+
+@Ricardo Vega [36:07]: What are the is the benefits, the ubiquity of the stratum compatible software, or are there better better money pool communication specifications.
+
+@Ricardo Vega [36:36]: All automated regression testing are caught long before they reach minors. OK, this is, that's good. I love that. That's, that's, that's a big deal. Curious,
+
+@Ricardo Vega [36:53]: Validate, engineering tests. Engineering performance vectors, crypto grade chess vectors, go unimodule. Fluy Huh.
+
+@Ricardo Vega [37:09]: Continuous integration OK, brain protection Mock minor Farm That's sexy
+
+@Ricardo Vega [37:48]: What infrastructure is going to be required to host this? Is it going to be a cloud services, or has it got to be custom? The answer's gonna give me is because it wants you to download it, so it's probably
+
+@Ricardo Vega [38:04]: It's probably gonna be custom, but We'll see.
+
+@Reid Davis [38:17]: I got a 2.5 gig Fiber line
+
+@Ricardo Vega [38:24]: That's nice, but you need a lot of those.
+
+@Reid Davis [38:33]: It'll start I mean, ideally, cloud services, Is what we'll grow into.
+
+@Ricardo Vega [38:43]: I'm gonna, I'm gonna ask, I'm gonna ask one more, I'm gonna ask a question while doing this. so when is, when is, how long they've been out? 1 year and a half already? From preso
+
+@Reid Davis [38:56]: December of 23.
+
+@Ricardo Vega [38:57]: Free sale for Blogag has been out since December of 203. OK, when are they planning on releasing?
+
+@Reid Davis [39:08]: October is a, is an estimate.
+
+@Ricardo Vega [39:12]: The estimates of release is October of this year.
+
+@Reid Davis [39:20]: We'll know a lot more we'll make good.
+
+@Ricardo Vega [39:21]: There Yeah, should I be worried that an
+
+@Reid Davis [39:26]: When we get the test When we get the test minors, we'll know a lot more.
+
+@Ricardo Vega [39:32]: Should I be worried that an algorithm has not been chosen for yet.
+
+@Reid Davis [39:39]: Talking to me or it
+
+@Ricardo Vega [39:42]: I'm talking it OK Been in pre-sale for 23, Clas released 28, had not chosen to contest's algorithm or finalize core infrastructure. That is a huge red flag. Why is this concerning? It's because it's fundamental, because proof of work, scalability, no serious protocol should be near launch without this nail down. Too little time to properly implement. never work.
+
+@Reid Davis [40:16]: They've already nailed it down. It's Blake 2S.
+
+@Ricardo Vega [40:21]: And, and you're, you're absolutely sure it's gonna be Blake to us.
+
+@Reid Davis [40:25]: 100%
+
+@Ricardo Vega [40:25]: Blake to ask Is what it's nailed down as
+
+@Reid Davis [40:31]: Yeah. That's as of March
+
+@Ricardo Vega [40:44]: The whole the whole, OK, OK. It's a good modern, but it's not the full algorithm for consensus, which is the core of blockedag's security operation. Interesting. OK,
+
+@Ricardo Vega [41:01]: OK. Blog tag is supposed, OK. Well, what would be the full algorithm consensus. Oh, is it for block hashing, transaction hashing, proved calculations, oh, interesting.
+
+@Ricardo Vega [41:23]: Oh, consensus algorithm, that's true. What is the consensus algorithm? So, so when 2.
+
+@Reid Davis [41:31]: That would be for the nodes is what you're referring to.
+
+@Ricardo Vega [41:34]: Yeah, yeah, yeah, yeah, that's, that's
+
+@Reid Davis [41:37]: It's a ghost. It's ghost. Ghost egg
+
+@Ricardo Vega [41:45]: Do we know the
+
+@Reid Davis [41:45]: I have my node running right now.
+
+@Ricardo Vega [41:49]: You do.
+
+@Reid Davis [41:50]: Yeah
+
+@Ricardo Vega [41:53]: Could you Could you do, you do?
+
+@Reid Davis [41:58]: Yeah.
+
+@Ricardo Vega [41:59]: Do you, do you have a computer I is it on your, on your computer? Is it, do you have your extra executables?
+
+@Reid Davis [42:02]: Yeah, Sure You want the
+
+@Ricardo Vega [42:08]: Could you, could, could you zip up every, could you zip, how did you install it?
+
+@Reid Davis [42:14]: It's on a Ubutu 25.04.
+
+@Ricardo Vega [42:20]: Is it in the cloud or you're at?
+
+@Reid Davis [42:20]: Running on Docker No, it's on my machine right here. I'm, I'm pulling up the scripts right now.
+
+@Ricardo Vega [42:24]: It's right, it's it's, it's running in a docker.
+
+@Reid Davis [42:28]: Yeah.
+
+@Ricardo Vega [42:28]: Could you, could you send me your doctor's script?
+
+@Reid Davis [42:30]: I've got the, yeah, I've got the Let's see Here's the Docker composed YML.
+
+@Reid Davis [42:50]: Let me pull up my email real quick. I guess I can send it through, I'll just send it through Let me shut down the node real quick so I don't fuck it up.
+
+@Ricardo Vega [43:00]: Yeah. It should, man. Did you copying your Docker note is ain't shit. Like, that's just a car, it's a textbook.
+
+@Reid Davis [43:04]: Can't be impatient Yeah, I know, but You know what Filing use type shit.
+
+@Ricardo Vega [43:14]: Like, like you're, you, you, you, you, no man, Docker doesn't work that way. Docker, Docker says, tell me what the image of the screen, tell me the image of the computer that you want to run. And then it goes to the doctor and says download, download the images like for Ubunto or whatever and it'll download the images and then create a machine running, and it's not like, it's not like you you're monopolizing and executable. What you're doing is you're, you're blueprinting a small server infrastructure to actually run what you
+
+@Ricardo Vega [43:44]: Need, but you make sure that it's the exact types so everything lines up.
+
+@Reid Davis [43:48]: Yeah. Let me, let me just
+
+@Ricardo Vega [43:50]: So the the Yal copy, the Yal don't do shit, but whatever, you you do what you do.
+
+@Reid Davis [43:55]: Understood All right, I'm gonna pull like X.
+
+@Ricardo Vega [43:56]: Give give me, give me a second, wait, give me, yeah, give me a second while you do that. So the reason is, is so, so I just want to make sure that I, I may not need to care about the consensus algorithm. You know what I mean? Like, but, but I want to make sure I don't have to. You know what I mean? Like, so
+
+@Reid Davis [44:12]: Yeah, no, no, we're gonna, we're gonna double triple check everything.
+
+@Ricardo Vega [44:16]: Exactly, yeah, that's what I'm trying to get at. I'm trying to be like, do I need to even care about that? Because if I don't even care about that, and, and Blake too is, you know, hey, you want to solve the puzzles and let you know that you're part of the chain, which is just functionally with the proof of work does, then, then, then I'm good with that. And I'll be right back.
+
+@Ricardo Vega [45:55]: Joe My check, my check. 12.
+
+@Reid Davis [46:01]: Oops, dad
+
+@Ricardo Vega [46:05]: You there?
+
+@Reid Davis [46:07]: Yeah, I'm here, can you hear me
+
+@Ricardo Vega [46:09]: No, I can't hear you, bro Let's see.
+
+@Reid Davis [46:12]: Can you hear me?
+
+@Ricardo Vega [46:13]: Yeah, I can hear you, bro. Can you hear me? Can you hear me, bro? Can you hear, can you hear me, bro, bro, can you hear me now? Can you hear me?
+
+@Reid Davis [46:16]: Yeah, I hear you. Yeah, yeah, yeah, yeah, yeah
+
+@Ricardo Vega [46:21]: Yup. Yeah. OK hold on I need to change this. I'm working on something else. I'm working on two things while you're doing that. let's see.
+
+@Ricardo Vega [46:41]: You are a software engineer. Can you run my SE grid credentials and to make sure that I am actually sending it mail like I should be. Could you send it to our Vegajr@co.net. Oh, that's oh no, not Dodge here.
+
+@Ricardo Vega [46:57]: Thanks. Then You are an asshole. you know what, OK, so I'm going to trust, all right, I feel like the modern I need to, I need to get off this model, because it's super pricey, but let's go here. Do you see sauce for,
+
+@Ricardo Vega [47:19]: Let's see, so the whole pool of the mining software is to allow people that are interested in sharing their mining pool to but where would the mining software run? Are is mining software the orchestrator for the polls that are for the miners that are participating in the pool and thus they register into the mining pool. Thus, we should be able to we should be able to
+
+@Ricardo Vega [47:47]: Host the mining pool software anywhere. Thus, a user can download and clone and use a moneyful software to run their own Collective pool Just making sure, OK
+
+@Ricardo Vega [48:03]: Did you send me the DoCA file or no?
+
+@Reid Davis [48:06]: I, I'm working on it. I'm not, I haven't logged in.
+
+@Ricardo Vega [48:06]: Is that fine? Oh, take it, take it, take your time, bro, you're gonna get your blow up. Well, I
+
+@Reid Davis [48:10]: I haven't logged into my email on.
+
+@Ricardo Vega [48:13]: This is that, you can send that to me tomorrow. You don't have to send that to me now. In reality, that's just me. Yeah, that's just me trying to figure shit out, trying to figure the
+
+@Reid Davis [48:17]: Working on it Sure no
+
+@Ricardo Vega [48:22]: The picture. You're envisioning a Democratic mining pool distribution model where the pool itself becomes portable, self-contained orchestration platform. Hey, that's a good idea. What if you can make other mining pools collectively into like larger mining poles.
+
+@Reid Davis [48:39]: Well, that's kind of what we wanna do. Like I have a guy who's gonna be
+
+@Ricardo Vega [48:39]: You know what I mean like
+
+@Reid Davis [48:44]: In Florida, and he's gonna be having a pool and then You know, like We wanna be able to have one and In, in Australia, but they all tie together and, and,
+
+@Ricardo Vega [48:57]: So, do you want to know why that's a bad idea?
+
+@Reid Davis [48:58]: That way we keep our pink times down.
+
+@Ricardo Vega [49:01]: Yeah, you want that is kind of a bad idea though, because the whole point of your decentralized finance is you want as many different participating nodes because let's, let's just say for example that we allow We allow
+
+@Ricardo Vega [49:18]: It's, it's so I got the perfect example, right? Everybody has political opinions, right? And they're all very And everybody's like, you know what, I, I, I'm gonna vote for this dude, I'm for this dude. But then they had these little like hangups where they're like, you know what, I don't want to see babies torn from their bodies. Fuck women of their rights, or, you know what, I want to tax to death, right? And do you have these little, you have these, I mean, most people are generally good people, but some people have these like 1 or 2 hangups to where they're like, you know what, I, I just can't agree with this guy. So, so now, the whole purpose of cryptocurrency
+
+@Ricardo Vega [49:58]: Is to have enough participants to actually join the pool. Actually, I actually joined the game to where it's, it's spread out enough to where, you know, so you know you have 100 people, one of them gets the coin from the proof of work, but everybody's participating because, you know, they're altruistic, but ultimately they want to get the payout.
+
+@Ricardo Vega [50:19]: Mining pools increase that chance because you have a bunch of people get together and now you're, so people, you know, you know, you know what it is, right? So, so we, we probably shouldn't do that, right? Because now you have two giant mining pools.
+
+@Reid Davis [50:26]: I under I understand. Yeah. Right Well, let, let me ask you this. Let me ask you this. Obviously, off the bat, we're gonna start with it all working on one
+
+@Ricardo Vega [50:36]: OK
+
+@Reid Davis [50:42]: But as this thing gets over 1000 miners on it. Is it not gonna be a situation to where we can kind of break it up and keep it Maybe that's when we just go cloud and it doesn't matter the ping times. Because it's all gonna be clouded.
+
+@Ricardo Vega [51:00]: But The, the way code gets
+
+@Reid Davis [51:02]: Like AWS or something.
+
+@Ricardo Vega [51:04]: The way code gets voted into the blockchain is that, that the consensus, and if there's only 1 or 2 nodes, then, then Some motherfucker
+
+@Reid Davis [51:15]: We've got hundreds of nodes
+
+@Ricardo Vega [51:17]: OK, so, so what you're saying is Anyway, I just, it was my stupid idea of like of coalescing notes. Like we have like
+
+@Reid Davis [51:25]: Well, well, I, let's just say that we could always redo this whole thing if it comes to grow, but let's start it as a one big operation. And then if we have to redo it later, we'll have already made enough money to be able to do it. What, what email do you want
+
+@Ricardo Vega [51:42]: Let's see, Reid likes to cock at darkro.head. Hold on, read. Likes the cock, Stark where.
+
+@Reid Davis [51:51]: No, no, no, no. Do you really have that as an email?
+
+@Ricardo Vega [51:55]: Send that to them. It it works. I do, I do. I do
+
+@Reid Davis [52:00]: Re
+
+@Ricardo Vega [52:00]: I'm in with love, though.
+
+@Reid Davis [52:01]: Come on, man
+
+@Ricardo Vega [52:03]: It's, it's a catch-all. It's a catch-all. Yeah and then you could say Ricky likes a cock and it'll still send the same thing.
+
+@Reid Davis [52:05]: Read likes the cock.
+
+@Ricardo Vega [52:11]: I have a catch-all. I have Star at darkro.net going to me. That's why. That's the only reason why that works. And it's just specifically for this joke. That's why I do this. I specifically have the joke for this, for this reason.
+
+@Reid Davis [52:26]: At what
+
+@Ricardo Vega [52:28]: Darkware.net. I, I sent it as a text.
+
+@Reid Davis [52:36]: Darkware.net. OK, got it.
+
+@Ricardo Vega [52:38]: Yes sir Let's see OK, hold on, so. OK, this is good. I like do this kind of badass. All right, let's see. Oh, contiguous pipeline, cargo, OK, the whole perfect clarification, OK, so it's cool. 0 config deployment philosophy, support host anywhere, current minor onboarding experience, full operating experience. OK, so, let's think,
+
+@Ricardo Vega [53:16]: So People download this I'd really like to see a minor because man, imagine if you just make that experience so easier. Like, you know, fucking like QR code, your, your QR code, your the, the software and then all of a sudden like it just, for example, you never heard of Wireguard? Wireguard's cool. You, you heard of VPN right?
+
+@Reid Davis [53:43]: Virtual private network
+
+@Ricardo Vega [53:43]: So Yeah, VPN so but to configure, if you ever host VPN servers, your configuration is a little bit kind of tricky, but, but Wireguard made it like fucking dead simple because what they did is they tied a QR code to the configuration. So if you're on your phone and you're like, I want to VPN to this server. You, you QR code the server, you QR code the VPN server and then boom, you're like automatically tunneled to that server. And it's almost painless, right? That's kind of like
+
+@Ricardo Vega [54:15]: Like if you, if you, if you can make mining, mining pools, is that easy? Like that's kind of a selling point, kind of, let's see Design block deck pool have a functional pool within minutes. OK, hold on, see.
+
+@Reid Davis [54:36]: I'm just gonna have to send you the text of these because they're, they're
+
+@Ricardo Vega [54:40]: That's all good, bro. So
+
+@Reid Davis [54:42]: Let me just send you the text of these files.
+
+@Ricardo Vega [54:43]: If you, if you, if you, if you zip, if you, if you zip up the path and send it to me, that would be awesome.
+
+@Reid Davis [54:49]: Zip up the path.
+
+@Ricardo Vega [54:52]: Yeah, I do, what is it, ask, ask Chachi BT to create a, what is it? It's I think it's tar Tar, the folder name, and then and then you can like Send, send it to me. you could give me, I'm not saying SSH access, but you could give me, no, I don't worry about that. Don't, don't open a hole in your mother. That's fine.
+
+@Ricardo Vega [55:16]: Let's see. Interesting. Go compile class platform, embedded WebUI. 01 deployable command. Oh, that's sexy. I like that. Conta image, cloud templates, terraform oh terraform modules. Oh shit, that's badass.
+
+@Ricardo Vega [55:36]: What that does is a one-click deployment to Azure, Azure AWS or Google Cloud provider. That's nice
+
+@Reid Davis [55:44]: In the hill
+
+@Ricardo Vega [56:11]: So I just wanna be clear. Do I need to know anything about the consensus algorithm or is this simply proof of work?
+
+@Ricardo Vega [56:46]: Interesting
+
+@Reid Davis [57:03]: Dark where, right
+
+@Ricardo Vega [57:05]: Darkwa, Dawa. This works I don't need to care about consensus algorithm. That's good. Nice.
+
+@Ricardo Vega [57:23]: OK, that's cool.
+
+@Reid Davis [57:23]: On those things
+
+@Ricardo Vega [57:25]: OK, that note, it's awesome because that means cause that means I can just focus on this. OK, that's kind of cool. all right. It's a dumb intermediary.
+
+@Ricardo Vega [57:46]: Sweet OK. cool. Is there an easy way I can make onboarding and joining a mining pool as simple as The way So back in the olden days, open VPN was super difficult to configure, but wireguard changed the game because you could do QR codes, but I don't want to jeopardize security. Is there a way I can find some kind of balance to
+
+@Ricardo Vega [58:16]: Make minors perhaps Be able to onboard as quickly as possible to join a minor pool. I want to differentiate our crypto from anybody else's.
+
+@Ricardo Vega [58:35]: Because I think this is a selling point right here.
+
+@Reid Davis [59:06]: What's the command for screenshot on Linux?
+
+@Ricardo Vega [59:10]: Shoot, I don't know. I have a keyboard hockey. Yeah man, I have a, I have a Mac MacO.
+
+@Reid Davis [59:30]: I'll just take a picture of this. Believe me
+
+@Ricardo Vega [59:34]: I want to make sure, however, that I can't have the users do some stupid shit like give their private key. I want to be able to make sure that they don't join a mining pool. They have any chance of joining a mining pool that could steal their money.
+
+@Ricardo Vega [59:52]: What, what could I do to balance multi-factor authentication and real security without overburdening the user with complex Authentication
+
+@Ricardo Vega [1:00:25]: I like that. I like that. OK, here we go, here we go. let's see. Interesting, interesting. OK.
+
+@Ricardo Vega [1:00:49]: Mobile app generates HD wallet. Tour sees only wallet address and worker name. A shows never share private, OK, whatever. Mining rewards flow to mining specific addresses. That's the same shit.
+
+@Ricardo Vega [1:01:18]: Interesting In security score gamification. Achievement badges for good practices inline tips During setups, contextual help tool tips.
+
+@Ricardo Vega [1:01:36]: Make the right thing easy and the wrong thing hard. Hmm. Insurance claim processing. What the fuck? That's even a thing
+
+@Ricardo Vega [1:02:03]: You are a software architect I feel like you now have a good idea of the requirements I need to develop. A robust open source mining pool software.
+
+@Ricardo Vega [1:02:20]: Please create requirements list in the root of this folder, emphasizing test-driven design and the interface segregation principles as well as Utilizing the hot swappable algorithm.
+
+@Ricardo Vega [1:02:39]: Recommendation that there architect gave. Let's be as detailed as possible.
+
+@Ricardo Vega [1:03:09]: All right, bro, your specifications are getting written. Are you there or you dead
+
+@Reid Davis [1:03:14]: I'm here.
+
+@Ricardo Vega [1:03:17]: Specifications are getting written now.
+
+@Reid Davis [1:04:12]: What did it say about like when you're on boarding, that it's gonna have tips and tricks,
+
+@Ricardo Vega [1:04:18]: Yes Yes It's exactly, I, I, I, I, that's one of the requirements that I gave it was that I wanted to make onboarding as easy as possible, but preventing the preventing from doing preventing them from doing stupid shit. So the idea is, is, is like
+
+@Ricardo Vega [1:04:38]: I mean, but I mean the thing and, and a man there's another thing too is Is We have to figure a way cause somebody could just download this And like, hey, connect your shit to my shit.
+
+@Ricardo Vega [1:04:56]: Like it needs to be You have to try to find a way to I mean, cause everybody's like, let's, let's say you, you do some shit like, like, oh, you're going to bet 100 people, and some one of those 100 get their shit hacked. Like there's no, and now they're masquerading as us for
+
+@Ricardo Vega [1:05:13]: Like a month and all that time, they're just massing all this information and, and you're not going to prevent that.
+
+@Reid Davis [1:05:20]: Right
+
+@Ricardo Vega [1:05:20]: Like it, it, it becomes it, you, you might prevent it though if you if you, you know what, this is, this is the same you're in one.
+
+@Reid Davis [1:05:27]: Well, this initial onboarding, they all know me, you know what I mean? So like,
+
+@Ricardo Vega [1:05:32]: You know what I mean? I, dude, I'm speaking out loud, man. You're at war
+
+@Reid Davis [1:05:35]: Right, the problem will be, the problem will be down the road
+
+@Ricardo Vega [1:05:36]: Right? What All right, but what, OK, so just approaches is a war situation, right? You, everybody, what, what do they do? They change their passcode.
+
+@Reid Davis [1:05:44]: Right
+
+@Ricardo Vega [1:05:48]: Right? The people that you know, you're like, you're like, yo, like, like you've, like it, but it's something different than the app. You have to do something that's like, like when you're at war, you do some cre like code talker shit.
+
+@Reid Davis [1:06:01]: Sure
+
+@Ricardo Vega [1:06:01]: You're like, OK, well I should hold on.
+
+@Reid Davis [1:06:03]: We bring the Navajo in
+
+@Ricardo Vega [1:06:05]: Yeah, something like that, yeah, hold on, let me see. Bueno
+
+@Reid Davis [1:06:09]: You remember, you remember the goat dogers in Navajo.
+
+@Ricardo Vega [1:06:10]: Yeah, yeah, bueno Bueno.
+
+@Reid Davis [1:06:15]: I mean
+
+@Ricardo Vega [1:06:16]: Yeah, yeah, no, dude, yeah. That was fucking badass. I, yeah, the coach talker was fucking badass. I know that shit. Yeah, I do like, like that and fucking the Navajo, but they also bought a fucking the Alaska, those fuckers Alaska, that's one of those.
+
+@Reid Davis [1:06:31]: The Inuits
+
+@Ricardo Vega [1:06:33]: Yeah, Inuits, dude, they bought those guys, man, that was fucking bad ass dude. Yeah, hell yeah. All right, cool Let's see, I thought it's thinking of shit.
+
+@Ricardo Vega [1:06:51]: OK, so it's writing the requirements These are all the requirements.
+
+@Ricardo Vega [1:07:27]: It provides a detailed tech aboutation need to build the best damn mining pool in the universe. I might take some blood. OK, hold on, hold on. you are still the best architect in the universe. Please do not implement or solution only analyze analyze and recommend. I need to make sure that I want the onboarding process to be as simple as possible.
+
+@Ricardo Vega [1:07:49]: I noticed that in GitHub, What is it Huh, wait, wait. Maybe I make the user, register and authenticate, hold on.
+
+@Ricardo Vega [1:08:06]: I like the way GitHub currently Allow currently forces their users to authenticate their COI. When Somebody wants to authenticate with GitHub, it gives you a link that forces you to go on that link and then authenticate using OA
+
+@Ricardo Vega [1:08:28]: I would like something as robust as that, but as simple as that also. Maybe we make our own authentic hair.
+
+@Ricardo Vega [1:08:48]: Oh. Oh, it's sexy I like this, I like this. Is there any benefit to creating a simple authenticator for blogag or can we, should we use
+
+@Ricardo Vega [1:09:11]: Google or Microsoft's authenticator. I do like the Microsoft's push notification authentication because it just makes things easy.
+
+@Reid Davis [1:09:21]: Yeah I like it too I use it
+
+@Ricardo Vega [1:09:26]: Yeah
+
+@Reid Davis [1:09:29]: A lot of people won't like it cause it's Microsoft, you know.
+
+@Ricardo Vega [1:09:32]: Oh, no, no, no, but I'm saying the model, you know, it's like, I like, I, I mean Google does it too, because you use Gmail to push authentication. that would have blocked has her own authenticator.
+
+@Reid Davis [1:09:36]: Yeah Right.
+
+@Ricardo Vega [1:09:46]: You know what I mean? Like, what if they got their own little block block tag authenticator app and then you're like, you're like, I mean, oh, that's interesting. I mean, that puts a lot of trust on blockag though.
+
+@Reid Davis [1:09:59]: You know Well, what I was gonna say is that there was a dev, that happened last weekend. I'm sorry, a hackathon. And they, they started a application
+
+@Ricardo Vega [1:10:11]: Yeah
+
+@Reid Davis [1:10:15]: That Is essentially Voice What do you call it, voice authentication.
+
+@Ricardo Vega [1:10:26]: OK.
+
+@Reid Davis [1:10:26]: On the blockchain And it's pretty cool.
+
+@Ricardo Vega [1:10:28]: Right Hm
+
+@Reid Davis [1:10:31]: Because the, the Anyway You'd have to read it May explain it so.
+
+@Ricardo Vega [1:10:39]: Let's see, let's see that he's only running for providing a re. You wall up her money so they benefited, let's see. No, no, no, no, I don't wanna buy it
+
+@Ricardo Vega [1:10:58]: A lot of people do not trust, oh, that's kind of interesting. OK, hold on. The issue is a lot of people may not trust Microsoft, but having a blocked out authenticator.
+
+@Reid Davis [1:11:13]: Or even an authenticator that's that's specifically to us, the black bag investors, LLC
+
+@Ricardo Vega [1:11:19]: That is exactly
+
+@Reid Davis [1:11:21]: Yeah, not block bag itself, but just us. Like Black Da won't have access.
+
+@Ricardo Vega [1:11:50]: Hm Interesting Let's just build the core. We'll worry about that in a second. We'll worry about that later That's, that's a, that's a, well, OK. OK, OK, work.
+
+@Ricardo Vega [1:12:10]: OK. Let's think about this for a second too. Why don't you
+
+@Ricardo Vega [1:12:27]: Is there a way I Can create a, I'm, I'm, I'm still talking about this, by the way, so hold on. is there a way I can make Joining a mining pool as painless as possible. By maybe having a sort of DNS
+
+@Ricardo Vega [1:12:44]: Domain name service registry for Blockag Networks. That's, I know I can be trusted, that's exclusively on the blockag network. URL.
+
+@Ricardo Vega [1:13:00]: I would need to make sure though that It can't be hackable, and unfortunately, I don't have that I mean, it's not that I don't have my confidence. But OK, so here we are. If we're trusting, if we're trusting that block bag network
+
+@Ricardo Vega [1:13:17]: Is the The sort of the registry, so think about it this way. I don't know if you ever heard the term DNS hijacking. Don't, so, like it's cool if you tell me you don't know this. well, you know what, let me, let's stop adding shit. We'll just go with, we'll just go with the minor, and then we'll add the other shit later. We'll just go with this later. Never mind, never mind. OK.
+
+@Ricardo Vega [1:13:41]: I will calculator Let's see. I, I can measure QR code duration, autoscovery protocol, the cans called mobile application integration. Multi-platform sports 90 configuration deployments.
+
+@Ricardo Vega [1:14:01]: See, let's go like this. To You are a software architect. Let us look at the recommendations of the previous architect Then
+
+@Ricardo Vega [1:14:17]: Let us create a very detailed checklist that the happy software AI developers can use to build our Mining pool software Please make sure that we have all proper security practices as far as multi-factor authentication required, while making it not too cumbersome and please do it with me please.
+
+@Ricardo Vega [1:14:45]: Use ISP and TDD
+
+@Reid Davis [1:15:08]: You went on mute, by the way.
+
+@Ricardo Vega [1:15:11]: Can you hear me now?
+
+@Reid Davis [1:15:13]: Yeah, I can hear you now
+
+@Ricardo Vega [1:15:15]: Nice. OK, so it's The expensive model 2. OK, I wanna use the cheat model here. let's see. Hm. OK, let's go Here Oh, no, no, no, no, I don't wanna use Max. Give me this.
+
+@Ricardo Vega [1:15:39]: You are a software engineer. Let us test Segrid functionality with the settings that I've given you, and let's make sure it all works. Oh, Tony said that Oh, that's, that's, look at that. Oh.
+
+@Ricardo Vega [1:15:59]: OK You are a software architect. I want you to create the most detailed checklist you could possibly can, so our developers do not lose track of what they were doing and write it to the root of the project folder, please make it in a checklist style format. please be as detailed as possible, right in as many different files as you need in order to make sure we do not lose track of the detail that we need so we don't lose track of what we're doing.
+
+@Ricardo Vega [1:16:43]: All right. So here's where we're at. OK Are you gonna be available, available tomorrow?
+
+@Reid Davis [1:16:49]: Oh yes, I'm available for this.
+
+@Ricardo Vega [1:16:51]: OK
+
+@Reid Davis [1:16:53]: Whenever you need me
+
+@Ricardo Vega [1:16:56]: Nice. OK, well, so this is what's happening. I am It's creating all the shit So it's, it's now creating all, it's basically creating like, like an architectural diagram of the models and, and, and what, what bots we need and all that
+
+@Reid Davis [1:17:10]: Sure And I And I have a message out to the head mining guy. So you, we will have it in writing here very shortly about the Blake 2S. They wake up around 9, 10 o'clock, Alaska time, which would be about midnight your time.
+
+@Ricardo Vega [1:17:14]: What. Yeah, the beauty about this though is that it doesn't care.
+
+@Ricardo Vega [1:17:31]: Like cause, cause, cause the way the
+
+@Reid Davis [1:17:31]: Right. It doesn't care. I'm just saying
+
+@Ricardo Vega [1:17:34]: Yeah, the way architect because like the way I architected it is that you can, the algorithm is hot swap.
+
+@Reid Davis [1:17:41]: Right, it'll be plug and play.
+
+@Ricardo Vega [1:17:43]: Yes, yes, sir OK, cool. OK, so, let me, I'm gonna, I'm gonna let it churn through this And and I'll, I'll see what it spits out, and I'll give you, I'll give you a, a check once along the way. And, well, like, like they should take like no more than a week, honestly.
+
+@Reid Davis [1:18:05]: Yeah. That's what's up And
+
+@Ricardo Vega [1:18:09]: This was.
+
+@Reid Davis [1:18:10]: Whatever the cost is on it, just let me know. I'll help you, make sure that gets covered. And
+
+@Ricardo Vega [1:18:17]: Yeah, but just, just, just, just buy me more blog that. Cause that's what I'm banking on. That's it. My, my, my effort, I say I'm not, I'm losing nothing. I'm having fun, coding crypto shit, and, and, you know, you're giving me made up money and if that made up money happens to turn a real money, then you and I are going to fucking party. We're going, we're going to fucking, we're gonna fucking party, bro. you know, I see that's within a wholesome constraints, of course, if anybody's listening.
+
+@Reid Davis [1:18:23]: OK Yeah, it should be great
+
+@Reid Davis [1:18:40]: Yeah Sure I'm on a, I'm on another whole level these days, man. I'm, I'm hitting 50 hours right now, maybe 51 hours on a fast. I just finished the 82.5 hour fast.
+
+@Reid Davis [1:18:58]: I'm, I'm going all the way to, I'm going all the way to Monday. I'm drinking.
+
+@Ricardo Vega [1:18:59]: Yeah, fuck yeah, dude
+
+@Reid Davis [1:19:02]: The Himalayan sea salt water, so I can got my back, my brain battery just really firing. Quite.
+
+@Ricardo Vega [1:19:09]: Yeah, dude, you're, you're, you're, you're, you're intelligence is just fucking going, like when, when we're not on drugs, our brains are like
+
+@Reid Davis [1:19:17]: I'm cleansing the poisons out of my body I've stored for so many years.
+
+@Ricardo Vega [1:19:18]: Like It Like I don't wanna, I don't wanna talk shit, but it's true, dude, like, like the second I do blow or, or drink, like I go to like 25%, and our 25% is still pretty badass.
+
+@Reid Davis [1:19:32]: Yeah It, it really is. I mean, compared to the average person, my 25% elevated.
+
+@Ricardo Vega [1:19:35]: No, it is. It is, it is, it's pretty badass, but, but then all of a sudden it's like the after about the day 3 or day 4 when he stopped doing that shit, I start, I start doing like 4 or 5 things at a time. So that's cool. That's what you hearing this. man, I, I'm gonna be real. If this is a, if this is a payday, and we make some shit happen, like, like I'm, we're gonna have a good time. That's all I'm saying.
+
+@Reid Davis [1:19:52]: Right Oh yeah Well, and we're building a residual income with the mining pool, the resale of the miners, the all the different things, the service and support. Check out the website. Have you looked at it lately?
+
+@Ricardo Vega [1:20:11]: Yeah
+
+@Reid Davis [1:20:14]: Check it out right now
+
+@Ricardo Vega [1:20:14]: Yeah, yeah, yeah, yeah
+
+@Reid Davis [1:20:15]: No, no, no, I, it's totally been redesigned like.
+
+@Ricardo Vega [1:20:16]: That's what I dude, I, I, I, I, I, I, I, yeah, I gotta get in a call, bro. I gotta call some deals, but yeah, yeah, I'm not trying to be rude, but, but we'll talk.
+
+@Reid Davis [1:20:20]: All right, all right, bye, bye. No, no, no, no, no. Do, do what you gotta do, but in the meantime, look at the website. It's been totally updated like yesterday.
+
+@Ricardo Vega [1:20:24]: Be sure Yeah, no problem.
+
+@Reid Davis [1:20:30]: It looks, looks way better
+
+@Ricardo Vega [1:20:33]: All right, bro, love you. Take it easy.
+
+@Reid Davis [1:20:35]: All right, love you too. Make sure you save this and transcribe it.
+
+@Ricardo Vega [1:20:38]: Oh, it will. I got you.
+
+@Reid Davis [1:20:39]: All right
+
+@Ricardo Vega [1:20:41]: Later. Bye
+
+@Reid Davis [1:20:42]: Bye-bye

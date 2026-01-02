@@ -1,0 +1,843 @@
+advanced life. So today, the AMA title, the value of block lag, where we will explore one of the
+most promising networks, shaping the next generation of decentralized infrastructure.
+So block lag introduces a new approach to blockchain scalability by combining the standard
+of two core model in the kit world, the UTX model known for the speed and privacy and
+account best model known for enabling smart contact and decentralized application. So it's
+bring both together within a deck best or ledger powered by co-stag, a protocol, allowing
+multiple block to created and validated in parallel. Yeah, this design enhances efficiency,
+lower fees and gives the network secure and decentralized. So block lag is also fully
+EVM compatible, meaning the developers can deploy and migrate their exciting existing
+ethereum, depth, token and smart contacts with minimal adjustments. So with it's a UTXO
+EVM breeze, user can move assets seamlessly between fast payment transaction and smart
+contact environment, entering the base of both worlds. So to help us understand this with
+the included depth, we are joined today by Nicolas Davis, Anthony Turner, Ray Davis and
+Mohammed Adam, who will tell us more about the project and answer your questions from the
+comment. So where's Cam Nicolas and Anthony? It's great to have you both here at the
+kit world class. So over to you, Nick. Thank you again for hosting us. Really appreciate it.
+It had a power hack day made last week and looking forward to tonight. So good morning,
+everybody, off the new evening, wherever you've logged in today. I don't know if you noticed
+I'm wearing up brand new BWTL being merged and dust and quite excited in so I'm wearing it tonight.
+But, um, the top global community, first and foremost, thank you for being here. I'm Nick
+from the book, the Seema block tag. I'm proud to welcome you to this live air, May, from our partner
+platform. Anthony, today marks a big chapter for block tag first and foremost, a huge thank you
+to the community. I think, you know, this week, we officially launched the the value era and
+to ensure obviously B-Dag is positioned for the long term. The countdown for our launch is certainly
+on and you're decision to engage no matters because as the supply of B-Dag becomes
+scarcer, the ecosystem adoption is ramping up. And I guess, you know, earlier positions are
+becoming more meaningful. So whether you're buying now, somebody watching your part of this global
+movement that we're building, just to note, I'll presale those clothes on February the 10th,
+uh, 26. So use our applications, stay active in the community channels, keep your eyes on our
+listing events, the ecosystem launches. I know we've got a big ecosystem launch that's happening
+at the moment. We've just been talking about it, the boldest find that mean I know
+these are the risks of my colleagues that've been putting some incredible hours into launching
+this into the community. And certainly B-Dag is not shifting into, you know, from pre-cell
+into our TGE roadmap. So not again to this specifics, the bulls, the integrations, and the big
+delivery timeline. I'm handing over to our fearless CEO at Nitorna and Reed and Muhammad.
+They'll walk you through how everything is being outlined today. We want that translates into
+from an execution perspective, underground, and what's nicked for rock-dag and the ecosystem.
+And we guys, the four results, the support to a great aim at it. Yeah, thank you. Thank you,
+thank you, Nicholas. It's a really great to have you both back again with us for
+a second session here on Kiproclass. And we truly appreciate taking the time to continue sharing
+more about the block deck and helping that community understand the project given better.
+Now, I'll do you, Anthony, please go ahead. Yeah, thank you very much.
+Thanks Nick for your introduction. As you say, lots of exciting things happening, lots of things
+on the go. So we, we're thrilled to be here again this time round. We hope we don't keep you for two
+hours. So we've been, we've been told to, to make sure we, we've got now as so we'll use it wisely.
+But yeah, I've created a heavy year and thanks for your time again. So I certainly believe that
+we've, we've got an amazing project. And we're building something truly special here.
+We've got a deck that's revolutionised as the way that transactions happen in a block chain.
+And yeah, we, we want, we want to show that to the world. But like a lot of projects, whether it's
+in crypto or IT or whatever else, there are always challenges. And we've had our fair share of challenges.
+We know we've had it probably more than our fair share of challenges. We've had it a couple
+of mistakes that we've, we've had along the way. And last week, we obviously had some challenging
+questions. We had some good dialogue with the community. We were called out on some things and
+yeah, we had a chance to obviously present the no bonus era, which is I think is fantastic.
+We've moved away from bonuses as Nick said. I think, and I'm just taking a chance to sort of
+reflect. So I need to start by apologising for various times in the past where I've come across as
+undecided or uncommitted or vague in terms of answers. And that revolves around some of the
+missteps, the tech minor, the recent excess bonus points that we've, that we've gone through
+and those sorts of things where the communities called me, I can said, you haven't had a
+head, you haven't had a good answer for those issues. And I've been quite vague around it talking
+specifically using wording like I wasn't aware and I shouldn't have
+been aware or next time I'll be more focused on it. And I think that I'm apologising for that,
+but it was, it was done to a certain degree out of necessity. It wasn't, it wasn't that I didn't
+want to be open and transparent. But what I can do now is be more transparent around it's
+attractive for us or just verify what my role is in blockchain and what it has been. And that
+obviously, give you some understanding of why I was fairly vague in terms of those answers. So my
+role has been to focus on the development, holding the blockchain, building infrastructure,
+bringing in exchanges, working with them. So everything that revolves around
+building and launching of blockchain to the including building the community around it.
+That's been the focus. It hasn't been marketing. It hasn't been the presale. It hasn't been anything
+around the financial side of the business, financial management, treasury, anything like that.
+So that's been outside of my focus and outside of my area of responsibility.
+Obviously, everyone's called me on it because the CEO is expected to be responsible for everything.
+And that's always put me in a bit of a difficult spot. And that's an, and I can just
+apologize for that. I'm just being very clear where I've been responsible. This is not me trying
+to show responsibility. It's just giving you clarity around answers that I've given.
+So that brings me to a pretty big point that I need to bring up or discussion. And that's why
+I need to lead in with my roles and responsibilities up to you. It has been agreed within the project
+in principle that from here on with a bit of a transition period that I will be taking
+about all responsibilities that you would expect of a CEO. So all responsibilities are marketing
+for finance for delivering the product, for support, for treasury, for financial controls, for everything.
+So everything will be transitioned and handed over. All IP and development work will be handed over
+all funds raised and all marketing. So that will, through a transition period, it will fall
+under the CEO. I'm a CEO at the moment. If the community has better ideas, then I'm sure
+we'll hear about it. But right now, I hope that everyone is happy to trust me with that. I think
+of demonstrated that within my ability, I've always been honest, I've always tried to do
+the absolute most that I could within the sort of constraints of my role and my constraints
+of my abilities. In terms of how that will work, so just to give you a bit more sort of structure
+around it, the plan is to create a new structure. It's important to move away from the past,
+creating a new structure. It will be owned by the community. Obviously, we've come from a space where
+there's a lack of trust in, for very good reasons, we need to move away from that. So we're
+going to be setting up a new structure. It'll be owned by the community. Most likely, the ownership
+will be through a dial before everyone gets worried about dials that have nested not necessarily
+worked. We're looking at using a dial for the ownership and the voting as shareholders,
+not as a management platform for the project, because that hasn't necessarily worked well. So
+giving the community some sort of dial type ownership in the project, creating an operating
+company, which is probably going to be in Panama, a foundation, which won't be an issue in Switzerland,
+because we can't have one in Switzerland until we've launched. So there'll be an interim foundation
+and then the plan is when we can to move that to Switzerland once we combine. All the funds from
+the precell will be obviously part of that. There'll be held transparency within the structure
+in one or multi-multi-sig wallet, NPC wallets, etc, for the community to have visibility over.
+So just to recap, going through all again, we're moving away from the construction,
+we're moving away from restricted responsibilities for the CEO in the new, in the new era,
+I will have, or the CEO will have full responsibility over everything as you would have in a normal
+company. We will transfer everything across, which includes the IP, every all the development
+that's been done, all the infrastructure that's been built, all the funds raised that remain
+after all expenses. Now I know there's lots of questions around how much is that.
+I'm talking at this stage, we're going through sort of high-level and principle.
+So everything that remains after the expenses that have been paid will be transferred across,
+part of the responsibility will obviously be to take over the marketing as well,
+into this new structure through some sort of Dow ownership with a foundation,
+eventually in Switzerland, and some sort of operating company probably in Panama.
+Full visibility over the funds in that structure and obviously openness to work with the
+community through the Dow. Through whatever other structures and obviously embracing the
+relationships we've created here and taking that forward as part of that.
+I think that covers it. It's been a lot of stuff that we've been working on this week.
+No one has actually aware that we were getting this far, that's quick here. Thanks.
+I'm hoping certainly Muhammad and Greer, you're happy with this announcement.
+It's new to me. It's new to everyone. It's come together very quickly and I appreciate
+the willingness for everyone in the current structure to embrace this and to allow it to happen.
+We need to be appreciated of that. I don't have all the details. We busy working on a bunch of
+stuff here, so I'm not going to try and sort of give you more details.
+As it impacts and as we create more certainty around the plan, we'll get that information out.
+There is going to be a transition period. It's going to be tricky because we don't want to
+we have business as usual. The transition is going to be obviously more impactful around marketing
+because there's a bigger change in management there. From a depth perspective and all the rest,
+it's mostly business as usual, so that's that that will just so carry on.
+But from the comms and marketing, that will change. I'm going to obviously hand over to you guys
+and there's probably a bunch of questions. Just to mention, we want to move with this quickly.
+I'm at the staff even the structuring's probably takes four weeks to get the structures in place
+then to do final transitions instead. It's likely going to take us to the practical end of the year.
+We are going to move quickly on what we can. So from my perspective, the sort of low-hang fruits
+that we can tackle quickly, that don't get stuck in all the nuances of the structure and things are
+support. Getting that wrap up, improving, sorting out the compromise wallets, starting to move
+on the community management to start embracing the community. We shouldn't have groups that are forming
+outside of the community. We know why it's happened and it's a natural progression of what's
+happened that we need to embrace people. So that side of things, part of the structuring is also
+addressing me, for another compliance as well. I think that covers most of what I wanted to say.
+I know there's a bunch of questions. I've got less answers on some of those because the focus has
+been on this, which I think has been probably far more material to everyone as opposed to tackling
+individual questions around things. If I can hand over to you guys, thanks very much.
+Hey Anthony, my part must be a three-part question. It's basically the same question.
+It's coming out of the chat. I'm Simon Straming. Essentially, are you now planning on hiring a
+compliance officer as well as a CFO? Is that in the near term?
+Definitely a project like this should have both of those roles. Absolutely.
+The main question that's coming out of the chat is if you weren't responsible for the financial
+aspect in what not, who was? I can't answer that. I know everyone will continue to have questions.
+I'm not able to answer that. All I can say is I think this is a solution which allows us to move forward.
+It's not going to erase the past, but I think we need to move forward. It allows us to move forward
+stronger. I think any other route forward potentially would have ended up with with with with
+the regulators or fights or whatever and that would have been counterproductive. This is the quickest way to
+to move on and sometimes the best way to move on is to just look forward. If I can ask the
+community to work with us and brace this, I'm not trying to not try to pay it over the issues of
+the past, but this is the best I can do and I think we just need to run with it. We need to make
+the most of this project. We come in close to Presell, Presell end and launching and we need to get
+out of this phase and into the new era as fast as we can.
+Good morning. The while we're at it, you know, just wanted to just go into this head on.
+First off, I just want to start out by saying thank you for having both read and I here and
+for bringing the community to the table despite what are disagreements have been,
+despite how much we have class heads. I do appreciate the fact that you have allowed us to
+come to the table, build our communities and listen to us, no matter how much your differences are.
+So I just want to put that out there. You know, just to kind of head into this before we get into
+the deeper topics, could you just comment on earlier this week we have had some very controversial
+releases regarding SAC, SPT, just wanted to see if there's anything that you want to respond
+to in terms of that because there's been a lot of controversy.
+So I think from the bits that I've seen out there, I mean, I think two months ago,
+put something out which, which I think picked up a lot less less of the community picked up on it,
+but that was quite misdirected in terms of he was quoting sort of things like copy,
+white papers and things. So I think that was sort of a not a bit not very well-thounded sort of
+uh, uh, uh, written on block deck obviously this one's this one's a lot more aligned with the
+general community sentiment. So I think he's mostly echoing what he's seeing out there. I don't see
+that he's come up with anything sort of groundbreaking that that is is very specific and I
+may sort of miss something. But again, I think it's the same answer to read question as well.
+I mean, I can't comment more on that. Okay, so that's the most I can say.
+Okay. Well, then I'm just going to say we need to jump into tokenomics. There's a lot to cover
+there. I know that you had kind of showed us a couple of plans that you had put together and the
+various levels of fairness. I personally have witnessed you working over the last two weeks and I
+know that you're trying to look at it from a very macro perspective based on fairness and
+um, um, trying to ensure that um, that recovering as many basis as possible. I'm sure there's
+going to be some outliers, but um, if you could just break us into that, I think that's going to be
+a big conversation and uh, we need to spend a lot of time on. Uh, yeah, sure. Let me do that.
+Um, that's why most people here today actually need to find out about that.
+Yeah, sure. So I think I mean, just I'm going to I'll pull my screen back to being up in a moment,
+but um, I mean, if I can just ask you guys a question, um, representing a community of
+and read in my home, in terms of, um, what of, what are the non-small? I'm in does that?
+Is that give you a good sense for a bright future for the project? I could say how do you feel
+that the uh, chat, we've got a live chat going here and it was very happy news.
+People are confident in your leadership. Um, there's going to be a lot of questions that are
+still left afterwards. Um, you know, as you said, you couldn't answer some of those, but overall,
+we would love to see you in control and being able to operate as a CEO is supposed to operate.
+And um, you know, having full control over the various aspects, we need somebody that has to take
+the responsibility upon their shoulders. And I think that uh, you're an honest and, and um, um,
+and a smart guy. And just to add to that, you know, even as soon as you're not
+instead of getting tired saying people telling me, say thank you on behalf of them, um,
+you know, this is what we've been fighting for. This is what we've been asking for, you know,
+we just need the project to be around where transparency and integrity and like a crypto
+project should, um, and you know, the community is super happy right now, everyone's celebrating.
+So thank you guys for for listening to us and making those changes very well received.
+Yeah, that's great. I appreciate that feedback and yeah, and the vote of confidence that's great.
+We're also looking for a bright and also a transparent and legally compliant future. I mean,
+it's it's important that and we certainly have to embrace that. And the structure that we
+come up will make sure that that that that that it tends to all of that. Um, so from a token
+I'm expective, I mean, some of these are just slides from last week, so it's just a quick recap.
+Um, this was the slide where we presented obviously the over sale of uh, the precell tokens.
+Um, mostly in terms of the bonuses are 125, uh, the invoices that have been sold, which is way more
+than the allocation. Um, I talked you through four solutions, um, different types of solutions.
+The last one, which I presented being the preferred one from outside was really taking, uh,
+taking the taking the non bonus tokens and those were 16 billion and saying, what have we got
+left in that call of 50? And that's the amount of bonus tokens we can allocate and we'll squeeze
+whatever was sold into that. And the result of that was roughly 75% reduction of bonuses. Um,
+it's it's fairly simple. Um, it's depending on the approach that can be used to restore some
+fairness to the early investors, et cetera. Um, there were quite a few community comments around
+content we use mining, uh, mining tokens for that or mining coins for that. Um, I was quite
+hesitant or hesitant to mess with things like that. Um, but it is a big pool and it has been designed
+to give us, I think, for the odd years of mining and maybe that's not needed. Um, but again, it's
+generally front loaded. So the 50 odd years, the tail end of it, there's very few coins that have
+been distributed. So you don't have, you don't have a lot to play with before the 50 becomes 20.
+Um, so I think we will still look at that and I said to you guys earlier, it's not as being
+prescriptive. I mean, this is still our preferred approach. Um, we'll look at that. The other
+thing which we're looking at now because of the new structure is, um, all the down we would have
+another token. Um, well, we talked about having another token because in this instance was we bringing
+it in at the stage, it's better to have a separate token and that'll be a governance token and that
+can also be allocated to compensate for, uh, for the bonuses that people have lost out on. So that's
+something else that we're looking at to make good way of people have lost out of more bonus tokens
+than they hoped. So that's another sort of element of value we could bring into that.
+Again, I don't have details, but it sits in, it's a new possibility. Um, I think what was
+important, yeah, which really affects people is it's what it's one thing to say. Well, everyone
+it's a 75% haircut. The question is who takes the haircut? Um, and that's a relevant part.
+So, uh, we'll just make some of those. So, uh, this is the current scenario and actually
+that the slide I showed in the previous last week's AMA was wrong. I didn't have 150%
+billion vester bonus in. So currently, depending which month you invest in, uh, into the project,
+if you had 100 dollars, this is these are the tokens you would get you to bought. Um,
+I did say last time, this is not accurate. Uh, John's fell, jumped down my commentary and said,
+you can't say things on accurate sale. Rephrase that and say, this is a rough estimation.
+It depends on when in the month we bought in and it depends on other factors. So this is a rough
+estimation of what you would have caught if you bought in these months. Um, and obviously you can see
+very early investors did exceptionally well. Um, and then obviously the late investors did very well
+with bonus tokens, but they caught tokens are pretty low. Um, so the the first option and and
+I'm just going to transition hopefully you can see a changing. So as I click to it, I've lifted
+in the same place so you can see how to change it. So the first option was
+take all of those bonuses and just divide them by quarter. Um, so everyone takes a 75% here
+cut equally. Um, so you can see the structure remains mostly the same, but the the orange bits
+just drops in proportion all over it. Um, very early investors still weigh better off than everyone
+and obviously the later investors still lock better off. Everyone in that middle today is really
+just had a bullet get a bit of a raw deal. Um, so the second option was let's grab the bonuses,
+look at the percentage and reapply to everyone. So in this case, everyone gets a 555, 155
+for the same bonus. Um, so it's purely proportionate to the blue portion or the B-dags they've bought.
+So it's going to be with historically what you actually allocated. And this obviously
+completely different else I'll switch between them again. Um, that's the previous one. That's this one.
+Very much front loaded super unfair to everyone later on and very sort of pretty very much
+uh, promoting the super early investors. Um, option three is a combination of the two. So it
+gives you part of the first and part of the second. Um, I'll go back to the first one
+and then option three. So it equalizes things to certain degree. The the guys buying in the middle
+a lot of sort of less worse off. Um, the guys buying later on on this better off. And it's still very similar.
+What I've now now down the four and this is the fourth option and it seems to be my fourth options
+are always my preferred ones. Um, this is actually so there's a flaw in the mechanics of all these
+where the pricing takes a linear price increase and it creates that hockey stick where the first
+guy gets a massive amount of bonuses. So massive amount of tokens and very quickly it tapers off. So that
+whole that whole um shape that you saw in the first one or in all the others is because of the
+mechanics of the price increase. So if you go to what's called a geometric price increase and I'm
+not going to try and explain that it's a different way of doing it. Um, it gives you a formal gradual
+increase on price and it gives you a far better allocation of coins over time. So this, this effectively
+used bonuses to mostly mimic what a geometric allocation would look like. And it still combines
+multiple of the others. But so you still see that the later guys are still getting high bonuses.
+So we haven't sort of completely squashed that out. What we've also done is the early investors are
+actually gained less here. So which I think is is fair because if you look at the current situation,
+the first man for two really got a lot. So that was also disproportionate to the time that they invested.
+So my view and again, I'm sure we'll get a lot feedback from the community. My view is this visually
+certainly represents something that looks a lot fairer. It doesn't address the fact that people
+bought on the pretenses of certain amounts of bonuses. So it doesn't address that fully although
+that's still built into it's likely. But um, if you if you take it in terms of the the most
+fair one, then I think this is it. Um, as I said, yeah, it doesn't address people buying in when they
+expect to get a bit bonus and now they're not going to. And I'll take a pause there for you guys
+to comment on this. I'm looking at the chat right now. And it's four, four, four, Jamie,
+a really important member of our community has said between three and four is his opinion. But it's
+overwhelming for. Yeah. And the thing with this model to the declines are not short. It's
+consistently. There's a pattern where where you just, you know, it doesn't it's not declining
+at the risk of other people losing in terms of what they're investing. So I'm seeing the same thing
+as well to right now. You know, Jessica is another very important team member community member.
+And um, he, uh, he also has been one of the, um, I don't know what word to say, but let's just
+say he was very critical and and watching everything very closely. And um, he also agrees with
+number four. So, uh, you know, he's got a pretty pretty good eye for stuff. Yeah, I'm seeing the same
+thing coming from multiple who chats as well. Still we have going on the side. Everybody's
+pretty much agreeing with the thought option. Okay. I mean, that's good to hear. And these, I mean,
+there was a lot of work that went into them. I mean, I was sharing stuff last night with with
+you guys getting your, your idea on this whole geometric progression because that's, and I mean,
+I've learned through this as well is that if you want to, if you want to have a pricing increase
+like we had geometric as a way to go. It's far fair. So, so it's been a learning experience for
+me as well. Um, I think that the plan is not to cement this in stone. So we're open for more
+commentary. Um, so this class to seven, but plus the overall plan is still up for commentary.
+We'll look at the, uh, the mining rewards. We'll look at the governance rewards. See how those
+potentially could come in here. Again, we don't want to sort of extend this. We don't want to be talking
+about this for the next month either. So I think in the next two weeks, we probably need to wrap this
+up. We don't rush it either because we've, it's easy to make mistakes, but it's sort of
+commit to maybe two weeks to get it finalized. Um, or you guys, you guys, we'll play with that sort of
+timeline. I think that sounds perfect. Yeah. I'm okay with that as well. Um, once it's finalized,
+do you know what the timeline looks like in order to get those changes updated to the dashboard?
+Because I know that's going to be the next question from everyone.
+Yeah. So I think I mean, I'll, I'll, I'll pre-embark. I mean, then roughly where we're going. I mean,
+we need to make sure we've got people starting to, to work on this. Um, I think it'll probably
+take us another week to get it, uh, get it reflecting correctly. Um, that's, that's my guess to
+it. Um, you know, I'm seeing some questions come through. We're going to have some people who are
+very difficult to please in this situation. Is there going to be a option for, for lack of a better
+term, say a buyback or maybe even to be able to change some bonus stuff out to miners or, or any
+any number of other options for our outliers who are just, um, really disgruntled and, um, to try and
+make as many people play cated as possible. Yeah. Um, good, good question. I don't, I don't
+necessarily have an answer. I mean, I think I need to give some thought to it. Um, I mean, what,
+what we don't want obviously is, is half the project deciding they, they want to refund them
+in that. That's, that's obviously, once we open that it's, we can't then pick and choose who
+it is. We, we offer it too. So it's, it's not a tricky one. But I mean, I recognize the people that
+using, for instance, the double up and those sort of things they, this, this, this, this, this
+infects them a lot more than everyone else. Um, I suppose, one thing just to mention, I mean,
+we all feel like we, and I know I'm saying we, but I'll come back to why I'm mentioning we, but
+well, partly because I've also got, I've also bought tokens as well. But we, we all feel like
+we're losing something, but I think what we need to realize is that we're gaining,
+we're gaining in the sense that we're protecting a project and we're protecting value. So if we
+went and we just did the, the, the, the super simple and we just expanded our token, I mix
+double them or whatever. Eventually, effectively it halves the price of the tokens. So you haven't
+achieved anything, so I think it doesn't, it doesn't remove us from the fact that we shouldn't
+have sold like this, but right now, if we're just looking at how do we fix this, we have to fix it
+in some way. The best is not to, not to compromise the core tokens, because those are the tokens
+you get up front, so we're not messing with those, we're only messing with the bonus ones,
+and we're doing it in a touch that's one of the, in a approach that we feel as, as far as possible to
+everyone, not lies. I think probably best for now is they need to just get hold of me directly
+if they, and, and not, I mean, I don't want to floodgate of every guy who says he feels he needs
+another 10% because that could be thousands, but if, if, if, if there's a case for someone who has
+six of bonus tokens and this completely destroys the investment, then send me a mail and I'll
+try and deal with them, depending on how many come through on that. I think there's going to be a lot
+of people who are back in you and want to stay in this project. I know the community, there's only
+a handful of people who are really not pleased and kind of have voice their opinion that they really
+want out. You know, I don't think, I don't think there's going to be a huge number of people
+that want out. We want to see a blockchain that disrupts the decentralizes and really becomes the
+people's blockchain with low gas fees and all that. That is, you know, the vision that we saw
+on the white paper that a lot of us early investors bought into, you know, we bought into it before
+there was any doxing before. We had an X1 app. There was literally a white paper and a keynote and
+you know, so I think a lot of us are going to stick with you. One thing that I want to mention
+something that's a part of the allocation deal is, you know, the X1 miner we have three and a half
+million X1 users as well as, you know, a small number of wallets, you know, connected wallets
+says in comparison to. Is there any way that we can take the X1 allocation out of the mining
+since it is, you know, I don't think that that would be too much of a jump to switch that allocation
+over. If we could do X1 X10 out of mining and then another part of that is there's been a lot of
+call that, you know, it was not the communities fault that oversold. The community
+reached out to the team multiple times from at the very latest may to now informing of the
+oversell and there has been a call for the team to take a type of reduction as well to
+stand shoulder to shoulder and solidarity with us if we're going to take the hit, then the people
+responsible should take the hit as well. Yeah, so that's what I was hinting at earlier. It's actually on my
+list, so I'll deal with it now, I mean, it's in the open so I'm in. So I think what is right, as you
+say, I mean, there'd be there'd been mistakes that have occurred under the current teams watch
+and we recognise that, so the current allocation to the team is 1% which is 1.5 billion tokens,
+I think it's just just say, or to state that that's one of the smallest allocations in any project
+that I've ever seen, so it's if we were sitting at 10%, then I would say we'll take 75% off as
+well, that's absolutely fair, that's the lead plenty there for the team. It's a small allocation,
+we've got a large team, we also don't want to just incentivize them as well, so I think what
+what I'm comfortable with is that we drop back to 21 billion, so that's a third off,
+I think that's still so sufficient for the team, we'll be super happy with that,
+but I mean, it shows that we're willing to put our hands in our pockets as well.
+I think just the show of it speaks volumes and I think that we're going to have valuable
+coins as we move forward and that we can, I've told the community multiple times that
+everybody's buying a portion of this pre-sale. If it's 50 billion, you're buying a portion and the
+number of tokens isn't as important as your percentage of what of the pre-sale that you've purchased,
+and so as long as it's fair and across the board, you still own that percentage of the pre-sale
+and when the ecosystem is built behind it, and we have a business behind it that's making money,
+then we're going to have a valuable coin. I would agree with that, I think the key thing
+that we realize to reach points when I invested and blocked that there was nothing to go with,
+it was just promises, there was nothing behind it, and we took a risk, everyone I know was actually
+advising me against it, and I took a risk in it, and you know, at one point I did question myself
+if I made the right decision, and so today actually sitting at a stable, you're given me purpose to
+believe again, and there's a lot of investors that are feeling that way right now to begin with,
+so the direction that this is all going to take us as a scarcity piece, and I'm really happy to
+the team is stepping up and taking accountability for that piece as well. I know you mentioned
+that you have a large team as well, is there any inside that you could share in terms of the
+people that you have work in behind it seems to make this all happen because from a day to day basis
+we're seeing you guys at the forefront, but not sure if you're able to shed any context on the
+size of the team and you know just surrender community but it's better able to understand.
+Yeah sure I mean I think so you've seen the team obviously on the website, we haven't kept adding
+people, but we do need to we do need to do a refresh anyway, I'm trying to think of the numbers
+we've got we've got just short of I think we're on about 23 people in what I would call this
+sort of team that I work closely with, then we've got a fairly large team in India that
+does a lot of dev for us, we slowly bringing dev across into our core team, so we're hiring dev,
+so that's sort of a transition, bringing them into our time zone and we're possible into our
+office as well, so we're trying to create sort of a local team as well, so that's where some of
+the growth will happen and then there's the marketing team is spread around the world and as
+a part of this transition we'll also look to some changes there as well as we move a
+move away from some of the some of the guys we're using and we engage with others, so that's
+that'll be a change as well, so it's a it's a fairly broad team all over but the core team is sort of
+yeah I think we're you know just short of 25 at the moment and then the risk to more spread out
+Anthony I just want to say that I'm getting some sentiment from the community as well that
+you know if you've worked in charge of the sale of those the over sale I guess I should say
+of those coins and that aspect of pre-sale and the financials but there are some people that are
+saying that you know the dev team shouldn't have to take that hit and the person who was responsible
+or entity that was responsible should pony up and and cover that loss for the team I'm just
+you know respond I'm just pinching that is something to be said a lot of people back in the
+dev team is what I'm getting at you know I'm just gonna throw a couple of questions out there before
+I get chewed a light by right it that's gonna have what anyway I want that investors
+right a group could be so just want to make sure I'm representing their interest one of the things
+that I saw very common well two things actually the first one was you know will there be
+audit on on the finance that was been collected that's number one and number two is you know
+can you share some clarification regarding the large investor coming in and whether or not
+or if that will impact the current smaller allocation that we're looking at for bonuses so two
+questions just throwing them at you have a one caveat to that is that it was put out that with the new
+investor that is 2.6 billion at like 3.04 cents or something to that effect and there's been a
+lot of people say that why would they buy it 3.04 cents when they can buy at half a penny right now
+so you know if you would work that into it as well yeah absolutely so so just before that I just
+want to point out to everyone as far as I know both of you guys are considered early investors
+your promotion of of of solution or option four works against you guys and so I mean I think
+everyone just needs to be meet needs to realize that that you guys are half of the good of the project
+if you were trying to sort of keep yourselves enriched you would be going for I think it was probably
+option two that gave you getting the best bang bang for your back onto your questions so from an
+audit perspective I'm not sure what we're going to be able to achieve and that's probably
+all I can say for now I mean it's part of this transition it's going to be a restructure
+there will be clarity in terms of what we take forward in terms of how we got there and and where
+the money wins we'll have a breakdown of that whether it's a full audit as you'd want as an
+fully independent or whether it's just a breakdown I can't say for now and that's so that's
+all I can give you on that in in terms of the large investor and we've been trying to ascertain
+obviously there's a lot of stuff happening in in in the market at the moment well in the
+community around the projects and all these discussions so it's less clear whether this large
+investor is still there we hope he is and if he's listening we we certainly welcome you
+but yeah I mean it's a lot a lot to invest we we'd love to have him in in terms of the
+the terms around that I mean the video I recorded I'm spying not to I'm trying to keep it short
+and so I didn't go into all of the details but effectively it's roughly the terms where I gave you
+the bonus allocation of 2.6 billion bonuses but there is also a large allocation of 2.6 billion tokens
+that will non bonus coins and then a further 51 billion bonus token to bonus coins so if he came
+on that would obviously come into the mix obviously makes quite a dramatic change to all the
+calculation we've been doing I think it probably gives us even more reason to look at the
+mining pool if we if that guy comes in we wouldn't necessarily want to say no to a good investor who
+brings good money and obviously the money's coming in at a time where and on on the terms that
+it'll come straight into a multi-sig wallet which we as the project have visibility and
+control over something that's also important it's it's good money that will have visible to us
+sort of from the get-go so we don't want to say say no to it but equally we need to allocate
+potentially another 52 billion bonus tokens and we might have to then borrow from the mining
+but let's I suppose we have to first work see if it comes in if he doesn't but then that's the
+problem we don't have what about the referral tokens because I saw some questions out there
+are those a lot of test-part FTO for all of this is the poll that we're currently considering the
+referrals. Yeah so at this stage everything is lumped in there including any winnings from
+any competitions we've obviously excluded the tech mining portion because that's already been
+compressed reduced and the x1 sorry I didn't answer your question really earlier whatever isn't
+given half as part of the x1 we'll certainly allocate two bonuses so I mean we'll use whatever's left
+over there and there probably is a fair bit left over once people do their conversions
+but that's so we wouldn't compress that and we wouldn't compress tap finance but it would be
+everything else gets compressed in the same way. Okay a big one is the buyer battles the buyer
+battles everybody everybody ate it up especially if we're over selling how are we just given away these
+coins and this that whatever and you know like I said as far as the community is concerned we
+we've known that we were oversold since like May so you know what what's the plan on addressing
+that do you have anything to stay on that and all this lets you take the floor again agree with your
+sentiment I don't think they can show me contributed much to the pre-cell in terms of bringing
+a much more revenue they just contributed to the afloat tokens so I think it was a net net last
+overall and it also confused things because the worst thing is to have multiple promotions
+running at once because you don't know which ones really effective so I don't think there's
+anything we do about it as in it's part of the bonus tokens that we're dealing with they
+did dealt with like that but yeah have the miners been paid for is this the orders in
+are those on schedule from where we talked about last time is is all that good to go
+so we've paid for we've paid I'm just trying to get my facts right and we've paid for half of the
+X-100s we gave I think two days ago three days ago two days ago Jeremy gave the final
+technical sign off on the new miners so that was required and now we we we we have to pay the
+we have to pay the first half of the ex-thetis this week and that's the only the only obligation
+for now and then we've paid the final half I think we've ordered a brief you mean this week
+upcoming yeah upcoming week yeah so we've got to pay 50% on the ex-thetis this coming week
+so that was only due off to technical sign off which I think was yesterday Jeremy gave finally
+okay I also want to just mention that for the build-up on that's taking place
+in one hour after this AMA there is an orientation for for the people that have signed up for
+that project and I want to make sure they get on that live stream check your email
+yes you know thanks for bringing that read I know that there's been a lot of work around that
+certainly driving the ecosystem if I can touch on that for a while if I may know we've just
+heavily covered the economics with this some incredible you know projects and dishes that are happening
+you know in parallel to everything that's going on so yeah just make sure obviously you're
+you're well entuned on that that orientation there's some incredible work Lisa some other colleagues
+have been putting into that and it's certainly going to drive this project's ecosystem
+building on mom and you and me speaking about you know all of the other initiatives that are
+coming through from the grinds program side and something I'm going to also endeavor to
+push out there what's actually happening I know there were a few questions pertaining to
+you know what are those projects and this is one of them and you know it's resulted in
+an incredible you know ecosystem of developers that are building within our environment
+it's certainly leading to some really worthwhile projects from a de-application perspective that's
+obviously all going to have as I keep saying you know value to the ecosystem value to you know
+the token as a whole as we go you know through this process of building launching TG obviously
+mainnet so it's very exciting for everybody and make sure you do participate if you
+part of the dead community and you're you know looking to get involved this is certainly one of
+those projects that's got some legs and you know it can gear up full you know
+accessing our program which we've been very successful in you know go ahead
+oh no go ahead I wanted to say that we have a dedicated new group of node operators
+who have been I think last count was like 91 but there's been a few more than that and that's
+that's not 91 node operators around the world that's connected to bug day that's ones that we all
+chat every day and we all work together and we write scripts for nodes in this that whatever
+of I could throw some names out but a poo and puddle jacked and a few guys are just a
+really into that and and I believe in all these guys and and I think that when we have investors
+who are dedicated to the project who are running nodes who have ordered miners and who are going
+to be using their ideas from their life experience to build decentralized applications on the
+chain even if they're not professional developers the ideas and bringing them to the forefront
+and being involved in this I think it's going to be a good thing for the community overall to
+just have people that are literally all in when you say all in that's what I mean that they're
+invested they're running nodes they're running miners they're building apps I mean it's just a
+wonderful thing and I'm really excited about that but there is one other question I wanted to get
+into before we close and that is in the roadmap there's a seven day trading window
+that is for various things and people are afraid that there's going to be some kind of
+insider advantage that you know creates a dump situation or whatever and any of you could address
+that that would be great before we run at a time yeah sure so so so that is actually and
+and it's not clear whether it will happen but some of the exchanges may request an exclusive trading
+period some of the big ones if we manage to land them for our initial launch if they're big enough
+and if it's worthwhile then we might give them a seven day trading window so it's it's
+it's pretty I mean it's it's massive for us if we get the right exchange and if we and
+if they do that they'll put a lot behind it as well so we'll weigh it up we'll see whether it's worthwhile
+but it certainly doesn't it doesn't it can't be used for insider trading it's just going to be one
+of the big global exchanges that has an exclusive trading period in the whole community would be able
+to be able to be involved in that yeah it's really one exchange it's not there's no it's not
+thing to do with the vesting period and who got the tokens first or second it's none of that all right
+outstanding I hope that quick. One other thing I think was a really good feedback that I've
+that that someone made or multiple people is can we see more more video or blogs and tests
+minors can we see what's going on because you know they've paid for something they want to see
+where their money is going on that quiet so I'd encourage you maybe not so much
+question but feedback can we get more at on the front line that a weekly death progress video
+format and if I could add to that if we could get an app draw or a wattage draw in real time
+of x 30 and x 100 under load so people can start setting up their electrical systems and we can
+actually load this thing properly I think we've been expecting to empower supplies but since we've
+changed manufacturers a couple of times you know we would like to just have that firm got
+in the near future yeah we will we'll get someone to actually yes I'm so given actual
+on loads stats for you and then I'll we'll make sure that we've got the the actual sort of
+status as well available and just in closing I just want to say out and you know to all of
+our viewers out there especially those that we've been working with on Facebook, Radic,
+to the Grammys reads that we're not just advocating for you we're creating ideas like
+read said you know we're we're building up notes we're building out smart contracts we're looking
+at ideas we're looking at you know new ideas around in gaming and all of that we're taking this
+to your extreme platform because we've put in a lot of money into this project and we want to see
+it thrive you know I get people question me all the time why are you so like you're acting like
+you know you're an insider on this project and that's not what it comes down to I've invested a lot
+of money and naturally I'm passionate about this to see it grow and see it expand and you know that's
+why we're on the forefront losing sleep trying to make this work because at the end of the day
+of this crashes as not just our credibility it's everything that we put into this project in order
+to make it work so you know for a viewers out of the air if you do want to support us just you know
+we are on Reddit like blockback investors and Facebook as well so feel free to check us up
+and that's all I want to say I'm getting feedback this is the best AMA ever so moving forward
+I would I would recommend keeping this model moving forward and Anthony you you get
+to tell us you're in charge so we are holding you accountable to that and we are you know
+community is gonna keep that so more timeers let me mention there's a time that cool the transition
+time is so let's just put a big one on the side just to put it all back on it I'll put a big one
+there for you because the big one with the timer no seriously I mean Mavid thank you so much
+obviously you heard it here folks I mean this project in the new era it's really moving in
+the right direction which is just very engaging and obviously I'd like to share a little bit more
+around the run what we've been doing within the platforms base mama and I've been chatting
+about that is just so at the community also knows we've got a passion for gaming and very
+and various other things so you know we've got a lot of projects that we're looking at and I keep
+I'm talking around the the rareable partnership that's one of those that we're driving which
+is going to really give the community such incredible value from you know in a team marketplace
+perspective and a Robert and a few guys behind the scenes of brother something in the works with
+the token launch pads so that's something we'll sort of look forward to there's a little
+helpful in this ecosystem that we're talking about driving the revenue agenda and obviously ultimately
+having that drives revenue and value within this whole time project ecosystem to be
+dead hold us thanks to everybody really looking forward to the next couple of weeks as we
+gear out to TG and looking forward to everything else that's going to take place so it's an exciting
+time yeah oh just over here I'm going to be live streaming the buildathon to the orientation for that
+so one hour from now that's that's incredible I know as action is flick to Andrew and a few
+of them you know this you you can't believe the band is in the credit that I've just signed off on so
+this is there's a lot of amazing things that are going to come out of that and yeah so thank you
+everybody obviously it's been a big moment and looking forward to you know what's going to happen
+over the next couple of weeks and you know this is a great format as we say in onwards and upwards
+so thank you yeah thank you thanks everyone yeah thanks so much and the thought you this a
+mcc show thank you yeah you know the audience thank you all thank you guys thank you all
+yeah that's the brings to the end of all to this a mcc show that's a lot of the act
+it's been a great discussion and it's brought the session we have seen how much of the
+blog deck didn't fill us their community not just in a word about the interaction and future plans
+Yeah, they're building toward the entire structure, which will allow the community to have a stronger voice and true sense of ownership in shipping the data from the project.
+That shows the real commitment to decentralization and collaboration.
+A big thank you to Nikola Stavis and Tony Charner, Ray Stavis and Mohammed Adam for joining us today.
+And taking time to share their insight with everyone here.
+And of course, thank you to keep the question committee for tuning in and engaging.
+So if we have any questions or what to stay up there, feel free to join the blog there community.
+You can find all the official links in our announcement.
+Yeah, that's all for today's session.
+Thank you all for joining.
+And we'll see you in our next, Aaron, keep the question.
+Thank you.
+Let's see, can you all see me?
+My whole thing's messed up here.
+Let me fix it all.
+I'm going to stay on for a second and take some more questions and feedback.
+All right, well, that was pretty good.
+I'm surprised that all of that stuff got done pretty quick.
+I think we're all smart enough if we've been here for a while to let me turn this.
+Let me turn this meeting off in the background there.
+To understand what was said without Anthony actually saying it is that GK is out.
+That's basically what it boils down to.
+Uh, do I be a pro is no longer in charge of the marketing is what it sounds like to me.
+And we can really move forward with some positive positive deal.
+I did not expect it to go this quickly.
+I thought that it would be a bigger fight and I think that I'm cautiously very optimistic.
+So, you know, I want to go to the chat here.
+I wasn't able to keep up all the way.
+If you guys want to throw some questions out there that you have about some caveats or some things that weren't touched on that well,
+I can try and maybe get some more information out to you prior to shutting this live stream down.
+But overall, like I said, this is, this is a, you know, like on Babe Ruth walks up to the dead gum plate.
+He points out where he's going to send that ball and he was able to do it many times.
+And I think Anthony was actually able to do that with this.
+He walked up to the plate here a few weeks ago and said,
+he was going to do and what he was trying to do and then actually achieved it.
+And the reason why he was able to achieve it is because of community standing behind him.
+And, you know, I can't say your name, Mr. Dyer.
+I can't say for 100% sure whether WPRO is actually out.
+But I can't say that now, Anthony is responsible and is taking responsibility.
+If we start seeing any, I'm trying not to curse.
+If we start seeing any silly stuff coming out of marketing that we can hold his feet to the fire and say whoever's doing that means to be fired.
+And so if they're not out late, they, they will be shortly.
+I think is basically what I'm trying to say is my opinion.
+These are my opinions.
+By the way, this is not financial advice.
+I'm just a regular guy. I don't know. I'm not licensed to be a financial advisor or anything like that.
+I'm just a hard work in dude.
+And so, sounds like we should wait out the transition for more investment.
+To be honest with you, at half a penny, I think that you're getting, what would that be?
+That would be like, that's what, six pricing, something like that.
+Now it might be the time to stock up a little bit if you want some more base tokens at half a penny.
+Basically, last March is pricing.
+I think my first purchase was about that price point.
+So as much as, you know, I trust Anthony. I'll tell you what.
+I trust Lisa, I speak with Lisa regularly. She has a heart of gold.
+She's a lioness and she's a warrior and she trusts Anthony too.
+So I trust him.
+And if he says that that transition is taking place, I, I believe it.
+And if we see that there is issues that exist, that still exist, that we were noticing during this last year and a half or more,
+then we know how to address it at this point.
+And can actually, can actually enact some change and hopefully it won't be as difficult.
+All right, so that's my thoughts on that.
+Did we know when the 86, we don't know about the 86 million dollar investor if he's in?
+I think that's going to be coming here in the near term, as far as the information about it,
+they still have to figure out how the tokenomics are going to work around that completely.
+So that is still a thing.
+These are all the things I've wanted to hear about defy development, driving value,
+love this great AMA today.
+Thank you so much.
+I was really honored to be a part of it.
+And I'm honored to have been able to speak for a lot of you guys.
+And I know there's some people that think that we aren't doing enough.
+But, you know, I mean, we're definitely doing the best that we can.
+I think that today kind of shows that what we were able to do has been successful.
+And so no, I don't think the large investor is a lot.
+Montana has taken back the reins.
+We are moving forward Tony Montagna.
+I told you, man, I told you.
+All right, so investors like letting you know their people.
+I'm sorry running out of ideas.
+I can't understand what that's saying.
+Thank you Simon.
+So yeah, I mean,
+ZK seems to be no longer in control of anything.
+That is what I got out of it.
+Remember when they said he was just involved with the marketing side with his company?
+Now we hear all authority has been shifted from him.
+That's pretty much what I got out of it.
+You know, we're working off of perceived information.
+But I think that a no answer in a lot of cases is as clear as saying,
+In fact, yes, it is what it is.
+And he should just stay in there in there.
+I don't know.
+Go do something else and try to hustle people.
+It's not a good looking and you pay that in spades.
+The evil that you do in life you pay for.
+I believe that wholeheartedly.
+Those guys got black tag to the value that it is.
+This is wonderful.
+Anthony is in charge now.
+I love that.
+Especially if we are getting contacted with special bonus offers.
+Yeah, I'm not a big fan of these special bonus offers.
+But master commander.
+Yeah, if you're getting some good deals now is definitely good deals.
+Because I spoke with Anthony that most likely we're going to be doing a price jump when the 0.0015 was in play.
+After reductions that actually put the effective price at a brown half of penny.
+So we've been selling it around half of penny for this whole 0.0015.
+And now you're getting all that for base coins.
+So it should have been higher.
+I thought we should have been closer to a penny.
+Many people can.
+Can a test that we were talking about the penny range is probably a good reset price.
+But it is what it is.
+It's a good deal for investors if you want to buy right now.
+If you if you feel like some trust has been earned back.
+And if you feel like Anthony's.
+Doing it since then it might be a good idea for you.
+So again, they announced a big investor, but he isn't there for sure yet.
+That's my understanding.
+Yeah, Jay Carme says the bonus issue was an intentional set up from the CMO with CEO acceptance.
+I disagree there wholeheartedly.
+I know that wasn't the case, but I'm not going to try to change your mind.
+I think the issue is put the information out there.
+Okay, batch nine was half of penny.
+All right.
+Thank you, Master Commander.
+Assuming it's option.
+It's the option chosen.
+How does option for impact this again?
+I think it impacts the most fairness and the actual percentages will.
+Still be yet to be termed determined and there will be a few.
+Aspects of that that that are are upcoming.
+I don't have the answer.
+That's for sure.
+Our funds still going to GK or does Anthony has immediate control.
+He said it's all going to multi-sig wallets.
+That is what he said during this AMA.
+I have no other information.
+The new the control change over was news to me and welcome news.
+So more to come on all that.
+But he said we would be able to audit it.
+So the multi-sig wallets will be able to be audited.
+That's what he said.
+So I have to believe that that is the case.
+Anthony spoke with more authority and confidence in in the past.
+Thank you.
+Thank you, Chris Andrews.
+That is a fact we have an empowered CEO.
+And yeah.
+Thank you, CG.
+I appreciate it.
+Thank you.
+Copy soul solutions.
+I appreciate it.
+Option four sounds bad for me with the same money.
+I can buy more than double with current price investing in one year.
+I don't know that that's the case.
+I'm not 100% sure on that angel.
+I don't think that you can know that either since the percentages haven't been released.
+But you know, if you feel that way, Anthony put it out there to contact him personally.
+Once all the information is out and have your numbers all ran and he'll look at your situation.
+And you know, that this is the ongoing conversation.
+He's not setting anything in stone.
+And we're trying to find the best solution.
+And even my heart of hearts that Anthony is trying to find the very best solution for this.
+Mess that has been creative.
+Thank you, Joel.
+I appreciate that.
+Communication with the community has been exponentially better this week.
+Excited.
+Thank you.
+Yes, Anthony will now be the real CEO.
+Great communication.
+Please could you create a summary of the most important decisions made at the meeting.
+I'm really too busy to be honest with you.
+Wish I could, but the YouTube video will be up.
+You can watch it 10 times and make a summary.
+And if you want to post it on our social media, that would be great.
+Remember, everybody is somebody and it's not me who has to do everything.
+And I'm going to know I'm kind of a smart LX sometimes.
+I don't think you really realize just how many hours I've got into this thing.
+And I just can't.
+I'm also an ambassador.
+I need to be doing builds with fun stuff.
+I'm trying to get a whole bunch of builds.
+If you're not on the build with fun or having signed up, I recommend doing it.
+It would be really good for the community to get some ideas out there.
+And maybe be able to collaborate with some other people and everybody work together.
+And see what we can build out of this chain.
+I think it'd be awesome.
+We all come from different walks of life and have different life experiences.
+And I can think of things that we can put on chain that developers and stuff like that.
+Hold on.
+It's siety.
+Hey, you're live.
+What's up?
+Don't be cousin.
+Bye.
+Just thinking, guys.
+All right.
+I'm going to buy some coins just because I have not gotten any a long time.
+Plus I'm glad they stopped.
+Great. Awesome.
+How are we going to get our 433 million back?
+Do you have any idea to do it?
+Ox.
+I don't.
+You're not paying attention, man.
+Really?
+Dad got me.
+Sometimes you frustrate me more than anybody.
+He said, multi-sig wallets, auditable.
+There will be stuff there.
+They will try to give a high level audit.
+It is what it is.
+I mean, the act like we're going to get the money back.
+It's not going back in our pockets.
+We'll just have to see what happens.
+You have to be patient.
+We have a CEO who's in charge is the honest man.
+So that's all I can say about that.
+Please, could you create us?
+No, okay.
+About 90 million coins sold at half a penny.
+Why is the CEO not responding to the Zack XBT claim?
+Most likely because that's part of an agree.
+And this is my opinion.
+This is my opinion.
+I don't know this for a fact.
+But it's probably part of the agreement between the CEO and
+people who have been running and marketing and finance, which is probably GK.
+And that he will give up control if he can no longer be put out there on blast.
+So all control will be over in Anthony and you know, screw it.
+Just get out of our lives, DK.
+We don't want you here.
+Anthony is a good faith actor for sure.
+I completely agree.
+Okay, where do you sign up?
+Let's see.
+Let me do that real quick.
+I think I have the application up right now.
+Okay, yeah.
+I've got so many windows open.
+I don't even know.
+I think it's under developer hub.
+All right.
+Well, I will.
+If you watched the last video that I did, it's the last live stream that
+I did.
+Let me go back to the studio.
+If you watched the last live stream that I did, I think it was yesterday that
+they before.
+The first seven minutes is like a whole thing on how to sign up for this build
+upon.
+And it's going to be going for three months.
+It's a really great opportunity to build stuff on the ecosystem.
+All the information is on that last video I did yesterday.
+And yes, completely no more bonuses anymore.
+I mean, there might be a private client network deal
+to where if you spend a lot of money 10, 20, 30 grand,
+they might give you 10 or 20 percent discount or something that
+affects.
+But no more bonuses.
+It's all based coins.
+It's my understanding.
+But something like that.
+Why should GAK have left?
+Was it too risky for him?
+I don't know, man.
+I'm not a scammer.
+I'm not a piece of garbage.
+I don't know.
+Why would you over sell coins?
+Why would you do all that stuff?
+I don't know.
+All right.
+That's it.
+I've kind of put the questions.
+I've got 45 minutes.
+I'm going to get ready for the build of thorn.
+And I'll be live streaming again here in 45 minutes.
+Thank you.
+And you'll have a great day.
+Great day.

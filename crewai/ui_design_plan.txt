@@ -1,0 +1,28 @@
+Homepage
+- Featured stats (price, hashrate, etc)
+- Latest blocks
+- Latest transactions
+
+Block Page
+- Block details
+- Block transactions table
+- Visual DAG of connected blocks
+
+Transaction Page
+- Transaction details
+- Decoded input/logs
+
+Address Page
+- Address info
+- Token balances
+- Address transactions table
+
+Charts & Stats
+- Mining statistics
+- Network statistics over time
+
+UI Components
+- Header with nav
+- Search bar
+- Data tables
+- Stat boxes
