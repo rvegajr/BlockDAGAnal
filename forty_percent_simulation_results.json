@@ -1,0 +1,2407 @@
+{
+  "simulation_date": "2026-01-02T16:53:21.609239",
+  "parameters": {
+    "liquidity": 75000000,
+    "base_coins": 17000000000,
+    "tge_percent": 0.4,
+    "tge_tokens": 6800000000.0,
+    "launch_price": 0.011029411764705883,
+    "daily_mining": 10500000,
+    "emergency_brake_price": 0.005,
+    "emergency_brake_liquidity": 10000000
+  },
+  "scenarios": {
+    "normal": {
+      "scenario": "normal",
+      "name": "Normal Market Conditions",
+      "description": "Stable market, no major crashes",
+      "months": [
+        {
+          "month": 0,
+          "circulating": 6957500000.0,
+          "liquidity": 75000000,
+          "price": 0.011029411764705883,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 1,
+          "circulating": 7115000000.0,
+          "liquidity": 75000000,
+          "price": 0.010779734099892203,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 2,
+          "circulating": 7272500000.0,
+          "liquidity": 75000000,
+          "price": 0.010541110330288124,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 3,
+          "circulating": 7430000000.0,
+          "liquidity": 75000000,
+          "price": 0.010312822275696116,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 4,
+          "circulating": 7587500000.0,
+          "liquidity": 75000000,
+          "price": 0.010094212651413189,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 5,
+          "circulating": 7745000000.0,
+          "liquidity": 75000000,
+          "price": 0.009884678747940691,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 6,
+          "circulating": 7902500000.0,
+          "liquidity": 75000000,
+          "price": 0.009683666881859263,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 7,
+          "circulating": 8400000000.0,
+          "liquidity": 75000000,
+          "price": 0.009490667510281556,
+          "emergency_brake": false,
+          "vested_released_pct": 3.3333333333333335
+        },
+        {
+          "month": 8,
+          "circulating": 8897500000.0,
+          "liquidity": 75000000,
+          "price": 0.008928571428571428,
+          "emergency_brake": false,
+          "vested_released_pct": 6.666666666666667
+        },
+        {
+          "month": 9,
+          "circulating": 9395000000.0,
+          "liquidity": 75000000,
+          "price": 0.008429334082607475,
+          "emergency_brake": false,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 10,
+          "circulating": 9892500000.0,
+          "liquidity": 75000000,
+          "price": 0.007982969664715274,
+          "emergency_brake": false,
+          "vested_released_pct": 13.333333333333334
+        },
+        {
+          "month": 11,
+          "circulating": 10390000000.0,
+          "liquidity": 75000000,
+          "price": 0.0075815011372251705,
+          "emergency_brake": false,
+          "vested_released_pct": 16.666666666666664
+        },
+        {
+          "month": 12,
+          "circulating": 10887500000.0,
+          "liquidity": 75000000,
+          "price": 0.007218479307025986,
+          "emergency_brake": false,
+          "vested_released_pct": 20.0
+        },
+        {
+          "month": 13,
+          "circulating": 11385000000.0,
+          "liquidity": 75000000,
+          "price": 0.006888633754305396,
+          "emergency_brake": false,
+          "vested_released_pct": 23.333333333333332
+        },
+        {
+          "month": 14,
+          "circulating": 11882500000.0,
+          "liquidity": 75000000,
+          "price": 0.006587615283267457,
+          "emergency_brake": false,
+          "vested_released_pct": 26.666666666666668
+        },
+        {
+          "month": 15,
+          "circulating": 12380000000.0,
+          "liquidity": 75000000,
+          "price": 0.006311803071744161,
+          "emergency_brake": false,
+          "vested_released_pct": 30.0
+        },
+        {
+          "month": 16,
+          "circulating": 12877500000.0,
+          "liquidity": 75000000,
+          "price": 0.006058158319870759,
+          "emergency_brake": false,
+          "vested_released_pct": 33.33333333333333
+        },
+        {
+          "month": 17,
+          "circulating": 13375000000.0,
+          "liquidity": 75000000,
+          "price": 0.005824111822947,
+          "emergency_brake": false,
+          "vested_released_pct": 36.666666666666664
+        },
+        {
+          "month": 18,
+          "circulating": 13872500000.0,
+          "liquidity": 75000000,
+          "price": 0.005607476635514018,
+          "emergency_brake": false,
+          "vested_released_pct": 40.0
+        },
+        {
+          "month": 19,
+          "circulating": 14370000000.0,
+          "liquidity": 75000000,
+          "price": 0.005406379527842855,
+          "emergency_brake": false,
+          "vested_released_pct": 43.333333333333336
+        },
+        {
+          "month": 20,
+          "circulating": 14867500000.0,
+          "liquidity": 75000000,
+          "price": 0.005219206680584551,
+          "emergency_brake": false,
+          "vested_released_pct": 46.666666666666664
+        },
+        {
+          "month": 21,
+          "circulating": 15365000000.0,
+          "liquidity": 75000000,
+          "price": 0.005044560282495376,
+          "emergency_brake": false,
+          "vested_released_pct": 50.0
+        },
+        {
+          "month": 22,
+          "circulating": 15522500000.0,
+          "liquidity": 75000000,
+          "price": 0.0048812235600390495,
+          "emergency_brake": true,
+          "vested_released_pct": 50.0
+        },
+        {
+          "month": 23,
+          "circulating": 15680000000.0,
+          "liquidity": 75000000,
+          "price": 0.00483169592526977,
+          "emergency_brake": true,
+          "vested_released_pct": 50.0
+        },
+        {
+          "month": 24,
+          "circulating": 15837500000.0,
+          "liquidity": 75000000,
+          "price": 0.0047831632653061226,
+          "emergency_brake": true,
+          "vested_released_pct": 50.0
+        }
+      ],
+      "summary": {
+        "final_price": 0.0047831632653061226,
+        "final_circulating": 15837500000.0,
+        "final_liquidity": 75000000,
+        "min_price": 0.0047831632653061226,
+        "max_price": 0.011029411764705883,
+        "emergency_brake_triggered": true,
+        "emergency_brake_month": 22,
+        "vested_released_pct": 50.0
+      }
+    },
+    "may_2021": {
+      "scenario": "may_2021",
+      "name": "May 2021-Style Crash",
+      "description": "60% liquidity drop at month 2",
+      "months": [
+        {
+          "month": 0,
+          "circulating": 6957500000.0,
+          "liquidity": 75000000,
+          "price": 0.011029411764705883,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 1,
+          "circulating": 7115000000.0,
+          "liquidity": 75000000,
+          "price": 0.010779734099892203,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 2,
+          "circulating": 7272500000.0,
+          "liquidity": 30000000.0,
+          "price": 0.004216444132115249,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 3,
+          "circulating": 7430000000.0,
+          "liquidity": 30000000.0,
+          "price": 0.004125128910278446,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 4,
+          "circulating": 7587500000.0,
+          "liquidity": 30000000.0,
+          "price": 0.004037685060565276,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 5,
+          "circulating": 7745000000.0,
+          "liquidity": 30000000.0,
+          "price": 0.003953871499176277,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 6,
+          "circulating": 7902500000.0,
+          "liquidity": 30000000.0,
+          "price": 0.003873466752743706,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 7,
+          "circulating": 8060000000.0,
+          "liquidity": 30000000.0,
+          "price": 0.0037962670041126224,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 8,
+          "circulating": 8217500000.0,
+          "liquidity": 30000000.0,
+          "price": 0.0037220843672456576,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 9,
+          "circulating": 8375000000.0,
+          "liquidity": 30000000.0,
+          "price": 0.0036507453605111044,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 10,
+          "circulating": 8532500000.0,
+          "liquidity": 30000000.0,
+          "price": 0.003582089552238806,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 11,
+          "circulating": 8690000000.0,
+          "liquidity": 30000000.0,
+          "price": 0.0035159683562847933,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 12,
+          "circulating": 8847500000.0,
+          "liquidity": 30000000.0,
+          "price": 0.0034522439585730723,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 13,
+          "circulating": 9005000000.0,
+          "liquidity": 30000000.0,
+          "price": 0.003390788358293303,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 14,
+          "circulating": 9162500000.0,
+          "liquidity": 30000000.0,
+          "price": 0.003331482509716824,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 15,
+          "circulating": 9320000000.0,
+          "liquidity": 30000000.0,
+          "price": 0.0032742155525238743,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 16,
+          "circulating": 9477500000.0,
+          "liquidity": 30000000.0,
+          "price": 0.003218884120171674,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 17,
+          "circulating": 9635000000.0,
+          "liquidity": 30000000.0,
+          "price": 0.0031653917172250064,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 18,
+          "circulating": 9792500000.0,
+          "liquidity": 30000000.0,
+          "price": 0.0031136481577581734,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 19,
+          "circulating": 9950000000.0,
+          "liquidity": 30000000.0,
+          "price": 0.0030635690579525147,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 20,
+          "circulating": 10107500000.0,
+          "liquidity": 30000000.0,
+          "price": 0.003015075376884422,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 21,
+          "circulating": 10265000000.0,
+          "liquidity": 30000000.0,
+          "price": 0.002968093000247341,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 22,
+          "circulating": 10422500000.0,
+          "liquidity": 30000000.0,
+          "price": 0.0029225523623964927,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 23,
+          "circulating": 10580000000.0,
+          "liquidity": 30000000.0,
+          "price": 0.002878388102662509,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 24,
+          "circulating": 10737500000.0,
+          "liquidity": 30000000.0,
+          "price": 0.002835538752362949,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        }
+      ],
+      "summary": {
+        "final_price": 0.002835538752362949,
+        "final_circulating": 10737500000.0,
+        "final_liquidity": 30000000.0,
+        "min_price": 0.002835538752362949,
+        "max_price": 0.011029411764705883,
+        "emergency_brake_triggered": true,
+        "emergency_brake_month": 2,
+        "vested_released_pct": 0.0
+      }
+    },
+    "ftx_collapse": {
+      "scenario": "ftx_collapse",
+      "name": "FTX Collapse",
+      "description": "70% liquidity drop at month 3",
+      "months": [
+        {
+          "month": 0,
+          "circulating": 6957500000.0,
+          "liquidity": 75000000,
+          "price": 0.011029411764705883,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 1,
+          "circulating": 7115000000.0,
+          "liquidity": 75000000,
+          "price": 0.010779734099892203,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 2,
+          "circulating": 7272500000.0,
+          "liquidity": 75000000,
+          "price": 0.010541110330288124,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 3,
+          "circulating": 7430000000.0,
+          "liquidity": 22500000.0,
+          "price": 0.0030938466827088347,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 4,
+          "circulating": 7587500000.0,
+          "liquidity": 22500000.0,
+          "price": 0.003028263795423957,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 5,
+          "circulating": 7745000000.0,
+          "liquidity": 22500000.0,
+          "price": 0.0029654036243822075,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 6,
+          "circulating": 7902500000.0,
+          "liquidity": 22500000.0,
+          "price": 0.002905100064557779,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 7,
+          "circulating": 8060000000.0,
+          "liquidity": 22500000.0,
+          "price": 0.002847200253084467,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 8,
+          "circulating": 8217500000.0,
+          "liquidity": 22500000.0,
+          "price": 0.002791563275434243,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 9,
+          "circulating": 8375000000.0,
+          "liquidity": 22500000.0,
+          "price": 0.0027380590203833284,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 10,
+          "circulating": 8532500000.0,
+          "liquidity": 22500000.0,
+          "price": 0.0026865671641791043,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 11,
+          "circulating": 8690000000.0,
+          "liquidity": 22500000.0,
+          "price": 0.002636976267213595,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 12,
+          "circulating": 8847500000.0,
+          "liquidity": 22500000.0,
+          "price": 0.002589182968929804,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 13,
+          "circulating": 9005000000.0,
+          "liquidity": 22500000.0,
+          "price": 0.002543091268719977,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 14,
+          "circulating": 9162500000.0,
+          "liquidity": 22500000.0,
+          "price": 0.002498611882287618,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 15,
+          "circulating": 9320000000.0,
+          "liquidity": 22500000.0,
+          "price": 0.0024556616643929058,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 16,
+          "circulating": 9477500000.0,
+          "liquidity": 22500000.0,
+          "price": 0.0024141630901287556,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 17,
+          "circulating": 9635000000.0,
+          "liquidity": 22500000.0,
+          "price": 0.002374043787918755,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 18,
+          "circulating": 9792500000.0,
+          "liquidity": 22500000.0,
+          "price": 0.00233523611831863,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 19,
+          "circulating": 9950000000.0,
+          "liquidity": 22500000.0,
+          "price": 0.002297676793464386,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 20,
+          "circulating": 10107500000.0,
+          "liquidity": 22500000.0,
+          "price": 0.0022613065326633165,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 21,
+          "circulating": 10265000000.0,
+          "liquidity": 22500000.0,
+          "price": 0.002226069750185506,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 22,
+          "circulating": 10422500000.0,
+          "liquidity": 22500000.0,
+          "price": 0.00219191427179737,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 23,
+          "circulating": 10580000000.0,
+          "liquidity": 22500000.0,
+          "price": 0.0021587910769968817,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 24,
+          "circulating": 10737500000.0,
+          "liquidity": 22500000.0,
+          "price": 0.0021266540642722116,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        }
+      ],
+      "summary": {
+        "final_price": 0.0021266540642722116,
+        "final_circulating": 10737500000.0,
+        "final_liquidity": 22500000.0,
+        "min_price": 0.0021266540642722116,
+        "max_price": 0.011029411764705883,
+        "emergency_brake_triggered": true,
+        "emergency_brake_month": 3,
+        "vested_released_pct": 0.0
+      }
+    },
+    "covid_black_swan": {
+      "scenario": "covid_black_swan",
+      "name": "COVID Black Swan",
+      "description": "80% liquidity drop at month 1",
+      "months": [
+        {
+          "month": 0,
+          "circulating": 6957500000.0,
+          "liquidity": 75000000,
+          "price": 0.011029411764705883,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 1,
+          "circulating": 7115000000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0021559468199784403,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 2,
+          "circulating": 7272500000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0021082220660576245,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 3,
+          "circulating": 7430000000.0,
+          "liquidity": 15000000.0,
+          "price": 0.002062564455139223,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 4,
+          "circulating": 7587500000.0,
+          "liquidity": 15000000.0,
+          "price": 0.002018842530282638,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 5,
+          "circulating": 7745000000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0019769357495881385,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 6,
+          "circulating": 7902500000.0,
+          "liquidity": 15000000.0,
+          "price": 0.001936733376371853,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 7,
+          "circulating": 8060000000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0018981335020563112,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 8,
+          "circulating": 8217500000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0018610421836228288,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 9,
+          "circulating": 8375000000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0018253726802555522,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 10,
+          "circulating": 8532500000.0,
+          "liquidity": 15000000.0,
+          "price": 0.001791044776119403,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 11,
+          "circulating": 8690000000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0017579841781423966,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 12,
+          "circulating": 8847500000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0017261219792865361,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 13,
+          "circulating": 9005000000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0016953941791466515,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 14,
+          "circulating": 9162500000.0,
+          "liquidity": 15000000.0,
+          "price": 0.001665741254858412,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 15,
+          "circulating": 9320000000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0016371077762619372,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 16,
+          "circulating": 9477500000.0,
+          "liquidity": 15000000.0,
+          "price": 0.001609442060085837,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 17,
+          "circulating": 9635000000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0015826958586125032,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 18,
+          "circulating": 9792500000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0015568240788790867,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 19,
+          "circulating": 9950000000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0015317845289762573,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 20,
+          "circulating": 10107500000.0,
+          "liquidity": 15000000.0,
+          "price": 0.001507537688442211,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 21,
+          "circulating": 10265000000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0014840465001236705,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 22,
+          "circulating": 10422500000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0014612761811982464,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 23,
+          "circulating": 10580000000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0014391940513312545,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 24,
+          "circulating": 10737500000.0,
+          "liquidity": 15000000.0,
+          "price": 0.0014177693761814746,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        }
+      ],
+      "summary": {
+        "final_price": 0.0014177693761814746,
+        "final_circulating": 10737500000.0,
+        "final_liquidity": 15000000.0,
+        "min_price": 0.0014177693761814746,
+        "max_price": 0.011029411764705883,
+        "emergency_brake_triggered": true,
+        "emergency_brake_month": 1,
+        "vested_released_pct": 0.0
+      }
+    },
+    "gradual_bear": {
+      "scenario": "gradual_bear",
+      "name": "Gradual Bear Market",
+      "description": "50% drop over 12 months",
+      "months": [
+        {
+          "month": 0,
+          "circulating": 6957500000.0,
+          "liquidity": 75000000,
+          "price": 0.011029411764705883,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 1,
+          "circulating": 7115000000.0,
+          "liquidity": 71875000.0,
+          "price": 0.010330578512396695,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 2,
+          "circulating": 7272500000.0,
+          "liquidity": 68750000.0,
+          "price": 0.00966268446943078,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 3,
+          "circulating": 7430000000.0,
+          "liquidity": 65625000.0,
+          "price": 0.009023719491234101,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 4,
+          "circulating": 7587500000.0,
+          "liquidity": 62500000.0,
+          "price": 0.008411843876177659,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 5,
+          "circulating": 7745000000.0,
+          "liquidity": 59375000.0,
+          "price": 0.007825370675453048,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 6,
+          "circulating": 7902500000.0,
+          "liquidity": 56250000.0,
+          "price": 0.007262750161394448,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 7,
+          "circulating": 8400000000.0,
+          "liquidity": 53124999.99999999,
+          "price": 0.006722556153116102,
+          "emergency_brake": false,
+          "vested_released_pct": 3.3333333333333335
+        },
+        {
+          "month": 8,
+          "circulating": 8897500000.0,
+          "liquidity": 50000000.00000001,
+          "price": 0.005952380952380953,
+          "emergency_brake": false,
+          "vested_released_pct": 6.666666666666667
+        },
+        {
+          "month": 9,
+          "circulating": 9395000000.0,
+          "liquidity": 46875000.0,
+          "price": 0.0052683338016296715,
+          "emergency_brake": false,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 10,
+          "circulating": 9552500000.0,
+          "liquidity": 43749999.99999999,
+          "price": 0.0046567323044172425,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 11,
+          "circulating": 9710000000.0,
+          "liquidity": 40625000.00000001,
+          "price": 0.004252813399633604,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 12,
+          "circulating": 9867500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.0038619979402677654,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 13,
+          "circulating": 10025000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003800354699771979,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 14,
+          "circulating": 10182500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003740648379052369,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 15,
+          "circulating": 10340000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003682789098944267,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 16,
+          "circulating": 10497500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.0036266924564796904,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 17,
+          "circulating": 10655000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.00357227911407478,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 18,
+          "circulating": 10812500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.0035194744251525107,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 19,
+          "circulating": 10970000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003468208092485549,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 20,
+          "circulating": 11127500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.0034184138559708297,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 21,
+          "circulating": 11285000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.0033700292069197934,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 22,
+          "circulating": 11442500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003322995126273815,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 23,
+          "circulating": 11600000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003277255844439589,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 24,
+          "circulating": 11757500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003232758620689655,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        }
+      ],
+      "summary": {
+        "final_price": 0.003232758620689655,
+        "final_circulating": 11757500000.0,
+        "final_liquidity": 37500000.0,
+        "min_price": 0.003232758620689655,
+        "max_price": 0.011029411764705883,
+        "emergency_brake_triggered": true,
+        "emergency_brake_month": 10,
+        "vested_released_pct": 10.0
+      }
+    },
+    "bull_then_crash": {
+      "scenario": "bull_then_crash",
+      "name": "Bull Run Then Crash",
+      "description": "+100% for 6 months, then -70%",
+      "months": [
+        {
+          "month": 0,
+          "circulating": 6957500000.0,
+          "liquidity": 75000000,
+          "price": 0.011029411764705883,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 1,
+          "circulating": 7115000000.0,
+          "liquidity": 87500000.0,
+          "price": 0.012576356449874237,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 2,
+          "circulating": 7272500000.0,
+          "liquidity": 100000000.0,
+          "price": 0.014054813773717497,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 3,
+          "circulating": 7430000000.0,
+          "liquidity": 112500000.0,
+          "price": 0.015469233413544173,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 4,
+          "circulating": 7587500000.0,
+          "liquidity": 124999999.99999999,
+          "price": 0.016823687752355314,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 5,
+          "circulating": 7745000000.0,
+          "liquidity": 137500000.0,
+          "price": 0.018121911037891267,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 6,
+          "circulating": 7902500000.0,
+          "liquidity": 150000000.0,
+          "price": 0.019367333763718526,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 7,
+          "circulating": 8400000000.0,
+          "liquidity": 45000000.0,
+          "price": 0.005694400506168934,
+          "emergency_brake": false,
+          "vested_released_pct": 3.3333333333333335
+        },
+        {
+          "month": 8,
+          "circulating": 8897500000.0,
+          "liquidity": 45000000.0,
+          "price": 0.005357142857142857,
+          "emergency_brake": false,
+          "vested_released_pct": 6.666666666666667
+        },
+        {
+          "month": 9,
+          "circulating": 9395000000.0,
+          "liquidity": 45000000.0,
+          "price": 0.005057600449564484,
+          "emergency_brake": false,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 10,
+          "circulating": 9552500000.0,
+          "liquidity": 45000000.0,
+          "price": 0.004789781798829164,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 11,
+          "circulating": 9710000000.0,
+          "liquidity": 45000000.0,
+          "price": 0.004710808688824915,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 12,
+          "circulating": 9867500000.0,
+          "liquidity": 45000000.0,
+          "price": 0.004634397528321318,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 13,
+          "circulating": 10025000000.0,
+          "liquidity": 45000000.0,
+          "price": 0.004560425639726374,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 14,
+          "circulating": 10182500000.0,
+          "liquidity": 45000000.0,
+          "price": 0.004488778054862843,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 15,
+          "circulating": 10340000000.0,
+          "liquidity": 45000000.0,
+          "price": 0.00441934691873312,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 16,
+          "circulating": 10497500000.0,
+          "liquidity": 45000000.0,
+          "price": 0.004352030947775629,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 17,
+          "circulating": 10655000000.0,
+          "liquidity": 45000000.0,
+          "price": 0.0042867349368897354,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 18,
+          "circulating": 10812500000.0,
+          "liquidity": 45000000.0,
+          "price": 0.004223369310183012,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 19,
+          "circulating": 10970000000.0,
+          "liquidity": 45000000.0,
+          "price": 0.004161849710982659,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 20,
+          "circulating": 11127500000.0,
+          "liquidity": 45000000.0,
+          "price": 0.004102096627164996,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 21,
+          "circulating": 11285000000.0,
+          "liquidity": 45000000.0,
+          "price": 0.004044035048303752,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 22,
+          "circulating": 11442500000.0,
+          "liquidity": 45000000.0,
+          "price": 0.003987594151528578,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 23,
+          "circulating": 11600000000.0,
+          "liquidity": 45000000.0,
+          "price": 0.003932707013327507,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 24,
+          "circulating": 11757500000.0,
+          "liquidity": 45000000.0,
+          "price": 0.003879310344827586,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        }
+      ],
+      "summary": {
+        "final_price": 0.003879310344827586,
+        "final_circulating": 11757500000.0,
+        "final_liquidity": 45000000.0,
+        "min_price": 0.003879310344827586,
+        "max_price": 0.019367333763718526,
+        "emergency_brake_triggered": true,
+        "emergency_brake_month": 10,
+        "vested_released_pct": 10.0
+      }
+    },
+    "high_volatility": {
+      "scenario": "high_volatility",
+      "name": "High Volatility",
+      "description": "Multiple 30-40% swings",
+      "months": [
+        {
+          "month": 0,
+          "circulating": 6957500000.0,
+          "liquidity": 75000000,
+          "price": 0.011029411764705883,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 1,
+          "circulating": 7115000000.0,
+          "liquidity": 75000000,
+          "price": 0.010779734099892203,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 2,
+          "circulating": 7272500000.0,
+          "liquidity": 52500000.0,
+          "price": 0.007378777231201687,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 3,
+          "circulating": 7430000000.0,
+          "liquidity": 52500000.0,
+          "price": 0.007218975592987281,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 4,
+          "circulating": 7587500000.0,
+          "liquidity": 82500000.0,
+          "price": 0.01110363391655451,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 5,
+          "circulating": 7745000000.0,
+          "liquidity": 82500000.0,
+          "price": 0.010873146622734762,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 6,
+          "circulating": 7902500000.0,
+          "liquidity": 56250000.0,
+          "price": 0.007262750161394448,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 7,
+          "circulating": 8400000000.0,
+          "liquidity": 56250000.0,
+          "price": 0.0071180006327111675,
+          "emergency_brake": false,
+          "vested_released_pct": 3.3333333333333335
+        },
+        {
+          "month": 8,
+          "circulating": 8897500000.0,
+          "liquidity": 78750000.0,
+          "price": 0.009375,
+          "emergency_brake": false,
+          "vested_released_pct": 6.666666666666667
+        },
+        {
+          "month": 9,
+          "circulating": 9395000000.0,
+          "liquidity": 78750000.0,
+          "price": 0.008850800786737847,
+          "emergency_brake": false,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 10,
+          "circulating": 9892500000.0,
+          "liquidity": 60000000.0,
+          "price": 0.006386375731772219,
+          "emergency_brake": false,
+          "vested_released_pct": 13.333333333333334
+        },
+        {
+          "month": 11,
+          "circulating": 10390000000.0,
+          "liquidity": 60000000.0,
+          "price": 0.006065200909780136,
+          "emergency_brake": false,
+          "vested_released_pct": 16.666666666666664
+        },
+        {
+          "month": 12,
+          "circulating": 10887500000.0,
+          "liquidity": 60000000.0,
+          "price": 0.005774783445620789,
+          "emergency_brake": false,
+          "vested_released_pct": 20.0
+        },
+        {
+          "month": 13,
+          "circulating": 11385000000.0,
+          "liquidity": 60000000.0,
+          "price": 0.005510907003444317,
+          "emergency_brake": false,
+          "vested_released_pct": 23.333333333333332
+        },
+        {
+          "month": 14,
+          "circulating": 11882500000.0,
+          "liquidity": 60000000.0,
+          "price": 0.005270092226613966,
+          "emergency_brake": false,
+          "vested_released_pct": 26.666666666666668
+        },
+        {
+          "month": 15,
+          "circulating": 12380000000.0,
+          "liquidity": 60000000.0,
+          "price": 0.005049442457395329,
+          "emergency_brake": false,
+          "vested_released_pct": 30.0
+        },
+        {
+          "month": 16,
+          "circulating": 12537500000.0,
+          "liquidity": 60000000.0,
+          "price": 0.004846526655896607,
+          "emergency_brake": true,
+          "vested_released_pct": 30.0
+        },
+        {
+          "month": 17,
+          "circulating": 12695000000.0,
+          "liquidity": 60000000.0,
+          "price": 0.004785643070787637,
+          "emergency_brake": true,
+          "vested_released_pct": 30.0
+        },
+        {
+          "month": 18,
+          "circulating": 12852500000.0,
+          "liquidity": 60000000.0,
+          "price": 0.004726270185112249,
+          "emergency_brake": true,
+          "vested_released_pct": 30.0
+        },
+        {
+          "month": 19,
+          "circulating": 13010000000.0,
+          "liquidity": 60000000.0,
+          "price": 0.004668352460610776,
+          "emergency_brake": true,
+          "vested_released_pct": 30.0
+        },
+        {
+          "month": 20,
+          "circulating": 13167500000.0,
+          "liquidity": 60000000.0,
+          "price": 0.004611837048424289,
+          "emergency_brake": true,
+          "vested_released_pct": 30.0
+        },
+        {
+          "month": 21,
+          "circulating": 13325000000.0,
+          "liquidity": 60000000.0,
+          "price": 0.004556673628251376,
+          "emergency_brake": true,
+          "vested_released_pct": 30.0
+        },
+        {
+          "month": 22,
+          "circulating": 13482500000.0,
+          "liquidity": 60000000.0,
+          "price": 0.00450281425891182,
+          "emergency_brake": true,
+          "vested_released_pct": 30.0
+        },
+        {
+          "month": 23,
+          "circulating": 13640000000.0,
+          "liquidity": 60000000.0,
+          "price": 0.004450213239384387,
+          "emergency_brake": true,
+          "vested_released_pct": 30.0
+        },
+        {
+          "month": 24,
+          "circulating": 13797500000.0,
+          "liquidity": 60000000.0,
+          "price": 0.004398826979472141,
+          "emergency_brake": true,
+          "vested_released_pct": 30.0
+        }
+      ],
+      "summary": {
+        "final_price": 0.004398826979472141,
+        "final_circulating": 13797500000.0,
+        "final_liquidity": 60000000.0,
+        "min_price": 0.004398826979472141,
+        "max_price": 0.01110363391655451,
+        "emergency_brake_triggered": true,
+        "emergency_brake_month": 16,
+        "vested_released_pct": 30.0
+      }
+    },
+    "stable_growth": {
+      "scenario": "stable_growth",
+      "name": "Stable Growth",
+      "description": "+20% liquidity over 12 months",
+      "months": [
+        {
+          "month": 0,
+          "circulating": 6957500000.0,
+          "liquidity": 75000000,
+          "price": 0.011029411764705883,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 1,
+          "circulating": 7115000000.0,
+          "liquidity": 76250000.0,
+          "price": 0.010959396334890407,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 2,
+          "circulating": 7272500000.0,
+          "liquidity": 77500000.00000001,
+          "price": 0.010892480674631064,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 3,
+          "circulating": 7430000000.0,
+          "liquidity": 78750000.0,
+          "price": 0.010828463389480921,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 4,
+          "circulating": 7587500000.0,
+          "liquidity": 80000000.0,
+          "price": 0.010767160161507403,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 5,
+          "circulating": 7745000000.0,
+          "liquidity": 81250000.0,
+          "price": 0.01070840197693575,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 6,
+          "circulating": 7902500000.0,
+          "liquidity": 82500000.0,
+          "price": 0.01065203357004519,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 7,
+          "circulating": 8400000000.0,
+          "liquidity": 83750000.0,
+          "price": 0.010597912053147737,
+          "emergency_brake": false,
+          "vested_released_pct": 3.3333333333333335
+        },
+        {
+          "month": 8,
+          "circulating": 8897500000.0,
+          "liquidity": 85000000.0,
+          "price": 0.01011904761904762,
+          "emergency_brake": false,
+          "vested_released_pct": 6.666666666666667
+        },
+        {
+          "month": 9,
+          "circulating": 9395000000.0,
+          "liquidity": 86250000.0,
+          "price": 0.009693734194998594,
+          "emergency_brake": false,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 10,
+          "circulating": 9892500000.0,
+          "liquidity": 87500000.0,
+          "price": 0.009313464608834487,
+          "emergency_brake": false,
+          "vested_released_pct": 13.333333333333334
+        },
+        {
+          "month": 11,
+          "circulating": 10390000000.0,
+          "liquidity": 88750000.0,
+          "price": 0.008971443012383118,
+          "emergency_brake": false,
+          "vested_released_pct": 16.666666666666664
+        },
+        {
+          "month": 12,
+          "circulating": 10887500000.0,
+          "liquidity": 90000000.0,
+          "price": 0.008662175168431183,
+          "emergency_brake": false,
+          "vested_released_pct": 20.0
+        },
+        {
+          "month": 13,
+          "circulating": 11385000000.0,
+          "liquidity": 90000000.0,
+          "price": 0.008266360505166475,
+          "emergency_brake": false,
+          "vested_released_pct": 23.333333333333332
+        },
+        {
+          "month": 14,
+          "circulating": 11882500000.0,
+          "liquidity": 90000000.0,
+          "price": 0.007905138339920948,
+          "emergency_brake": false,
+          "vested_released_pct": 26.666666666666668
+        },
+        {
+          "month": 15,
+          "circulating": 12380000000.0,
+          "liquidity": 90000000.0,
+          "price": 0.007574163686092994,
+          "emergency_brake": false,
+          "vested_released_pct": 30.0
+        },
+        {
+          "month": 16,
+          "circulating": 12877500000.0,
+          "liquidity": 90000000.0,
+          "price": 0.007269789983844911,
+          "emergency_brake": false,
+          "vested_released_pct": 33.33333333333333
+        },
+        {
+          "month": 17,
+          "circulating": 13375000000.0,
+          "liquidity": 90000000.0,
+          "price": 0.006988934187536401,
+          "emergency_brake": false,
+          "vested_released_pct": 36.666666666666664
+        },
+        {
+          "month": 18,
+          "circulating": 13872500000.0,
+          "liquidity": 90000000.0,
+          "price": 0.0067289719626168224,
+          "emergency_brake": false,
+          "vested_released_pct": 40.0
+        },
+        {
+          "month": 19,
+          "circulating": 14370000000.0,
+          "liquidity": 90000000.0,
+          "price": 0.006487655433411426,
+          "emergency_brake": false,
+          "vested_released_pct": 43.333333333333336
+        },
+        {
+          "month": 20,
+          "circulating": 14867500000.0,
+          "liquidity": 90000000.0,
+          "price": 0.006263048016701462,
+          "emergency_brake": false,
+          "vested_released_pct": 46.666666666666664
+        },
+        {
+          "month": 21,
+          "circulating": 15365000000.0,
+          "liquidity": 90000000.0,
+          "price": 0.006053472338994451,
+          "emergency_brake": false,
+          "vested_released_pct": 50.0
+        },
+        {
+          "month": 22,
+          "circulating": 15862500000.0,
+          "liquidity": 90000000.0,
+          "price": 0.00585746827204686,
+          "emergency_brake": false,
+          "vested_released_pct": 53.333333333333336
+        },
+        {
+          "month": 23,
+          "circulating": 16360000000.0,
+          "liquidity": 90000000.0,
+          "price": 0.005673758865248227,
+          "emergency_brake": false,
+          "vested_released_pct": 56.666666666666664
+        },
+        {
+          "month": 24,
+          "circulating": 16857500000.0,
+          "liquidity": 90000000.0,
+          "price": 0.005501222493887531,
+          "emergency_brake": false,
+          "vested_released_pct": 60.0
+        }
+      ],
+      "summary": {
+        "final_price": 0.005501222493887531,
+        "final_circulating": 16857500000.0,
+        "final_liquidity": 90000000.0,
+        "min_price": 0.005501222493887531,
+        "max_price": 0.011029411764705883,
+        "emergency_brake_triggered": false,
+        "emergency_brake_month": null,
+        "vested_released_pct": 60.0
+      }
+    },
+    "early_crash_recovery": {
+      "scenario": "early_crash_recovery",
+      "name": "Early Crash with Recovery",
+      "description": "-50% at month 2, recovery by month 6",
+      "months": [
+        {
+          "month": 0,
+          "circulating": 6957500000.0,
+          "liquidity": 75000000,
+          "price": 0.011029411764705883,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 1,
+          "circulating": 7115000000.0,
+          "liquidity": 75000000,
+          "price": 0.010779734099892203,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 2,
+          "circulating": 7272500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.005270555165144062,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 3,
+          "circulating": 7430000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.005156411137848058,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 4,
+          "circulating": 7587500000.0,
+          "liquidity": 56250000.0,
+          "price": 0.007570659488559893,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 5,
+          "circulating": 7745000000.0,
+          "liquidity": 56250000.0,
+          "price": 0.007413509060955519,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 6,
+          "circulating": 7902500000.0,
+          "liquidity": 75000000.0,
+          "price": 0.009683666881859263,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 7,
+          "circulating": 8400000000.0,
+          "liquidity": 75000000.0,
+          "price": 0.009490667510281556,
+          "emergency_brake": false,
+          "vested_released_pct": 3.3333333333333335
+        },
+        {
+          "month": 8,
+          "circulating": 8897500000.0,
+          "liquidity": 75000000.0,
+          "price": 0.008928571428571428,
+          "emergency_brake": false,
+          "vested_released_pct": 6.666666666666667
+        },
+        {
+          "month": 9,
+          "circulating": 9395000000.0,
+          "liquidity": 75000000.0,
+          "price": 0.008429334082607475,
+          "emergency_brake": false,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 10,
+          "circulating": 9892500000.0,
+          "liquidity": 75000000.0,
+          "price": 0.007982969664715274,
+          "emergency_brake": false,
+          "vested_released_pct": 13.333333333333334
+        },
+        {
+          "month": 11,
+          "circulating": 10390000000.0,
+          "liquidity": 75000000.0,
+          "price": 0.0075815011372251705,
+          "emergency_brake": false,
+          "vested_released_pct": 16.666666666666664
+        },
+        {
+          "month": 12,
+          "circulating": 10887500000.0,
+          "liquidity": 75000000.0,
+          "price": 0.007218479307025986,
+          "emergency_brake": false,
+          "vested_released_pct": 20.0
+        },
+        {
+          "month": 13,
+          "circulating": 11385000000.0,
+          "liquidity": 75000000.0,
+          "price": 0.006888633754305396,
+          "emergency_brake": false,
+          "vested_released_pct": 23.333333333333332
+        },
+        {
+          "month": 14,
+          "circulating": 11882500000.0,
+          "liquidity": 75000000.0,
+          "price": 0.006587615283267457,
+          "emergency_brake": false,
+          "vested_released_pct": 26.666666666666668
+        },
+        {
+          "month": 15,
+          "circulating": 12380000000.0,
+          "liquidity": 75000000.0,
+          "price": 0.006311803071744161,
+          "emergency_brake": false,
+          "vested_released_pct": 30.0
+        },
+        {
+          "month": 16,
+          "circulating": 12877500000.0,
+          "liquidity": 75000000.0,
+          "price": 0.006058158319870759,
+          "emergency_brake": false,
+          "vested_released_pct": 33.33333333333333
+        },
+        {
+          "month": 17,
+          "circulating": 13375000000.0,
+          "liquidity": 75000000.0,
+          "price": 0.005824111822947,
+          "emergency_brake": false,
+          "vested_released_pct": 36.666666666666664
+        },
+        {
+          "month": 18,
+          "circulating": 13872500000.0,
+          "liquidity": 75000000.0,
+          "price": 0.005607476635514018,
+          "emergency_brake": false,
+          "vested_released_pct": 40.0
+        },
+        {
+          "month": 19,
+          "circulating": 14370000000.0,
+          "liquidity": 75000000.0,
+          "price": 0.005406379527842855,
+          "emergency_brake": false,
+          "vested_released_pct": 43.333333333333336
+        },
+        {
+          "month": 20,
+          "circulating": 14867500000.0,
+          "liquidity": 75000000.0,
+          "price": 0.005219206680584551,
+          "emergency_brake": false,
+          "vested_released_pct": 46.666666666666664
+        },
+        {
+          "month": 21,
+          "circulating": 15365000000.0,
+          "liquidity": 75000000.0,
+          "price": 0.005044560282495376,
+          "emergency_brake": false,
+          "vested_released_pct": 50.0
+        },
+        {
+          "month": 22,
+          "circulating": 15522500000.0,
+          "liquidity": 75000000.0,
+          "price": 0.0048812235600390495,
+          "emergency_brake": true,
+          "vested_released_pct": 50.0
+        },
+        {
+          "month": 23,
+          "circulating": 15680000000.0,
+          "liquidity": 75000000.0,
+          "price": 0.00483169592526977,
+          "emergency_brake": true,
+          "vested_released_pct": 50.0
+        },
+        {
+          "month": 24,
+          "circulating": 15837500000.0,
+          "liquidity": 75000000.0,
+          "price": 0.0047831632653061226,
+          "emergency_brake": true,
+          "vested_released_pct": 50.0
+        }
+      ],
+      "summary": {
+        "final_price": 0.0047831632653061226,
+        "final_circulating": 15837500000.0,
+        "final_liquidity": 75000000.0,
+        "min_price": 0.0047831632653061226,
+        "max_price": 0.011029411764705883,
+        "emergency_brake_triggered": true,
+        "emergency_brake_month": 22,
+        "vested_released_pct": 50.0
+      }
+    },
+    "late_crash": {
+      "scenario": "late_crash",
+      "name": "Late Market Crash",
+      "description": "+50% for 9 months, then -67%",
+      "months": [
+        {
+          "month": 0,
+          "circulating": 6957500000.0,
+          "liquidity": 75000000,
+          "price": 0.011029411764705883,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 1,
+          "circulating": 7115000000.0,
+          "liquidity": 79166666.66666667,
+          "price": 0.011378608216552882,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 2,
+          "circulating": 7272500000.0,
+          "liquidity": 83333333.33333334,
+          "price": 0.01171234481143125,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 3,
+          "circulating": 7430000000.0,
+          "liquidity": 87500000.0,
+          "price": 0.012031625988312134,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 4,
+          "circulating": 7587500000.0,
+          "liquidity": 91666666.66666667,
+          "price": 0.012337371018393899,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 5,
+          "circulating": 7745000000.0,
+          "liquidity": 95833333.33333333,
+          "price": 0.012630422844590884,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 6,
+          "circulating": 7902500000.0,
+          "liquidity": 100000000.0,
+          "price": 0.012911555842479019,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 7,
+          "circulating": 8400000000.0,
+          "liquidity": 104166666.66666666,
+          "price": 0.013181482653168828,
+          "emergency_brake": false,
+          "vested_released_pct": 3.3333333333333335
+        },
+        {
+          "month": 8,
+          "circulating": 8897500000.0,
+          "liquidity": 108333333.33333333,
+          "price": 0.012896825396825396,
+          "emergency_brake": false,
+          "vested_released_pct": 6.666666666666667
+        },
+        {
+          "month": 9,
+          "circulating": 9395000000.0,
+          "liquidity": 112500000.0,
+          "price": 0.012644001123911211,
+          "emergency_brake": false,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 10,
+          "circulating": 9552500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003991484832357637,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 11,
+          "circulating": 9710000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003925673907354096,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 12,
+          "circulating": 9867500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.0038619979402677654,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 13,
+          "circulating": 10025000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003800354699771979,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 14,
+          "circulating": 10182500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003740648379052369,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 15,
+          "circulating": 10340000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003682789098944267,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 16,
+          "circulating": 10497500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.0036266924564796904,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 17,
+          "circulating": 10655000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.00357227911407478,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 18,
+          "circulating": 10812500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.0035194744251525107,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 19,
+          "circulating": 10970000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003468208092485549,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 20,
+          "circulating": 11127500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.0034184138559708297,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 21,
+          "circulating": 11285000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.0033700292069197934,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 22,
+          "circulating": 11442500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003322995126273815,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 23,
+          "circulating": 11600000000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003277255844439589,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        },
+        {
+          "month": 24,
+          "circulating": 11757500000.0,
+          "liquidity": 37500000.0,
+          "price": 0.003232758620689655,
+          "emergency_brake": true,
+          "vested_released_pct": 10.0
+        }
+      ],
+      "summary": {
+        "final_price": 0.003232758620689655,
+        "final_circulating": 11757500000.0,
+        "final_liquidity": 37500000.0,
+        "min_price": 0.003232758620689655,
+        "max_price": 0.013181482653168828,
+        "emergency_brake_triggered": true,
+        "emergency_brake_month": 10,
+        "vested_released_pct": 10.0
+      }
+    },
+    "multiple_crashes": {
+      "scenario": "multiple_crashes",
+      "name": "Multiple Crashes",
+      "description": "-40% at months 2, 6, 12",
+      "months": [
+        {
+          "month": 0,
+          "circulating": 6957500000.0,
+          "liquidity": 75000000,
+          "price": 0.011029411764705883,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 1,
+          "circulating": 7115000000.0,
+          "liquidity": 75000000,
+          "price": 0.010779734099892203,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 2,
+          "circulating": 7272500000.0,
+          "liquidity": 45000000.0,
+          "price": 0.006324666198172874,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 3,
+          "circulating": 7430000000.0,
+          "liquidity": 45000000.0,
+          "price": 0.006187693365417669,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 4,
+          "circulating": 7587500000.0,
+          "liquidity": 45000000.0,
+          "price": 0.006056527590847914,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 5,
+          "circulating": 7745000000.0,
+          "liquidity": 45000000.0,
+          "price": 0.005930807248764415,
+          "emergency_brake": false,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 6,
+          "circulating": 7902500000.0,
+          "liquidity": 27000000.0,
+          "price": 0.003486120077469335,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 7,
+          "circulating": 8060000000.0,
+          "liquidity": 27000000.0,
+          "price": 0.0034166403037013604,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 8,
+          "circulating": 8217500000.0,
+          "liquidity": 27000000.0,
+          "price": 0.003349875930521092,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 9,
+          "circulating": 8375000000.0,
+          "liquidity": 27000000.0,
+          "price": 0.003285670824459994,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 10,
+          "circulating": 8532500000.0,
+          "liquidity": 27000000.0,
+          "price": 0.0032238805970149255,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 11,
+          "circulating": 8690000000.0,
+          "liquidity": 27000000.0,
+          "price": 0.003164371520656314,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 12,
+          "circulating": 8847500000.0,
+          "liquidity": 16500000.0,
+          "price": 0.0018987341772151898,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 13,
+          "circulating": 9005000000.0,
+          "liquidity": 16500000.0,
+          "price": 0.0018649335970613167,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 14,
+          "circulating": 9162500000.0,
+          "liquidity": 16500000.0,
+          "price": 0.0018323153803442532,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 15,
+          "circulating": 9320000000.0,
+          "liquidity": 16500000.0,
+          "price": 0.001800818553888131,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 16,
+          "circulating": 9477500000.0,
+          "liquidity": 16500000.0,
+          "price": 0.0017703862660944207,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 17,
+          "circulating": 9635000000.0,
+          "liquidity": 16500000.0,
+          "price": 0.0017409654444737537,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 18,
+          "circulating": 9792500000.0,
+          "liquidity": 16500000.0,
+          "price": 0.0017125064867669953,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 19,
+          "circulating": 9950000000.0,
+          "liquidity": 16500000.0,
+          "price": 0.0016849629818738831,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 20,
+          "circulating": 10107500000.0,
+          "liquidity": 16500000.0,
+          "price": 0.0016582914572864321,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 21,
+          "circulating": 10265000000.0,
+          "liquidity": 16500000.0,
+          "price": 0.0016324511501360375,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 22,
+          "circulating": 10422500000.0,
+          "liquidity": 16500000.0,
+          "price": 0.001607403799318071,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 23,
+          "circulating": 10580000000.0,
+          "liquidity": 16500000.0,
+          "price": 0.0015831134564643799,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        },
+        {
+          "month": 24,
+          "circulating": 10737500000.0,
+          "liquidity": 16500000.0,
+          "price": 0.001559546313799622,
+          "emergency_brake": true,
+          "vested_released_pct": 0.0
+        }
+      ],
+      "summary": {
+        "final_price": 0.001559546313799622,
+        "final_circulating": 10737500000.0,
+        "final_liquidity": 16500000.0,
+        "min_price": 0.001559546313799622,
+        "max_price": 0.011029411764705883,
+        "emergency_brake_triggered": true,
+        "emergency_brake_month": 6,
+        "vested_released_pct": 0.0
+      }
+    }
+  },
+  "comparison": {
+    "tge_2pct_value": 450.0,
+    "tge_40pct_value": 1985.294117647059,
+    "price_difference_pct": -77.94117647058823
+  }
+}

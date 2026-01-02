@@ -127,6 +127,7 @@ python3 scripts/fairness_optimization.py                # TGE % optimization
 
 | Document | Description |
 |----------|-------------|
+| [**40% TGE Analysis**](docs/vesting/FORTY_PERCENT_TGE_ANALYSIS.md) | **"As Promised" - What 40% TGE really means** ⭐ NEW |
 | [**Market Scenario Breakdown**](docs/vesting/MARKET_SCENARIO_BREAKDOWN.md) | **Detailed breakdown of all 10 scenarios** ⭐ |
 | [Simulation Results](docs/vesting/SIMULATION_RESULTS.md) | 10 scenario analysis |
 | [Model Comparison](docs/vesting/MODEL_COMPARISON.md) | All 4 models compared |
@@ -163,6 +164,7 @@ python3 scripts/fairness_optimization.py                # TGE % optimization
 | [burn_poe_simulations.py](scripts/burn_poe_simulations.py) | Burn rate optimization |
 | [burn_poe_simulations_v2.py](scripts/burn_poe_simulations_v2.py) | Burn + emission caps |
 | [fairness_optimization.py](scripts/fairness_optimization.py) | TGE fairness analysis |
+| [forty_percent_32m_simulations.py](scripts/forty_percent_32m_simulations.py) | 40% TGE @ $32M analysis ⭐ |
 
 ### 📁 Simulation Results (JSON)
 
