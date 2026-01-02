@@ -142,18 +142,29 @@ Comprehensive economic models with variable scenarios:
 
 ---
 
-## ✅ Validated: Dual Opinion Market Simulations
+## ✅ Validated: Multi-Model Market Simulations
 
-We ran **10 different market scenarios** through **TWO independent simulation models** to validate that the emergency protection system works. Both models used fundamentally different methodologies to ensure results aren't model-dependent.
+We ran market scenarios through **FOUR independent simulation models** to validate that the emergency protection system works. Models use different methodologies AND different miner data sources to ensure results are robust.
 
-### Simulation Results
+### Simulation Models
 
-| Model | Methodology | Emergency Brake Activation |
-|-------|-------------|---------------------------|
-| **First Opinion** | AMM Price Model (Liquidity ÷ Supply) | 10/10 scenarios (100%) |
-| **Second Opinion** | Order Book + Sell Pressure Model | 10/10 scenarios (100%) |
+| Model | Miner Data | Methodology | Emergency Brake |
+|-------|------------|-------------|-----------------|
+| **v1** | Estimated (10.6M/day) | AMM Price Model | 10/10 (100%) |
+| **v2** | Estimated (10.6M/day) | Order Book + Sell Pressure | 10/10 (100%) |
+| **v3** | **REAL** (10.5M/day) | AMM Price Model | 4/4 (100%) |
+| **v4** | **REAL** (10.5M/day) | Order Book + Sell Pressure | 4/4 (100%) |
 
-**✅ BOTH MODELS AGREE: Emergency brake activates in ALL tested scenarios**
+**✅ ALL MODELS AGREE: Emergency brake activates in ALL tested scenarios**
+
+**Key Differentiation**:
+- **v1/v2**: Baseline validation with estimated miner populations
+- **v3/v4**: **Decision-making models using actual stakeholder-provided miner data**
+  - X10: 15,000 units × 200/day
+  - X30: 2,500 units × 600/day
+  - X100: 2,500 units × 2,000/day
+  - X1: ~50,000 migrated × 20/day
+  - Pre-launch: 540M BDAG (18 months testnet)
 
 ### Market Scenarios Tested
 
@@ -258,9 +269,19 @@ python3 scripts/vesting_simulations_v2.py   # Second opinion
 
 ### Market Simulations
 
-- **[Dual Opinion Validation](docs/vesting/DUAL_OPINION_VALIDATION.md)** - Two-model comparison
+- **[Model Comparison](docs/vesting/MODEL_COMPARISON.md)** - Complete comparison of all 4 models
+- **[Real Miner Analysis](docs/vesting/REAL_MINER_ANALYSIS.md)** - v3/v4 with actual miner data
+- **[Dual Opinion Validation](docs/vesting/DUAL_OPINION_VALIDATION.md)** - v1 vs v2 comparison
 - **[Simulation Results](docs/vesting/SIMULATION_RESULTS.md)** - 10 scenario analysis
 - **[Simulations README](docs/vesting/SIMULATIONS_README.md)** - Run your own simulations
+
+**Run simulations:**
+```bash
+python3 scripts/vesting_simulations.py              # v1: Estimated miners, AMM
+python3 scripts/vesting_simulations_v2.py            # v2: Estimated miners, Order Book
+python3 scripts/vesting_simulations_v3_real_miners.py  # v3: REAL miners, AMM ⭐ RECOMMENDED
+python3 scripts/vesting_simulations_v4_real_miners_v2.py # v4: REAL miners, Order Book
+```
 
 ### All Documentation
 

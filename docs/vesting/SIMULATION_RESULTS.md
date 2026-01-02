@@ -8,18 +8,26 @@
 
 ---
 
-## ✅ DUAL OPINION VALIDATION
+## ✅ MULTI-MODEL VALIDATION
 
-**This analysis has been validated using TWO independent simulation models:**
+**This analysis has been validated using FOUR independent simulation models:**
 
-| Model | Methodology | Emergency Brake Result |
-|-------|-------------|------------------------|
-| **First Opinion** | AMM Price Model (Liquidity/Supply) | 10/10 scenarios (100%) |
-| **Second Opinion** | Order Book + Sell Pressure Model | 10/10 scenarios (100%) |
+| Model | Miner Data | Methodology | Emergency Brake Result |
+|-------|------------|-------------|------------------------|
+| **v1** | Estimated | AMM Price Model | 10/10 scenarios (100%) |
+| **v2** | Estimated | Order Book + Sell Pressure | 10/10 scenarios (100%) |
+| **v3** | **REAL** | AMM Price Model | 4/4 scenarios (100%) |
+| **v4** | **REAL** | Order Book + Sell Pressure | 4/4 scenarios (100%) |
 
-**Both models agree: Emergency brake activates in ALL tested scenarios.**
+**ALL MODELS AGREE: Emergency brake activates in ALL tested scenarios.**
 
-See [DUAL_OPINION_VALIDATION.md](./DUAL_OPINION_VALIDATION.md) for complete comparison.
+**Model Differences**:
+- **v1/v2**: Use estimated miner populations (baseline validation)
+- **v3/v4**: Use **actual stakeholder-provided miner data** (15K X10, 2.5K X30, 2.5K X100)
+
+See [MODEL_COMPARISON.md](./MODEL_COMPARISON.md) for complete comparison of all models.
+See [DUAL_OPINION_VALIDATION.md](./DUAL_OPINION_VALIDATION.md) for v1 vs v2 comparison.
+See [REAL_MINER_ANALYSIS.md](./REAL_MINER_ANALYSIS.md) for v3 real miner data analysis.
 
 ---
 

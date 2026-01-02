@@ -1,0 +1,1066 @@
+[
+  {
+    "scenario": "Immediate Digression [V4 Second Opinion]",
+    "description": "Real miners with order book model, digression at month 0",
+    "methodology": "Second Opinion - Order Book + Sell Pressure",
+    "miner_data": "REAL (from stakeholders)",
+    "digression_start": 0,
+    "pre_launch_mined": 540000000,
+    "months": [
+      {
+        "month": 0,
+        "price": 0.05,
+        "circulating": 540000000,
+        "mining_cumulative": -340000000,
+        "x1_active": 50000,
+        "emission_rate": 0.0,
+        "market_cap": 27000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.04972904109585706,
+        "circulating": 574339200,
+        "mining_cumulative": -305660800,
+        "x1_active": 109000,
+        "emission_rate": 0.098,
+        "market_cap": 28561337.679761667,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.049409168433067426,
+        "circulating": 611308032,
+        "mining_cumulative": -268691968,
+        "x1_active": 166820,
+        "emission_rate": 0.096,
+        "market_cap": 30204221.517574973,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.04839524938639402,
+        "circulating": 709794135,
+        "mining_cumulative": -170205865,
+        "x1_active": 223483,
+        "emission_rate": 0.235,
+        "market_cap": 34350664.17632483,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.04746263376275611,
+        "circulating": 813847929,
+        "mining_cumulative": -66152071,
+        "x1_active": 279013,
+        "emission_rate": 0.23,
+        "market_cap": 38627366.192704536,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.04648656664056521,
+        "circulating": 918472929,
+        "mining_cumulative": 38472929,
+        "x1_active": 300000,
+        "emission_rate": 0.225,
+        "market_cap": 42696653.02151362,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.044062000893162305,
+        "circulating": 1123072929,
+        "mining_cumulative": 243072929,
+        "x1_active": 300000,
+        "emission_rate": 0.44,
+        "market_cap": 49484840.40068441,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.0414759846756907,
+        "circulating": 1323022929,
+        "mining_cumulative": 443022929,
+        "x1_active": 300000,
+        "emission_rate": 0.43,
+        "market_cap": 54873678.72879142,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.037902124460383844,
+        "circulating": 1518322929,
+        "mining_cumulative": 638322929,
+        "x1_active": 300000,
+        "emission_rate": 0.42,
+        "market_cap": 57547664.62601254,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "price": 0.030112166405998914,
+        "circulating": 1804297929,
+        "mining_cumulative": 924297929,
+        "x1_active": 300000,
+        "emission_rate": 0.615,
+        "market_cap": 54331319.48404721,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "price": 0.0030112166405998906,
+        "circulating": 2083297929,
+        "mining_cumulative": 1203297929,
+        "x1_active": 300000,
+        "emission_rate": 0.6000000000000001,
+        "market_cap": 6273261.391132089,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "price": 0.00030112166405998897,
+        "circulating": 2355322929,
+        "mining_cumulative": 1475322929,
+        "x1_active": 300000,
+        "emission_rate": 0.585,
+        "market_cap": 709238.7597791272,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "price": 0.0001,
+        "circulating": 2708722929,
+        "mining_cumulative": 1828722929,
+        "x1_active": 300000,
+        "emission_rate": 0.76,
+        "market_cap": 270872.2929,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "price": 0.0001,
+        "circulating": 3052822929,
+        "mining_cumulative": 2059489596,
+        "x1_active": 300000,
+        "emission_rate": 0.74,
+        "market_cap": 305282.2929,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "price": 0.0001,
+        "circulating": 3387622929,
+        "mining_cumulative": 2280956263,
+        "x1_active": 300000,
+        "emission_rate": 0.72,
+        "market_cap": 338762.2929,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.0001,
+        "circulating": 3713122929,
+        "mining_cumulative": 2493122929,
+        "x1_active": 300000,
+        "emission_rate": 0.7,
+        "market_cap": 371312.2929,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.0001,
+        "circulating": 4029322928,
+        "mining_cumulative": 2695989595,
+        "x1_active": 300000,
+        "emission_rate": 0.6799999999999999,
+        "market_cap": 402932.2928,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.0001,
+        "circulating": 4336222927,
+        "mining_cumulative": 2889556261,
+        "x1_active": 300000,
+        "emission_rate": 0.6599999999999999,
+        "market_cap": 433622.29270000005,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.0001,
+        "circulating": 4633822927,
+        "mining_cumulative": 3073822927,
+        "x1_active": 300000,
+        "emission_rate": 0.64,
+        "market_cap": 463382.29270000005,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.0001,
+        "circulating": 4922122927,
+        "mining_cumulative": 3248789594,
+        "x1_active": 300000,
+        "emission_rate": 0.62,
+        "market_cap": 492212.29270000005,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.0001,
+        "circulating": 5201122927,
+        "mining_cumulative": 3414456261,
+        "x1_active": 300000,
+        "emission_rate": 0.6,
+        "market_cap": 520112.29270000005,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.0001,
+        "circulating": 5470822927,
+        "mining_cumulative": 3570822927,
+        "x1_active": 300000,
+        "emission_rate": 0.5800000000000001,
+        "market_cap": 547082.2927,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.0001,
+        "circulating": 5731222927,
+        "mining_cumulative": 3717889594,
+        "x1_active": 300000,
+        "emission_rate": 0.56,
+        "market_cap": 573122.2927,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.0001,
+        "circulating": 5982322927,
+        "mining_cumulative": 3855656261,
+        "x1_active": 300000,
+        "emission_rate": 0.54,
+        "market_cap": 598232.2927,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.0001,
+        "circulating": 6224122927,
+        "mining_cumulative": 3984122927,
+        "x1_active": 300000,
+        "emission_rate": 0.52,
+        "market_cap": 622412.2927,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_month": 10,
+    "emergency_brake_reason": "Price $0.0030 < $0.02",
+    "final_price": 0.0001,
+    "final_circulating": 6224122927,
+    "final_market_cap": 622412.2927
+  },
+  {
+    "scenario": "Digression at Month 3 [V4 Second Opinion]",
+    "description": "Real miners with order book model, digression at month 3",
+    "methodology": "Second Opinion - Order Book + Sell Pressure",
+    "miner_data": "REAL (from stakeholders)",
+    "digression_start": 3,
+    "pre_launch_mined": 540000000,
+    "months": [
+      {
+        "month": 0,
+        "price": 0.05,
+        "circulating": 540000000,
+        "mining_cumulative": -340000000,
+        "x1_active": 50000,
+        "emission_rate": 0.0,
+        "market_cap": 27000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.04968630087640278,
+        "circulating": 575040000,
+        "mining_cumulative": -304960000,
+        "x1_active": 109000,
+        "emission_rate": 0.1,
+        "market_cap": 28571610.455966655,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.04935388621786125,
+        "circulating": 613549200,
+        "mining_cumulative": -266450800,
+        "x1_active": 166820,
+        "emission_rate": 0.1,
+        "market_cap": 30281037.405859794,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.048182893945113874,
+        "circulating": 718321650,
+        "mining_cumulative": -161678350,
+        "x1_active": 223483,
+        "emission_rate": 0.25,
+        "market_cap": 34610815.88042921,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.046970923249373964,
+        "circulating": 829161561,
+        "mining_cumulative": -50838439,
+        "x1_active": 279013,
+        "emission_rate": 0.245,
+        "market_cap": 38946484.043062106,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.045593232242459036,
+        "circulating": 940761561,
+        "mining_cumulative": 60761561,
+        "x1_active": 300000,
+        "emission_rate": 0.24,
+        "market_cap": 42892360.33545129,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.04293690905479955,
+        "circulating": 1159311561,
+        "mining_cumulative": 279311561,
+        "x1_active": 300000,
+        "emission_rate": 0.47,
+        "market_cap": 49777255.0608347,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.03938908046433912,
+        "circulating": 1373211561,
+        "mining_cumulative": 493211561,
+        "x1_active": 300000,
+        "emission_rate": 0.46,
+        "market_cap": 54089540.67078973,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.034341265836180586,
+        "circulating": 1582461561,
+        "mining_cumulative": 702461561,
+        "x1_active": 300000,
+        "emission_rate": 0.45,
+        "market_cap": 54343733.1418383,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "price": 0.01822657571452768,
+        "circulating": 1889361561,
+        "mining_cumulative": 1009361561,
+        "x1_active": 300000,
+        "emission_rate": 0.66,
+        "market_cap": 34436591.543684706,
+        "emergency_active": true
+      },
+      {
+        "month": 10,
+        "price": 0.0018226575714527674,
+        "circulating": 2189286561,
+        "mining_cumulative": 1309286561,
+        "x1_active": 300000,
+        "emission_rate": 0.645,
+        "market_cap": 3990319.7264864407,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "price": 0.0001822657571452767,
+        "circulating": 2482236561,
+        "mining_cumulative": 1602236561,
+        "x1_active": 300000,
+        "emission_rate": 0.63,
+        "market_cap": 452426.72620435286,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "price": 0.0001,
+        "circulating": 2863536561,
+        "mining_cumulative": 1983536561,
+        "x1_active": 300000,
+        "emission_rate": 0.8200000000000001,
+        "market_cap": 286353.6561,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "price": 0.0001,
+        "circulating": 3235536561,
+        "mining_cumulative": 2242203228,
+        "x1_active": 300000,
+        "emission_rate": 0.8,
+        "market_cap": 323553.6561,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "price": 0.0001,
+        "circulating": 3598236561,
+        "mining_cumulative": 2491569895,
+        "x1_active": 300000,
+        "emission_rate": 0.78,
+        "market_cap": 359823.6561,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.0001,
+        "circulating": 3951636561,
+        "mining_cumulative": 2731636561,
+        "x1_active": 300000,
+        "emission_rate": 0.76,
+        "market_cap": 395163.6561,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.0001,
+        "circulating": 4295736561,
+        "mining_cumulative": 2962403228,
+        "x1_active": 300000,
+        "emission_rate": 0.74,
+        "market_cap": 429573.6561,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.0001,
+        "circulating": 4630536561,
+        "mining_cumulative": 3183869895,
+        "x1_active": 300000,
+        "emission_rate": 0.72,
+        "market_cap": 463053.6561,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.0001,
+        "circulating": 4956036561,
+        "mining_cumulative": 3396036561,
+        "x1_active": 300000,
+        "emission_rate": 0.7,
+        "market_cap": 495603.6561,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.0001,
+        "circulating": 5272236560,
+        "mining_cumulative": 3598903227,
+        "x1_active": 300000,
+        "emission_rate": 0.6799999999999999,
+        "market_cap": 527223.6560000001,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.0001,
+        "circulating": 5579136559,
+        "mining_cumulative": 3792469893,
+        "x1_active": 300000,
+        "emission_rate": 0.6599999999999999,
+        "market_cap": 557913.6559,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.0001,
+        "circulating": 5876736559,
+        "mining_cumulative": 3976736559,
+        "x1_active": 300000,
+        "emission_rate": 0.64,
+        "market_cap": 587673.6559,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.0001,
+        "circulating": 6165036559,
+        "mining_cumulative": 4151703226,
+        "x1_active": 300000,
+        "emission_rate": 0.62,
+        "market_cap": 616503.6559,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.0001,
+        "circulating": 6444036559,
+        "mining_cumulative": 4317369893,
+        "x1_active": 300000,
+        "emission_rate": 0.6,
+        "market_cap": 644403.6559,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.0001,
+        "circulating": 6713736559,
+        "mining_cumulative": 4473736559,
+        "x1_active": 300000,
+        "emission_rate": 0.5800000000000001,
+        "market_cap": 671373.6559,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_month": 9,
+    "emergency_brake_reason": "Price $0.0182 < $0.02",
+    "final_price": 0.0001,
+    "final_circulating": 6713736559,
+    "final_market_cap": 671373.6559
+  },
+  {
+    "scenario": "Digression at Month 6 [V4 Second Opinion]",
+    "description": "Real miners with order book model, digression at month 6",
+    "methodology": "Second Opinion - Order Book + Sell Pressure",
+    "miner_data": "REAL (from stakeholders)",
+    "digression_start": 6,
+    "pre_launch_mined": 540000000,
+    "months": [
+      {
+        "month": 0,
+        "price": 0.05,
+        "circulating": 540000000,
+        "mining_cumulative": -340000000,
+        "x1_active": 50000,
+        "emission_rate": 0.0,
+        "market_cap": 27000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.04966831197921165,
+        "circulating": 575040000,
+        "mining_cumulative": -304960000,
+        "x1_active": 109000,
+        "emission_rate": 0.1,
+        "market_cap": 28561266.120525867,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.04925552812667886,
+        "circulating": 613549200,
+        "mining_cumulative": -266450800,
+        "x1_active": 166820,
+        "emission_rate": 0.1,
+        "market_cap": 30220689.877701316,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.048151190159909686,
+        "circulating": 718321650,
+        "mining_cumulative": -161678350,
+        "x1_active": 223483,
+        "emission_rate": 0.25,
+        "market_cap": 34588042.36513009,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.04694127809484053,
+        "circulating": 831423600,
+        "mining_cumulative": -48576400,
+        "x1_active": 279013,
+        "emission_rate": 0.25,
+        "market_cap": 39028086.42221345,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.04554329259338602,
+        "circulating": 947673600,
+        "mining_cumulative": 67673600,
+        "x1_active": 300000,
+        "emission_rate": 0.25,
+        "market_cap": 43160176.04782747,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.042653904683405665,
+        "circulating": 1180173600,
+        "mining_cumulative": 300173600,
+        "x1_active": 300000,
+        "emission_rate": 0.5,
+        "market_cap": 50339012.244271725,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.038372941907220764,
+        "circulating": 1408023600,
+        "mining_cumulative": 528023600,
+        "x1_active": 300000,
+        "emission_rate": 0.49,
+        "market_cap": 54030007.80679585,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.03292188771899895,
+        "circulating": 1631223600,
+        "mining_cumulative": 751223600,
+        "x1_active": 300000,
+        "emission_rate": 0.48,
+        "market_cap": 53702960.203781255,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "price": 0.013205235842650955,
+        "circulating": 1959048600,
+        "mining_cumulative": 1079048600,
+        "x1_active": 300000,
+        "emission_rate": 0.705,
+        "market_cap": 25869698.790215176,
+        "emergency_active": true
+      },
+      {
+        "month": 10,
+        "price": 0.0013205235842650952,
+        "circulating": 2279898600,
+        "mining_cumulative": 1399898600,
+        "x1_active": 300000,
+        "emission_rate": 0.6900000000000001,
+        "market_cap": 3010659.8710329724,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "price": 0.0001320523584265095,
+        "circulating": 2593773600,
+        "mining_cumulative": 1713773600,
+        "x1_active": 300000,
+        "emission_rate": 0.675,
+        "market_cap": 342513.9211044179,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "price": 0.0001,
+        "circulating": 3002973600,
+        "mining_cumulative": 2122973600,
+        "x1_active": 300000,
+        "emission_rate": 0.88,
+        "market_cap": 300297.36,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "price": 0.0001,
+        "circulating": 3402873600,
+        "mining_cumulative": 2409540267,
+        "x1_active": 300000,
+        "emission_rate": 0.86,
+        "market_cap": 340287.36000000004,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "price": 0.0001,
+        "circulating": 3793473600,
+        "mining_cumulative": 2686806934,
+        "x1_active": 300000,
+        "emission_rate": 0.84,
+        "market_cap": 379347.36000000004,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.0001,
+        "circulating": 4174773600,
+        "mining_cumulative": 2954773600,
+        "x1_active": 300000,
+        "emission_rate": 0.8200000000000001,
+        "market_cap": 417477.36000000004,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.0001,
+        "circulating": 4546773600,
+        "mining_cumulative": 3213440267,
+        "x1_active": 300000,
+        "emission_rate": 0.8,
+        "market_cap": 454677.36000000004,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.0001,
+        "circulating": 4909473600,
+        "mining_cumulative": 3462806934,
+        "x1_active": 300000,
+        "emission_rate": 0.78,
+        "market_cap": 490947.36000000004,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.0001,
+        "circulating": 5262873600,
+        "mining_cumulative": 3702873600,
+        "x1_active": 300000,
+        "emission_rate": 0.76,
+        "market_cap": 526287.36,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.0001,
+        "circulating": 5606973600,
+        "mining_cumulative": 3933640267,
+        "x1_active": 300000,
+        "emission_rate": 0.74,
+        "market_cap": 560697.36,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.0001,
+        "circulating": 5941773600,
+        "mining_cumulative": 4155106934,
+        "x1_active": 300000,
+        "emission_rate": 0.72,
+        "market_cap": 594177.36,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.0001,
+        "circulating": 6267273600,
+        "mining_cumulative": 4367273600,
+        "x1_active": 300000,
+        "emission_rate": 0.7,
+        "market_cap": 626727.36,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.0001,
+        "circulating": 6583473599,
+        "mining_cumulative": 4570140266,
+        "x1_active": 300000,
+        "emission_rate": 0.6799999999999999,
+        "market_cap": 658347.3599,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.0001,
+        "circulating": 6890373598,
+        "mining_cumulative": 4763706932,
+        "x1_active": 300000,
+        "emission_rate": 0.6599999999999999,
+        "market_cap": 689037.3598,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.0001,
+        "circulating": 7187973598,
+        "mining_cumulative": 4947973598,
+        "x1_active": 300000,
+        "emission_rate": 0.64,
+        "market_cap": 718797.3598,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_month": 9,
+    "emergency_brake_reason": "Price $0.0132 < $0.02",
+    "final_price": 0.0001,
+    "final_circulating": 7187973598,
+    "final_market_cap": 718797.3598
+  },
+  {
+    "scenario": "No Digression [V4 Second Opinion]",
+    "description": "Real miners with order book model, digression at month 99",
+    "methodology": "Second Opinion - Order Book + Sell Pressure",
+    "miner_data": "REAL (from stakeholders)",
+    "digression_start": 99,
+    "pre_launch_mined": 540000000,
+    "months": [
+      {
+        "month": 0,
+        "price": 0.05,
+        "circulating": 540000000,
+        "mining_cumulative": -340000000,
+        "x1_active": 50000,
+        "emission_rate": 0.0,
+        "market_cap": 27000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.0497030580965041,
+        "circulating": 575040000,
+        "mining_cumulative": -304960000,
+        "x1_active": 109000,
+        "emission_rate": 0.1,
+        "market_cap": 28581246.527813718,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.04930721292393999,
+        "circulating": 613549200,
+        "mining_cumulative": -266450800,
+        "x1_active": 166820,
+        "emission_rate": 0.1,
+        "market_cap": 30252401.04371304,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.04834628970369348,
+        "circulating": 718321650,
+        "mining_cumulative": -161678350,
+        "x1_active": 223483,
+        "emission_rate": 0.25,
+        "market_cap": 34728186.59133511,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.047108449976884875,
+        "circulating": 831423600,
+        "mining_cumulative": -48576400,
+        "x1_active": 279013,
+        "emission_rate": 0.25,
+        "market_cap": 39167077.07020154,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.04578131351280755,
+        "circulating": 947673600,
+        "mining_cumulative": 67673600,
+        "x1_active": 300000,
+        "emission_rate": 0.25,
+        "market_cap": 43385742.18941098,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.04314667867668621,
+        "circulating": 1180173600,
+        "mining_cumulative": 300173600,
+        "x1_active": 300000,
+        "emission_rate": 0.5,
+        "market_cap": 50920571.101908,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.03942273293980041,
+        "circulating": 1412673600,
+        "mining_cumulative": 532673600,
+        "x1_active": 300000,
+        "emission_rate": 0.5,
+        "market_cap": 55691454.06390643,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.03460559826388166,
+        "circulating": 1645173600,
+        "mining_cumulative": 765173600,
+        "x1_active": 300000,
+        "emission_rate": 0.5,
+        "market_cap": 56932216.67594394,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "price": 0.01813240948498928,
+        "circulating": 1993923600,
+        "mining_cumulative": 1113923600,
+        "x1_active": 300000,
+        "emission_rate": 0.75,
+        "market_cap": 36154639.19698397,
+        "emergency_active": true
+      },
+      {
+        "month": 10,
+        "price": 0.0018132409484989277,
+        "circulating": 2342673600,
+        "mining_cumulative": 1462673600,
+        "x1_active": 300000,
+        "emission_rate": 0.75,
+        "market_cap": 4247831.700487398,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "price": 0.00018132409484989274,
+        "circulating": 2691423600,
+        "mining_cumulative": 1811423600,
+        "x1_active": 300000,
+        "emission_rate": 0.75,
+        "market_cap": 488019.9481276398,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "price": 0.0001,
+        "circulating": 3156423600,
+        "mining_cumulative": 2276423600,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 315642.36,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "price": 0.0001,
+        "circulating": 3621423600,
+        "mining_cumulative": 2628090267,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 362142.36000000004,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "price": 0.0001,
+        "circulating": 4086423600,
+        "mining_cumulative": 2979756934,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 408642.36000000004,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.0001,
+        "circulating": 4551423600,
+        "mining_cumulative": 3331423600,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 455142.36000000004,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.0001,
+        "circulating": 5016423600,
+        "mining_cumulative": 3683090267,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 501642.36000000004,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.0001,
+        "circulating": 5481423600,
+        "mining_cumulative": 4034756934,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 548142.36,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.0001,
+        "circulating": 5946423600,
+        "mining_cumulative": 4386423600,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 594642.36,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.0001,
+        "circulating": 6411423600,
+        "mining_cumulative": 4738090267,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 641142.36,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.0001,
+        "circulating": 6876423600,
+        "mining_cumulative": 5089756934,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 687642.36,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.0001,
+        "circulating": 7341423600,
+        "mining_cumulative": 5441423600,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 734142.36,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.0001,
+        "circulating": 7806423600,
+        "mining_cumulative": 5793090267,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 780642.36,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.0001,
+        "circulating": 8271423600,
+        "mining_cumulative": 6144756934,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 827142.36,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.0001,
+        "circulating": 8736423600,
+        "mining_cumulative": 6496423600,
+        "x1_active": 300000,
+        "emission_rate": 1.0,
+        "market_cap": 873642.36,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_month": 9,
+    "emergency_brake_reason": "Price $0.0181 < $0.02",
+    "final_price": 0.0001,
+    "final_circulating": 8736423600,
+    "final_market_cap": 873642.36
+  }
+]
