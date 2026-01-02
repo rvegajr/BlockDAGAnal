@@ -1,0 +1,3236 @@
+{
+  "test_date": "2025-01",
+  "goal": "Find parameters to survive all 10 historical market scenarios",
+  "conclusion": "No parameters survive all scenarios at $32M liquidity",
+  "best_at_32m": {
+    "emission_cap": 0.05,
+    "burn_rate": 10,
+    "poe_days": 90,
+    "survived": 6,
+    "worst_month": 2
+  },
+  "survive_all_options": [
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 10,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 10,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 10,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 10,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 10,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 10,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 15,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 20,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 15,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 23,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 15,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 20,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 15,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 23,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 15,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 20,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 15,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 23,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 20,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 20,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 24,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 20,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 20,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 20,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 24,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 20,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 20,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 20,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 24,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 20,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 25,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 20,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 24,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 25,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 23,
+        "FTX_Collapse": 25,
+        "Bear_Market": 23,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 25,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 20,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 24,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 25,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 23,
+        "FTX_Collapse": 25,
+        "Bear_Market": 23,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 25,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 20,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 24,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 25,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 23,
+        "FTX_Collapse": 25,
+        "Bear_Market": 23,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 30,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 21,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 30,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 23,
+        "FTX_Collapse": 25,
+        "Bear_Market": 23,
+        "Bull_Then_Crash": 21,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 25,
+        "Early_Recovery": 25,
+        "Late_Crash": 20
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 30,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 21,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 30,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 23,
+        "FTX_Collapse": 25,
+        "Bear_Market": 23,
+        "Bull_Then_Crash": 21,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 25,
+        "Early_Recovery": 25,
+        "Late_Crash": 20
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 30,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 21,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 30,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 23,
+        "FTX_Collapse": 25,
+        "Bear_Market": 23,
+        "Bull_Then_Crash": 21,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 25,
+        "Early_Recovery": 25,
+        "Late_Crash": 20
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 10,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 19,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 10,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 10,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 19,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 10,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 10,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 19,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 10,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 15,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 15,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 15,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 15,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 15,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 15,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 20,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 20,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 20,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 20,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 20,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 20,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 25,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 20,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 24,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 25,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 25,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 20,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 24,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 25,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 25,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 20,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 24,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 25,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 30,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 20,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 24,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 30,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 20
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 30,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 20,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 24,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 30,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 20
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 30,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 20,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 24,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 30,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 20
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 10,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 21,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 10,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 21,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 10,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 21,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 10,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 21,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 10,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 21,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 10,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 21,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 15,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 15,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 15,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 15,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 15,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 15,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 20,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 19,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 20,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 20,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 19,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 20,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 20,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 19,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 20,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 25,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 25,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 25,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 25,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 25,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 25,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 30,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 20,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 30,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 30,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 20,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 30,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 30,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 20,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.15,
+      "burn_rate": 30,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 10,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 21,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 10,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 21,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 10,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 21,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 15,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 21,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 15,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 21,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 15,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 21,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 15,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 21,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 15,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 21,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 15,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 21,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 20,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 20,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 20,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 20,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 20,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 20,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 25,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 19,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 25,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 25,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 19,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 25,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 25,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 19,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 25,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 30,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 30,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 30,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 30,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 30,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 18,
+        "FTX_Collapse": 19,
+        "Bear_Market": 18,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 25,
+        "High_Volatility": 19,
+        "Early_Recovery": 23,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.2,
+      "burn_rate": 30,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 10,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 20,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 10,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 20,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 10,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 20,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 20,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 15,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 21,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 15,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 21,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 15,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 16,
+        "Luna_Crash": 19,
+        "FTX_Collapse": 21,
+        "Bear_Market": 19,
+        "Bull_Then_Crash": 17,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 20,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 21,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 20,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 21,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 20,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 21,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 20,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 21,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 20,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 21,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 20,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 21,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 21,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 25,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 25,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 25,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 25,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 25,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 18,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 15,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 23,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 25,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 14,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 20,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 14,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 30,
+      "poe_days": 90,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 19,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 30,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 22,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 30,
+      "poe_days": 120,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 19,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 30,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 22,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 30,
+      "poe_days": 180,
+      "liquidity": 75000000,
+      "survived": 10,
+      "worst_month": 13,
+      "scenario_results": {
+        "COVID_Crash": 15,
+        "Luna_Crash": 17,
+        "FTX_Collapse": 19,
+        "Bear_Market": 17,
+        "Bull_Then_Crash": 16,
+        "Multiple_Crashes": 13,
+        "Stable_Market": 24,
+        "High_Volatility": 18,
+        "Early_Recovery": 22,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.25,
+      "burn_rate": 30,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 22,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    }
+  ],
+  "top_20_results": [
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 20,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 20,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 20,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 25,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 23,
+        "FTX_Collapse": 25,
+        "Bear_Market": 23,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 25,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 23,
+        "FTX_Collapse": 25,
+        "Bear_Market": 23,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 25,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 23,
+        "FTX_Collapse": 25,
+        "Bear_Market": 23,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 19
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 30,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 23,
+        "FTX_Collapse": 25,
+        "Bear_Market": 23,
+        "Bull_Then_Crash": 21,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 25,
+        "Early_Recovery": 25,
+        "Late_Crash": 20
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 30,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 23,
+        "FTX_Collapse": 25,
+        "Bear_Market": 23,
+        "Bull_Then_Crash": 21,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 25,
+        "Early_Recovery": 25,
+        "Late_Crash": 20
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 30,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 23,
+        "FTX_Collapse": 25,
+        "Bear_Market": 23,
+        "Bull_Then_Crash": 21,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 25,
+        "Early_Recovery": 25,
+        "Late_Crash": 20
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 30,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 20
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 30,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 20
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 30,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 16,
+      "scenario_results": {
+        "COVID_Crash": 19,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 24,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 20,
+        "Multiple_Crashes": 16,
+        "Stable_Market": 25,
+        "High_Volatility": 24,
+        "Early_Recovery": 25,
+        "Late_Crash": 20
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 10,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 10,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 10,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 23,
+        "Bear_Market": 21,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 15,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 23,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 15,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 23,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.05,
+      "burn_rate": 15,
+      "poe_days": 180,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 18,
+        "Luna_Crash": 22,
+        "FTX_Collapse": 23,
+        "Bear_Market": 22,
+        "Bull_Then_Crash": 19,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 23,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 10,
+      "poe_days": 90,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    },
+    {
+      "emission_cap": 0.1,
+      "burn_rate": 10,
+      "poe_days": 120,
+      "liquidity": 100000000,
+      "survived": 10,
+      "worst_month": 15,
+      "scenario_results": {
+        "COVID_Crash": 17,
+        "Luna_Crash": 21,
+        "FTX_Collapse": 22,
+        "Bear_Market": 20,
+        "Bull_Then_Crash": 18,
+        "Multiple_Crashes": 15,
+        "Stable_Market": 25,
+        "High_Volatility": 22,
+        "Early_Recovery": 25,
+        "Late_Crash": 18
+      }
+    }
+  ]
+}
