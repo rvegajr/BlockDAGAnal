@@ -1,0 +1,2412 @@
+[
+  {
+    "scenario": "May 2021-Style Crash [V2]",
+    "description": "Using historical COVID crash magnitude (55% drop)",
+    "methodology": "Second Opinion (Order Book + Sell Pressure Model)",
+    "months": [
+      {
+        "month": 0,
+        "price": 0.04718078807219094,
+        "circulating": 340000000,
+        "liquidity": 32000000,
+        "market_cap": 16041467.94454492,
+        "sell_pressure_usd": 5412886.901393402,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.04678934236212458,
+        "circulating": 371800000,
+        "liquidity": 32000000,
+        "market_cap": 17396277.490237918,
+        "sell_pressure_usd": 571938.9710480865,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.04624824992093645,
+        "circulating": 403600000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 18665793.668089952,
+        "sell_pressure_usd": 451690.5639580596,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.044847324220075896,
+        "circulating": 483100000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 21665742.330718666,
+        "sell_pressure_usd": 1114728.650800068,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.04297630926133575,
+        "circulating": 562600000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 24178471.59042749,
+        "sell_pressure_usd": 1302758.3383242895,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.040616701914242624,
+        "circulating": 642100000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 26079984.29913519,
+        "sell_pressure_usd": 1356846.5987295667,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.035001802102412743,
+        "circulating": 801100000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 28039943.66424285,
+        "sell_pressure_usd": 2478451.4452011427,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.02040448298398799,
+        "circulating": 960100000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 19590344.11292687,
+        "sell_pressure_usd": 2308845.7628282066,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.0020404482983987986,
+        "circulating": 1119100000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 2283465.6907380954,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 9,
+        "price": 0.0020404482983987986,
+        "circulating": 1357600000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 2770112.6099062087,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 10,
+        "price": 0.0020404482983987986,
+        "circulating": 1596100000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 3256759.5290743224,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "price": 0.0020404482983987986,
+        "circulating": 1834600000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 3743406.4482424357,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "price": 0.0020404482983987986,
+        "circulating": 2152600000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 4392269.007133254,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "price": 0.0020404482983987986,
+        "circulating": 2583933333,
+        "liquidity": 13019527.921678944,
+        "market_cap": 5272382.372495786,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "price": 0.0020404482983987986,
+        "circulating": 3015266666,
+        "liquidity": 13019527.921678944,
+        "market_cap": 6152495.737858319,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.0020404482983987986,
+        "circulating": 3446600000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 7032609.105261299,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.0020404482983987986,
+        "circulating": 3877933333,
+        "liquidity": 13019527.921678944,
+        "market_cap": 7912722.470623831,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.0020404482983987986,
+        "circulating": 4309266666,
+        "liquidity": 13019527.921678944,
+        "market_cap": 8792835.835986365,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.0020404482983987986,
+        "circulating": 4740600000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 9672949.203389345,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.0020404482983987986,
+        "circulating": 5171933333,
+        "liquidity": 13019527.921678944,
+        "market_cap": 10553062.568751877,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.0020404482983987986,
+        "circulating": 5603266666,
+        "liquidity": 13019527.921678944,
+        "market_cap": 11433175.93411441,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.0020404482983987986,
+        "circulating": 6034600000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 12313289.30151739,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.0020404482983987986,
+        "circulating": 6465933333,
+        "liquidity": 13019527.921678944,
+        "market_cap": 13193402.666879922,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.0020404482983987986,
+        "circulating": 6897266666,
+        "liquidity": 13019527.921678944,
+        "market_cap": 14073516.032242455,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.0020404482983987986,
+        "circulating": 7328600000,
+        "liquidity": 13019527.921678944,
+        "market_cap": 14953629.399645435,
+        "sell_pressure_usd": 1010947.219791513,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "PRICE_THRESHOLD: $0.0020 < $0.02 for 30 days",
+    "min_price": 0.0020404482983987986,
+    "max_price": 0.05,
+    "final_price": 0.0020404482983987986,
+    "total_sell_pressure_usd": 16009094.452074336,
+    "validation_notes": [],
+    "emergency_brake_month": 8,
+    "final_circulating": 7328600000
+  },
+  {
+    "scenario": "FTX Collapse [V2]",
+    "description": "Using historical FTX crash magnitude (25% drop)",
+    "methodology": "Second Opinion (Order Book + Sell Pressure Model)",
+    "months": [
+      {
+        "month": 0,
+        "price": 0.04657224314259173,
+        "circulating": 340000000,
+        "liquidity": 32000000,
+        "market_cap": 15834562.668481188,
+        "sell_pressure_usd": 6581293.166223888,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.046116629119476005,
+        "circulating": 371800000,
+        "liquidity": 32000000,
+        "market_cap": 17146162.706621177,
+        "sell_pressure_usd": 617241.0215943374,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.045666345899241984,
+        "circulating": 403600000,
+        "liquidity": 32000000,
+        "market_cap": 18430937.204934064,
+        "sell_pressure_usd": 585912.1510634739,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.04454172479766999,
+        "circulating": 483100000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 21518107.249754373,
+        "sell_pressure_usd": 1396093.9597870798,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.04347965337485138,
+        "circulating": 562600000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 24461652.988691386,
+        "sell_pressure_usd": 1185289.2008137805,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.04240824001109195,
+        "circulating": 642100000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 27230330.91112214,
+        "sell_pressure_usd": 1078884.711116295,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.03984742789479447,
+        "circulating": 801100000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 31921774.48651985,
+        "sell_pressure_usd": 2318076.7213589754,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.036719321486941764,
+        "circulating": 960100000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 35254220.55961279,
+        "sell_pressure_usd": 2103702.5917014,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.031806117886709694,
+        "circulating": 1119100000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 35594226.52701682,
+        "sell_pressure_usd": 2178271.652375357,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "price": 0.01749458546513541,
+        "circulating": 1357600000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 23750649.22746783,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 10,
+        "price": 0.01749458546513541,
+        "circulating": 1596100000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 27923107.860902626,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "price": 0.01749458546513541,
+        "circulating": 1834600000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 32095566.49433742,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "price": 0.01749458546513541,
+        "circulating": 2152600000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 37658844.67225048,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "price": 0.01749458546513541,
+        "circulating": 2583933333,
+        "liquidity": 18896589.433947526,
+        "market_cap": 45204842.530380696,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "price": 0.01749458546513541,
+        "circulating": 3015266666,
+        "liquidity": 18896589.433947526,
+        "market_cap": 52750840.388510905,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.01749458546513541,
+        "circulating": 3446600000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 60296838.2641357,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.01749458546513541,
+        "circulating": 3877933333,
+        "liquidity": 18896589.433947526,
+        "market_cap": 67842836.12226592,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.01749458546513541,
+        "circulating": 4309266666,
+        "liquidity": 18896589.433947526,
+        "market_cap": 75388833.98039612,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.01749458546513541,
+        "circulating": 4740600000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 82934831.85602093,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.01749458546513541,
+        "circulating": 5171933333,
+        "liquidity": 18896589.433947526,
+        "market_cap": 90480829.71415113,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.01749458546513541,
+        "circulating": 5603266666,
+        "liquidity": 18896589.433947526,
+        "market_cap": 98026827.57228135,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.01749458546513541,
+        "circulating": 6034600000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 105572825.44790614,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.01749458546513541,
+        "circulating": 6465933333,
+        "liquidity": 18896589.433947526,
+        "market_cap": 113118823.30603635,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.01749458546513541,
+        "circulating": 6897266666,
+        "liquidity": 18896589.433947526,
+        "market_cap": 120664821.16416657,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.01749458546513541,
+        "circulating": 7328600000,
+        "liquidity": 18896589.433947526,
+        "market_cap": 128210819.03979136,
+        "sell_pressure_usd": 2424471.569589493,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "PRICE_THRESHOLD: $0.0175 < $0.02 for 30 days",
+    "min_price": 0.01749458546513541,
+    "max_price": 0.05,
+    "final_price": 0.01749458546513541,
+    "total_sell_pressure_usd": 20469236.74562408,
+    "validation_notes": [],
+    "emergency_brake_month": 9,
+    "final_circulating": 7328600000
+  },
+  {
+    "scenario": "COVID-Style Black Swan [V2]",
+    "description": "Early severe crash using historical data",
+    "methodology": "Second Opinion (Order Book + Sell Pressure Model)",
+    "months": [
+      {
+        "month": 0,
+        "price": 0.04659633847538314,
+        "circulating": 340000000,
+        "liquidity": 32000000,
+        "market_cap": 15842755.081630267,
+        "sell_pressure_usd": 6535030.127264392,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.045959161029666865,
+        "circulating": 371800000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 17087616.07083014,
+        "sell_pressure_usd": 582510.876361769,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.04538733635022074,
+        "circulating": 403600000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 18318328.95094909,
+        "sell_pressure_usd": 493774.6017875276,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.04356931114835838,
+        "circulating": 483100000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 21048334.215771932,
+        "sell_pressure_usd": 1490763.34171481,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.04164937205811553,
+        "circulating": 562600000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 23431936.7198958,
+        "sell_pressure_usd": 1311561.957229748,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.039539303735087135,
+        "circulating": 642100000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 25388186.92829945,
+        "sell_pressure_usd": 1175655.4287628715,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.03426917071524047,
+        "circulating": 801100000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 27453032.659979142,
+        "sell_pressure_usd": 2309526.4746904094,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.02109616256849314,
+        "circulating": 960100000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 20254425.682010263,
+        "sell_pressure_usd": 2221686.1225048206,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.0021096162568493134,
+        "circulating": 1119100000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 2360871.5530400667,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 9,
+        "price": 0.0021096162568493134,
+        "circulating": 1357600000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 2864015.030298628,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 10,
+        "price": 0.0021096162568493134,
+        "circulating": 1596100000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 3367158.507557189,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "price": 0.0021096162568493134,
+        "circulating": 1834600000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 3870301.9848157503,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "price": 0.0021096162568493134,
+        "circulating": 2152600000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 4541159.954493832,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "price": 0.0021096162568493134,
+        "circulating": 2583933333,
+        "liquidity": 14199536.90191324,
+        "market_cap": 5451107.76591163,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "price": 0.0021096162568493134,
+        "circulating": 3015266666,
+        "liquidity": 14199536.90191324,
+        "market_cap": 6361055.577329429,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.0021096162568493134,
+        "circulating": 3446600000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 7271003.390856843,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.0021096162568493134,
+        "circulating": 3877933333,
+        "liquidity": 14199536.90191324,
+        "market_cap": 8180951.202274642,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.0021096162568493134,
+        "circulating": 4309266666,
+        "liquidity": 14199536.90191324,
+        "market_cap": 9090899.01369244,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.0021096162568493134,
+        "circulating": 4740600000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 10000846.827219855,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.0021096162568493134,
+        "circulating": 5171933333,
+        "liquidity": 14199536.90191324,
+        "market_cap": 10910794.638637654,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.0021096162568493134,
+        "circulating": 5603266666,
+        "liquidity": 14199536.90191324,
+        "market_cap": 11820742.450055452,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.0021096162568493134,
+        "circulating": 6034600000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 12730690.263582867,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.0021096162568493134,
+        "circulating": 6465933333,
+        "liquidity": 14199536.90191324,
+        "market_cap": 13640638.075000666,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.0021096162568493134,
+        "circulating": 6897266666,
+        "liquidity": 14199536.90191324,
+        "market_cap": 14550585.886418464,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.0021096162568493134,
+        "circulating": 7328600000,
+        "liquidity": 14199536.90191324,
+        "market_cap": 15460533.699945878,
+        "sell_pressure_usd": 1407810.5865396287,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "PRICE_THRESHOLD: $0.0021 < $0.02 for 30 days",
+    "min_price": 0.0021096162568493134,
+    "max_price": 0.05,
+    "final_price": 0.0021096162568493134,
+    "total_sell_pressure_usd": 17528319.516855977,
+    "validation_notes": [],
+    "emergency_brake_month": 8,
+    "final_circulating": 7328600000
+  },
+  {
+    "scenario": "Gradual Bear Market [V2]",
+    "description": "Multiple moderate drops over time",
+    "methodology": "Second Opinion (Order Book + Sell Pressure Model)",
+    "months": [
+      {
+        "month": 0,
+        "price": 0.04722028793748651,
+        "circulating": 340000000,
+        "liquidity": 32000000,
+        "market_cap": 16054897.898745414,
+        "sell_pressure_usd": 5337047.1600258965,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.046816168095686846,
+        "circulating": 371800000,
+        "liquidity": 32000000,
+        "market_cap": 17406251.29797637,
+        "sell_pressure_usd": 593208.401861424,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.04645291934223187,
+        "circulating": 403600000,
+        "liquidity": 32000000,
+        "market_cap": 18748398.24652478,
+        "sell_pressure_usd": 514802.71900495794,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.04545914209022227,
+        "circulating": 483100000,
+        "liquidity": 23206205.791615844,
+        "market_cap": 21961311.543786377,
+        "sell_pressure_usd": 1489365.9912690334,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.04445021882798124,
+        "circulating": 562600000,
+        "liquidity": 23206205.791615844,
+        "market_cap": 25007693.112622246,
+        "sell_pressure_usd": 1379844.83862759,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.04337907144606338,
+        "circulating": 642100000,
+        "liquidity": 23206205.791615844,
+        "market_cap": 27853701.775517296,
+        "sell_pressure_usd": 1331940.830704507,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.04106408823081118,
+        "circulating": 801100000,
+        "liquidity": 17855374.35365388,
+        "market_cap": 32896441.081702836,
+        "sell_pressure_usd": 2858629.095978802,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.03860590073915849,
+        "circulating": 960100000,
+        "liquidity": 17855374.35365388,
+        "market_cap": 37065525.29966607,
+        "sell_pressure_usd": 2350967.6315496755,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.03512282107782256,
+        "circulating": 1119100000,
+        "liquidity": 17855374.35365388,
+        "market_cap": 39305949.06819122,
+        "sell_pressure_usd": 2482725.954013293,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "price": 0.032822380023821485,
+        "circulating": 1357600000,
+        "liquidity": 13571472.950321084,
+        "market_cap": 44559663.12034005,
+        "sell_pressure_usd": 2666674.194735778,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "price": 0.02913046543002939,
+        "circulating": 1596100000,
+        "liquidity": 13571472.950321084,
+        "market_cap": 46495135.87286991,
+        "sell_pressure_usd": 3079864.7196851433,
+        "emergency_active": false
+      },
+      {
+        "month": 11,
+        "price": 0.023406014375490357,
+        "circulating": 1834600000,
+        "liquidity": 13571472.950321084,
+        "market_cap": 42940673.97327461,
+        "sell_pressure_usd": 2354538.218692618,
+        "emergency_active": false
+      },
+      {
+        "month": 12,
+        "price": 0.002340601437549035,
+        "circulating": 2152600000,
+        "liquidity": 13571472.950321084,
+        "market_cap": 5038378.654468053,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "price": 0.002340601437549035,
+        "circulating": 2583933333,
+        "liquidity": 13571472.950321084,
+        "market_cap": 6047958.073750669,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "price": 0.002340601437549035,
+        "circulating": 3015266666,
+        "liquidity": 13571472.950321084,
+        "market_cap": 7057537.493033286,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.002340601437549035,
+        "circulating": 3446600000,
+        "liquidity": 13571472.950321084,
+        "market_cap": 8067116.914656504,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.002340601437549035,
+        "circulating": 3877933333,
+        "liquidity": 13571472.950321084,
+        "market_cap": 9076696.33393912,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.002340601437549035,
+        "circulating": 4309266666,
+        "liquidity": 13571472.950321084,
+        "market_cap": 10086275.753221737,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.002340601437549035,
+        "circulating": 4740600000,
+        "liquidity": 13571472.950321084,
+        "market_cap": 11095855.174844956,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.002340601437549035,
+        "circulating": 5171933333,
+        "liquidity": 13571472.950321084,
+        "market_cap": 12105434.594127573,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.002340601437549035,
+        "circulating": 5603266666,
+        "liquidity": 13571472.950321084,
+        "market_cap": 13115014.013410188,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.002340601437549035,
+        "circulating": 6034600000,
+        "liquidity": 13571472.950321084,
+        "market_cap": 14124593.435033407,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.002340601437549035,
+        "circulating": 6465933333,
+        "liquidity": 13571472.950321084,
+        "market_cap": 15134172.854316024,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.002340601437549035,
+        "circulating": 6897266666,
+        "liquidity": 13571472.950321084,
+        "market_cap": 16143752.273598641,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.002340601437549035,
+        "circulating": 7328600000,
+        "liquidity": 13571472.950321084,
+        "market_cap": 17153331.69522186,
+        "sell_pressure_usd": 3017784.8740932005,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "PRICE_THRESHOLD: $0.0023 < $0.02 for 30 days",
+    "min_price": 0.002340601437549035,
+    "max_price": 0.05,
+    "final_price": 0.002340601437549035,
+    "total_sell_pressure_usd": 29457394.63024192,
+    "validation_notes": [],
+    "emergency_brake_month": 12,
+    "final_circulating": 7328600000
+  },
+  {
+    "scenario": "Bull Run Then Crash [V2]",
+    "description": "Growth followed by severe correction",
+    "methodology": "Second Opinion (Order Book + Sell Pressure Model)",
+    "months": [
+      {
+        "month": 0,
+        "price": 0.04681949909802226,
+        "circulating": 340000000,
+        "liquidity": 32000000,
+        "market_cap": 15918629.693327568,
+        "sell_pressure_usd": 6106561.731797276,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.04648912309094843,
+        "circulating": 371800000,
+        "liquidity": 32000000,
+        "market_cap": 17284655.965214625,
+        "sell_pressure_usd": 461961.14196565293,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.0460633435955361,
+        "circulating": 403600000,
+        "liquidity": 32000000,
+        "market_cap": 18591165.47515837,
+        "sell_pressure_usd": 578438.9551293545,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.04561356402430298,
+        "circulating": 483100000,
+        "liquidity": 45752010.52134708,
+        "market_cap": 22035912.78014077,
+        "sell_pressure_usd": 1340218.798880596,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.045169145249684614,
+        "circulating": 562600000,
+        "liquidity": 45752010.52134708,
+        "market_cap": 25412161.117472563,
+        "sell_pressure_usd": 1272013.4156621005,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.04466294574661689,
+        "circulating": 642100000,
+        "liquidity": 45752010.52134708,
+        "market_cap": 28678077.463902704,
+        "sell_pressure_usd": 1391821.3722830932,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.0428540974981484,
+        "circulating": 801100000,
+        "liquidity": 22092428.10073587,
+        "market_cap": 34330417.50576668,
+        "sell_pressure_usd": 2684228.4497631327,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.04111655541381268,
+        "circulating": 960100000,
+        "liquidity": 22092428.10073587,
+        "market_cap": 39476004.852801554,
+        "sell_pressure_usd": 2143080.279251323,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.03875264855130247,
+        "circulating": 1119100000,
+        "liquidity": 22092428.10073587,
+        "market_cap": 43368088.9937626,
+        "sell_pressure_usd": 2422790.163915338,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "price": 0.035072507933581035,
+        "circulating": 1357600000,
+        "liquidity": 22092428.10073587,
+        "market_cap": 47614436.770629615,
+        "sell_pressure_usd": 2851490.4924419858,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "price": 0.027469936439347954,
+        "circulating": 1596100000,
+        "liquidity": 22092428.10073587,
+        "market_cap": 43844765.55084327,
+        "sell_pressure_usd": 3418276.076515792,
+        "emergency_active": false
+      },
+      {
+        "month": 11,
+        "price": 0.002746993643934795,
+        "circulating": 1834600000,
+        "liquidity": 22092428.10073587,
+        "market_cap": 5039634.539162775,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "price": 0.002746993643934795,
+        "circulating": 2152600000,
+        "liquidity": 22092428.10073587,
+        "market_cap": 5913178.517934039,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "price": 0.002746993643934795,
+        "circulating": 2583933333,
+        "liquidity": 22092428.10073587,
+        "market_cap": 7098048.44210225,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "price": 0.002746993643934795,
+        "circulating": 3015266666,
+        "liquidity": 22092428.10073587,
+        "market_cap": 8282918.36627046,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.002746993643934795,
+        "circulating": 3446600000,
+        "liquidity": 22092428.10073587,
+        "market_cap": 9467788.293185664,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.002746993643934795,
+        "circulating": 3877933333,
+        "liquidity": 22092428.10073587,
+        "market_cap": 10652658.217353875,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.002746993643934795,
+        "circulating": 4309266666,
+        "liquidity": 22092428.10073587,
+        "market_cap": 11837528.141522085,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.002746993643934795,
+        "circulating": 4740600000,
+        "liquidity": 22092428.10073587,
+        "market_cap": 13022398.06843729,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.002746993643934795,
+        "circulating": 5171933333,
+        "liquidity": 22092428.10073587,
+        "market_cap": 14207267.9926055,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.002746993643934795,
+        "circulating": 5603266666,
+        "liquidity": 22092428.10073587,
+        "market_cap": 15392137.916773709,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.002746993643934795,
+        "circulating": 6034600000,
+        "liquidity": 22092428.10073587,
+        "market_cap": 16577007.843688913,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.002746993643934795,
+        "circulating": 6465933333,
+        "liquidity": 22092428.10073587,
+        "market_cap": 17761877.767857123,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.002746993643934795,
+        "circulating": 6897266666,
+        "liquidity": 22092428.10073587,
+        "market_cap": 18946747.692025334,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.002746993643934795,
+        "circulating": 7328600000,
+        "liquidity": 22092428.10073587,
+        "market_cap": 20131617.61894054,
+        "sell_pressure_usd": 2152590.715980769,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "PRICE_THRESHOLD: $0.0027 < $0.02 for 30 days",
+    "min_price": 0.002746993643934795,
+    "max_price": 0.05,
+    "final_price": 0.002746993643934795,
+    "total_sell_pressure_usd": 26823471.593586408,
+    "validation_notes": [],
+    "emergency_brake_month": 11,
+    "final_circulating": 7328600000
+  },
+  {
+    "scenario": "High Volatility [V2]",
+    "description": "Multiple swings with recoveries",
+    "methodology": "Second Opinion (Order Book + Sell Pressure Model)",
+    "months": [
+      {
+        "month": 0,
+        "price": 0.04700906661783349,
+        "circulating": 340000000,
+        "liquidity": 32000000,
+        "market_cap": 15983082.650063386,
+        "sell_pressure_usd": 5742592.093759712,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.04663651448688746,
+        "circulating": 371800000,
+        "liquidity": 32000000,
+        "market_cap": 17339456.086224757,
+        "sell_pressure_usd": 533257.3430183601,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.04633136813711579,
+        "circulating": 403600000,
+        "liquidity": 23544608.921134796,
+        "market_cap": 18699340.180139933,
+        "sell_pressure_usd": 462162.63467369013,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.04544205897323794,
+        "circulating": 483100000,
+        "liquidity": 23544608.921134796,
+        "market_cap": 21953058.68997125,
+        "sell_pressure_usd": 1311428.6180704224,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.04494081650704148,
+        "circulating": 562600000,
+        "liquidity": 34041152.7473505,
+        "market_cap": 25283703.366861537,
+        "sell_pressure_usd": 1126458.950636546,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.04426954509034396,
+        "circulating": 642100000,
+        "liquidity": 34041152.7473505,
+        "market_cap": 28425474.902509857,
+        "sell_pressure_usd": 1441267.984167939,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.04286657800084821,
+        "circulating": 801100000,
+        "liquidity": 25958665.966967806,
+        "market_cap": 34340415.636479504,
+        "sell_pressure_usd": 2468005.0787429125,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.04103520482442487,
+        "circulating": 960100000,
+        "liquidity": 25958665.966967806,
+        "market_cap": 39397900.15193032,
+        "sell_pressure_usd": 2799869.4492970454,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.04027742509152948,
+        "circulating": 1119100000,
+        "liquidity": 36046882.3551654,
+        "market_cap": 45074466.41993064,
+        "sell_pressure_usd": 1996987.4891339694,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "price": 0.0386365282056972,
+        "circulating": 1357600000,
+        "liquidity": 36046882.3551654,
+        "market_cap": 52452950.69205452,
+        "sell_pressure_usd": 3998850.4199515763,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "price": 0.03717911066557214,
+        "circulating": 1596100000,
+        "liquidity": 36046882.3551654,
+        "market_cap": 59341578.5333197,
+        "sell_pressure_usd": 2948346.6667869417,
+        "emergency_active": false
+      },
+      {
+        "month": 11,
+        "price": 0.03536945046366361,
+        "circulating": 1834600000,
+        "liquidity": 36046882.3551654,
+        "market_cap": 64888793.82063726,
+        "sell_pressure_usd": 3086898.7671062644,
+        "emergency_active": false
+      },
+      {
+        "month": 12,
+        "price": 0.03190209253934342,
+        "circulating": 2152600000,
+        "liquidity": 36046882.3551654,
+        "market_cap": 68672444.40019064,
+        "sell_pressure_usd": 4704115.176384259,
+        "emergency_active": false
+      },
+      {
+        "month": 13,
+        "price": 0.02552894882293665,
+        "circulating": 2583933333,
+        "liquidity": 36046882.3551654,
+        "market_cap": 65965101.82003712,
+        "sell_pressure_usd": 4887352.097949462,
+        "emergency_active": false
+      },
+      {
+        "month": 14,
+        "price": 0.0025528948822936643,
+        "circulating": 3015266666,
+        "liquidity": 36046882.3551654,
+        "market_cap": 7697658.84038208,
+        "sell_pressure_usd": 4519098.035831517,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.0025528948822936643,
+        "circulating": 3446600000,
+        "liquidity": 36046882.3551654,
+        "market_cap": 8798807.501313344,
+        "sell_pressure_usd": 4519098.035831517,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.0025528948822936643,
+        "circulating": 3877933333,
+        "liquidity": 36046882.3551654,
+        "market_cap": 9899956.159691712,
+        "sell_pressure_usd": 4519098.035831517,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.0025528948822936643,
+        "circulating": 4309266666,
+        "liquidity": 36046882.3551654,
+        "market_cap": 11001104.818070082,
+        "sell_pressure_usd": 4519098.035831517,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.0025528948822936643,
+        "circulating": 4740600000,
+        "liquidity": 36046882.3551654,
+        "market_cap": 12102253.479001345,
+        "sell_pressure_usd": 4519098.035831517,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.0025528948822936643,
+        "circulating": 5171933333,
+        "liquidity": 36046882.3551654,
+        "market_cap": 13203402.137379713,
+        "sell_pressure_usd": 4519098.035831517,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.0025528948822936643,
+        "circulating": 5603266666,
+        "liquidity": 36046882.3551654,
+        "market_cap": 14304550.795758083,
+        "sell_pressure_usd": 4519098.035831517,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.0025528948822936643,
+        "circulating": 6034600000,
+        "liquidity": 36046882.3551654,
+        "market_cap": 15405699.456689347,
+        "sell_pressure_usd": 4519098.035831517,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.0025528948822936643,
+        "circulating": 6465933333,
+        "liquidity": 36046882.3551654,
+        "market_cap": 16506848.115067715,
+        "sell_pressure_usd": 4519098.035831517,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.0025528948822936643,
+        "circulating": 6897266666,
+        "liquidity": 36046882.3551654,
+        "market_cap": 17607996.773446083,
+        "sell_pressure_usd": 4519098.035831517,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.0025528948822936643,
+        "circulating": 7328600000,
+        "liquidity": 36046882.3551654,
+        "market_cap": 18709145.43437735,
+        "sell_pressure_usd": 4519098.035831517,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "PRICE_THRESHOLD: $0.0026 < $0.02 for 30 days",
+    "min_price": 0.0025528948822936643,
+    "max_price": 0.05,
+    "final_price": 0.0025528948822936643,
+    "total_sell_pressure_usd": 42026690.80551062,
+    "validation_notes": [],
+    "emergency_brake_month": 14,
+    "final_circulating": 7328600000
+  },
+  {
+    "scenario": "Stable Growth [V2]",
+    "description": "Gradual positive growth",
+    "methodology": "Second Opinion (Order Book + Sell Pressure Model)",
+    "months": [
+      {
+        "month": 0,
+        "price": 0.046687495009877594,
+        "circulating": 340000000,
+        "liquidity": 32000000,
+        "market_cap": 15873748.303358382,
+        "sell_pressure_usd": 6360009.58103502,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.04628855285812014,
+        "circulating": 371800000,
+        "liquidity": 32000000,
+        "market_cap": 17210083.952649068,
+        "sell_pressure_usd": 548585.1623869821,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.04594834618453611,
+        "circulating": 403600000,
+        "liquidity": 32000000,
+        "market_cap": 18544752.520078775,
+        "sell_pressure_usd": 451690.3033057543,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.04480763903431422,
+        "circulating": 483100000,
+        "liquidity": 32000000,
+        "market_cap": 21646570.4174772,
+        "sell_pressure_usd": 1469655.4528367284,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.04385453630579448,
+        "circulating": 562600000,
+        "liquidity": 32000000,
+        "market_cap": 24672562.125639975,
+        "sell_pressure_usd": 1102907.028554672,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.0425972507924876,
+        "circulating": 642100000,
+        "liquidity": 32000000,
+        "market_cap": 27351694.733856287,
+        "sell_pressure_usd": 1328420.9039695528,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.0418177630488956,
+        "circulating": 801100000,
+        "liquidity": 40657957.39200894,
+        "market_cap": 33500209.978470262,
+        "sell_pressure_usd": 2232001.752010676,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.04093879431697986,
+        "circulating": 960100000,
+        "liquidity": 40657957.39200894,
+        "market_cap": 39305336.42373236,
+        "sell_pressure_usd": 2329199.6965866843,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.039831234719000096,
+        "circulating": 1119100000,
+        "liquidity": 40657957.39200894,
+        "market_cap": 44575134.77403301,
+        "sell_pressure_usd": 2682890.9461115664,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "price": 0.03838110116315927,
+        "circulating": 1357600000,
+        "liquidity": 40657957.39200894,
+        "market_cap": 52106182.93910503,
+        "sell_pressure_usd": 3122019.654667731,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "price": 0.036698133385187806,
+        "circulating": 1596100000,
+        "liquidity": 40657957.39200894,
+        "market_cap": 58573890.69609826,
+        "sell_pressure_usd": 3075704.715065901,
+        "emergency_active": false
+      },
+      {
+        "month": 11,
+        "price": 0.03488754876263985,
+        "circulating": 1834600000,
+        "liquidity": 40657957.39200894,
+        "market_cap": 64004696.95993907,
+        "sell_pressure_usd": 2701943.518754844,
+        "emergency_active": false
+      },
+      {
+        "month": 12,
+        "price": 0.03415493153752868,
+        "circulating": 2152600000,
+        "liquidity": 54379434.84601103,
+        "market_cap": 73521905.62768424,
+        "sell_pressure_usd": 3425804.7991030863,
+        "emergency_active": false
+      },
+      {
+        "month": 13,
+        "price": 0.032831177331660515,
+        "circulating": 2583933333,
+        "liquidity": 54379434.84601103,
+        "market_cap": 84833573.4689116,
+        "sell_pressure_usd": 5658930.951203059,
+        "emergency_active": false
+      },
+      {
+        "month": 14,
+        "price": 0.03139823795912666,
+        "circulating": 3015266666,
+        "liquidity": 54379434.84601103,
+        "market_cap": 94674060.2892905,
+        "sell_pressure_usd": 5137736.009543117,
+        "emergency_active": false
+      },
+      {
+        "month": 15,
+        "price": 0.029660473612395447,
+        "circulating": 3446600000,
+        "liquidity": 54379434.84601103,
+        "market_cap": 102227788.35248214,
+        "sell_pressure_usd": 5093260.573643137,
+        "emergency_active": false
+      },
+      {
+        "month": 16,
+        "price": 0.02746632706998545,
+        "circulating": 3877933333,
+        "liquidity": 54379434.84601103,
+        "market_cap": 106512585.2797768,
+        "sell_pressure_usd": 4923778.769583615,
+        "emergency_active": false
+      },
+      {
+        "month": 17,
+        "price": 0.024853443514929536,
+        "circulating": 4309266666,
+        "liquidity": 54379434.84601103,
+        "market_cap": 107100115.67419972,
+        "sell_pressure_usd": 3989841.565957713,
+        "emergency_active": false
+      },
+      {
+        "month": 18,
+        "price": 0.020748422537230332,
+        "circulating": 4740600000,
+        "liquidity": 54379434.84601103,
+        "market_cap": 98359971.87999411,
+        "sell_pressure_usd": 3632323.137613338,
+        "emergency_active": false
+      },
+      {
+        "month": 19,
+        "price": 0.004035970061968866,
+        "circulating": 5171933333,
+        "liquidity": 54379434.84601103,
+        "market_cap": 20873768.09448685,
+        "sell_pressure_usd": 3084930.811866368,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.004035970061968866,
+        "circulating": 5603266666,
+        "liquidity": 54379434.84601103,
+        "market_cap": 22614616.513204098,
+        "sell_pressure_usd": 3084930.811866368,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.004035970061968866,
+        "circulating": 6034600000,
+        "liquidity": 54379434.84601103,
+        "market_cap": 24355464.935957316,
+        "sell_pressure_usd": 3084930.811866368,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.004035970061968866,
+        "circulating": 6465933333,
+        "liquidity": 54379434.84601103,
+        "market_cap": 26096313.354674563,
+        "sell_pressure_usd": 3084930.811866368,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.004035970061968866,
+        "circulating": 6897266666,
+        "liquidity": 54379434.84601103,
+        "market_cap": 27837161.773391813,
+        "sell_pressure_usd": 3084930.811866368,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.004035970061968866,
+        "circulating": 7328600000,
+        "liquidity": 54379434.84601103,
+        "market_cap": 29578010.196145028,
+        "sell_pressure_usd": 3084930.811866368,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "PRICE_THRESHOLD: $0.0040 < $0.02 for 30 days",
+    "min_price": 0.004035970061968866,
+    "max_price": 0.05,
+    "final_price": 0.004035970061968866,
+    "total_sell_pressure_usd": 62351635.33379953,
+    "validation_notes": [],
+    "emergency_brake_month": 19,
+    "final_circulating": 7328600000
+  },
+  {
+    "scenario": "Early Crash + Recovery [V2]",
+    "description": "V-shaped recovery pattern",
+    "methodology": "Second Opinion (Order Book + Sell Pressure Model)",
+    "months": [
+      {
+        "month": 0,
+        "price": 0.046978758747862295,
+        "circulating": 340000000,
+        "liquidity": 32000000,
+        "market_cap": 15972777.97427318,
+        "sell_pressure_usd": 5800783.204104394,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.04663130457432517,
+        "circulating": 371800000,
+        "liquidity": 32000000,
+        "market_cap": 17337519.040734097,
+        "sell_pressure_usd": 495502.00153750926,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.04633277724621927,
+        "circulating": 403600000,
+        "liquidity": 24018349.036560997,
+        "market_cap": 18699908.8965741,
+        "sell_pressure_usd": 461286.7018531094,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.04559767968307183,
+        "circulating": 483100000,
+        "liquidity": 24018349.036560997,
+        "market_cap": 22028239.054892,
+        "sell_pressure_usd": 1106603.9840027785,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.04498413221911868,
+        "circulating": 562600000,
+        "liquidity": 34928055.87698672,
+        "market_cap": 25308072.78647617,
+        "sell_pressure_usd": 1409941.4873578574,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.04448841281685695,
+        "circulating": 642100000,
+        "liquidity": 34928055.87698672,
+        "market_cap": 28566009.869703848,
+        "sell_pressure_usd": 1077021.2916819653,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.04365375945787528,
+        "circulating": 801100000,
+        "liquidity": 45932096.98989408,
+        "market_cap": 34971026.70170388,
+        "sell_pressure_usd": 2585215.561331109,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.04288268524091224,
+        "circulating": 960100000,
+        "liquidity": 45932096.98989408,
+        "market_cap": 41171666.09979984,
+        "sell_pressure_usd": 2205633.673535052,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.041835102278506106,
+        "circulating": 1119100000,
+        "liquidity": 45932096.98989408,
+        "market_cap": 46817662.95987618,
+        "sell_pressure_usd": 2781052.209372994,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "price": 0.04013150292616687,
+        "circulating": 1357600000,
+        "liquidity": 45932096.98989408,
+        "market_cap": 54482528.372564144,
+        "sell_pressure_usd": 4069602.577648271,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "price": 0.03862410326154007,
+        "circulating": 1596100000,
+        "liquidity": 45932096.98989408,
+        "market_cap": 61647931.2157441,
+        "sell_pressure_usd": 2989474.047944717,
+        "emergency_active": false
+      },
+      {
+        "month": 11,
+        "price": 0.036704428316126136,
+        "circulating": 1834600000,
+        "liquidity": 45932096.98989408,
+        "market_cap": 67337944.188765,
+        "sell_pressure_usd": 3212773.028474233,
+        "emergency_active": false
+      },
+      {
+        "month": 12,
+        "price": 0.033074576706754406,
+        "circulating": 2152600000,
+        "liquidity": 45932096.98989408,
+        "market_cap": 71196333.81895953,
+        "sell_pressure_usd": 4804031.922687814,
+        "emergency_active": false
+      },
+      {
+        "month": 13,
+        "price": 0.025316091616788283,
+        "circulating": 2583933333,
+        "liquidity": 45932096.98989408,
+        "market_cap": 65415092.9899011,
+        "sell_pressure_usd": 5760558.515512223,
+        "emergency_active": false
+      },
+      {
+        "month": 14,
+        "price": 0.0025316091616788276,
+        "circulating": 3015266666,
+        "liquidity": 45932096.98989408,
+        "market_cap": 7633476.7165503735,
+        "sell_pressure_usd": 4095762.9018961457,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.0025316091616788276,
+        "circulating": 3446600000,
+        "liquidity": 45932096.98989408,
+        "market_cap": 8725444.136642247,
+        "sell_pressure_usd": 4095762.9018961457,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.0025316091616788276,
+        "circulating": 3877933333,
+        "liquidity": 45932096.98989408,
+        "market_cap": 9817411.554202512,
+        "sell_pressure_usd": 4095762.9018961457,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.0025316091616788276,
+        "circulating": 4309266666,
+        "liquidity": 45932096.98989408,
+        "market_cap": 10909378.971762776,
+        "sell_pressure_usd": 4095762.9018961457,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.0025316091616788276,
+        "circulating": 4740600000,
+        "liquidity": 45932096.98989408,
+        "market_cap": 12001346.391854651,
+        "sell_pressure_usd": 4095762.9018961457,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.0025316091616788276,
+        "circulating": 5171933333,
+        "liquidity": 45932096.98989408,
+        "market_cap": 13093313.809414916,
+        "sell_pressure_usd": 4095762.9018961457,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.0025316091616788276,
+        "circulating": 5603266666,
+        "liquidity": 45932096.98989408,
+        "market_cap": 14185281.22697518,
+        "sell_pressure_usd": 4095762.9018961457,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.0025316091616788276,
+        "circulating": 6034600000,
+        "liquidity": 45932096.98989408,
+        "market_cap": 15277248.647067053,
+        "sell_pressure_usd": 4095762.9018961457,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.0025316091616788276,
+        "circulating": 6465933333,
+        "liquidity": 45932096.98989408,
+        "market_cap": 16369216.064627318,
+        "sell_pressure_usd": 4095762.9018961457,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.0025316091616788276,
+        "circulating": 6897266666,
+        "liquidity": 45932096.98989408,
+        "market_cap": 17461183.482187584,
+        "sell_pressure_usd": 4095762.9018961457,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.0025316091616788276,
+        "circulating": 7328600000,
+        "liquidity": 45932096.98989408,
+        "market_cap": 18553150.902279455,
+        "sell_pressure_usd": 4095762.9018961457,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "PRICE_THRESHOLD: $0.0025 < $0.02 for 30 days",
+    "min_price": 0.0025316091616788276,
+    "max_price": 0.05,
+    "final_price": 0.0025316091616788276,
+    "total_sell_pressure_usd": 42855243.10894018,
+    "validation_notes": [],
+    "emergency_brake_month": 14,
+    "final_circulating": 7328600000
+  },
+  {
+    "scenario": "Late Market Crash [V2]",
+    "description": "Crash after period of stability",
+    "methodology": "Second Opinion (Order Book + Sell Pressure Model)",
+    "months": [
+      {
+        "month": 0,
+        "price": 0.04667660388434319,
+        "circulating": 340000000,
+        "liquidity": 32000000,
+        "market_cap": 15870045.320676686,
+        "sell_pressure_usd": 6380920.542061081,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.046317716092516975,
+        "circulating": 371800000,
+        "liquidity": 32000000,
+        "market_cap": 17220926.84319781,
+        "sell_pressure_usd": 492817.67920649186,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.045869785944464954,
+        "circulating": 403600000,
+        "liquidity": 32000000,
+        "market_cap": 18513045.607186057,
+        "sell_pressure_usd": 596025.0989542664,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.04544513218721643,
+        "circulating": 483100000,
+        "liquidity": 46642495.2128427,
+        "market_cap": 21954543.359644257,
+        "sell_pressure_usd": 1295422.058229805,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.04504243065657156,
+        "circulating": 562600000,
+        "liquidity": 46642495.2128427,
+        "market_cap": 25340871.48738716,
+        "sell_pressure_usd": 1182539.643544901,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.044613217387083196,
+        "circulating": 642100000,
+        "liquidity": 46642495.2128427,
+        "market_cap": 28646146.88424612,
+        "sell_pressure_usd": 1215317.7034593213,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.04374430423657681,
+        "circulating": 801100000,
+        "liquidity": 46642495.2128427,
+        "market_cap": 35043562.123921685,
+        "sell_pressure_usd": 2365647.2980730543,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "price": 0.04258498409111007,
+        "circulating": 960100000,
+        "liquidity": 46642495.2128427,
+        "market_cap": 40885843.22587478,
+        "sell_pressure_usd": 2905511.386868222,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "price": 0.041633470276062345,
+        "circulating": 1119100000,
+        "liquidity": 46642495.2128427,
+        "market_cap": 46592016.585941374,
+        "sell_pressure_usd": 2125021.3939644033,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "price": 0.03917164090053424,
+        "circulating": 1357600000,
+        "liquidity": 18575650.438529734,
+        "market_cap": 53179419.68656528,
+        "sell_pressure_usd": 3295191.2210936085,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "price": 0.03555946128112078,
+        "circulating": 1596100000,
+        "liquidity": 18575650.438529734,
+        "market_cap": 56756456.150796875,
+        "sell_pressure_usd": 3619497.2097214656,
+        "emergency_active": false
+      },
+      {
+        "month": 11,
+        "price": 0.030407538750850293,
+        "circulating": 1834600000,
+        "liquidity": 18575650.438529734,
+        "market_cap": 55785670.592309944,
+        "sell_pressure_usd": 3064760.7280076127,
+        "emergency_active": false
+      },
+      {
+        "month": 12,
+        "price": 0.01373498434041108,
+        "circulating": 2152600000,
+        "liquidity": 18575650.438529734,
+        "market_cap": 29565927.29116889,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "price": 0.01373498434041108,
+        "circulating": 2583933333,
+        "liquidity": 18575650.438529734,
+        "market_cap": 35490283.865421206,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "price": 0.01373498434041108,
+        "circulating": 3015266666,
+        "liquidity": 18575650.438529734,
+        "market_cap": 41414640.43967353,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.01373498434041108,
+        "circulating": 3446600000,
+        "liquidity": 18575650.438529734,
+        "market_cap": 47338997.02766083,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.01373498434041108,
+        "circulating": 3877933333,
+        "liquidity": 18575650.438529734,
+        "market_cap": 53263353.60191315,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.01373498434041108,
+        "circulating": 4309266666,
+        "liquidity": 18575650.438529734,
+        "market_cap": 59187710.17616546,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.01373498434041108,
+        "circulating": 4740600000,
+        "liquidity": 18575650.438529734,
+        "market_cap": 65112066.764152765,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.01373498434041108,
+        "circulating": 5171933333,
+        "liquidity": 18575650.438529734,
+        "market_cap": 71036423.33840509,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.01373498434041108,
+        "circulating": 5603266666,
+        "liquidity": 18575650.438529734,
+        "market_cap": 76960779.9126574,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.01373498434041108,
+        "circulating": 6034600000,
+        "liquidity": 18575650.438529734,
+        "market_cap": 82885136.5006447,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.01373498434041108,
+        "circulating": 6465933333,
+        "liquidity": 18575650.438529734,
+        "market_cap": 88809493.07489702,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.01373498434041108,
+        "circulating": 6897266666,
+        "liquidity": 18575650.438529734,
+        "market_cap": 94733849.64914934,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.01373498434041108,
+        "circulating": 7328600000,
+        "liquidity": 18575650.438529734,
+        "market_cap": 100658206.23713665,
+        "sell_pressure_usd": 3196446.8844399573,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "PRICE_THRESHOLD: $0.0137 < $0.02 for 30 days",
+    "min_price": 0.01373498434041108,
+    "max_price": 0.05,
+    "final_price": 0.01373498434041108,
+    "total_sell_pressure_usd": 31735118.847624194,
+    "validation_notes": [],
+    "emergency_brake_month": 12,
+    "final_circulating": 7328600000
+  },
+  {
+    "scenario": "Worst Case [V2]",
+    "description": "Multiple severe crashes",
+    "methodology": "Second Opinion (Order Book + Sell Pressure Model)",
+    "months": [
+      {
+        "month": 0,
+        "price": 0.04715024185328699,
+        "circulating": 340000000,
+        "liquidity": 32000000,
+        "market_cap": 16031082.230117578,
+        "sell_pressure_usd": 5471535.6416889755,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "price": 0.04674956839583833,
+        "circulating": 371800000,
+        "liquidity": 32000000,
+        "market_cap": 17381489.52957269,
+        "sell_pressure_usd": 583308.9146203153,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "price": 0.04611211035175973,
+        "circulating": 403600000,
+        "liquidity": 13799387.664395837,
+        "market_cap": 18610847.737970226,
+        "sell_pressure_usd": 564488.463008648,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "price": 0.04435154660547487,
+        "circulating": 483100000,
+        "liquidity": 13799387.664395837,
+        "market_cap": 21426232.16510491,
+        "sell_pressure_usd": 1472823.8372668705,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "price": 0.04266248454313391,
+        "circulating": 562600000,
+        "liquidity": 13799387.664395837,
+        "market_cap": 24001913.80396714,
+        "sell_pressure_usd": 1188646.9812128914,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "price": 0.04074139724254816,
+        "circulating": 642100000,
+        "liquidity": 13799387.664395837,
+        "market_cap": 26160051.169440173,
+        "sell_pressure_usd": 1137831.9540987313,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "price": 0.03688203581557525,
+        "circulating": 801100000,
+        "liquidity": 8691088.610480137,
+        "market_cap": 29546198.89185733,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 7,
+        "price": 0.03688203581557525,
+        "circulating": 960100000,
+        "liquidity": 8691088.610480137,
+        "market_cap": 35410442.58653379,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 8,
+        "price": 0.03688203581557525,
+        "circulating": 1119100000,
+        "liquidity": 8691088.610480137,
+        "market_cap": 41274686.28121026,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 9,
+        "price": 0.03688203581557525,
+        "circulating": 1357600000,
+        "liquidity": 8691088.610480137,
+        "market_cap": 50071051.823224954,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 10,
+        "price": 0.03688203581557525,
+        "circulating": 1596100000,
+        "liquidity": 8691088.610480137,
+        "market_cap": 58867417.36523965,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "price": 0.03688203581557525,
+        "circulating": 1834600000,
+        "liquidity": 8691088.610480137,
+        "market_cap": 67663782.90725435,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "price": 0.03688203581557525,
+        "circulating": 2152600000,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 79392270.29660727,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "price": 0.03688203581557525,
+        "circulating": 2583933333,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 95300721.73276472,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "price": 0.03688203581557525,
+        "circulating": 3015266666,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 111209173.16892217,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "price": 0.03688203581557525,
+        "circulating": 3446600000,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 127117624.64196165,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "price": 0.03688203581557525,
+        "circulating": 3877933333,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 143026076.0781191,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "price": 0.03688203581557525,
+        "circulating": 4309266666,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 158934527.51427653,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "price": 0.03688203581557525,
+        "circulating": 4740600000,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 174842978.987316,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "price": 0.03688203581557525,
+        "circulating": 5171933333,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 190751430.42347345,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "price": 0.03688203581557525,
+        "circulating": 5603266666,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 206659881.8596309,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "price": 0.03688203581557525,
+        "circulating": 6034600000,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 222568333.3326704,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "price": 0.03688203581557525,
+        "circulating": 6465933333,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 238476784.76882783,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "price": 0.03688203581557525,
+        "circulating": 6897266666,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 254385236.20498526,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "price": 0.03688203581557525,
+        "circulating": 7328600000,
+        "liquidity": 3525899.8187330454,
+        "market_cap": 270293687.67802477,
+        "sell_pressure_usd": 2469874.9487163713,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "LIQUIDITY_THRESHOLD: $8.7M < $10M",
+    "min_price": 0.03688203581557525,
+    "max_price": 0.05,
+    "final_price": 0.03688203581557525,
+    "total_sell_pressure_usd": 12888510.740612805,
+    "validation_notes": [],
+    "emergency_brake_month": 6,
+    "final_circulating": 7328600000
+  }
+]
