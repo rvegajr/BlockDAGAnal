@@ -299,12 +299,136 @@ Results saved to: `forty_percent_32m_results.json`
 
 ---
 
+## 🚨 But What If They're Hell-Bent on $0.05?
+
+### "We MUST launch at $0.05. Non-negotiable."
+
+OK. Let's do the math for that:
+
+```
+To launch at $0.05 with 40% TGE:
+
+40% of 17B = 6,800,000,000 tokens at launch
+$0.05 × 6.8B = $340,000,000 liquidity required
+
+They have:  $32,000,000
+They need:  $340,000,000
+Shortfall:  $308,000,000 (they need 10.6x more money)
+```
+
+### What $0.05 Actually Requires
+
+| TGE % | Tokens Released | Liquidity Needed | Have $32M? |
+|-------|-----------------|------------------|------------|
+| **2%** | 340M | $17M | ✅ Yes |
+| **5%** | 850M | $42.5M | ❌ No |
+| **10%** | 1.7B | $85M | ❌ No |
+| **20%** | 3.4B | $170M | ❌ No |
+| **40%** | 6.8B | **$340M** | ❌ No |
+
+**At $32M liquidity, maximum TGE for $0.05 price is 1.88%**
+
+### The Reverse: What Price Does 40% Give You?
+
+| Liquidity | Price at 40% TGE |
+|-----------|------------------|
+| **$32M** | **$0.0047** |
+| $50M | $0.0074 |
+| $75M | $0.011 |
+| $100M | $0.015 |
+| $200M | $0.029 |
+| **$340M** | **$0.05** |
+
+### The Uncomfortable Truth: Pick Two
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│   You can have TWO of these three things:               │
+│                                                         │
+│      1. $0.05 Launch Price                              │
+│      2. 40% TGE Unlock                                  │
+│      3. $32M Liquidity                                  │
+│                                                         │
+│   PICK TWO. YOU CANNOT HAVE ALL THREE.                  │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+| Combination | What You Get |
+|-------------|--------------|
+| **$0.05 + 40%** | Need $340M liquidity (don't have it) |
+| **$0.05 + $32M** | Maximum ~2% TGE |
+| **40% + $32M** | Price = $0.0047 |
+
+### If They INSIST on $0.05
+
+They must accept one of these realities:
+
+| Option | What It Means |
+|--------|---------------|
+| **~2% TGE** | Investors get 2% of tokens at $0.05 |
+| **Find $308M more** | Where's that coming from? |
+| **Fake the price** | Illegal and will crash immediately anyway |
+
+### The Investor Conversation
+
+```
+"We promised you 40% at launch AND $0.05 price.
+ We can only deliver ONE of those.
+
+ Option A: 40% TGE at $0.0047
+           → More tokens, lower price
+           → $847 cash on day 1 for $9K investor
+
+ Option B: 2% TGE at $0.05
+           → Fewer tokens, higher price
+           → $450 cash on day 1 for $9K investor
+
+ Which do you prefer?"
+```
+
+---
+
+## 📊 Complete Comparison: All Three Options
+
+| Metric | 2% @ $0.05 | 40% @ $0.0047 | 40% @ $0.05 |
+|--------|------------|---------------|-------------|
+| **Liquidity Required** | $17M | $32M | **$340M** |
+| **Liquidity Available** | $32M ✅ | $32M ✅ | $32M ❌ |
+| **Launch Price** | $0.05 | $0.0047 | $0.05 |
+| **TGE Tokens** | 340M | 6.8B | 6.8B |
+| **Day 1 Cash ($9K inv)** | $450 | $847 | $3,600 |
+| **Feasible?** | ✅ Yes | ✅ Yes | ❌ No |
+| **Promise Kept?** | ❌ No | ✅ Yes | ✅ Yes |
+| **Price Perception** | Good | Bad | Good |
+
+### The Dream Scenario (40% @ $0.05)
+
+If they somehow found $340M:
+
+- **$9K investor gets**: 180,000 tokens × $0.05 = **$9,000** (full investment back!)
+- **Everyone's happy**: 40% access at a good price
+- **Problem**: They don't have $340M. They have $32M.
+
+---
+
+## 🎯 Quick Reference: What's Possible at $32M
+
+| Want This | You Get This | Math |
+|-----------|--------------|------|
+| $0.05 price | 1.88% TGE max | $32M ÷ $0.05 = 640M tokens |
+| 40% TGE | $0.0047 price | $32M ÷ 6.8B = $0.0047 |
+| Both | Impossible | Need $340M |
+
+---
+
 ## 🤝 Final Thought
 
 **There is no free lunch in tokenomics.**
 
 - Want 40%? Price will be $0.0047
-- Want $0.05? Can only unlock 2%
+- Want $0.05? Can only unlock ~2%
 - Want both? Need $340M liquidity (not $32M)
 
 The math doesn't care about promises. It only cares about:
@@ -312,6 +436,8 @@ The math doesn't care about promises. It only cares about:
 ```
 Price = Liquidity ÷ Circulating Supply
 ```
+
+**The formula is physics. You can't negotiate with physics.**
 
 Choose wisely.
 
