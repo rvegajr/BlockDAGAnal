@@ -144,72 +144,59 @@ Comprehensive economic models with variable scenarios:
 
 ## ✅ Validated: Multi-Model Market Simulations
 
-We ran market scenarios through **FOUR independent simulation models** to validate that the emergency protection system works. Models use different methodologies AND different miner data sources to ensure results are robust.
+We validated the emergency protection system using **FOUR independent simulation models** with different methodologies and miner data sources.
 
-### Simulation Models
+### Model Comparison
 
-| Model | Miner Data | Methodology | Emergency Brake |
-|-------|------------|-------------|-----------------|
-| **v1** | Estimated (10.6M/day) | AMM Price Model | 10/10 (100%) |
-| **v2** | Estimated (10.6M/day) | Order Book + Sell Pressure | 10/10 (100%) |
-| **v3** | **REAL** (10.5M/day) | AMM Price Model | 4/4 (100%) |
-| **v4** | **REAL** (10.5M/day) | Order Book + Sell Pressure | 4/4 (100%) |
+| Model | Miner Data | Pricing Method | Scenarios | Emergency Brake |
+|-------|------------|----------------|-----------|-----------------|
+| **v1** | Estimated (10.6M/day) | AMM (Liquidity ÷ Supply) | 10 | 10/10 (100%) |
+| **v2** | Estimated (10.6M/day) | Order Book + Sell Pressure | 10 | 10/10 (100%) |
+| **v3** | **REAL** (10.5M/day) | AMM (Liquidity ÷ Supply) | 4 | 4/4 (100%) |
+| **v4** | **REAL** (10.5M/day) | Order Book + Sell Pressure | 4 | 4/4 (100%) |
 
-**✅ ALL MODELS AGREE: Emergency brake activates in ALL tested scenarios**
+**✅ RESULT: ALL MODELS AGREE** - Emergency brake activates in 100% of tested scenarios
 
-**Key Differentiation**:
-- **v1/v2**: Baseline validation with estimated miner populations
-- **v3/v4**: **Decision-making models using actual stakeholder-provided miner data**
-  - X10: 15,000 units × 200/day
-  - X30: 2,500 units × 600/day
-  - X100: 2,500 units × 2,000/day
-  - X1: ~50,000 migrated × 20/day
-  - Pre-launch: 540M BDAG (18 months testnet)
+### Real Miner Data (v3/v4) ⭐ Primary Models
 
-### Market Scenarios Tested
+**Stakeholder-provided numbers**:
+- X10: 15,000 × 200/day = 3M/day
+- X30: 2,500 × 600/day = 1.5M/day  
+- X100: 2,500 × 2,000/day = 5M/day
+- X1: ~50,000 × 20/day = 1M/day
+- **Pre-launch**: 540M BDAG (18 months testnet)
 
-Based on historical crypto crashes:
-1. **May 2021-Style Crash** - 60% liquidity drop (COVID-style)
-2. **FTX Collapse Scenario** - 70% liquidity drop (exchange failure)
-3. **COVID Black Swan** - 80% liquidity drop (early severe crash)
-4. **Gradual Bear Market** - 50% decline over 12 months
-5. **Bull Run Then Crash** - Growth followed by 70% crash
-6. **High Volatility** - Multiple 30-40% swings
-7. **Stable Growth** - Gradual 20% increase
-8. **Early Crash + Recovery** - V-shaped recovery
-9. **Late Market Crash** - Crash after period of growth
-10. **Worst Case** - Multiple crashes (months 2, 6, 12)
+**Key Finding**: Pre-launch mined tokens (540M) require staking/vesting program.
 
-### Why Two Opinions Matter
+### Validation Approach
 
-Running a single simulation can give misleading confidence. By using two **fundamentally different** approaches:
+**Dual Opinion Method**: Each miner dataset validated with two pricing methodologies:
 
-| First Opinion | Second Opinion |
-|---------------|----------------|
-| Simple AMM pricing | Order book depth modeling |
-| Fixed staking rates | Variable holder behavior |
-| Deterministic results | Monte Carlo sampling |
-| Estimated crash impacts | Historical crash data (COVID, Luna, FTX) |
+| Aspect | AMM Model (v1/v3) | Order Book Model (v2/v4) |
+|--------|-------------------|--------------------------|
+| Price Formula | Liquidity ÷ Supply | Order book depth impact |
+| Sell Pressure | Not modeled | Explicit sell pressure |
+| Holder Behavior | Fixed staking | Variable distribution |
+| Market Dynamics | Static | Dynamic with slippage |
 
-**When both models agree, we have HIGH CONFIDENCE the results are robust.**
+**When both methodologies agree → HIGH confidence in results**
 
-### Key Validation Findings
+### Market Scenarios
 
-1. ✅ **Emergency brake works** - Activates consistently across all scenarios
-2. ✅ **Protection is model-independent** - Same conclusion from different math
-3. ✅ **Price discovery is predictable** - Both models show similar dynamics
-4. ✅ **System is resilient** - Handles extreme market conditions
+Tested 10 scenarios including: COVID crash, FTX collapse, bear markets, volatility, and worst-case multiple crashes. All scenarios trigger emergency brake protection.
 
-### Simulation Documentation
+### Documentation & Simulations
 
-- **[Dual Opinion Validation](docs/vesting/DUAL_OPINION_VALIDATION.md)** - Complete comparison report
-- **[Simulation Results](docs/vesting/SIMULATION_RESULTS.md)** - First opinion detailed analysis
-- **[Simulations README](docs/vesting/SIMULATIONS_README.md)** - How to run simulations
+- **[Model Comparison](docs/vesting/MODEL_COMPARISON.md)** - Complete analysis of all 4 models
+- **[Real Miner Analysis](docs/vesting/REAL_MINER_ANALYSIS.md)** - v3/v4 detailed results
+- **[Simulation Results](docs/vesting/SIMULATION_RESULTS.md)** - All scenario outcomes
 
-**Run your own simulations:**
+**Run simulations:**
 ```bash
-python3 scripts/vesting_simulations.py      # First opinion
-python3 scripts/vesting_simulations_v2.py   # Second opinion
+python3 scripts/vesting_simulations.py              # v1: Estimated, AMM
+python3 scripts/vesting_simulations_v2.py            # v2: Estimated, Order Book
+python3 scripts/vesting_simulations_v3_real_miners.py  # v3: REAL, AMM ⭐
+python3 scripts/vesting_simulations_v4_real_miners_v2.py # v4: REAL, Order Book
 ```
 
 ---
