@@ -1,0 +1,139 @@
+{
+  "simulations": [
+    {
+      "name": "5% Burn, 90d POE (Aggressive)",
+      "burn_rate": 5,
+      "poe_autostake_days": 90,
+      "post_tge_cap": 0,
+      "final_price": 0.0030698879122045826,
+      "min_price": 0.0030698879122045826,
+      "max_price": 0.03647416410602267,
+      "total_burned": 66666650,
+      "net_inflation": 1084.5265170454545,
+      "emergency_brake_month": 8,
+      "score": 29.72655434488671
+    },
+    {
+      "name": "5% Burn, 30d POE",
+      "burn_rate": 5,
+      "poe_autostake_days": 30,
+      "post_tge_cap": 0,
+      "final_price": 0.003058152679772944,
+      "min_price": 0.003058152679772944,
+      "max_price": 0.03647416410602267,
+      "total_burned": 66666650,
+      "net_inflation": 1089.071971590909,
+      "emergency_brake_month": 8,
+      "score": 29.724922465346978
+    },
+    {
+      "name": "3% Burn, 90d POE",
+      "burn_rate": 3,
+      "poe_autostake_days": 90,
+      "post_tge_cap": 0,
+      "final_price": 0.0030620544398305,
+      "min_price": 0.0030620544398305,
+      "max_price": 0.03642987245397328,
+      "total_burned": 39999975,
+      "net_inflation": 1087.5568210227273,
+      "emergency_brake_month": 8,
+      "score": 29.69939412666977
+    },
+    {
+      "name": "3% Burn, 30d POE",
+      "burn_rate": 3,
+      "poe_autostake_days": 30,
+      "post_tge_cap": 0,
+      "final_price": 0.0030503789069863713,
+      "min_price": 0.0030503789069863713,
+      "max_price": 0.03642987245397328,
+      "total_burned": 39999975,
+      "net_inflation": 1092.1022755681818,
+      "emergency_brake_month": 8,
+      "score": 29.697744591771997
+    },
+    {
+      "name": "2% Burn, 90d POE",
+      "burn_rate": 2,
+      "poe_autostake_days": 90,
+      "post_tge_cap": 0,
+      "final_price": 0.003058152679772944,
+      "min_price": 0.003058152679772944,
+      "max_price": 0.03640776696267615,
+      "total_burned": 26666650,
+      "net_inflation": 1089.071971590909,
+      "emergency_brake_month": 8,
+      "score": 29.68580858005411
+    },
+    {
+      "name": "2% Burn, 60d POE",
+      "burn_rate": 2,
+      "poe_autostake_days": 60,
+      "post_tge_cap": 0,
+      "final_price": 0.0030508636120145814,
+      "min_price": 0.0030508636120145814,
+      "max_price": 0.03640776696267615,
+      "total_burned": 26666650,
+      "net_inflation": 1091.9128806818183,
+      "emergency_brake_month": 8,
+      "score": 29.68460596610122
+    },
+    {
+      "name": "2% Burn, 30d POE",
+      "burn_rate": 2,
+      "poe_autostake_days": 30,
+      "post_tge_cap": 0,
+      "final_price": 0.0030465068260055743,
+      "min_price": 0.0030465068260055743,
+      "max_price": 0.03640776696267615,
+      "total_burned": 26666650,
+      "net_inflation": 1093.6174261363635,
+      "emergency_brake_month": 8,
+      "score": 29.68415048879061
+    },
+    {
+      "name": "1% Burn, 30d POE",
+      "burn_rate": 1,
+      "poe_autostake_days": 30,
+      "post_tge_cap": 0,
+      "final_price": 0.003042644562823761,
+      "min_price": 0.003042644562823761,
+      "max_price": 0.03638568828214612,
+      "total_burned": 13333325,
+      "net_inflation": 1095.1325767045455,
+      "emergency_brake_month": 8,
+      "score": 29.67055300850237
+    },
+    {
+      "name": "Baseline (No Burns)",
+      "burn_rate": 0,
+      "poe_autostake_days": 30,
+      "post_tge_cap": 0,
+      "final_price": 0.003038792080148141,
+      "min_price": 0.003038792080148141,
+      "max_price": 0.03636363636363636,
+      "total_burned": 0,
+      "net_inflation": 1096.6477272727273,
+      "emergency_brake_month": 8,
+      "score": 29.656952206299092
+    },
+    {
+      "name": "2% Burn, 90d POE, 1% TGE Cap",
+      "burn_rate": 2,
+      "poe_autostake_days": 90,
+      "post_tge_cap": 1,
+      "final_price": 0.002791387406609692,
+      "min_price": 0.002791387406609692,
+      "max_price": 0.03640776696267615,
+      "total_burned": 26666650,
+      "net_inflation": 1202.708333409091,
+      "emergency_brake_month": 7,
+      "score": 28.64260253034323
+    }
+  ],
+  "recommendation": {
+    "burn_rate": 5,
+    "poe_autostake_days": 90,
+    "post_tge_cap": 0
+  }
+}

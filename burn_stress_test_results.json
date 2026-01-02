@@ -1,0 +1,843 @@
+{
+  "test_date": "2025-01",
+  "scenarios_tested": [
+    "COVID_Crash_2020",
+    "Luna_Crash_2022",
+    "FTX_Collapse_2022",
+    "Bear_Market_2022",
+    "Bull_Then_Crash",
+    "Multiple_Crashes",
+    "Stable_Market",
+    "High_Volatility",
+    "Early_Recovery",
+    "Late_Crash"
+  ],
+  "parameter_results": [
+    {
+      "name": "10% Burn + 20% Cap + 90d POE",
+      "burn_rate": 10,
+      "emission_cap": 0.2,
+      "poe_stake_days": 90,
+      "scenarios_survived": 2,
+      "worst_brake_month": 2,
+      "avg_final_price": 0.004238582481277185,
+      "robustness_score": 15.559291240638593,
+      "scenario_details": [
+        {
+          "scenario": "COVID_Crash_2020",
+          "final_price": 0.003133363792501646,
+          "min_price": 0.003133363792501646,
+          "emergency_month": 2,
+          "months_above_02": 2
+        },
+        {
+          "scenario": "Luna_Crash_2022",
+          "final_price": 0.004195834758646017,
+          "min_price": 0.004195834758646017,
+          "emergency_month": 5,
+          "months_above_02": 5
+        },
+        {
+          "scenario": "FTX_Collapse_2022",
+          "final_price": 0.004731204776205543,
+          "min_price": 0.004731204776205543,
+          "emergency_month": 9,
+          "months_above_02": 9
+        },
+        {
+          "scenario": "Bear_Market_2022",
+          "final_price": 0.00413345973933863,
+          "min_price": 0.00413345973933863,
+          "emergency_month": 8,
+          "months_above_02": 8
+        },
+        {
+          "scenario": "Bull_Then_Crash",
+          "final_price": 0.0032748274741191733,
+          "min_price": 0.0032748274741191733,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Multiple_Crashes",
+          "final_price": 0.002044634817061809,
+          "min_price": 0.002044634817061809,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Stable_Market",
+          "final_price": 0.007062198832048039,
+          "min_price": 0.007062198832048039,
+          "emergency_month": 14,
+          "months_above_02": 14
+        },
+        {
+          "scenario": "High_Volatility",
+          "final_price": 0.0045950047156799135,
+          "min_price": 0.0045950047156799135,
+          "emergency_month": 10,
+          "months_above_02": 10
+        },
+        {
+          "scenario": "Early_Recovery",
+          "final_price": 0.0064023357845673316,
+          "min_price": 0.0064023357845673316,
+          "emergency_month": 2,
+          "months_above_02": 12
+        },
+        {
+          "scenario": "Late_Crash",
+          "final_price": 0.002812960122603746,
+          "min_price": 0.002812960122603746,
+          "emergency_month": 14,
+          "months_above_02": 14
+        }
+      ]
+    },
+    {
+      "name": "15% Burn + 25% Cap + 90d POE",
+      "burn_rate": 15,
+      "emission_cap": 0.25,
+      "poe_stake_days": 90,
+      "scenarios_survived": 2,
+      "worst_brake_month": 2,
+      "avg_final_price": 0.004128217152196005,
+      "robustness_score": 15.464108576098003,
+      "scenario_details": [
+        {
+          "scenario": "COVID_Crash_2020",
+          "final_price": 0.0030414717298813394,
+          "min_price": 0.0030414717298813394,
+          "emergency_month": 2,
+          "months_above_02": 2
+        },
+        {
+          "scenario": "Luna_Crash_2022",
+          "final_price": 0.004080808506716706,
+          "min_price": 0.004080808506716706,
+          "emergency_month": 5,
+          "months_above_02": 5
+        },
+        {
+          "scenario": "FTX_Collapse_2022",
+          "final_price": 0.004606378548854638,
+          "min_price": 0.004606378548854638,
+          "emergency_month": 8,
+          "months_above_02": 8
+        },
+        {
+          "scenario": "Bear_Market_2022",
+          "final_price": 0.004021988899857837,
+          "min_price": 0.004021988899857837,
+          "emergency_month": 8,
+          "months_above_02": 8
+        },
+        {
+          "scenario": "Bull_Then_Crash",
+          "final_price": 0.003185977610523196,
+          "min_price": 0.003185977610523196,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Multiple_Crashes",
+          "final_price": 0.0019835689284120987,
+          "min_price": 0.0019835689284120987,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Stable_Market",
+          "final_price": 0.006899897542451094,
+          "min_price": 0.006899897542451094,
+          "emergency_month": 14,
+          "months_above_02": 14
+        },
+        {
+          "scenario": "High_Volatility",
+          "final_price": 0.004474930316066206,
+          "min_price": 0.004474930316066206,
+          "emergency_month": 10,
+          "months_above_02": 10
+        },
+        {
+          "scenario": "Early_Recovery",
+          "final_price": 0.006244223737891504,
+          "min_price": 0.006244223737891504,
+          "emergency_month": 2,
+          "months_above_02": 11
+        },
+        {
+          "scenario": "Late_Crash",
+          "final_price": 0.0027429257013054306,
+          "min_price": 0.0027429257013054306,
+          "emergency_month": 14,
+          "months_above_02": 14
+        }
+      ]
+    },
+    {
+      "name": "10% Burn + 25% Cap + 90d POE",
+      "burn_rate": 10,
+      "emission_cap": 0.25,
+      "poe_stake_days": 90,
+      "scenarios_survived": 2,
+      "worst_brake_month": 2,
+      "avg_final_price": 0.004083502992239349,
+      "robustness_score": 15.401751496119676,
+      "scenario_details": [
+        {
+          "scenario": "COVID_Crash_2020",
+          "final_price": 0.0030195325989833964,
+          "min_price": 0.0030195325989833964,
+          "emergency_month": 2,
+          "months_above_02": 2
+        },
+        {
+          "scenario": "Luna_Crash_2022",
+          "final_price": 0.004042771964768149,
+          "min_price": 0.004042771964768149,
+          "emergency_month": 4,
+          "months_above_02": 4
+        },
+        {
+          "scenario": "FTX_Collapse_2022",
+          "final_price": 0.004558228198213207,
+          "min_price": 0.004558228198213207,
+          "emergency_month": 8,
+          "months_above_02": 8
+        },
+        {
+          "scenario": "Bear_Market_2022",
+          "final_price": 0.003982527098216309,
+          "min_price": 0.003982527098216309,
+          "emergency_month": 8,
+          "months_above_02": 8
+        },
+        {
+          "scenario": "Bull_Then_Crash",
+          "final_price": 0.003155289723285948,
+          "min_price": 0.003155289723285948,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Multiple_Crashes",
+          "final_price": 0.001970443073659894,
+          "min_price": 0.001970443073659894,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Stable_Market",
+          "final_price": 0.006802118564465806,
+          "min_price": 0.006802118564465806,
+          "emergency_month": 14,
+          "months_above_02": 14
+        },
+        {
+          "scenario": "High_Volatility",
+          "final_price": 0.00442691672333025,
+          "min_price": 0.00442691672333025,
+          "emergency_month": 10,
+          "months_above_02": 10
+        },
+        {
+          "scenario": "Early_Recovery",
+          "final_price": 0.006167413931428454,
+          "min_price": 0.006167413931428454,
+          "emergency_month": 2,
+          "months_above_02": 11
+        },
+        {
+          "scenario": "Late_Crash",
+          "final_price": 0.0027097880460420724,
+          "min_price": 0.0027097880460420724,
+          "emergency_month": 14,
+          "months_above_02": 14
+        }
+      ]
+    },
+    {
+      "name": "5% Burn + 25% Cap + 90d POE",
+      "burn_rate": 5,
+      "emission_cap": 0.25,
+      "poe_stake_days": 90,
+      "scenarios_survived": 2,
+      "worst_brake_month": 2,
+      "avg_final_price": 0.004039783589742348,
+      "robustness_score": 15.339891794871175,
+      "scenario_details": [
+        {
+          "scenario": "COVID_Crash_2020",
+          "final_price": 0.002997907704626735,
+          "min_price": 0.002997907704626735,
+          "emergency_month": 2,
+          "months_above_02": 2
+        },
+        {
+          "scenario": "Luna_Crash_2022",
+          "final_price": 0.004005437936083815,
+          "min_price": 0.004005437936083815,
+          "emergency_month": 4,
+          "months_above_02": 4
+        },
+        {
+          "scenario": "FTX_Collapse_2022",
+          "final_price": 0.0045110740571395235,
+          "min_price": 0.0045110740571395235,
+          "emergency_month": 7,
+          "months_above_02": 7
+        },
+        {
+          "scenario": "Bear_Market_2022",
+          "final_price": 0.003943832131166703,
+          "min_price": 0.003943832131166703,
+          "emergency_month": 8,
+          "months_above_02": 8
+        },
+        {
+          "scenario": "Bull_Then_Crash",
+          "final_price": 0.0031251873748181272,
+          "min_price": 0.0031251873748181272,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Multiple_Crashes",
+          "final_price": 0.0019574897893156694,
+          "min_price": 0.0019574897893156694,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Stable_Market",
+          "final_price": 0.006707072095062015,
+          "min_price": 0.006707072095062015,
+          "emergency_month": 14,
+          "months_above_02": 14
+        },
+        {
+          "scenario": "High_Volatility",
+          "final_price": 0.004379922510416962,
+          "min_price": 0.004379922510416962,
+          "emergency_month": 10,
+          "months_above_02": 10
+        },
+        {
+          "scenario": "Early_Recovery",
+          "final_price": 0.006092470798720512,
+          "min_price": 0.006092470798720512,
+          "emergency_month": 2,
+          "months_above_02": 11
+        },
+        {
+          "scenario": "Late_Crash",
+          "final_price": 0.0026774415000734154,
+          "min_price": 0.0026774415000734154,
+          "emergency_month": 14,
+          "months_above_02": 14
+        }
+      ]
+    },
+    {
+      "name": "10% Burn + 35% Cap + 90d POE",
+      "burn_rate": 10,
+      "emission_cap": 0.35,
+      "poe_stake_days": 90,
+      "scenarios_survived": 2,
+      "worst_brake_month": 2,
+      "avg_final_price": 0.003840778731970507,
+      "robustness_score": 15.160389365985253,
+      "scenario_details": [
+        {
+          "scenario": "COVID_Crash_2020",
+          "final_price": 0.0028412454097694983,
+          "min_price": 0.0028412454097694983,
+          "emergency_month": 2,
+          "months_above_02": 2
+        },
+        {
+          "scenario": "Luna_Crash_2022",
+          "final_price": 0.0038031349442594754,
+          "min_price": 0.0038031349442594754,
+          "emergency_month": 4,
+          "months_above_02": 4
+        },
+        {
+          "scenario": "FTX_Collapse_2022",
+          "final_price": 0.004287472374820537,
+          "min_price": 0.004287472374820537,
+          "emergency_month": 7,
+          "months_above_02": 7
+        },
+        {
+          "scenario": "Bear_Market_2022",
+          "final_price": 0.0037462471857177175,
+          "min_price": 0.0037462471857177175,
+          "emergency_month": 8,
+          "months_above_02": 8
+        },
+        {
+          "scenario": "Bull_Then_Crash",
+          "final_price": 0.0029681510406999816,
+          "min_price": 0.0029681510406999816,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Multiple_Crashes",
+          "final_price": 0.0018542276427010967,
+          "min_price": 0.0018542276427010967,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Stable_Market",
+          "final_price": 0.006395310095271284,
+          "min_price": 0.006395310095271284,
+          "emergency_month": 13,
+          "months_above_02": 13
+        },
+        {
+          "scenario": "High_Volatility",
+          "final_price": 0.00416382675093079,
+          "min_price": 0.00416382675093079,
+          "emergency_month": 10,
+          "months_above_02": 10
+        },
+        {
+          "scenario": "Early_Recovery",
+          "final_price": 0.0057998263134857045,
+          "min_price": 0.0057998263134857045,
+          "emergency_month": 2,
+          "months_above_02": 11
+        },
+        {
+          "scenario": "Late_Crash",
+          "final_price": 0.002548345562048987,
+          "min_price": 0.002548345562048987,
+          "emergency_month": 13,
+          "months_above_02": 13
+        }
+      ]
+    },
+    {
+      "name": "5% Burn + 25% Cap + 60d POE",
+      "burn_rate": 5,
+      "emission_cap": 0.25,
+      "poe_stake_days": 60,
+      "scenarios_survived": 2,
+      "worst_brake_month": 2,
+      "avg_final_price": 0.0038020803974302088,
+      "robustness_score": 15.061040198715105,
+      "scenario_details": [
+        {
+          "scenario": "COVID_Crash_2020",
+          "final_price": 0.002822090696647128,
+          "min_price": 0.002822090696647128,
+          "emergency_month": 2,
+          "months_above_02": 2
+        },
+        {
+          "scenario": "Luna_Crash_2022",
+          "final_price": 0.0037700776249714875,
+          "min_price": 0.0037700776249714875,
+          "emergency_month": 3,
+          "months_above_02": 3
+        },
+        {
+          "scenario": "FTX_Collapse_2022",
+          "final_price": 0.004245728060956516,
+          "min_price": 0.004245728060956516,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Bear_Market_2022",
+          "final_price": 0.003711987743808416,
+          "min_price": 0.003711987743808416,
+          "emergency_month": 8,
+          "months_above_02": 8
+        },
+        {
+          "scenario": "Bull_Then_Crash",
+          "final_price": 0.0029414984338318032,
+          "min_price": 0.0029414984338318032,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Multiple_Crashes",
+          "final_price": 0.0018427528032167477,
+          "min_price": 0.0018427528032167477,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Stable_Market",
+          "final_price": 0.006311222121125428,
+          "min_price": 0.006311222121125428,
+          "emergency_month": 13,
+          "months_above_02": 13
+        },
+        {
+          "scenario": "High_Volatility",
+          "final_price": 0.004122226011389107,
+          "min_price": 0.004122226011389107,
+          "emergency_month": 10,
+          "months_above_02": 10
+        },
+        {
+          "scenario": "Early_Recovery",
+          "final_price": 0.005733502380085523,
+          "min_price": 0.005733502380085523,
+          "emergency_month": 2,
+          "months_above_02": 11
+        },
+        {
+          "scenario": "Late_Crash",
+          "final_price": 0.002519718098269931,
+          "min_price": 0.002519718098269931,
+          "emergency_month": 13,
+          "months_above_02": 13
+        }
+      ]
+    },
+    {
+      "name": "5% Burn + 25% Cap + 30d POE",
+      "burn_rate": 5,
+      "emission_cap": 0.25,
+      "poe_stake_days": 30,
+      "scenarios_survived": 2,
+      "worst_brake_month": 2,
+      "avg_final_price": 0.003590795988186521,
+      "robustness_score": 14.675397994093261,
+      "scenario_details": [
+        {
+          "scenario": "COVID_Crash_2020",
+          "final_price": 0.0026657533958439656,
+          "min_price": 0.0026657533958439656,
+          "emergency_month": 2,
+          "months_above_02": 2
+        },
+        {
+          "scenario": "Luna_Crash_2022",
+          "final_price": 0.0035608418646713635,
+          "min_price": 0.0035608418646713635,
+          "emergency_month": 3,
+          "months_above_02": 3
+        },
+        {
+          "scenario": "FTX_Collapse_2022",
+          "final_price": 0.004009863767347541,
+          "min_price": 0.004009863767347541,
+          "emergency_month": 5,
+          "months_above_02": 5
+        },
+        {
+          "scenario": "Bear_Market_2022",
+          "final_price": 0.0035058885582131883,
+          "min_price": 0.0035058885582131883,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Bull_Then_Crash",
+          "final_price": 0.002778204106496956,
+          "min_price": 0.002778204106496956,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Multiple_Crashes",
+          "final_price": 0.001740721546821419,
+          "min_price": 0.001740721546821419,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Stable_Market",
+          "final_price": 0.005959494045287518,
+          "min_price": 0.005959494045287518,
+          "emergency_month": 13,
+          "months_above_02": 13
+        },
+        {
+          "scenario": "High_Volatility",
+          "final_price": 0.0038931681235967537,
+          "min_price": 0.0038931681235967537,
+          "emergency_month": 6,
+          "months_above_02": 8
+        },
+        {
+          "scenario": "Early_Recovery",
+          "final_price": 0.005414481117809274,
+          "min_price": 0.005414481117809274,
+          "emergency_month": 2,
+          "months_above_02": 9
+        },
+        {
+          "scenario": "Late_Crash",
+          "final_price": 0.0023795433557772297,
+          "min_price": 0.0023795433557772297,
+          "emergency_month": 13,
+          "months_above_02": 13
+        }
+      ]
+    },
+    {
+      "name": "5% Burn + 50% Cap",
+      "burn_rate": 5,
+      "emission_cap": 0.5,
+      "poe_stake_days": 30,
+      "scenarios_survived": 0,
+      "worst_brake_month": 2,
+      "avg_final_price": 0.0029156850302712633,
+      "robustness_score": 6.017842515135632,
+      "scenario_details": [
+        {
+          "scenario": "COVID_Crash_2020",
+          "final_price": 0.002165828783139005,
+          "min_price": 0.002165828783139005,
+          "emergency_month": 2,
+          "months_above_02": 2
+        },
+        {
+          "scenario": "Luna_Crash_2022",
+          "final_price": 0.0028920635187959522,
+          "min_price": 0.0028920635187959522,
+          "emergency_month": 3,
+          "months_above_02": 3
+        },
+        {
+          "scenario": "FTX_Collapse_2022",
+          "final_price": 0.003256154594867285,
+          "min_price": 0.003256154594867285,
+          "emergency_month": 5,
+          "months_above_02": 5
+        },
+        {
+          "scenario": "Bear_Market_2022",
+          "final_price": 0.0028472044900529083,
+          "min_price": 0.0028472044900529083,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Bull_Then_Crash",
+          "final_price": 0.0022563025724168006,
+          "min_price": 0.0022563025724168006,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Multiple_Crashes",
+          "final_price": 0.0014144113492578344,
+          "min_price": 0.0014144113492578344,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Stable_Market",
+          "final_price": 0.004836424308482196,
+          "min_price": 0.004836424308482196,
+          "emergency_month": 9,
+          "months_above_02": 9
+        },
+        {
+          "scenario": "High_Volatility",
+          "final_price": 0.0031612519839159694,
+          "min_price": 0.0031612519839159694,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Early_Recovery",
+          "final_price": 0.004395441831666492,
+          "min_price": 0.004395441831666492,
+          "emergency_month": 2,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Late_Crash",
+          "final_price": 0.0019317668701181903,
+          "min_price": 0.0019317668701181903,
+          "emergency_month": 9,
+          "months_above_02": 9
+        }
+      ]
+    },
+    {
+      "name": "5% Burn Only",
+      "burn_rate": 5,
+      "emission_cap": 1.0,
+      "poe_stake_days": 30,
+      "scenarios_survived": 0,
+      "worst_brake_month": 2,
+      "avg_final_price": 0.0022655517842207983,
+      "robustness_score": 5.692775892110399,
+      "scenario_details": [
+        {
+          "scenario": "COVID_Crash_2020",
+          "final_price": 0.0016838461837531328,
+          "min_price": 0.0016838461837531328,
+          "emergency_month": 2,
+          "months_above_02": 2
+        },
+        {
+          "scenario": "Luna_Crash_2022",
+          "final_price": 0.002247721547182377,
+          "min_price": 0.002247721547182377,
+          "emergency_month": 3,
+          "months_above_02": 3
+        },
+        {
+          "scenario": "FTX_Collapse_2022",
+          "final_price": 0.0025302467953958407,
+          "min_price": 0.0025302467953958407,
+          "emergency_month": 5,
+          "months_above_02": 5
+        },
+        {
+          "scenario": "Bear_Market_2022",
+          "final_price": 0.002212687187486557,
+          "min_price": 0.002212687187486557,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Bull_Then_Crash",
+          "final_price": 0.0017535206032997942,
+          "min_price": 0.0017535206032997942,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Multiple_Crashes",
+          "final_price": 0.0010997520796787298,
+          "min_price": 0.0010997520796787298,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Stable_Market",
+          "final_price": 0.00375605222525348,
+          "min_price": 0.00375605222525348,
+          "emergency_month": 9,
+          "months_above_02": 9
+        },
+        {
+          "scenario": "High_Volatility",
+          "final_price": 0.002456395303123195,
+          "min_price": 0.002456395303123195,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Early_Recovery",
+          "final_price": 0.0034145660728347282,
+          "min_price": 0.0034145660728347282,
+          "emergency_month": 2,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Late_Crash",
+          "final_price": 0.0015007298442001485,
+          "min_price": 0.0015007298442001485,
+          "emergency_month": 9,
+          "months_above_02": 9
+        }
+      ]
+    },
+    {
+      "name": "Baseline (No Burns)",
+      "burn_rate": 0,
+      "emission_cap": 1.0,
+      "poe_stake_days": 30,
+      "scenarios_survived": 0,
+      "worst_brake_month": 2,
+      "avg_final_price": 0.0022520434415489884,
+      "robustness_score": 5.6460217207744945,
+      "scenario_details": [
+        {
+          "scenario": "COVID_Crash_2020",
+          "final_price": 0.0016771000145581595,
+          "min_price": 0.0016771000145581595,
+          "emergency_month": 2,
+          "months_above_02": 2
+        },
+        {
+          "scenario": "Luna_Crash_2022",
+          "final_price": 0.002236133352744213,
+          "min_price": 0.002236133352744213,
+          "emergency_month": 3,
+          "months_above_02": 3
+        },
+        {
+          "scenario": "FTX_Collapse_2022",
+          "final_price": 0.00251565002183724,
+          "min_price": 0.00251565002183724,
+          "emergency_month": 5,
+          "months_above_02": 5
+        },
+        {
+          "scenario": "Bear_Market_2022",
+          "final_price": 0.0022006906391032173,
+          "min_price": 0.0022006906391032173,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Bull_Then_Crash",
+          "final_price": 0.0017441840151404865,
+          "min_price": 0.0017441840151404865,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Multiple_Crashes",
+          "final_price": 0.0010957053428446645,
+          "min_price": 0.0010957053428446645,
+          "emergency_month": 5,
+          "months_above_02": 5
+        },
+        {
+          "scenario": "Stable_Market",
+          "final_price": 0.003726888921240355,
+          "min_price": 0.003726888921240355,
+          "emergency_month": 9,
+          "months_above_02": 9
+        },
+        {
+          "scenario": "High_Volatility",
+          "final_price": 0.002441857621196681,
+          "min_price": 0.002441857621196681,
+          "emergency_month": 6,
+          "months_above_02": 6
+        },
+        {
+          "scenario": "Early_Recovery",
+          "final_price": 0.0033914689183287233,
+          "min_price": 0.0033914689183287233,
+          "emergency_month": 2,
+          "months_above_02": 5
+        },
+        {
+          "scenario": "Late_Crash",
+          "final_price": 0.0014907555684961422,
+          "min_price": 0.0014907555684961422,
+          "emergency_month": 9,
+          "months_above_02": 9
+        }
+      ]
+    }
+  ],
+  "recommendation": {
+    "burn_rate": 10,
+    "emission_cap": 0.2,
+    "poe_stake_days": 90,
+    "post_tge_cap": 0
+  }
+}

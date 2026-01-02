@@ -1,0 +1,130 @@
+{
+  "simulations": [
+    {
+      "name": "15% Burn, 25% Emission Cap (Aggressive)",
+      "burn_rate": 15,
+      "emission_cap": 0.25,
+      "poe_stake_days": 90,
+      "final_price": 0.007120881580948079,
+      "min_price": 0.007120881580948079,
+      "total_burned": 343924392,
+      "months_above_2c": 14,
+      "emergency_month": 14,
+      "score": 48.52056629142212
+    },
+    {
+      "name": "10% Burn, 25% Emission Cap",
+      "burn_rate": 10,
+      "emission_cap": 0.25,
+      "poe_stake_days": 90,
+      "final_price": 0.006950502631049565,
+      "min_price": 0.006950502631049565,
+      "total_burned": 233766418,
+      "months_above_2c": 14,
+      "emergency_month": 14,
+      "score": 47.16341812657435
+    },
+    {
+      "name": "5% Burn, 25% Emission Cap",
+      "burn_rate": 5,
+      "emission_cap": 0.25,
+      "poe_stake_days": 90,
+      "final_price": 0.0067817402223504285,
+      "min_price": 0.0067817402223504285,
+      "total_burned": 119197099,
+      "months_above_2c": 14,
+      "emergency_month": 14,
+      "score": 45.76458132352565
+    },
+    {
+      "name": "10% Burn, 35% Emission Cap",
+      "burn_rate": 10,
+      "emission_cap": 0.35,
+      "poe_stake_days": 90,
+      "final_price": 0.006543778114124655,
+      "min_price": 0.006543778114124655,
+      "total_burned": 246858641,
+      "months_above_2c": 13,
+      "emergency_month": 13,
+      "score": 44.28425358118699
+    },
+    {
+      "name": "10% Burn, 50% Emission Cap",
+      "burn_rate": 10,
+      "emission_cap": 0.5,
+      "poe_stake_days": 90,
+      "final_price": 0.006015740910990386,
+      "min_price": 0.006015740910990386,
+      "total_burned": 266496976,
+      "months_above_2c": 13,
+      "emergency_month": 13,
+      "score": 43.68858112648558
+    },
+    {
+      "name": "5% Burn, 35% Emission Cap",
+      "burn_rate": 5,
+      "emission_cap": 0.35,
+      "poe_stake_days": 90,
+      "final_price": 0.006385741636378809,
+      "min_price": 0.006385741636378809,
+      "total_burned": 125835781,
+      "months_above_2c": 13,
+      "emergency_month": 13,
+      "score": 42.836970264568215
+    },
+    {
+      "name": "5% Burn, 50% Emission Cap",
+      "burn_rate": 5,
+      "emission_cap": 0.5,
+      "poe_stake_days": 90,
+      "final_price": 0.005871472165329609,
+      "min_price": 0.005871472165329609,
+      "total_burned": 135793811,
+      "months_above_2c": 13,
+      "emergency_month": 13,
+      "score": 42.165146357994416
+    },
+    {
+      "name": "5% Burn, 75% Emission Cap",
+      "burn_rate": 5,
+      "emission_cap": 0.75,
+      "poe_stake_days": 90,
+      "final_price": 0.005273213958856237,
+      "min_price": 0.005273213958856237,
+      "total_burned": 147469612,
+      "months_above_2c": 12,
+      "emergency_month": 12,
+      "score": 38.984517058284354
+    },
+    {
+      "name": "5% Burn, 100% Emission",
+      "burn_rate": 5,
+      "emission_cap": 1.0,
+      "poe_stake_days": 90,
+      "final_price": 0.004868643830462472,
+      "min_price": 0.004868643830462472,
+      "total_burned": 155077791,
+      "months_above_2c": 12,
+      "emergency_month": 12,
+      "score": 38.45374365569371
+    },
+    {
+      "name": "Baseline (No Burns, 100% Emission)",
+      "burn_rate": 0,
+      "emission_cap": 1.0,
+      "poe_stake_days": 30,
+      "final_price": 0.003726888921240355,
+      "min_price": 0.003726888921240355,
+      "total_burned": 0,
+      "months_above_2c": 9,
+      "emergency_month": 9,
+      "score": 27.99033338186053
+    }
+  ],
+  "recommendation": {
+    "burn_rate": 15,
+    "emission_cap": 0.25,
+    "poe_stake_days": 90,
+    "post_tge_cap": 0
+  }
+}
