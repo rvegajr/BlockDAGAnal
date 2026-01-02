@@ -14,6 +14,7 @@ This repository contains a complete, production-ready vesting solution with smar
 |---------|-------------|------|
 | **Solution Overview** | How the vesting works | [Below](#solution-overview) |
 | **Market Scenarios** | 10 historical crash simulations | [Below](#market-scenarios-tested) |
+| **Utility Conversion** | 75% bonus to non-tradable utility ⭐ NEW | [Below](#utility-token-conversion-proposal) |
 | **Simulations** | Run your own analysis | [Below](#run-simulations) |
 | **Documentation** | Full index of all docs | [Below](#complete-documentation-index) |
 
@@ -82,6 +83,49 @@ This repository contains a complete, production-ready vesting solution with smar
 
 **✅ Emergency brake activated in 100% of scenarios** - Protection works as designed.
 
+---
+
+## Utility Token Conversion Proposal
+
+### The Problem: 33B Bonus Tokens = Massive Selling Pressure
+
+Once bonus tokens become tradable, everyone sells → price crashes → everyone loses.
+
+### The Proposal: Convert 75% to Non-Tradable Utility
+
+| Token Type | Current | Proposed |
+|------------|---------|----------|
+| Base BDAG | 17B tradable | 17B tradable (NO CHANGE) |
+| Bonus (tradable) | 33B | 8.25B (25%) |
+| Bonus (utility) | 0 | 24.75B (75%) |
+| **Total Tradable** | 50B | **25.25B (-50%)** |
+
+### What Utility-BDAG Can Do
+
+- ⛽ Pay network fees (50% discount)
+- ⛏️ Mining boosts (+25% efficiency)
+- 📈 Staking multipliers (1.5x APY)
+- 🗳️ Governance voting (2x power)
+- 🎮 Ecosystem access (premium features)
+
+### Impact on Simulations
+
+| Scenario | Current (Brake Month) | With Utility | Change |
+|----------|----------------------|--------------|--------|
+| Normal | Month 10 | Month 18+ | **+80%** |
+| Stable Growth | Month 15 | **No Brake** | ✅ Survives |
+
+### Key Points
+
+- ✅ Base BDAG completely unchanged
+- ✅ Same total value (financial + utility)
+- ✅ Recommended: Voluntary conversion with incentives
+- ⚠️ Requires: Legal review + community vote
+
+**[Full Analysis →](docs/vesting/UTILITY_CONVERSION_ANALYSIS.md)**
+
+---
+
 ### Validated by 4 Independent Models
 
 | Model | Miner Data | Method | Result |
@@ -123,12 +167,13 @@ python3 scripts/fairness_optimization.py                # TGE % optimization
 | [Investor Communication](docs/vesting/PRESALE_INVESTOR_COMMUNICATION.md) | Ready-to-distribute materials |
 | [Economic Model](docs/vesting/ECONOMIC_MODEL.xlsx.md) | Spreadsheet structure for scenarios |
 
-### 📁 Market Simulations
+### 📁 Market Simulations & Proposals
 
 | Document | Description |
 |----------|-------------|
-| [**40% TGE Analysis**](docs/vesting/FORTY_PERCENT_TGE_ANALYSIS.md) | **"As Promised" - What 40% TGE really means** ⭐ NEW |
-| [**Market Scenario Breakdown**](docs/vesting/MARKET_SCENARIO_BREAKDOWN.md) | **Detailed breakdown of all 10 scenarios** ⭐ |
+| [**Utility Conversion Analysis**](docs/vesting/UTILITY_CONVERSION_ANALYSIS.md) | **75% bonus to utility tokens proposal** ⭐ NEW |
+| [**40% TGE Analysis**](docs/vesting/FORTY_PERCENT_TGE_ANALYSIS.md) | **"As Promised" - What 40% TGE really means** ⭐ |
+| [**Market Scenario Breakdown**](docs/vesting/MARKET_SCENARIO_BREAKDOWN.md) | **Detailed breakdown of all 10 scenarios** |
 | [Simulation Results](docs/vesting/SIMULATION_RESULTS.md) | 10 scenario analysis |
 | [Model Comparison](docs/vesting/MODEL_COMPARISON.md) | All 4 models compared |
 | [Real Miner Analysis](docs/vesting/REAL_MINER_ANALYSIS.md) | v3/v4 with actual data |
