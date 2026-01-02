@@ -1,0 +1,2642 @@
+[
+  {
+    "scenario": "May 2021-Style Crash",
+    "description": "Major crypto crash 2 months after launch, 60% liquidity drop",
+    "months": [
+      {
+        "month": 0,
+        "circulating": 237999999,
+        "total_supply": 340000000,
+        "staked": 102000000,
+        "price": 0.1344537820775369,
+        "liquidity": 32000000,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "circulating": 260259999,
+        "total_supply": 371800000,
+        "staked": 111540000,
+        "price": 0.12295396958024271,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "circulating": 242160000,
+        "total_supply": 403600000,
+        "staked": 121080000,
+        "price": 0.052857614800132145,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "circulating": 289860000,
+        "total_supply": 483100000,
+        "staked": 144930000,
+        "price": 0.04415924929276202,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "circulating": 337560000,
+        "total_supply": 562600000,
+        "staked": 168780000,
+        "price": 0.037919184737528144,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "circulating": 385260000,
+        "total_supply": 642100000,
+        "staked": 192630000,
+        "price": 0.03322431604630639,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.000000002,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "circulating": 480660000,
+        "total_supply": 801100000,
+        "staked": 240330000,
+        "price": 0.026630050347438938,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "circulating": 576060000,
+        "total_supply": 960100000,
+        "staked": 288030000,
+        "price": 0.022219907648508837,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "circulating": 671460000,
+        "total_supply": 1119100000,
+        "staked": 335730000,
+        "price": 0.019062937479522236,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "circulating": 814560000,
+        "total_supply": 1357600000,
+        "staked": 407280000,
+        "price": 0.01571400510705166,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 10,
+        "circulating": 957660000,
+        "total_supply": 1596100000,
+        "staked": 478830000,
+        "price": 0.013365912745650858,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "circulating": 1100760000,
+        "total_supply": 1834600000,
+        "staked": 550380000,
+        "price": 0.01162832951778771,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "circulating": 1291560000,
+        "total_supply": 2152600000,
+        "staked": 645780000,
+        "price": 0.00991049583449472,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "circulating": 1550359999,
+        "total_supply": 2583933333,
+        "staked": 775179999,
+        "price": 0.008256146964741187,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "circulating": 1809159999,
+        "total_supply": 3015266666,
+        "staked": 904579999,
+        "price": 0.007075106683253613,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "circulating": 2067960000,
+        "total_supply": 3446600000,
+        "staked": 1033980000,
+        "price": 0.006189674848643107,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "circulating": 2326759999,
+        "total_supply": 3877933333,
+        "staked": 1163379999,
+        "price": 0.005501211988129937,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "circulating": 2585559999,
+        "total_supply": 4309266666,
+        "staked": 1292779999,
+        "price": 0.004950571638233331,
+        "liquidity": 12800000.0,
+        "market_cap": 12799999.999999998,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "circulating": 2844360000,
+        "total_supply": 4740600000,
+        "staked": 1422180000,
+        "price": 0.004500133597716182,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "circulating": 3103159999,
+        "total_supply": 5171933333,
+        "staked": 1551579999,
+        "price": 0.0041248275964258455,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "circulating": 3361959999,
+        "total_supply": 5603266666,
+        "staked": 1680979999,
+        "price": 0.003807302883974617,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "circulating": 3620760000,
+        "total_supply": 6034600000,
+        "staked": 1810380000,
+        "price": 0.0035351694119466633,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "circulating": 3879559999,
+        "total_supply": 6465933333,
+        "staked": 1939779999,
+        "price": 0.0032993432253398177,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "circulating": 4138359999,
+        "total_supply": 6897266666,
+        "staked": 2069179999,
+        "price": 0.0030930126917650983,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "circulating": 4397160000,
+        "total_supply": 7328600000,
+        "staked": 2198580000,
+        "price": 0.002910969807785025,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "Price below $0.02 for 30 days",
+    "min_price": 0.002910969807785025,
+    "max_price": 0.1344537820775369,
+    "final_price": 0.002910969807785025,
+    "final_circulating": 4397160000,
+    "final_market_cap": 12800000.0,
+    "emergency_brake_month": 9
+  },
+  {
+    "scenario": "FTX Collapse Scenario",
+    "description": "Exchange collapse 3 months after launch, 70% liquidity drop",
+    "months": [
+      {
+        "month": 0,
+        "circulating": 237999999,
+        "total_supply": 340000000,
+        "staked": 102000000,
+        "price": 0.1344537820775369,
+        "liquidity": 32000000,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "circulating": 260259999,
+        "total_supply": 371800000,
+        "staked": 111540000,
+        "price": 0.12295396958024271,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "circulating": 282520000,
+        "total_supply": 403600000,
+        "staked": 121080000,
+        "price": 0.1132663174288546,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "circulating": 289860000,
+        "total_supply": 483100000,
+        "staked": 144930000,
+        "price": 0.033119436969571515,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 4,
+        "circulating": 337560000,
+        "total_supply": 562600000,
+        "staked": 168780000,
+        "price": 0.028439388553146108,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 5,
+        "circulating": 385260000,
+        "total_supply": 642100000,
+        "staked": 192630000,
+        "price": 0.02491823703472979,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 6,
+        "circulating": 480660000,
+        "total_supply": 801100000,
+        "staked": 240330000,
+        "price": 0.019972537760579202,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 7,
+        "circulating": 576060000,
+        "total_supply": 960100000,
+        "staked": 288030000,
+        "price": 0.016664930736381627,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 8,
+        "circulating": 671460000,
+        "total_supply": 1119100000,
+        "staked": 335730000,
+        "price": 0.014297203109641676,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 9,
+        "circulating": 814560000,
+        "total_supply": 1357600000,
+        "staked": 407280000,
+        "price": 0.011785503830288745,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 10,
+        "circulating": 957660000,
+        "total_supply": 1596100000,
+        "staked": 478830000,
+        "price": 0.010024434559238142,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "circulating": 1100760000,
+        "total_supply": 1834600000,
+        "staked": 550380000,
+        "price": 0.008721247138340783,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "circulating": 1291560000,
+        "total_supply": 2152600000,
+        "staked": 645780000,
+        "price": 0.0074328718758710395,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "circulating": 1550359999,
+        "total_supply": 2583933333,
+        "staked": 775179999,
+        "price": 0.006192110223555891,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "circulating": 1809159999,
+        "total_supply": 3015266666,
+        "staked": 904579999,
+        "price": 0.00530633001244021,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "circulating": 2067960000,
+        "total_supply": 3446600000,
+        "staked": 1033980000,
+        "price": 0.004642256136482331,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "circulating": 2326759999,
+        "total_supply": 3877933333,
+        "staked": 1163379999,
+        "price": 0.0041259089910974526,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "circulating": 2585559999,
+        "total_supply": 4309266666,
+        "staked": 1292779999,
+        "price": 0.0037129287286749983,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "circulating": 2844360000,
+        "total_supply": 4740600000,
+        "staked": 1422180000,
+        "price": 0.0033751001982871365,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "circulating": 3103159999,
+        "total_supply": 5171933333,
+        "staked": 1551579999,
+        "price": 0.003093620697319384,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "circulating": 3361959999,
+        "total_supply": 5603266666,
+        "staked": 1680979999,
+        "price": 0.002855477162980963,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "circulating": 3620760000,
+        "total_supply": 6034600000,
+        "staked": 1810380000,
+        "price": 0.0026513770589599974,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "circulating": 3879559999,
+        "total_supply": 6465933333,
+        "staked": 1939779999,
+        "price": 0.0024745074190048633,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "circulating": 4138359999,
+        "total_supply": 6897266666,
+        "staked": 2069179999,
+        "price": 0.002319759518823824,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "circulating": 4397160000,
+        "total_supply": 7328600000,
+        "staked": 2198580000,
+        "price": 0.002183227355838769,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "Liquidity below $10M",
+    "min_price": 0.002183227355838769,
+    "max_price": 0.1344537820775369,
+    "final_price": 0.002183227355838769,
+    "final_circulating": 4397160000,
+    "final_market_cap": 9600000.0,
+    "emergency_brake_month": 3
+  },
+  {
+    "scenario": "COVID-Style Black Swan",
+    "description": "Black swan event 1 month after launch, 80% liquidity drop",
+    "months": [
+      {
+        "month": 0,
+        "circulating": 237999999,
+        "total_supply": 340000000,
+        "staked": 102000000,
+        "price": 0.1344537820775369,
+        "liquidity": 32000000,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "circulating": 223080000,
+        "total_supply": 371800000,
+        "staked": 111540000,
+        "price": 0.028689259458490227,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 2,
+        "circulating": 242160000,
+        "total_supply": 403600000,
+        "staked": 121080000,
+        "price": 0.026428807400066073,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 3,
+        "circulating": 289860000,
+        "total_supply": 483100000,
+        "staked": 144930000,
+        "price": 0.02207962464638101,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 4,
+        "circulating": 337560000,
+        "total_supply": 562600000,
+        "staked": 168780000,
+        "price": 0.018959592368764072,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 5,
+        "circulating": 385260000,
+        "total_supply": 642100000,
+        "staked": 192630000,
+        "price": 0.016612158023153197,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.000000001,
+        "emergency_active": true
+      },
+      {
+        "month": 6,
+        "circulating": 480660000,
+        "total_supply": 801100000,
+        "staked": 240330000,
+        "price": 0.013315025173719469,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 7,
+        "circulating": 576060000,
+        "total_supply": 960100000,
+        "staked": 288030000,
+        "price": 0.011109953824254419,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 8,
+        "circulating": 671460000,
+        "total_supply": 1119100000,
+        "staked": 335730000,
+        "price": 0.009531468739761118,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 9,
+        "circulating": 814560000,
+        "total_supply": 1357600000,
+        "staked": 407280000,
+        "price": 0.00785700255352583,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 10,
+        "circulating": 957660000,
+        "total_supply": 1596100000,
+        "staked": 478830000,
+        "price": 0.006682956372825429,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "circulating": 1100760000,
+        "total_supply": 1834600000,
+        "staked": 550380000,
+        "price": 0.005814164758893855,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "circulating": 1291560000,
+        "total_supply": 2152600000,
+        "staked": 645780000,
+        "price": 0.00495524791724736,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "circulating": 1550359999,
+        "total_supply": 2583933333,
+        "staked": 775179999,
+        "price": 0.0041280734823705935,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "circulating": 1809159999,
+        "total_supply": 3015266666,
+        "staked": 904579999,
+        "price": 0.0035375533416268064,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "circulating": 2067960000,
+        "total_supply": 3446600000,
+        "staked": 1033980000,
+        "price": 0.0030948374243215536,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "circulating": 2326759999,
+        "total_supply": 3877933333,
+        "staked": 1163379999,
+        "price": 0.0027506059940649685,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "circulating": 2585559999,
+        "total_supply": 4309266666,
+        "staked": 1292779999,
+        "price": 0.0024752858191166654,
+        "liquidity": 6400000.0,
+        "market_cap": 6399999.999999999,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "circulating": 2844360000,
+        "total_supply": 4740600000,
+        "staked": 1422180000,
+        "price": 0.002250066798858091,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "circulating": 3103159999,
+        "total_supply": 5171933333,
+        "staked": 1551579999,
+        "price": 0.0020624137982129228,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "circulating": 3361959999,
+        "total_supply": 5603266666,
+        "staked": 1680979999,
+        "price": 0.0019036514419873084,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "circulating": 3620760000,
+        "total_supply": 6034600000,
+        "staked": 1810380000,
+        "price": 0.0017675847059733317,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "circulating": 3879559999,
+        "total_supply": 6465933333,
+        "staked": 1939779999,
+        "price": 0.0016496716126699089,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "circulating": 4138359999,
+        "total_supply": 6897266666,
+        "staked": 2069179999,
+        "price": 0.0015465063458825492,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "circulating": 4397160000,
+        "total_supply": 7328600000,
+        "staked": 2198580000,
+        "price": 0.0014554849038925124,
+        "liquidity": 6400000.0,
+        "market_cap": 6400000.0,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "Liquidity below $10M",
+    "min_price": 0.0014554849038925124,
+    "max_price": 0.1344537820775369,
+    "final_price": 0.0014554849038925124,
+    "final_circulating": 4397160000,
+    "final_market_cap": 6400000.0,
+    "emergency_brake_month": 1
+  },
+  {
+    "scenario": "Gradual Bear Market",
+    "description": "Slow decline over 12 months, 50% total drop",
+    "months": [
+      {
+        "month": 0,
+        "circulating": 237999999,
+        "total_supply": 340000000,
+        "staked": 102000000,
+        "price": 0.1344537820775369,
+        "liquidity": 32000000,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "circulating": 260259999,
+        "total_supply": 371800000,
+        "staked": 111540000,
+        "price": 0.12295396958024271,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "circulating": 282520000,
+        "total_supply": 403600000,
+        "staked": 121080000,
+        "price": 0.1132663174288546,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "circulating": 338170000,
+        "total_supply": 483100000,
+        "staked": 144930000,
+        "price": 0.07097022207765324,
+        "liquidity": 24000000.0,
+        "market_cap": 23999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "circulating": 393820000,
+        "total_supply": 562600000,
+        "staked": 168780000,
+        "price": 0.060941546899598804,
+        "liquidity": 24000000.0,
+        "market_cap": 24000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "circulating": 449470000,
+        "total_supply": 642100000,
+        "staked": 192630000,
+        "price": 0.053396222217278126,
+        "liquidity": 24000000.0,
+        "market_cap": 24000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "circulating": 480660000,
+        "total_supply": 801100000,
+        "staked": 240330000,
+        "price": 0.039945075521158405,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "circulating": 576060000,
+        "total_supply": 960100000,
+        "staked": 288030000,
+        "price": 0.033329861472763254,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "circulating": 671460000,
+        "total_supply": 1119100000,
+        "staked": 335730000,
+        "price": 0.02859440621928335,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "circulating": 814560000,
+        "total_supply": 1357600000,
+        "staked": 407280000,
+        "price": 0.019642506383814574,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "circulating": 957660000,
+        "total_supply": 1596100000,
+        "staked": 478830000,
+        "price": 0.01670739093206357,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "circulating": 1100760000,
+        "total_supply": 1834600000,
+        "staked": 550380000,
+        "price": 0.014535411897234637,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "circulating": 1291560000,
+        "total_supply": 2152600000,
+        "staked": 645780000,
+        "price": 0.012388119793118399,
+        "liquidity": 16000000.0,
+        "market_cap": 15999999.999999998,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "circulating": 1550359999,
+        "total_supply": 2583933333,
+        "staked": 775179999,
+        "price": 0.010320183705926484,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "circulating": 1809159999,
+        "total_supply": 3015266666,
+        "staked": 904579999,
+        "price": 0.008843883354067016,
+        "liquidity": 16000000.0,
+        "market_cap": 15999999.999999998,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "circulating": 2067960000,
+        "total_supply": 3446600000,
+        "staked": 1033980000,
+        "price": 0.007737093560803884,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "circulating": 2326759999,
+        "total_supply": 3877933333,
+        "staked": 1163379999,
+        "price": 0.0068765149851624215,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "circulating": 2585559999,
+        "total_supply": 4309266666,
+        "staked": 1292779999,
+        "price": 0.006188214547791664,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "circulating": 2844360000,
+        "total_supply": 4740600000,
+        "staked": 1422180000,
+        "price": 0.0056251669971452275,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "circulating": 3103159999,
+        "total_supply": 5171933333,
+        "staked": 1551579999,
+        "price": 0.005156034495532307,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "circulating": 3361959999,
+        "total_supply": 5603266666,
+        "staked": 1680979999,
+        "price": 0.004759128604968271,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "circulating": 3620760000,
+        "total_supply": 6034600000,
+        "staked": 1810380000,
+        "price": 0.004418961764933329,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.000000002,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "circulating": 3879559999,
+        "total_supply": 6465933333,
+        "staked": 1939779999,
+        "price": 0.004124179031674773,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.000000002,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "circulating": 4138359999,
+        "total_supply": 6897266666,
+        "staked": 2069179999,
+        "price": 0.003866265864706373,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "circulating": 4397160000,
+        "total_supply": 7328600000,
+        "staked": 2198580000,
+        "price": 0.0036387122597312813,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "Price below $0.02 for 30 days",
+    "min_price": 0.0036387122597312813,
+    "max_price": 0.1344537820775369,
+    "final_price": 0.0036387122597312813,
+    "final_circulating": 4397160000,
+    "final_market_cap": 16000000.0,
+    "emergency_brake_month": 10
+  },
+  {
+    "scenario": "Bull Run Then Crash",
+    "description": "Strong growth for 6 months, then 70% crash",
+    "months": [
+      {
+        "month": 0,
+        "circulating": 237999999,
+        "total_supply": 340000000,
+        "staked": 102000000,
+        "price": 0.1344537820775369,
+        "liquidity": 32000000,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "circulating": 260259999,
+        "total_supply": 371800000,
+        "staked": 111540000,
+        "price": 0.12295396958024271,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "circulating": 282520000,
+        "total_supply": 403600000,
+        "staked": 121080000,
+        "price": 0.16989947614328188,
+        "liquidity": 48000000.0,
+        "market_cap": 48000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "circulating": 338170000,
+        "total_supply": 483100000,
+        "staked": 144930000,
+        "price": 0.1419404441553065,
+        "liquidity": 48000000.0,
+        "market_cap": 47999999.99999999,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "circulating": 393820000,
+        "total_supply": 562600000,
+        "staked": 168780000,
+        "price": 0.16251079173226346,
+        "liquidity": 64000000.0,
+        "market_cap": 63999999.99999999,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "circulating": 449470000,
+        "total_supply": 642100000,
+        "staked": 192630000,
+        "price": 0.14238992591274166,
+        "liquidity": 64000000.0,
+        "market_cap": 63999999.99999999,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "circulating": 480660000,
+        "total_supply": 801100000,
+        "staked": 240330000,
+        "price": 0.039945075521158405,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "circulating": 576060000,
+        "total_supply": 960100000,
+        "staked": 288030000,
+        "price": 0.033329861472763254,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "circulating": 671460000,
+        "total_supply": 1119100000,
+        "staked": 335730000,
+        "price": 0.02859440621928335,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "circulating": 814560000,
+        "total_supply": 1357600000,
+        "staked": 407280000,
+        "price": 0.02357100766057749,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "circulating": 957660000,
+        "total_supply": 1596100000,
+        "staked": 478830000,
+        "price": 0.020048869118476285,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 11,
+        "circulating": 1100760000,
+        "total_supply": 1834600000,
+        "staked": 550380000,
+        "price": 0.017442494276681566,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 12,
+        "circulating": 1291560000,
+        "total_supply": 2152600000,
+        "staked": 645780000,
+        "price": 0.014865743751742079,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "circulating": 1550359999,
+        "total_supply": 2583933333,
+        "staked": 775179999,
+        "price": 0.012384220447111781,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "circulating": 1809159999,
+        "total_supply": 3015266666,
+        "staked": 904579999,
+        "price": 0.01061266002488042,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "circulating": 2067960000,
+        "total_supply": 3446600000,
+        "staked": 1033980000,
+        "price": 0.009284512272964661,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "circulating": 2326759999,
+        "total_supply": 3877933333,
+        "staked": 1163379999,
+        "price": 0.008251817982194905,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "circulating": 2585559999,
+        "total_supply": 4309266666,
+        "staked": 1292779999,
+        "price": 0.0074258574573499965,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "circulating": 2844360000,
+        "total_supply": 4740600000,
+        "staked": 1422180000,
+        "price": 0.006750200396574273,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "circulating": 3103159999,
+        "total_supply": 5171933333,
+        "staked": 1551579999,
+        "price": 0.006187241394638768,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "circulating": 3361959999,
+        "total_supply": 5603266666,
+        "staked": 1680979999,
+        "price": 0.005710954325961926,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "circulating": 3620760000,
+        "total_supply": 6034600000,
+        "staked": 1810380000,
+        "price": 0.005302754117919995,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "circulating": 3879559999,
+        "total_supply": 6465933333,
+        "staked": 1939779999,
+        "price": 0.0049490148380097266,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "circulating": 4138359999,
+        "total_supply": 6897266666,
+        "staked": 2069179999,
+        "price": 0.004639519037647648,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "circulating": 4397160000,
+        "total_supply": 7328600000,
+        "staked": 2198580000,
+        "price": 0.004366454711677538,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "Price below $0.02 for 30 days",
+    "min_price": 0.004366454711677538,
+    "max_price": 0.16989947614328188,
+    "final_price": 0.004366454711677538,
+    "final_circulating": 4397160000,
+    "final_market_cap": 19200000.0,
+    "emergency_brake_month": 12
+  },
+  {
+    "scenario": "High Volatility",
+    "description": "Multiple 30-40% swings throughout first year",
+    "months": [
+      {
+        "month": 0,
+        "circulating": 237999999,
+        "total_supply": 340000000,
+        "staked": 102000000,
+        "price": 0.1344537820775369,
+        "liquidity": 32000000,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "circulating": 260259999,
+        "total_supply": 371800000,
+        "staked": 111540000,
+        "price": 0.12295396958024271,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "circulating": 282520000,
+        "total_supply": 403600000,
+        "staked": 121080000,
+        "price": 0.07928642220019821,
+        "liquidity": 22400000.0,
+        "market_cap": 22400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "circulating": 338170000,
+        "total_supply": 483100000,
+        "staked": 144930000,
+        "price": 0.12301505160126563,
+        "liquidity": 41600000.0,
+        "market_cap": 41600000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "circulating": 393820000,
+        "total_supply": 562600000,
+        "staked": 168780000,
+        "price": 0.10563201462597126,
+        "liquidity": 41600000.0,
+        "market_cap": 41600000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "circulating": 385260000,
+        "total_supply": 642100000,
+        "staked": 192630000,
+        "price": 0.05398951357524789,
+        "liquidity": 20800000.0,
+        "market_cap": 20800000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "circulating": 560770000,
+        "total_supply": 801100000,
+        "staked": 240330000,
+        "price": 0.06847727232198585,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "circulating": 672070000,
+        "total_supply": 960100000,
+        "staked": 288030000,
+        "price": 0.05713690538187986,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "circulating": 783370000,
+        "total_supply": 1119100000,
+        "staked": 335730000,
+        "price": 0.04901898209020003,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "circulating": 950319999,
+        "total_supply": 1357600000,
+        "staked": 407280000,
+        "price": 0.04040744174636695,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "circulating": 1117270000,
+        "total_supply": 1596100000,
+        "staked": 478830000,
+        "price": 0.03436948991738792,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 11,
+        "circulating": 1284220000,
+        "total_supply": 1834600000,
+        "staked": 550380000,
+        "price": 0.02990141876002554,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 12,
+        "circulating": 1506820000,
+        "total_supply": 2152600000,
+        "staked": 645780000,
+        "price": 0.025484132145843566,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 13,
+        "circulating": 1808753333,
+        "total_supply": 2583933333,
+        "staked": 775179999,
+        "price": 0.021230092185267585,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 14,
+        "circulating": 2110686666,
+        "total_supply": 3015266666,
+        "staked": 904579999,
+        "price": 0.01819313146691381,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 15,
+        "circulating": 2412620000,
+        "total_supply": 3446600000,
+        "staked": 1033980000,
+        "price": 0.015916306753653704,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "circulating": 2714553333,
+        "total_supply": 3877933333,
+        "staked": 1163379999,
+        "price": 0.014145973679420061,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "circulating": 3016486666,
+        "total_supply": 4309266666,
+        "staked": 1292779999,
+        "price": 0.01273004135334706,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "circulating": 3318420000,
+        "total_supply": 4740600000,
+        "staked": 1422180000,
+        "price": 0.01157177210841304,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "circulating": 3620353333,
+        "total_supply": 5171933333,
+        "staked": 1551579999,
+        "price": 0.010606699531225009,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "circulating": 3922286666,
+        "total_supply": 5603266666,
+        "staked": 1680979999,
+        "price": 0.009790207414686706,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "circulating": 4224219999,
+        "total_supply": 6034600000,
+        "staked": 1810380000,
+        "price": 0.009090435632871971,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "circulating": 4526153333,
+        "total_supply": 6465933333,
+        "staked": 1939779999,
+        "price": 0.008484025435026065,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "circulating": 4828086666,
+        "total_supply": 6897266666,
+        "staked": 2069179999,
+        "price": 0.007953461206572301,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "circulating": 5130020000,
+        "total_supply": 7328600000,
+        "staked": 2198580000,
+        "price": 0.00748535093430435,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "Price below $0.02 for 30 days",
+    "min_price": 0.00748535093430435,
+    "max_price": 0.1344537820775369,
+    "final_price": 0.00748535093430435,
+    "final_circulating": 5130020000,
+    "final_market_cap": 38400000.0,
+    "emergency_brake_month": 15
+  },
+  {
+    "scenario": "Stable Growth",
+    "description": "Gradual 20% liquidity increase over 12 months",
+    "months": [
+      {
+        "month": 0,
+        "circulating": 237999999,
+        "total_supply": 340000000,
+        "staked": 102000000,
+        "price": 0.1344537820775369,
+        "liquidity": 32000000,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "circulating": 260259999,
+        "total_supply": 371800000,
+        "staked": 111540000,
+        "price": 0.12295396958024271,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "circulating": 282520000,
+        "total_supply": 403600000,
+        "staked": 121080000,
+        "price": 0.1132663174288546,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "circulating": 338170000,
+        "total_supply": 483100000,
+        "staked": 144930000,
+        "price": 0.09462696277020434,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "circulating": 393820000,
+        "total_supply": 562600000,
+        "staked": 168780000,
+        "price": 0.08125539586613173,
+        "liquidity": 32000000,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "circulating": 449470000,
+        "total_supply": 642100000,
+        "staked": 192630000,
+        "price": 0.07119496295637083,
+        "liquidity": 32000000,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "circulating": 560770000,
+        "total_supply": 801100000,
+        "staked": 240330000,
+        "price": 0.06277083296182036,
+        "liquidity": 35200000.0,
+        "market_cap": 35200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "circulating": 672070000,
+        "total_supply": 960100000,
+        "staked": 288030000,
+        "price": 0.05237549660005654,
+        "liquidity": 35200000.0,
+        "market_cap": 35200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "circulating": 783370000,
+        "total_supply": 1119100000,
+        "staked": 335730000,
+        "price": 0.044934066916016695,
+        "liquidity": 35200000.0,
+        "market_cap": 35200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "circulating": 950319999,
+        "total_supply": 1357600000,
+        "staked": 407280000,
+        "price": 0.037040154934169706,
+        "liquidity": 35200000.0,
+        "market_cap": 35200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "circulating": 1117270000,
+        "total_supply": 1596100000,
+        "staked": 478830000,
+        "price": 0.03150536575760559,
+        "liquidity": 35200000.0,
+        "market_cap": 35200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 11,
+        "circulating": 1284220000,
+        "total_supply": 1834600000,
+        "staked": 550380000,
+        "price": 0.027409633863356746,
+        "liquidity": 35200000.0,
+        "market_cap": 35200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 12,
+        "circulating": 1506820000,
+        "total_supply": 2152600000,
+        "staked": 645780000,
+        "price": 0.025484132145843566,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 13,
+        "circulating": 1808753333,
+        "total_supply": 2583933333,
+        "staked": 775179999,
+        "price": 0.021230092185267585,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 14,
+        "circulating": 2110686666,
+        "total_supply": 3015266666,
+        "staked": 904579999,
+        "price": 0.01819313146691381,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 15,
+        "circulating": 2412620000,
+        "total_supply": 3446600000,
+        "staked": 1033980000,
+        "price": 0.015916306753653704,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "circulating": 2714553333,
+        "total_supply": 3877933333,
+        "staked": 1163379999,
+        "price": 0.014145973679420061,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "circulating": 3016486666,
+        "total_supply": 4309266666,
+        "staked": 1292779999,
+        "price": 0.01273004135334706,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "circulating": 3318420000,
+        "total_supply": 4740600000,
+        "staked": 1422180000,
+        "price": 0.01157177210841304,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "circulating": 3620353333,
+        "total_supply": 5171933333,
+        "staked": 1551579999,
+        "price": 0.010606699531225009,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "circulating": 3922286666,
+        "total_supply": 5603266666,
+        "staked": 1680979999,
+        "price": 0.009790207414686706,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "circulating": 4224219999,
+        "total_supply": 6034600000,
+        "staked": 1810380000,
+        "price": 0.009090435632871971,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "circulating": 4526153333,
+        "total_supply": 6465933333,
+        "staked": 1939779999,
+        "price": 0.008484025435026065,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "circulating": 4828086666,
+        "total_supply": 6897266666,
+        "staked": 2069179999,
+        "price": 0.007953461206572301,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "circulating": 5130020000,
+        "total_supply": 7328600000,
+        "staked": 2198580000,
+        "price": 0.00748535093430435,
+        "liquidity": 38400000.0,
+        "market_cap": 38400000.0,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "Price below $0.02 for 30 days",
+    "min_price": 0.00748535093430435,
+    "max_price": 0.1344537820775369,
+    "final_price": 0.00748535093430435,
+    "final_circulating": 5130020000,
+    "final_market_cap": 38400000.0,
+    "emergency_brake_month": 15
+  },
+  {
+    "scenario": "Early Crash with Recovery",
+    "description": "Crash at month 2, recovery by month 6",
+    "months": [
+      {
+        "month": 0,
+        "circulating": 237999999,
+        "total_supply": 340000000,
+        "staked": 102000000,
+        "price": 0.1344537820775369,
+        "liquidity": 32000000,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "circulating": 260259999,
+        "total_supply": 371800000,
+        "staked": 111540000,
+        "price": 0.12295396958024271,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "circulating": 242160000,
+        "total_supply": 403600000,
+        "staked": 121080000,
+        "price": 0.06607201850016518,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "circulating": 289860000,
+        "total_supply": 483100000,
+        "staked": 144930000,
+        "price": 0.055199061615952526,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "circulating": 393820000,
+        "total_supply": 562600000,
+        "staked": 168780000,
+        "price": 0.06500431669290539,
+        "liquidity": 25600000.0,
+        "market_cap": 25600000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "circulating": 449470000,
+        "total_supply": 642100000,
+        "staked": 192630000,
+        "price": 0.05695597036509667,
+        "liquidity": 25600000.0,
+        "market_cap": 25600000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "circulating": 560770000,
+        "total_supply": 801100000,
+        "staked": 240330000,
+        "price": 0.05706439360165487,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "circulating": 672070000,
+        "total_supply": 960100000,
+        "staked": 288030000,
+        "price": 0.04761408781823322,
+        "liquidity": 32000000.0,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "circulating": 783370000,
+        "total_supply": 1119100000,
+        "staked": 335730000,
+        "price": 0.04084915174183336,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "circulating": 950319999,
+        "total_supply": 1357600000,
+        "staked": 407280000,
+        "price": 0.03367286812197246,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "circulating": 1117270000,
+        "total_supply": 1596100000,
+        "staked": 478830000,
+        "price": 0.028641241597823264,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 11,
+        "circulating": 1284220000,
+        "total_supply": 1834600000,
+        "staked": 550380000,
+        "price": 0.02491784896668795,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 12,
+        "circulating": 1506820000,
+        "total_supply": 2152600000,
+        "staked": 645780000,
+        "price": 0.02123677678820297,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 13,
+        "circulating": 1808753333,
+        "total_supply": 2583933333,
+        "staked": 775179999,
+        "price": 0.01769174348772299,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.000000004,
+        "emergency_active": false
+      },
+      {
+        "month": 14,
+        "circulating": 2110686666,
+        "total_supply": 3015266666,
+        "staked": 904579999,
+        "price": 0.015160942889094841,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "circulating": 2412620000,
+        "total_supply": 3446600000,
+        "staked": 1033980000,
+        "price": 0.013263588961378086,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "circulating": 2714553333,
+        "total_supply": 3877933333,
+        "staked": 1163379999,
+        "price": 0.011788311399516718,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "circulating": 3016486666,
+        "total_supply": 4309266666,
+        "staked": 1292779999,
+        "price": 0.010608367794455884,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "circulating": 3318420000,
+        "total_supply": 4740600000,
+        "staked": 1422180000,
+        "price": 0.009643143423677534,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.000000004,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "circulating": 3620353333,
+        "total_supply": 5171933333,
+        "staked": 1551579999,
+        "price": 0.00883891627602084,
+        "liquidity": 32000000.0,
+        "market_cap": 31999999.999999996,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "circulating": 3922286666,
+        "total_supply": 5603266666,
+        "staked": 1680979999,
+        "price": 0.008158506178905588,
+        "liquidity": 32000000.0,
+        "market_cap": 31999999.999999996,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "circulating": 4224219999,
+        "total_supply": 6034600000,
+        "staked": 1810380000,
+        "price": 0.007575363027393309,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "circulating": 4526153333,
+        "total_supply": 6465933333,
+        "staked": 1939779999,
+        "price": 0.0070700211958550545,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "circulating": 4828086666,
+        "total_supply": 6897266666,
+        "staked": 2069179999,
+        "price": 0.006627884338810251,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "circulating": 5130020000,
+        "total_supply": 7328600000,
+        "staked": 2198580000,
+        "price": 0.006237792445253625,
+        "liquidity": 32000000.0,
+        "market_cap": 32000000.0,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "Price below $0.02 for 30 days",
+    "min_price": 0.006237792445253625,
+    "max_price": 0.1344537820775369,
+    "final_price": 0.006237792445253625,
+    "final_circulating": 5130020000,
+    "final_market_cap": 32000000.0,
+    "emergency_brake_month": 14
+  },
+  {
+    "scenario": "Late Market Crash",
+    "description": "Crash at month 9 after strong growth",
+    "months": [
+      {
+        "month": 0,
+        "circulating": 237999999,
+        "total_supply": 340000000,
+        "staked": 102000000,
+        "price": 0.1344537820775369,
+        "liquidity": 32000000,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "circulating": 260259999,
+        "total_supply": 371800000,
+        "staked": 111540000,
+        "price": 0.12295396958024271,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "circulating": 282520000,
+        "total_supply": 403600000,
+        "staked": 121080000,
+        "price": 0.1132663174288546,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "circulating": 338170000,
+        "total_supply": 483100000,
+        "staked": 144930000,
+        "price": 0.12301505160126563,
+        "liquidity": 41600000.0,
+        "market_cap": 41600000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "circulating": 393820000,
+        "total_supply": 562600000,
+        "staked": 168780000,
+        "price": 0.10563201462597126,
+        "liquidity": 41600000.0,
+        "market_cap": 41600000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "circulating": 449470000,
+        "total_supply": 642100000,
+        "staked": 192630000,
+        "price": 0.09255345184328209,
+        "liquidity": 41600000.0,
+        "market_cap": 41600000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "circulating": 560770000,
+        "total_supply": 801100000,
+        "staked": 240330000,
+        "price": 0.0855965904024823,
+        "liquidity": 48000000.0,
+        "market_cap": 48000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "circulating": 672070000,
+        "total_supply": 960100000,
+        "staked": 288030000,
+        "price": 0.07142113172734983,
+        "liquidity": 48000000.0,
+        "market_cap": 48000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "circulating": 783370000,
+        "total_supply": 1119100000,
+        "staked": 335730000,
+        "price": 0.06127372761275004,
+        "liquidity": 48000000.0,
+        "market_cap": 48000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "circulating": 814560000,
+        "total_supply": 1357600000,
+        "staked": 407280000,
+        "price": 0.019642506383814574,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 10,
+        "circulating": 957660000,
+        "total_supply": 1596100000,
+        "staked": 478830000,
+        "price": 0.01670739093206357,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "circulating": 1100760000,
+        "total_supply": 1834600000,
+        "staked": 550380000,
+        "price": 0.014535411897234637,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "circulating": 1291560000,
+        "total_supply": 2152600000,
+        "staked": 645780000,
+        "price": 0.012388119793118399,
+        "liquidity": 16000000.0,
+        "market_cap": 15999999.999999998,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "circulating": 1550359999,
+        "total_supply": 2583933333,
+        "staked": 775179999,
+        "price": 0.010320183705926484,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "circulating": 1809159999,
+        "total_supply": 3015266666,
+        "staked": 904579999,
+        "price": 0.008843883354067016,
+        "liquidity": 16000000.0,
+        "market_cap": 15999999.999999998,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "circulating": 2067960000,
+        "total_supply": 3446600000,
+        "staked": 1033980000,
+        "price": 0.007737093560803884,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "circulating": 2326759999,
+        "total_supply": 3877933333,
+        "staked": 1163379999,
+        "price": 0.0068765149851624215,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "circulating": 2585559999,
+        "total_supply": 4309266666,
+        "staked": 1292779999,
+        "price": 0.006188214547791664,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "circulating": 2844360000,
+        "total_supply": 4740600000,
+        "staked": 1422180000,
+        "price": 0.0056251669971452275,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "circulating": 3103159999,
+        "total_supply": 5171933333,
+        "staked": 1551579999,
+        "price": 0.005156034495532307,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "circulating": 3361959999,
+        "total_supply": 5603266666,
+        "staked": 1680979999,
+        "price": 0.004759128604968271,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "circulating": 3620760000,
+        "total_supply": 6034600000,
+        "staked": 1810380000,
+        "price": 0.004418961764933329,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.000000002,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "circulating": 3879559999,
+        "total_supply": 6465933333,
+        "staked": 1939779999,
+        "price": 0.004124179031674773,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.000000002,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "circulating": 4138359999,
+        "total_supply": 6897266666,
+        "staked": 2069179999,
+        "price": 0.003866265864706373,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "circulating": 4397160000,
+        "total_supply": 7328600000,
+        "staked": 2198580000,
+        "price": 0.0036387122597312813,
+        "liquidity": 16000000.0,
+        "market_cap": 16000000.0,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "Price below $0.02 for 30 days",
+    "min_price": 0.0036387122597312813,
+    "max_price": 0.1344537820775369,
+    "final_price": 0.0036387122597312813,
+    "final_circulating": 4397160000,
+    "final_market_cap": 16000000.0,
+    "emergency_brake_month": 10
+  },
+  {
+    "scenario": "Worst Case: Multiple Crashes",
+    "description": "Multiple crashes at months 2, 6, and 12",
+    "months": [
+      {
+        "month": 0,
+        "circulating": 237999999,
+        "total_supply": 340000000,
+        "staked": 102000000,
+        "price": 0.1344537820775369,
+        "liquidity": 32000000,
+        "market_cap": 31999999.999999996,
+        "emergency_active": false
+      },
+      {
+        "month": 1,
+        "circulating": 260259999,
+        "total_supply": 371800000,
+        "staked": 111540000,
+        "price": 0.12295396958024271,
+        "liquidity": 32000000,
+        "market_cap": 32000000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 2,
+        "circulating": 242160000,
+        "total_supply": 403600000,
+        "staked": 121080000,
+        "price": 0.07928642220019821,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 3,
+        "circulating": 289860000,
+        "total_supply": 483100000,
+        "staked": 144930000,
+        "price": 0.06623887393914303,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 4,
+        "circulating": 337560000,
+        "total_supply": 562600000,
+        "staked": 168780000,
+        "price": 0.056878777106292217,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 5,
+        "circulating": 385260000,
+        "total_supply": 642100000,
+        "staked": 192630000,
+        "price": 0.04983647406945958,
+        "liquidity": 19200000.0,
+        "market_cap": 19200000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 6,
+        "circulating": 480660000,
+        "total_supply": 801100000,
+        "staked": 240330000,
+        "price": 0.026630050347438938,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 7,
+        "circulating": 576060000,
+        "total_supply": 960100000,
+        "staked": 288030000,
+        "price": 0.022219907648508837,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 8,
+        "circulating": 671460000,
+        "total_supply": 1119100000,
+        "staked": 335730000,
+        "price": 0.019062937479522236,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": false
+      },
+      {
+        "month": 9,
+        "circulating": 814560000,
+        "total_supply": 1357600000,
+        "staked": 407280000,
+        "price": 0.01571400510705166,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 10,
+        "circulating": 957660000,
+        "total_supply": 1596100000,
+        "staked": 478830000,
+        "price": 0.013365912745650858,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 11,
+        "circulating": 1100760000,
+        "total_supply": 1834600000,
+        "staked": 550380000,
+        "price": 0.01162832951778771,
+        "liquidity": 12800000.0,
+        "market_cap": 12800000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 12,
+        "circulating": 1291560000,
+        "total_supply": 2152600000,
+        "staked": 645780000,
+        "price": 0.0074328718758710395,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 13,
+        "circulating": 1550359999,
+        "total_supply": 2583933333,
+        "staked": 775179999,
+        "price": 0.006192110223555891,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 14,
+        "circulating": 1809159999,
+        "total_supply": 3015266666,
+        "staked": 904579999,
+        "price": 0.00530633001244021,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 15,
+        "circulating": 2067960000,
+        "total_supply": 3446600000,
+        "staked": 1033980000,
+        "price": 0.004642256136482331,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 16,
+        "circulating": 2326759999,
+        "total_supply": 3877933333,
+        "staked": 1163379999,
+        "price": 0.0041259089910974526,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 17,
+        "circulating": 2585559999,
+        "total_supply": 4309266666,
+        "staked": 1292779999,
+        "price": 0.0037129287286749983,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 18,
+        "circulating": 2844360000,
+        "total_supply": 4740600000,
+        "staked": 1422180000,
+        "price": 0.0033751001982871365,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 19,
+        "circulating": 3103159999,
+        "total_supply": 5171933333,
+        "staked": 1551579999,
+        "price": 0.003093620697319384,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 20,
+        "circulating": 3361959999,
+        "total_supply": 5603266666,
+        "staked": 1680979999,
+        "price": 0.002855477162980963,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 21,
+        "circulating": 3620760000,
+        "total_supply": 6034600000,
+        "staked": 1810380000,
+        "price": 0.0026513770589599974,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 22,
+        "circulating": 3879559999,
+        "total_supply": 6465933333,
+        "staked": 1939779999,
+        "price": 0.0024745074190048633,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 23,
+        "circulating": 4138359999,
+        "total_supply": 6897266666,
+        "staked": 2069179999,
+        "price": 0.002319759518823824,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      },
+      {
+        "month": 24,
+        "circulating": 4397160000,
+        "total_supply": 7328600000,
+        "staked": 2198580000,
+        "price": 0.002183227355838769,
+        "liquidity": 9600000.0,
+        "market_cap": 9600000.0,
+        "emergency_active": true
+      }
+    ],
+    "emergency_brake_triggered": true,
+    "emergency_brake_reason": "Price below $0.02 for 30 days",
+    "min_price": 0.002183227355838769,
+    "max_price": 0.1344537820775369,
+    "final_price": 0.002183227355838769,
+    "final_circulating": 4397160000,
+    "final_market_cap": 9600000.0,
+    "emergency_brake_month": 9
+  }
+]
