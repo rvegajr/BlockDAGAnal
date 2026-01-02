@@ -127,6 +127,7 @@ python3 scripts/fairness_optimization.py                # TGE % optimization
 
 | Document | Description |
 |----------|-------------|
+| [**Market Scenario Breakdown**](docs/vesting/MARKET_SCENARIO_BREAKDOWN.md) | **Detailed breakdown of all 10 scenarios** ⭐ |
 | [Simulation Results](docs/vesting/SIMULATION_RESULTS.md) | 10 scenario analysis |
 | [Model Comparison](docs/vesting/MODEL_COMPARISON.md) | All 4 models compared |
 | [Real Miner Analysis](docs/vesting/REAL_MINER_ANALYSIS.md) | v3/v4 with actual data |
