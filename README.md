@@ -36,17 +36,29 @@ Sui Network successfully launched with a similar approach:
 
 ### 1. Smart Vesting Schedule
 
-**Base Coins (17B tokens)**:
+**Base Coins (17B tokens) - Presale Investors**:
 - **2% unlock at TGE** (340M tokens) - Immediate value for participants
 - **12-month cliff** - Price stabilization period
 - **48-month linear release** - Gradual, predictable unlocks
 - **Total**: 100% vested over 60 months
 
-**Bonus Coins (33B tokens)**:
+**Bonus Coins (33B tokens) - Presale Investors**:
 - **0% unlock at TGE** - Full protection until network matures
 - **24-month cliff** - Extended stabilization
 - **DAO-gated releases** - Community controls the pace
 - **Total**: 100% vested over 96 months (with milestone accelerators)
+
+### ⚠️ FAIRNESS: Team/Management Vest LONGER Than Investors
+
+| Category | TGE | Cliff | Total Vesting |
+|----------|-----|-------|---------------|
+| **Investors (Base)** | 2% | 12 mo | 60 months |
+| **Investors (Bonus)** | 0% | 24 mo | 96 months |
+| **Team/Employees** | **0%** | **18 mo** | **66 months** |
+| **Management/GK** | **0%** | **24 mo** | **84 months** |
+| **Founders** | **0%** | **24 mo** | **96 months** |
+
+**Why?** If investors accept lockups, insiders MUST have equal or MORE restrictive terms. No insider gets ANY tokens at TGE while investors get 2%.
 
 ### 2. Mining Emission Controls
 

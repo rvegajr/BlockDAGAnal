@@ -24,21 +24,52 @@ This contract implements the aggressive vesting schedule required to maintain $0
 
 ```
 VestingContract
-├── BaseCoinVesting (17B tokens)
+├── BaseCoinVesting (17B tokens - PRESALE INVESTORS)
 │   ├── TGE Release: 2% (340M)
 │   ├── Cliff: 12 months
 │   └── Linear Release: Months 13-60 (98% over 48 months)
 │
-├── BonusCoinVesting (33B tokens)
+├── BonusCoinVesting (33B tokens - PRESALE INVESTORS)
 │   ├── TGE Release: 0%
 │   ├── Cliff: 24 months
 │   └── DAO-Gated Release: Months 25-96 (100% over 72 months)
+│
+├── TeamVesting (TEAM/EMPLOYEES)
+│   ├── TGE Release: 0%
+│   ├── Cliff: 18 months
+│   └── Linear Release: Months 19-66 (100% over 48 months)
+│
+├── ManagementVesting (GK/EXECUTIVES)
+│   ├── TGE Release: 0%
+│   ├── Cliff: 24 months
+│   └── Linear Release: Months 25-84 (100% over 60 months)
+│
+├── FounderVesting (FOUNDERS)
+│   ├── TGE Release: 0%
+│   ├── Cliff: 24 months
+│   └── Linear Release: Months 25-96 (100% over 72 months)
 │
 └── EmergencyBrake
     ├── Price-Based Pause
     ├── Liquidity-Based Pause
     └── DAO Override
 ```
+
+---
+
+## ⚠️ FAIRNESS REQUIREMENT: Team Must Vest LONGER Than Investors
+
+**Principle**: If investors accept 2% TGE unlock and multi-year vesting, team/management/founders MUST have equal or MORE restrictive terms.
+
+| Category | TGE Unlock | Cliff | Total Vesting | Notes |
+|----------|------------|-------|---------------|-------|
+| **Presale Investors (Base)** | 2% | 12 months | 60 months | Standard presale |
+| **Presale Investors (Bonus)** | 0% | 24 months | 96 months | DAO-gated |
+| **Team/Employees** | **0%** | **18 months** | **66 months** | Longer than investor base |
+| **Management/GK** | **0%** | **24 months** | **84 months** | Longer than ALL investors |
+| **Founders** | **0%** | **24 months** | **96 months** | Longest of all |
+
+**This is non-negotiable.** Asking investors to lock tokens while insiders can sell is unacceptable.
 
 ---
 
@@ -175,6 +206,143 @@ function approveBonusPhase(uint256 phaseNumber) external onlyDAO {
     emit BonusPhaseApproved(phaseNumber, block.timestamp);
 }
 ```
+
+---
+
+## Team/Management/Founder Vesting Schedules
+
+### Team Vesting (Employees, Advisors)
+
+**Total Duration**: 66 months (5.5 years)
+
+| Phase | Timing | % Released | Unlock Type |
+|-------|--------|------------|-------------|
+| TGE | Day 0 | **0%** | Locked |
+| Cliff | Months 1-18 | 0% | Locked |
+| Phase 1 | Months 19-30 | 20% | Linear monthly |
+| Phase 2 | Months 31-42 | 25% | Linear monthly |
+| Phase 3 | Months 43-54 | 25% | Linear monthly |
+| Phase 4 | Months 55-66 | 30% | Linear monthly |
+| **Total** | **66 months** | **100%** | |
+
+```solidity
+struct TeamVestingSchedule {
+    uint256 totalAmount;
+    uint256 cliffDuration;     // 18 months
+    uint256 vestingDuration;   // 48 months
+    uint256 startTime;
+    uint256 released;
+    bool paused;
+}
+```
+
+---
+
+### Management/GK Vesting (Executives, Directors)
+
+**Total Duration**: 84 months (7 years) - LONGER THAN INVESTORS
+
+| Phase | Timing | % Released | Unlock Type |
+|-------|--------|------------|-------------|
+| TGE | Day 0 | **0%** | Locked |
+| Cliff | Months 1-24 | 0% | Locked |
+| Phase 1 | Months 25-36 | 10% | Linear monthly |
+| Phase 2 | Months 37-48 | 15% | Linear monthly |
+| Phase 3 | Months 49-60 | 20% | Linear monthly |
+| Phase 4 | Months 61-72 | 25% | Linear monthly |
+| Phase 5 | Months 73-84 | 30% | Linear monthly |
+| **Total** | **84 months** | **100%** | |
+
+```solidity
+struct ManagementVestingSchedule {
+    uint256 totalAmount;
+    uint256 cliffDuration;     // 24 months
+    uint256 vestingDuration;   // 60 months
+    uint256 startTime;
+    uint256 released;
+    bool paused;
+    bool daoApprovalRequired;  // DAO can pause management vesting
+}
+```
+
+---
+
+### Founder Vesting (Founding Team, Original Contributors)
+
+**Total Duration**: 96 months (8 years) - LONGEST OF ALL
+
+| Phase | Timing | % Released | Unlock Type |
+|-------|--------|------------|-------------|
+| TGE | Day 0 | **0%** | Locked |
+| Cliff | Months 1-24 | 0% | Locked |
+| Phase 1 | Months 25-36 | 5% | Linear monthly |
+| Phase 2 | Months 37-48 | 10% | Linear monthly |
+| Phase 3 | Months 49-60 | 15% | Linear monthly |
+| Phase 4 | Months 61-72 | 20% | Linear monthly |
+| Phase 5 | Months 73-84 | 25% | Linear monthly |
+| Phase 6 | Months 85-96 | 25% | Linear monthly |
+| **Total** | **96 months** | **100%** | |
+
+```solidity
+struct FounderVestingSchedule {
+    uint256 totalAmount;
+    uint256 cliffDuration;     // 24 months
+    uint256 vestingDuration;   // 72 months
+    uint256 startTime;
+    uint256 released;
+    bool paused;
+    bool daoApprovalRequired;  // DAO oversight on founder tokens
+}
+
+// Founders must demonstrate continued contribution
+mapping(address => bool) public founderActive;
+mapping(address => uint256) public founderLastContribution;
+
+function checkFounderEligibility(address founder) public view returns (bool) {
+    // Founders must be active and contributing to claim tokens
+    require(founderActive[founder], "Founder not active");
+    require(
+        block.timestamp - founderLastContribution[founder] <= 90 days,
+        "No recent contribution"
+    );
+    return true;
+}
+```
+
+---
+
+### Insider Vesting Comparison
+
+**Visual Timeline**:
+
+```
+Month:  0    12    24    36    48    60    72    84    96
+        |     |     |     |     |     |     |     |     |
+INVESTOR BASE  ████████████████████████████████████████████  (60 months)
+        └─ 2% TGE        └─ Linear release starts
+
+INVESTOR BONUS  ░░░░░░░░░░░████████████████████████████████████████████  (96 months)
+                          └─ DAO-gated release starts
+
+TEAM            ░░░░░░░░░░░░░░░░████████████████████████████████████  (66 months)
+                              └─ 18 month cliff
+
+MANAGEMENT      ░░░░░░░░░░░░░░░░░░░░████████████████████████████████████████  (84 months)
+                                  └─ 24 month cliff
+
+FOUNDERS        ░░░░░░░░░░░░░░░░░░░░████████████████████████████████████████████████  (96 months)
+                                  └─ 24 month cliff, slowest release
+
+░ = Locked (cliff)
+█ = Vesting
+```
+
+**Key Points**:
+1. **Team cliff (18 months)** is LONGER than investor base cliff (12 months)
+2. **Management cliff (24 months)** matches investor bonus cliff
+3. **Management vesting (84 months)** is LONGER than investor base (60 months)
+4. **Founder vesting (96 months)** matches investor bonus - the LONGEST of all
+5. **NO insider gets ANY tokens at TGE** - investors get 2%, insiders get 0%
 
 ---
 

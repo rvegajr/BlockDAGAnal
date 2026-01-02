@@ -26,10 +26,17 @@ With 50B total presale tokens, only **1.28% can be unlocked at launch**. We've a
 ### 1. Vesting Smart Contract Specification
 **File**: `docs/specs/contracts/VESTING_CONTRACT_SPEC.md`
 
+**Presale Investor Vesting**:
 - Base coin vesting: 2% TGE, 12-month cliff, 48-month linear release
 - Bonus coin vesting: 0% TGE, 24-month cliff, DAO-gated 72-month release
 - Emergency brake integration
 - Milestone-based accelerators
+
+**⚠️ Team/Management/Founder Vesting (LONGER than investors)**:
+- Team: 0% TGE, 18-month cliff, 66-month total vesting
+- Management/GK: 0% TGE, 24-month cliff, 84-month total vesting
+- Founders: 0% TGE, 24-month cliff, 96-month total vesting
+- **No insider gets ANY tokens at TGE while investors get 2%**
 
 ### 2. Mining Emission Cap Schedule
 **File**: `docs/specs/mining/EMISSION_CAP_SCHEDULE.md`

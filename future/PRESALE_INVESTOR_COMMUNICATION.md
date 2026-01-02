@@ -14,6 +14,30 @@ To achieve a successful launch at $0.05 per BDAG with $32 million in liquidity, 
 
 ---
 
+## ⚠️ FAIRNESS: Insiders Lock LONGER Than You
+
+**Before we explain the investor vesting, let's be clear about something important:**
+
+### Team/Management Vesting (They Lock LONGER Than Investors)
+
+| Category | TGE Unlock | Cliff | Total Vesting | Notes |
+|----------|------------|-------|---------------|-------|
+| **YOU (Presale Base)** | **2%** | 12 months | 60 months | You get TGE unlock |
+| **YOU (Presale Bonus)** | 0% | 24 months | 96 months | DAO-gated |
+| Team/Employees | **0%** | **18 months** | **66 months** | No TGE, longer cliff |
+| Management/GK | **0%** | **24 months** | **84 months** | No TGE, longer total |
+| Founders | **0%** | **24 months** | **96 months** | No TGE, longest of all |
+
+**Key Points**:
+1. ✅ **Investors get 2% at TGE** — insiders get **0%**
+2. ✅ **Investor cliff is 12 months** — team cliff is **18 months**
+3. ✅ **Management vests over 84 months** — longer than investor base (60 months)
+4. ✅ **Founders vest over 96 months** — the longest of anyone
+
+**This is non-negotiable.** If we're asking you to accept lockups, the team accepts LONGER lockups. No exceptions.
+
+---
+
 ## Why This Is Necessary
 
 ### The Alternative Scenarios
