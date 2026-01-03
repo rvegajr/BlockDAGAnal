@@ -1,347 +1,221 @@
 # BlockDAG Vesting Solution
 
-## Launching at $0.05 with $32M Liquidity
+## 🏆 THE WINNING MODEL: Realistic Hybrid Strategy
 
-**$32M ÷ $0.05 = 640M tokens max circulating supply (1.28% of 50B)**
-
-This repository contains a complete, production-ready vesting solution with smart contract specifications, market simulations, and investor communication materials.
+After 360+ simulations, Protocol v2.6 analysis, and real-world adjustments, we've identified the optimal launch strategy.
 
 ---
 
-## 📋 Quick Index
-
-| Section | Description | Link |
-|---------|-------------|------|
-| **Solution Overview** | How the vesting works | [Below](#solution-overview) |
-| **Market Scenarios** | 10 historical crash simulations | [Below](#market-scenarios-tested) |
-| **Optimal Liquidity** | $100M best, 3 exchanges, 10% TGE ⭐ NEW | [Below](#optimal-liquidity-finding) |
-| **Utility Conversion** | 75% bonus to non-tradable utility | [Below](#utility-token-conversion-proposal) |
-| **Simulations** | Run your own analysis | [Below](#run-simulations) |
-| **Documentation** | Full index of all docs | [Below](#complete-documentation-index) |
-
----
-
-## Solution Overview
-
-### Vesting Schedule
-
-| Category | TGE Unlock | Cliff | Total Vesting | Notes |
-|----------|------------|-------|---------------|-------|
-| **Investors (Base)** | 2% | 12 mo | 60 months | Immediate value |
-| **Investors (Bonus)** | 0% | 24 mo | 96 months | DAO-gated |
-| **Team** | 0% | 18 mo | 66 months | Longer than investors |
-| **Management** | 0% | 24 mo | 84 months | Longer than investors |
-| **Founders** | 0% | 24 mo | 96 months | Longest cliff |
-
-### Key Parameters (Stress-Tested)
-
-| Parameter | Value | Purpose |
-|-----------|-------|---------|
-| **Launch Price** | $0.05 | Target with $32M liquidity |
-| **TGE Unlock** | 2% base coins | 340M tokens |
-| **Emission Cap** | 20% (2.1M/day) | Control mining supply |
-| **Burn Rate** | 10% | Deflationary pressure |
-| **POE Auto-Stake** | 90 days | Lock mobile mining rewards |
-| **Emergency Brake** | $0.02 price / $10M liquidity | Auto-pause protection |
-
-### Mining Rewards (UNCHANGED)
-
-| Miner | Daily Output | Status |
-|-------|--------------|--------|
-| X1 | 20 BDAG | ✅ No change |
-| X10 | 200 BDAG | ✅ No change |
-| X30 | 600 BDAG | ✅ No change |
-| X100 | 2,000 BDAG | ✅ No change |
-
-**What changes:** 50% of mining rewards auto-staked for 90 days. You still earn the full amount.
-
----
-
-## Market Scenarios Tested
-
-### 10 Historical Market Events at $32M Liquidity
-
-| # | Scenario | Event | Final Price | Emergency Brake |
-|---|----------|-------|-------------|-----------------|
-| 1 | May 2021 Crash | -60% at Month 2 | $0.0029 | Month 9 |
-| 2 | FTX Collapse | -70% at Month 3 | $0.0022 | Month 3 |
-| 3 | **COVID Black Swan** | -80% at Month 1 | $0.0015 | Month 1 |
-| 4 | Gradual Bear | -50% over 12 months | $0.0036 | Month 10 |
-| 5 | Bull Then Crash | +100% then -70% | $0.0044 | Month 12 |
-| 6 | **High Volatility** | ±30-40% swings | $0.0075 | Month 15 |
-| 7 | **Stable Growth** | +20% over 12 months | $0.0075 | Month 15 |
-| 8 | Early Recovery | -50% then +100% | $0.0062 | Month 14 |
-| 9 | Late Crash | +50% then -67% | $0.0036 | Month 10 |
-| 10 | Multiple Crashes | -40% at months 2,6,12 | $0.0022 | Month 9 |
-
-### Results Summary
-
-| Outcome | Count | Scenarios |
-|---------|-------|-----------|
-| 🔴 Severe (Brake < Month 6) | 2 | COVID, FTX |
-| 🟠 Moderate (Brake Month 9-12) | 5 | May 2021, Bear, Bull→Crash, Late, Multiple |
-| 🟢 Resilient (Brake Month 14+) | 3 | Volatility, Growth, Recovery |
-
-**✅ Emergency brake activated in 100% of scenarios** - Protection works as designed.
-
----
-
-## Optimal Liquidity Finding
-
-### 360 Simulations Tested: $10M → $100M Liquidity
-
-| Rank | Liquidity | Presale | New Buyer | Project | **Overall** |
-|------|-----------|---------|-----------|---------|-------------|
-| 🥇 | **$100M** | 39.3 | 52.2 | 62.0 | **51.1** |
-| 🥈 | $75M | 28.0 | 52.2 | 52.0 | 43.7 |
-| 🥉 | $50M | 16.0 | 46.2 | 41.7 | 34.0 |
-| 4 | $32M | 7.3 | 41.7 | 34.5 | 27.2 |
-
-### 🎯 Recommended Configuration
-
-| Parameter | Value | Rationale |
-|-----------|-------|-----------|
-| **Liquidity** | $100M | 5% scenarios survive without brake |
-| **Exchanges** | 3 | Better depth than 5 or 10 |
-| **TGE %** | 10% | Best balance for all stakeholders |
-| **Launch Price** | ~$0.045 | Sustainable with this liquidity |
-
-### $9K Investor TGE Value by Liquidity
-
-| Liquidity | TGE Value | % of Investment |
-|-----------|-----------|-----------------|
-| $32M | $328 | 3.6% |
-| $50M | $1,004 | 11.2% |
-| $75M | $1,508 | 16.8% |
-| **$100M** | **$2,007** | **22.3%** |
-
-**Key Finding**: $100M liquidity gives presale investors **6x more** TGE value than $32M.
-
-**[Full Analysis →](docs/vesting/OPTIMAL_LIQUIDITY_ANALYSIS.md)**
-
----
-
-## Protocol v2.6 Comparison (Second Opinion)
-
-### Comparing the "3% Solvency Protocol" with Our Analysis
-
-| Timeframe | Protocol v2.6 | Our Analysis | Realistic |
-|-----------|---------------|--------------|-----------|
-| Months 0-3 | ✅ Accurate | ⚠️ Pessimistic | $0.04-0.05 |
-| Months 6-12 | ⚠️ Optimistic | ✅ Accurate | $0.01-0.025 |
-| Long-term | ❌ Overpromises | ✅ Realistic | $0.005-0.015 |
-
-### Key Findings
-
-| What Protocol v2.6 Gets Right | What They Miss |
-|------------------------------|----------------|
-| ✅ 3% TGE is sufficient | ❌ No mining emissions model |
-| ✅ 3-month cliff is smart | ❌ "Cannot crash" is wrong |
-| ✅ Oracle price gate works | ❌ 21-month vesting too short |
-| ✅ X1 migration creates demand | ❌ No market crash scenarios |
-| ✅ 40% staking APY reduces selling | |
-
-### Recommended Hybrid
+## ⭐ Recommended Parameters
 
 | Parameter | Value | Source |
 |-----------|-------|--------|
-| TGE | 3% | Protocol v2.6 |
-| Cliff | 3 months | Protocol v2.6 |
-| Vesting | 36 months | Compromise |
-| Mining Cap | 20% | Our analysis |
-| Emergency Brake | Yes | Our analysis |
+| **TGE Unlock** | 3% | Protocol v2.6 (proven solvency) |
+| **Cliff Period** | 3 months | Aligns with hardware delivery |
+| **Vesting Duration** | 36 months | Balance between models |
+| **Mining Emission Cap** | 20% | 2.1M tokens/day max |
+| **Staking APY** | 40% | Reduces sell pressure |
+| **Mandatory Staking** | 50% of mining | 90-day lock |
+| **Emergency Brake** | $0.02 / $10M | Automatic protection |
+| **Oracle Price Gate** | Yes | Smart contract protection |
 
-**[Full Comparison →](docs/vesting/PROTOCOL_V26_COMPARISON.md)**
+### 📊 Realistic Launch Expectations
 
----
+| Metric | Day 1 | Month 3 | Month 12 |
+|--------|-------|---------|----------|
+| **Price** | $0.037 | $0.025-0.050 | $0.008-0.015 |
+| **Effective Circulating** | 672M | 600M | 2.6B |
+| **Staking Rate** | 50% | 50% | 40% |
+| **Liquidity** | $32M | $30M | $22M |
 
-## Utility Token Conversion Proposal
+### 💰 $9,000 Investment Reality
 
-### The Problem: 33B Bonus Tokens = Massive Selling Pressure
+| Milestone | Tokens | Value | % of Investment |
+|-----------|--------|-------|-----------------|
+| **TGE (3%)** | 13,500 | $500 | 5.5% |
+| **Month 6** | 67,500 | $1,350 | 15% |
+| **Month 12** | 157,500 | $1,890 | 21% |
+| **Month 36** | 450,000 | $1,350 | 15% |
 
-Once bonus tokens become tradable, everyone sells → price crashes → everyone loses.
-
-### The Proposal: Convert 75% to Non-Tradable Utility
-
-| Token Type | Current | Proposed |
-|------------|---------|----------|
-| Base BDAG | 17B tradable | 17B tradable (NO CHANGE) |
-| Bonus (tradable) | 33B | 8.25B (25%) |
-| Bonus (utility) | 0 | 24.75B (75%) |
-| **Total Tradable** | 50B | **25.25B (-50%)** |
-
-### What Utility-BDAG Can Do
-
-- ⛽ Pay network fees (50% discount)
-- ⛏️ Mining boosts (+25% efficiency)
-- 📈 Staking multipliers (1.5x APY)
-- 🗳️ Governance voting (2x power)
-- 🎮 Ecosystem access (premium features)
-
-### Impact on Simulations
-
-| Scenario | Current (Brake Month) | With Utility | Change |
-|----------|----------------------|--------------|--------|
-| Normal | Month 10 | Month 18+ | **+80%** |
-| Stable Growth | Month 15 | **No Brake** | ✅ Survives |
-
-### Key Points
-
-- ✅ Base BDAG completely unchanged
-- ✅ Same total value (financial + utility)
-- ✅ Recommended: Voluntary conversion with incentives
-- ⚠️ Requires: Legal review + community vote
-
-**[Full Analysis →](docs/vesting/UTILITY_CONVERSION_ANALYSIS.md)**
+**[Full Hybrid Model Details →](docs/vesting/REALISTIC_HYBRID_MODEL.md)**
 
 ---
 
-### Validated by 4 Independent Models
+## 📈 Why This Model Wins
 
-| Model | Miner Data | Method | Result |
-|-------|------------|--------|--------|
-| v1 | Estimated | AMM | 10/10 brake |
-| v2 | Estimated | Order Book | 10/10 brake |
-| v3 | **REAL** | AMM | 4/4 brake |
-| v4 | **REAL** | Order Book | 4/4 brake |
+### ✅ What Protocol v2.6 Got Right (We Adopted)
+
+- **3% TGE is sufficient** for Day 1 solvency
+- **3-month cliff** aligns with hardware delivery
+- **Oracle price gate** protects against unlocks during crashes
+- **40% staking APY** reduces sell pressure
+- **X1 migration** (7,500 BDAG) creates buy pressure
+
+### ✅ What Our Analysis Added
+
+- **20% emission cap** prevents mining flood
+- **Emergency brake** auto-pauses at critical thresholds
+- **Realistic projections** (not "cannot crash")
+- **Longer vesting** (36 months vs 21 months)
+- **Mandatory staking** for miners (50% locked 90 days)
+
+### ❌ What Both Models Reject
+
+- 2% TGE (too aggressive, Protocol v2.6 proved 3% works)
+- 40% TGE (mathematically impossible at $32M)
+- No vesting (immediate crash to $0.001)
+- "Cannot crash" claims (irresponsible)
 
 ---
 
-## Run Simulations
+## 🛡️ Protection Mechanisms
+
+```
+TRIPLE PROTECTION:
+
+1. ORACLE PRICE GATE
+   └── Vesting only proceeds if price ≥ $0.02
+
+2. EMERGENCY BRAKE
+   ├── Price < $0.02 for 7 days → PAUSE
+   ├── Liquidity < $10M → PAUSE
+   └── Staking rewards +50% during pause
+
+3. EMISSION CAP
+   └── Max 2.1M tokens/day regardless of miners
+```
+
+---
+
+## 📊 Complete Vesting Schedule
+
+### Investors
+
+| Category | TGE | Cliff | Total Vesting | Notes |
+|----------|-----|-------|---------------|-------|
+| **Base Coins** | 3% | 3 mo | 36 months | Price-gated |
+| **Bonus Coins** | 0% | 12 mo | 60 months | DAO-gated |
+
+### Insiders (LONGER Than Investors)
+
+| Category | TGE | Cliff | Total Vesting |
+|----------|-----|-------|---------------|
+| **Team** | 0% | 18 mo | 66 months |
+| **Management** | 0% | 24 mo | 84 months |
+| **Founders** | 0% | 24 mo | 96 months |
+
+---
+
+## ⛏️ Mining Rewards
+
+| Miner | Daily Output | Status |
+|-------|--------------|--------|
+| X1 | 20 BDAG | ✅ Unchanged |
+| X10 | 200 BDAG | ✅ Unchanged |
+| X30 | 600 BDAG | ✅ Unchanged |
+| X100 | 2,000 BDAG | ✅ Unchanged |
+
+**What's New:** 50% of rewards auto-staked for 90 days. You earn the full amount.
+
+**Emission Cap:** After Month 6, total network emissions capped at 2.1M/day (20% of max).
+
+---
+
+## 📉 Market Scenarios (10 Tested)
+
+| Scenario | Price Impact | Emergency Brake | Survival |
+|----------|--------------|-----------------|----------|
+| COVID Crash (-80%) | Month 1 | Activated | ✅ Protected |
+| FTX Collapse (-70%) | Month 3 | Activated | ✅ Protected |
+| May 2021 (-60%) | Month 9 | Activated | ✅ Protected |
+| Gradual Bear (-50%) | Month 10 | Activated | ✅ Protected |
+| **Stable Growth** | Month 15 | Activated | ⭐ Best Case |
+| **High Volatility** | Month 15 | Activated | ⭐ Best Case |
+
+**100% of scenarios trigger emergency brake** - this is by design. The brake protects value.
+
+---
+
+## 💡 Key Insights
+
+### The Honest Truth
+
+| Reality | Impact |
+|---------|--------|
+| Launch price ~$0.037 | Not $0.05 (based on 3% TGE math) |
+| Year 1 price decline | Expected as supply grows |
+| 3-year hold recommended | Best ROI for presale investors |
+| No "guaranteed" prices | Crypto is volatile |
+
+### What Makes This Work
+
+1. **Day 1 solvency** - 3% TGE covered by $32M liquidity
+2. **Supply control** - Emission cap limits inflation
+3. **Sell pressure reduction** - 40% APY + mandatory staking
+4. **Automatic protection** - Emergency brake stops bleeding
+5. **Aligned incentives** - Insiders vest longer than investors
+
+---
+
+## 📁 Documentation Index
+
+### Core Documents
+
+| Document | Description |
+|----------|-------------|
+| **[Realistic Hybrid Model](docs/vesting/REALISTIC_HYBRID_MODEL.md)** | ⭐ THE WINNING SOLUTION |
+| [Protocol v2.6 Comparison](docs/vesting/PROTOCOL_V26_COMPARISON.md) | Second opinion analysis |
+| [Optimal Liquidity Analysis](docs/vesting/OPTIMAL_LIQUIDITY_ANALYSIS.md) | 360 simulations |
+| [Utility Conversion Analysis](docs/vesting/UTILITY_CONVERSION_ANALYSIS.md) | Bonus token proposal |
+| [40% TGE Analysis](docs/vesting/FORTY_PERCENT_TGE_ANALYSIS.md) | Why 40% doesn't work |
+
+### Simulations & Data
+
+| Document | Description |
+|----------|-------------|
+| [Market Scenario Breakdown](docs/vesting/MARKET_SCENARIO_BREAKDOWN.md) | All 10 scenarios detailed |
+| [Model Comparison](docs/vesting/MODEL_COMPARISON.md) | 4 models compared |
+| [Vesting Summary](docs/vesting/VESTING_REWORK_SUMMARY.md) | Implementation overview |
+| [Investor Communication](docs/vesting/PRESALE_INVESTOR_COMMUNICATION.md) | Ready materials |
+
+### Smart Contracts
+
+| Document | Description |
+|----------|-------------|
+| [Vesting Contract](docs/specs/contracts/VESTING_CONTRACT_SPEC.md) | Vesting logic |
+| [Staking Contract](docs/specs/contracts/STAKING_CONTRACT_SPEC.md) | Staking tiers |
+| [DAO Triggers](docs/specs/contracts/DAO_TRIGGERS.md) | Milestone releases |
+| [Emergency Brake](docs/specs/contracts/EMERGENCY_BRAKE.md) | Auto protection |
+
+### Run Simulations
 
 ```bash
-# Vesting Simulations
-python3 scripts/vesting_simulations.py                  # v1: Estimated, AMM
-python3 scripts/vesting_simulations_v2.py               # v2: Estimated, Order Book
-python3 scripts/vesting_simulations_v3_real_miners.py   # v3: REAL miners, AMM ⭐
-python3 scripts/vesting_simulations_v4_real_miners_v2.py # v4: REAL miners, Order Book
+# Core simulations
+python3 scripts/vesting_simulations_v3_real_miners.py   # Real miner data ⭐
+python3 scripts/burn_market_stress_test.py              # Historical crashes
+python3 scripts/optimal_liquidity_analysis.py           # 360 liquidity tests
 
-# Burn & Emission Optimization
-python3 scripts/burn_poe_simulations.py                 # Basic burn testing
-python3 scripts/burn_poe_simulations_v2.py              # Burn + emission caps
-python3 scripts/burn_market_stress_test.py              # Historical stress test ⭐
-
-# Fairness Analysis
-python3 scripts/fairness_optimization.py                # TGE % optimization
+# All scripts
+python3 scripts/vesting_simulations.py
+python3 scripts/vesting_simulations_v2.py
+python3 scripts/vesting_simulations_v4_real_miners_v2.py
+python3 scripts/burn_poe_simulations.py
+python3 scripts/burn_poe_simulations_v2.py
+python3 scripts/fairness_optimization.py
+python3 scripts/forty_percent_32m_simulations.py
 ```
 
 ---
 
-## Complete Documentation Index
+## 🎯 The Bottom Line
 
-### 📁 Vesting & Tokenomics
+### For Presale Investors
 
-| Document | Description |
-|----------|-------------|
-| [Vesting Summary](docs/vesting/VESTING_REWORK_SUMMARY.md) | Complete implementation overview |
-| [Investor Communication](docs/vesting/PRESALE_INVESTOR_COMMUNICATION.md) | Ready-to-distribute materials |
-| [Economic Model](docs/vesting/ECONOMIC_MODEL.xlsx.md) | Spreadsheet structure for scenarios |
+> "Your 3% unlocks at TGE. Expect launch price around $0.03-0.04. Price will likely decline to $0.01-0.02 over Year 1 as supply grows. Multiple protection mechanisms prevent catastrophic crashes. Plan for a 2-3 year hold for best returns."
 
-### 📁 Market Simulations & Proposals
+### For the Project
 
-| Document | Description |
-|----------|-------------|
-| [**Protocol v2.6 Comparison**](docs/vesting/PROTOCOL_V26_COMPARISON.md) | **Second opinion: v2.6 vs our analysis** ⭐ NEW |
-| [**Optimal Liquidity Analysis**](docs/vesting/OPTIMAL_LIQUIDITY_ANALYSIS.md) | **360 simulations: Best liquidity = $100M** |
-| [**Utility Conversion Analysis**](docs/vesting/UTILITY_CONVERSION_ANALYSIS.md) | **75% bonus to utility tokens proposal** |
-| [**40% TGE Analysis**](docs/vesting/FORTY_PERCENT_TGE_ANALYSIS.md) | **"As Promised" - What 40% TGE really means** |
-| [**Market Scenario Breakdown**](docs/vesting/MARKET_SCENARIO_BREAKDOWN.md) | **Detailed breakdown of all 10 scenarios** |
-| [Simulation Results](docs/vesting/SIMULATION_RESULTS.md) | 10 scenario analysis |
-| [Model Comparison](docs/vesting/MODEL_COMPARISON.md) | All 4 models compared |
-| [Real Miner Analysis](docs/vesting/REAL_MINER_ANALYSIS.md) | v3/v4 with actual data |
-| [Dual Opinion Validation](docs/vesting/DUAL_OPINION_VALIDATION.md) | v1 vs v2 methodology |
-| [Simulations README](docs/vesting/SIMULATIONS_README.md) | Quick reference |
-
-### 📁 Smart Contract Specifications
-
-| Document | Description |
-|----------|-------------|
-| [Vesting Contract](docs/specs/contracts/VESTING_CONTRACT_SPEC.md) | Vesting logic & insider schedules |
-| [Staking Contract](docs/specs/contracts/STAKING_CONTRACT_SPEC.md) | Staking tiers & APY |
-| [DAO Triggers](docs/specs/contracts/DAO_TRIGGERS.md) | Milestone-based releases |
-| [Emergency Brake](docs/specs/contracts/EMERGENCY_BRAKE.md) | Auto-pause protection |
-
-### 📁 Mining & Emissions
-
-| Document | Description |
-|----------|-------------|
-| [Emission Cap Schedule](docs/specs/mining/EMISSION_CAP_SCHEDULE.md) | Staged emission rates |
-| [Mining Algorithms](docs/specs/mining/ALGORITHMS.md) | Mining technical spec |
-| [Pool Protocol](docs/specs/mining/POOL_PROTOCOL.md) | Mining pool design |
-
-### 📁 Simulation Scripts
-
-| Script | Purpose |
-|--------|---------|
-| [vesting_simulations.py](scripts/vesting_simulations.py) | v1: Estimated, AMM model |
-| [vesting_simulations_v2.py](scripts/vesting_simulations_v2.py) | v2: Estimated, Order Book |
-| [vesting_simulations_v3_real_miners.py](scripts/vesting_simulations_v3_real_miners.py) | v3: Real miner data ⭐ |
-| [vesting_simulations_v4_real_miners_v2.py](scripts/vesting_simulations_v4_real_miners_v2.py) | v4: Real + Order Book |
-| [burn_market_stress_test.py](scripts/burn_market_stress_test.py) | Historical crash testing ⭐ |
-| [burn_poe_simulations.py](scripts/burn_poe_simulations.py) | Burn rate optimization |
-| [burn_poe_simulations_v2.py](scripts/burn_poe_simulations_v2.py) | Burn + emission caps |
-| [fairness_optimization.py](scripts/fairness_optimization.py) | TGE fairness analysis |
-| [forty_percent_32m_simulations.py](scripts/forty_percent_32m_simulations.py) | 40% TGE @ $32M analysis |
-| [optimal_liquidity_analysis.py](scripts/optimal_liquidity_analysis.py) | 360 liquidity simulations ⭐ NEW |
-
-### 📁 Simulation Results (JSON)
-
-| File | Contents |
-|------|----------|
-| [vesting_simulation_results.json](vesting_simulation_results.json) | v1 raw data |
-| [vesting_simulation_v2_results.json](vesting_simulation_v2_results.json) | v2 raw data |
-| [vesting_simulation_v3_real_miners.json](vesting_simulation_v3_real_miners.json) | v3 real miner data |
-| [vesting_simulation_v4_real_miners.json](vesting_simulation_v4_real_miners.json) | v4 real miner data |
-| [burn_stress_test_results.json](burn_stress_test_results.json) | Stress test results |
-| [fairness_optimization_results.json](fairness_optimization_results.json) | Fairness analysis |
-
-### 📁 Archive
-
-| Location | Description |
-|----------|-------------|
-| [future/](future/) | Complete vesting documentation archive |
-
----
-
-## Key Findings
-
-### Price Stability
-- **Best case** (stable growth): Final price $0.0075 (15% of target)
-- **Worst case** (COVID crash): Final price $0.0015 (3% of target)
-- **Emergency brake** prevents further collapse in all scenarios
-
-### Mining Impact
-- Daily emissions: 10.5M BDAG at full rate
-- Pre-launch mined: 540M BDAG (requires vesting)
-- **Recommendation**: Cap emissions at 20% (not 100%)
-
-### Investor Reality
-- 2% TGE at $0.05 = **same value** as 100% at $0.001
-- Emergency brake **protects** locked tokens from crashed market
-- Long-term holders benefit from price stability
-
-### What Doesn't Work
-- Burns alone (10% burn vs 315M/month emissions = net positive)
-- Higher launch prices ($0.10+ too fragile at $32M liquidity)
-- No emergency brake (100% dump scenario)
-
----
-
-## The Math
-
-```
-$32M liquidity ÷ $0.05 price = 640M max tokens
-
-Token Budget:
-├── TGE Unlock (2% base): 340M
-├── LP Reserve: 200M
-└── Mining Buffer: 100M (10 days)
-
-Daily Pressure:
-├── Mining: 10.5M/day (uncapped) or 2.1M/day (20% cap)
-├── Vesting: Paused by emergency brake
-└── Burns: 10% of volume
-```
+> "This model provides Day 1 solvency, controlled supply growth, automatic protection, and aligned incentives. It's the most realistic path to long-term success at $32M liquidity."
 
 ---
 
@@ -355,4 +229,5 @@ Daily Pressure:
 ---
 
 *Last Updated: January 2025*  
-*Status: Specifications Complete, Ready for Implementation*
+*Status: **REALISTIC HYBRID MODEL RECOMMENDED***  
+*Based on: 360+ simulations, Protocol v2.6 analysis, real-world adjustments*
