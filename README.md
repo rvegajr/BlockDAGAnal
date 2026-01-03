@@ -121,6 +121,40 @@ This repository contains a complete, production-ready vesting solution with smar
 
 ---
 
+## Protocol v2.6 Comparison (Second Opinion)
+
+### Comparing the "3% Solvency Protocol" with Our Analysis
+
+| Timeframe | Protocol v2.6 | Our Analysis | Realistic |
+|-----------|---------------|--------------|-----------|
+| Months 0-3 | ✅ Accurate | ⚠️ Pessimistic | $0.04-0.05 |
+| Months 6-12 | ⚠️ Optimistic | ✅ Accurate | $0.01-0.025 |
+| Long-term | ❌ Overpromises | ✅ Realistic | $0.005-0.015 |
+
+### Key Findings
+
+| What Protocol v2.6 Gets Right | What They Miss |
+|------------------------------|----------------|
+| ✅ 3% TGE is sufficient | ❌ No mining emissions model |
+| ✅ 3-month cliff is smart | ❌ "Cannot crash" is wrong |
+| ✅ Oracle price gate works | ❌ 21-month vesting too short |
+| ✅ X1 migration creates demand | ❌ No market crash scenarios |
+| ✅ 40% staking APY reduces selling | |
+
+### Recommended Hybrid
+
+| Parameter | Value | Source |
+|-----------|-------|--------|
+| TGE | 3% | Protocol v2.6 |
+| Cliff | 3 months | Protocol v2.6 |
+| Vesting | 36 months | Compromise |
+| Mining Cap | 20% | Our analysis |
+| Emergency Brake | Yes | Our analysis |
+
+**[Full Comparison →](docs/vesting/PROTOCOL_V26_COMPARISON.md)**
+
+---
+
 ## Utility Token Conversion Proposal
 
 ### The Problem: 33B Bonus Tokens = Massive Selling Pressure
@@ -207,7 +241,8 @@ python3 scripts/fairness_optimization.py                # TGE % optimization
 
 | Document | Description |
 |----------|-------------|
-| [**Optimal Liquidity Analysis**](docs/vesting/OPTIMAL_LIQUIDITY_ANALYSIS.md) | **360 simulations: Best liquidity = $100M** ⭐ NEW |
+| [**Protocol v2.6 Comparison**](docs/vesting/PROTOCOL_V26_COMPARISON.md) | **Second opinion: v2.6 vs our analysis** ⭐ NEW |
+| [**Optimal Liquidity Analysis**](docs/vesting/OPTIMAL_LIQUIDITY_ANALYSIS.md) | **360 simulations: Best liquidity = $100M** |
 | [**Utility Conversion Analysis**](docs/vesting/UTILITY_CONVERSION_ANALYSIS.md) | **75% bonus to utility tokens proposal** |
 | [**40% TGE Analysis**](docs/vesting/FORTY_PERCENT_TGE_ANALYSIS.md) | **"As Promised" - What 40% TGE really means** |
 | [**Market Scenario Breakdown**](docs/vesting/MARKET_SCENARIO_BREAKDOWN.md) | **Detailed breakdown of all 10 scenarios** |
