@@ -1,0 +1,418 @@
+{
+  "timestamp": "2026-01-02T20:09:19.147843",
+  "total_simulations": 101,
+  "market_scenarios": 10,
+  "top_5_combinations": [
+    {
+      "rank": 1,
+      "params": {
+        "tge_percent": 10,
+        "cliff_months": 12,
+        "vesting_months": 36,
+        "emission_cap": 10,
+        "staking_apy": 35,
+        "mandatory_stake_pct": 60
+      },
+      "score": -3.425925925925924,
+      "launch_price": 0.047058823529411764,
+      "month_12_price": 0.09876543209876543,
+      "emergency_brake_month": 0,
+      "presale_year1_roi": -50.617283950617285
+    },
+    {
+      "rank": 2,
+      "params": {
+        "tge_percent": 5,
+        "cliff_months": 12,
+        "vesting_months": 36,
+        "emission_cap": 15,
+        "staking_apy": 35,
+        "mandatory_stake_pct": 60
+      },
+      "score": -47.46996996996998,
+      "launch_price": 0.09411764705882353,
+      "month_12_price": 0.08008008008008008,
+      "emergency_brake_month": 0,
+      "presale_year1_roi": -79.97997997997999
+    },
+    {
+      "rank": 3,
+      "params": {
+        "tge_percent": 3,
+        "cliff_months": 6,
+        "vesting_months": 48,
+        "emission_cap": 10,
+        "staking_apy": 30,
+        "mandatory_stake_pct": 60
+      },
+      "score": -50.66101047443007,
+      "launch_price": 0.1568627450980392,
+      "month_12_price": 0.02365988909426987,
+      "emergency_brake_month": 0,
+      "presale_year1_roi": -82.10734031628671
+    },
+    {
+      "rank": 4,
+      "params": {
+        "tge_percent": 3,
+        "cliff_months": 6,
+        "vesting_months": 48,
+        "emission_cap": 15,
+        "staking_apy": 40,
+        "mandatory_stake_pct": 60
+      },
+      "score": -52.08179866022452,
+      "launch_price": 0.1568627450980392,
+      "month_12_price": 0.022407394440165256,
+      "emergency_brake_month": 0,
+      "presale_year1_roi": -83.05453244014969
+    },
+    {
+      "rank": 5,
+      "params": {
+        "tge_percent": 5,
+        "cliff_months": 12,
+        "vesting_months": 24,
+        "emission_cap": 15,
+        "staking_apy": 25,
+        "mandatory_stake_pct": 50
+      },
+      "score": -53.475975975975985,
+      "launch_price": 0.07529411764705882,
+      "month_12_price": 0.06406406406406406,
+      "emergency_brake_month": 0,
+      "presale_year1_roi": -83.98398398398399
+    }
+  ],
+  "hybrid_model_rank": 56,
+  "market_scenario_results": {
+    "TGE:10% Cliff:12mo Vest:36mo Cap:10% APY:35% Mand:60%": [
+      {
+        "scenario": "COVID_Crash",
+        "final_price": 0.01975308641975308,
+        "min_price": 0.01975308641975308,
+        "emergency_brake_month": 1,
+        "months_survived": 1,
+        "presale_year1_value": 888.8888888888886
+      },
+      {
+        "scenario": "FTX_Collapse",
+        "final_price": 0.029629629629629634,
+        "min_price": 0.029629629629629634,
+        "emergency_brake_month": 3,
+        "months_survived": 3,
+        "presale_year1_value": 1333.3333333333335
+      },
+      {
+        "scenario": "May_2021_Crash",
+        "final_price": 0.03950617283950617,
+        "min_price": 0.03950617283950617,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 1777.7777777777778
+      },
+      {
+        "scenario": "Gradual_Bear",
+        "final_price": 0.052488,
+        "min_price": 0.047058823529411764,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 2361.96
+      },
+      {
+        "scenario": "Bull_Then_Crash",
+        "final_price": 0.05925925925925927,
+        "min_price": 0.047058823529411764,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 2666.666666666667
+      },
+      {
+        "scenario": "High_Volatility",
+        "final_price": 0.0528474074074074,
+        "min_price": 0.047058823529411764,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 2378.1333333333328
+      },
+      {
+        "scenario": "Stable_Growth",
+        "final_price": 0.132355125,
+        "min_price": 0.047058823529411764,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 5955.980624999999
+      },
+      {
+        "scenario": "Early_Recovery",
+        "final_price": 0.09876543209876543,
+        "min_price": 0.047058823529411764,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 4444.444444444444
+      },
+      {
+        "scenario": "Late_Crash",
+        "final_price": 0.048888888888888885,
+        "min_price": 0.047058823529411764,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 2200.0
+      },
+      {
+        "scenario": "Multiple_Crashes",
+        "final_price": 0.021333333333333333,
+        "min_price": 0.021333333333333333,
+        "emergency_brake_month": 12,
+        "months_survived": 12,
+        "presale_year1_value": 960.0
+      }
+    ],
+    "TGE:5% Cliff:12mo Vest:36mo Cap:15% APY:35% Mand:60%": [
+      {
+        "scenario": "COVID_Crash",
+        "final_price": 0.016016016016016012,
+        "min_price": 0.016016016016016012,
+        "emergency_brake_month": 1,
+        "months_survived": 1,
+        "presale_year1_value": 360.3603603603603
+      },
+      {
+        "scenario": "FTX_Collapse",
+        "final_price": 0.024024024024024027,
+        "min_price": 0.024024024024024027,
+        "emergency_brake_month": 3,
+        "months_survived": 3,
+        "presale_year1_value": 540.5405405405406
+      },
+      {
+        "scenario": "May_2021_Crash",
+        "final_price": 0.03203203203203203,
+        "min_price": 0.03203203203203203,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 720.7207207207207
+      },
+      {
+        "scenario": "Gradual_Bear",
+        "final_price": 0.042557837837837835,
+        "min_price": 0.042557837837837835,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 957.5513513513513
+      },
+      {
+        "scenario": "Bull_Then_Crash",
+        "final_price": 0.048048048048048055,
+        "min_price": 0.048048048048048055,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 1081.0810810810813
+      },
+      {
+        "scenario": "High_Volatility",
+        "final_price": 0.04284924924924924,
+        "min_price": 0.04284924924924924,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 964.1081081081079
+      },
+      {
+        "scenario": "Stable_Growth",
+        "final_price": 0.10731496621621621,
+        "min_price": 0.09411764705882353,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 2414.5867398648647
+      },
+      {
+        "scenario": "Early_Recovery",
+        "final_price": 0.08008008008008008,
+        "min_price": 0.08008008008008008,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 1801.8018018018017
+      },
+      {
+        "scenario": "Late_Crash",
+        "final_price": 0.03963963963963964,
+        "min_price": 0.03963963963963964,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 891.8918918918919
+      },
+      {
+        "scenario": "Multiple_Crashes",
+        "final_price": 0.017297297297297298,
+        "min_price": 0.017297297297297298,
+        "emergency_brake_month": 12,
+        "months_survived": 12,
+        "presale_year1_value": 389.1891891891892
+      }
+    ],
+    "TGE:3% Cliff:6mo Vest:48mo Cap:10% APY:30% Mand:60%": [
+      {
+        "scenario": "COVID_Crash",
+        "final_price": 0.0047319778188539725,
+        "min_price": 0.0047319778188539725,
+        "emergency_brake_month": 1,
+        "months_survived": 1,
+        "presale_year1_value": 322.0678743068391
+      },
+      {
+        "scenario": "FTX_Collapse",
+        "final_price": 0.007097966728280962,
+        "min_price": 0.007097966728280962,
+        "emergency_brake_month": 3,
+        "months_survived": 3,
+        "presale_year1_value": 483.10181146025883
+      },
+      {
+        "scenario": "May_2021_Crash",
+        "final_price": 0.009463955637707949,
+        "min_price": 0.009463955637707949,
+        "emergency_brake_month": 8,
+        "months_survived": 8,
+        "presale_year1_value": 644.1357486136784
+      },
+      {
+        "scenario": "Gradual_Bear",
+        "final_price": 0.012573835120147875,
+        "min_price": 0.012573835120147875,
+        "emergency_brake_month": 10,
+        "months_survived": 10,
+        "presale_year1_value": 855.8003659475046
+      },
+      {
+        "scenario": "Bull_Then_Crash",
+        "final_price": 0.014195933456561925,
+        "min_price": 0.014195933456561925,
+        "emergency_brake_month": 10,
+        "months_survived": 10,
+        "presale_year1_value": 966.2036229205177
+      },
+      {
+        "scenario": "High_Volatility",
+        "final_price": 0.01265993345656192,
+        "min_price": 0.01265993345656192,
+        "emergency_brake_month": 10,
+        "months_survived": 10,
+        "presale_year1_value": 861.6603909205174
+      },
+      {
+        "scenario": "Stable_Growth",
+        "final_price": 0.031706514232902036,
+        "min_price": 0.031706514232902036,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 2158.0087717197785
+      },
+      {
+        "scenario": "Early_Recovery",
+        "final_price": 0.02365988909426987,
+        "min_price": 0.02365988909426987,
+        "emergency_brake_month": 0,
+        "months_survived": 12,
+        "presale_year1_value": 1610.3393715341958
+      },
+      {
+        "scenario": "Late_Crash",
+        "final_price": 0.011711645101663585,
+        "min_price": 0.011711645101663585,
+        "emergency_brake_month": 12,
+        "months_survived": 12,
+        "presale_year1_value": 797.1179889094269
+      },
+      {
+        "scenario": "Multiple_Crashes",
+        "final_price": 0.005110536044362292,
+        "min_price": 0.005110536044362292,
+        "emergency_brake_month": 7,
+        "months_survived": 7,
+        "presale_year1_value": 347.8333042513863
+      }
+    ],
+    "TGE:3% Cliff:3mo Vest:36mo Cap:20% APY:40% Mand:50%": [
+      {
+        "scenario": "COVID_Crash",
+        "final_price": 0.0021991237866162694,
+        "min_price": 0.0021991237866162694,
+        "emergency_brake_month": 1,
+        "months_survived": 1,
+        "presale_year1_value": 269.6653552100334
+      },
+      {
+        "scenario": "FTX_Collapse",
+        "final_price": 0.003298685679924406,
+        "min_price": 0.003298685679924406,
+        "emergency_brake_month": 3,
+        "months_survived": 3,
+        "presale_year1_value": 404.49803281505035
+      },
+      {
+        "scenario": "May_2021_Crash",
+        "final_price": 0.0043982475732325405,
+        "min_price": 0.0043982475732325405,
+        "emergency_brake_month": 4,
+        "months_survived": 4,
+        "presale_year1_value": 539.330710420067
+      },
+      {
+        "scenario": "Gradual_Bear",
+        "final_price": 0.005843522721415686,
+        "min_price": 0.005843522721415686,
+        "emergency_brake_month": 6,
+        "months_survived": 6,
+        "presale_year1_value": 716.5561301908771
+      },
+      {
+        "scenario": "Bull_Then_Crash",
+        "final_price": 0.006597371359848812,
+        "min_price": 0.006597371359848812,
+        "emergency_brake_month": 6,
+        "months_survived": 6,
+        "presale_year1_value": 808.9960656301007
+      },
+      {
+        "scenario": "High_Volatility",
+        "final_price": 0.005883535778713167,
+        "min_price": 0.005883535778713167,
+        "emergency_brake_month": 6,
+        "months_survived": 6,
+        "presale_year1_value": 721.4626913289235
+      },
+      {
+        "scenario": "Stable_Growth",
+        "final_price": 0.014735180998196032,
+        "min_price": 0.014735180998196032,
+        "emergency_brake_month": 9,
+        "months_survived": 9,
+        "presale_year1_value": 1806.8868347227901
+      },
+      {
+        "scenario": "Early_Recovery",
+        "final_price": 0.01099561893308135,
+        "min_price": 0.01099561893308135,
+        "emergency_brake_month": 7,
+        "months_survived": 7,
+        "presale_year1_value": 1348.3267760501676
+      },
+      {
+        "scenario": "Late_Crash",
+        "final_price": 0.005442831371875268,
+        "min_price": 0.005442831371875268,
+        "emergency_brake_month": 11,
+        "months_survived": 11,
+        "presale_year1_value": 667.4217541448329
+      },
+      {
+        "scenario": "Multiple_Crashes",
+        "final_price": 0.0023750536895455715,
+        "min_price": 0.0023750536895455715,
+        "emergency_brake_month": 5,
+        "months_survived": 5,
+        "presale_year1_value": 291.23858362683615
+      }
+    ]
+  }
+}
