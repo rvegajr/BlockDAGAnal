@@ -1,0 +1,801 @@
+{
+  "timestamp": "2026-01-02T20:30:20.022222",
+  "liquidity_tiers": [
+    32000000,
+    50000000,
+    75000000,
+    100000000,
+    150000000
+  ],
+  "models_tested": [
+    "Original Model",
+    "Hybrid Model",
+    "Protocol v2.6"
+  ],
+  "scenarios_tested": [
+    "COVID_Crash",
+    "FTX_Collapse",
+    "May_2021_Crash",
+    "Gradual_Bear",
+    "Bull_Then_Crash",
+    "High_Volatility",
+    "Stable_Growth",
+    "Early_Recovery",
+    "Late_Crash",
+    "Multiple_Crashes"
+  ],
+  "simulations_per_combination": 10,
+  "total_simulations": 1500,
+  "analysis_by_liquidity": {
+    "32000000": {
+      "Original Model": {
+        "avg_month_12_roi": -96.97367453703704,
+        "avg_month_12_value": 272.36929166666664,
+        "survival_rate": 80.0,
+        "avg_emergency_month": 5.333333333333333,
+        "avg_launch_price": 0.18823529411764706,
+        "avg_min_price": 0.03026325462962963
+      },
+      "Hybrid Model": {
+        "avg_month_12_roi": -71.15122636555425,
+        "avg_month_12_value": 2596.3896271001177,
+        "survival_rate": 60.0,
+        "avg_emergency_month": 5.6,
+        "avg_launch_price": 0.12549019607843137,
+        "avg_min_price": 0.0168110215530649
+      },
+      "Protocol v2.6": {
+        "avg_month_12_roi": -88.26808808134116,
+        "avg_month_12_value": 1055.872072679295,
+        "survival_rate": 0.0,
+        "avg_emergency_month": 5,
+        "avg_launch_price": 0.06274509803921569,
+        "avg_min_price": 0.0052643306992501155
+      }
+    },
+    "50000000": {
+      "Original Model": {
+        "avg_month_12_roi": -95.27136646412038,
+        "avg_month_12_value": 425.5770182291667,
+        "survival_rate": 80.0,
+        "avg_emergency_month": 5.333333333333333,
+        "avg_launch_price": 0.29411764705882354,
+        "avg_min_price": 0.0472863353587963
+      },
+      "Hybrid Model": {
+        "avg_month_12_roi": -62.53987034172628,
+        "avg_month_12_value": 3371.411669244635,
+        "survival_rate": 80.0,
+        "avg_emergency_month": 5.333333333333333,
+        "avg_launch_price": 0.19607843137254902,
+        "avg_min_price": 0.020338310684473036
+      },
+      "Protocol v2.6": {
+        "avg_month_12_roi": -81.66888762709557,
+        "avg_month_12_value": 1649.8001135613981,
+        "survival_rate": 20.0,
+        "avg_emergency_month": 6.4,
+        "avg_launch_price": 0.09803921568627451,
+        "avg_min_price": 0.008225516717578304
+      }
+    },
+    "75000000": {
+      "Original Model": {
+        "avg_month_12_roi": -92.90704969618055,
+        "avg_month_12_value": 638.36552734375,
+        "survival_rate": 80.0,
+        "avg_emergency_month": 5.333333333333333,
+        "avg_launch_price": 0.4411764705882353,
+        "avg_min_price": 0.07092950303819445
+      },
+      "Hybrid Model": {
+        "avg_month_12_roi": -52.334658793205726,
+        "avg_month_12_value": 4289.880708611485,
+        "survival_rate": 80.0,
+        "avg_emergency_month": 5.333333333333333,
+        "avg_launch_price": 0.29411764705882354,
+        "avg_min_price": 0.025411773808068115
+      },
+      "Protocol v2.6": {
+        "avg_month_12_roi": -72.50333144064336,
+        "avg_month_12_value": 2474.7001703420974,
+        "survival_rate": 30.0,
+        "avg_emergency_month": 6.75,
+        "avg_launch_price": 0.14705882352941177,
+        "avg_min_price": 0.012338275076367457
+      }
+    },
+    "100000000": {
+      "Original Model": {
+        "avg_month_12_roi": -90.54273292824074,
+        "avg_month_12_value": 851.1540364583334,
+        "survival_rate": 80.0,
+        "avg_emergency_month": 5.333333333333333,
+        "avg_launch_price": 0.5882352941176471,
+        "avg_min_price": 0.0945726707175926
+      },
+      "Hybrid Model": {
+        "avg_month_12_roi": -43.26609434876736,
+        "avg_month_12_value": 5106.051508610938,
+        "survival_rate": 80.0,
+        "avg_emergency_month": 5.333333333333333,
+        "avg_launch_price": 0.39215686274509803,
+        "avg_min_price": 0.028974665803875144
+      },
+      "Protocol v2.6": {
+        "avg_month_12_roi": -63.33777525419115,
+        "avg_month_12_value": 3299.6002271227962,
+        "survival_rate": 30.0,
+        "avg_emergency_month": 7.625,
+        "avg_launch_price": 0.19607843137254902,
+        "avg_min_price": 0.01645103343515661
+      }
+    },
+    "150000000": {
+      "Original Model": {
+        "avg_month_12_roi": -85.81409939236111,
+        "avg_month_12_value": 1276.7310546875,
+        "survival_rate": 80.0,
+        "avg_emergency_month": 5.333333333333333,
+        "avg_launch_price": 0.8823529411764706,
+        "avg_min_price": 0.1418590060763889
+      },
+      "Hybrid Model": {
+        "avg_month_12_roi": -48.342498986846614,
+        "avg_month_12_value": 4649.175091183804,
+        "survival_rate": 80.0,
+        "avg_emergency_month": 5.333333333333333,
+        "avg_launch_price": 0.5882352941176471,
+        "avg_min_price": 0.03164287727960122
+      },
+      "Protocol v2.6": {
+        "avg_month_12_roi": -45.00666288128673,
+        "avg_month_12_value": 4949.400340684195,
+        "survival_rate": 60.0,
+        "avg_emergency_month": 6.25,
+        "avg_launch_price": 0.29411764705882354,
+        "avg_min_price": 0.02410191481587454
+      }
+    }
+  },
+  "fairness_scores": {
+    "32000000_Original Model": {
+      "liquidity": 32000000,
+      "model": "Original Model",
+      "fairness_score": 25.513162731481483,
+      "roi_score": 1.5131627314814793,
+      "survival_score": 80.0,
+      "value_score": 3.0263254629629626,
+      "month_12_value": 272.36929166666664,
+      "month_12_roi": -96.97367453703704,
+      "survival_rate": 80.0
+    },
+    "32000000_Hybrid Model": {
+      "liquidity": 32000000,
+      "model": "Hybrid Model",
+      "fairness_score": 32.424386817222874,
+      "roi_score": 14.424386817222874,
+      "survival_score": 60.0,
+      "value_score": 28.848773634445752,
+      "month_12_value": 2596.3896271001177,
+      "month_12_roi": -71.15122636555425,
+      "survival_rate": 60.0
+    },
+    "32000000_Protocol v2.6": {
+      "liquidity": 32000000,
+      "model": "Protocol v2.6",
+      "fairness_score": 5.865955959329417,
+      "roi_score": 5.865955959329419,
+      "survival_score": 0.0,
+      "value_score": 11.731911918658833,
+      "month_12_value": 1055.872072679295,
+      "month_12_roi": -88.26808808134116,
+      "survival_rate": 0.0
+    },
+    "50000000_Original Model": {
+      "liquidity": 50000000,
+      "model": "Original Model",
+      "fairness_score": 26.364316767939815,
+      "roi_score": 2.364316767939812,
+      "survival_score": 80.0,
+      "value_score": 4.72863353587963,
+      "month_12_value": 425.5770182291667,
+      "month_12_roi": -95.27136646412038,
+      "survival_rate": 80.0
+    },
+    "50000000_Hybrid Model": {
+      "liquidity": 50000000,
+      "model": "Hybrid Model",
+      "fairness_score": 42.730064829136865,
+      "roi_score": 18.73006482913686,
+      "survival_score": 80.0,
+      "value_score": 37.46012965827372,
+      "month_12_value": 3371.411669244635,
+      "month_12_roi": -62.53987034172628,
+      "survival_rate": 80.0
+    },
+    "50000000_Protocol v2.6": {
+      "liquidity": 50000000,
+      "model": "Protocol v2.6",
+      "fairness_score": 15.165556186452214,
+      "roi_score": 9.165556186452214,
+      "survival_score": 20.0,
+      "value_score": 18.331112372904425,
+      "month_12_value": 1649.8001135613981,
+      "month_12_roi": -81.66888762709557,
+      "survival_rate": 20.0
+    },
+    "75000000_Original Model": {
+      "liquidity": 75000000,
+      "model": "Original Model",
+      "fairness_score": 27.546475151909725,
+      "roi_score": 3.546475151909725,
+      "survival_score": 80.0,
+      "value_score": 7.092950303819445,
+      "month_12_value": 638.36552734375,
+      "month_12_roi": -92.90704969618055,
+      "survival_rate": 80.0
+    },
+    "75000000_Hybrid Model": {
+      "liquidity": 75000000,
+      "model": "Hybrid Model",
+      "fairness_score": 47.83267060339713,
+      "roi_score": 23.832670603397137,
+      "survival_score": 80.0,
+      "value_score": 47.665341206794274,
+      "month_12_value": 4289.880708611485,
+      "month_12_roi": -52.334658793205726,
+      "survival_rate": 80.0
+    },
+    "75000000_Protocol v2.6": {
+      "liquidity": 75000000,
+      "model": "Protocol v2.6",
+      "fairness_score": 22.748334279678318,
+      "roi_score": 13.748334279678318,
+      "survival_score": 30.0,
+      "value_score": 27.496668559356635,
+      "month_12_value": 2474.7001703420974,
+      "month_12_roi": -72.50333144064336,
+      "survival_rate": 30.0
+    },
+    "100000000_Original Model": {
+      "liquidity": 100000000,
+      "model": "Original Model",
+      "fairness_score": 28.728633535879627,
+      "roi_score": 4.728633535879631,
+      "survival_score": 80.0,
+      "value_score": 9.45726707175926,
+      "month_12_value": 851.1540364583334,
+      "month_12_roi": -90.54273292824074,
+      "survival_rate": 80.0
+    },
+    "100000000_Hybrid Model": {
+      "liquidity": 100000000,
+      "model": "Hybrid Model",
+      "fairness_score": 52.366952825616316,
+      "roi_score": 28.36695282561632,
+      "survival_score": 80.0,
+      "value_score": 56.73390565123264,
+      "month_12_value": 5106.051508610938,
+      "month_12_roi": -43.26609434876736,
+      "survival_rate": 80.0
+    },
+    "100000000_Protocol v2.6": {
+      "liquidity": 100000000,
+      "model": "Protocol v2.6",
+      "fairness_score": 27.33111237290442,
+      "roi_score": 18.331112372904425,
+      "survival_score": 30.0,
+      "value_score": 36.66222474580885,
+      "month_12_value": 3299.6002271227962,
+      "month_12_roi": -63.33777525419115,
+      "survival_rate": 30.0
+    },
+    "150000000_Original Model": {
+      "liquidity": 150000000,
+      "model": "Original Model",
+      "fairness_score": 31.092950303819443,
+      "roi_score": 7.092950303819443,
+      "survival_score": 80.0,
+      "value_score": 14.18590060763889,
+      "month_12_value": 1276.7310546875,
+      "month_12_roi": -85.81409939236111,
+      "survival_rate": 80.0
+    },
+    "150000000_Hybrid Model": {
+      "liquidity": 150000000,
+      "model": "Hybrid Model",
+      "fairness_score": 49.8287505065767,
+      "roi_score": 25.828750506576693,
+      "survival_score": 80.0,
+      "value_score": 51.657501013153386,
+      "month_12_value": 4649.175091183804,
+      "month_12_roi": -48.342498986846614,
+      "survival_rate": 80.0
+    },
+    "150000000_Protocol v2.6": {
+      "liquidity": 150000000,
+      "model": "Protocol v2.6",
+      "fairness_score": 45.496668559356635,
+      "roi_score": 27.496668559356635,
+      "survival_score": 60.0,
+      "value_score": 54.99333711871327,
+      "month_12_value": 4949.400340684195,
+      "month_12_roi": -45.00666288128673,
+      "survival_rate": 60.0
+    }
+  },
+  "optimal_configuration": {
+    "liquidity": 100000000,
+    "model": "Hybrid Model",
+    "fairness_score": 52.366952825616316,
+    "roi_score": 28.36695282561632,
+    "survival_score": 80.0,
+    "value_score": 56.73390565123264,
+    "month_12_value": 5106.051508610938,
+    "month_12_roi": -43.26609434876736,
+    "survival_rate": 80.0
+  },
+  "top_10_configurations": [
+    {
+      "liquidity": 100000000,
+      "model": "Hybrid Model",
+      "fairness_score": 52.366952825616316,
+      "roi_score": 28.36695282561632,
+      "survival_score": 80.0,
+      "value_score": 56.73390565123264,
+      "month_12_value": 5106.051508610938,
+      "month_12_roi": -43.26609434876736,
+      "survival_rate": 80.0
+    },
+    {
+      "liquidity": 150000000,
+      "model": "Hybrid Model",
+      "fairness_score": 49.8287505065767,
+      "roi_score": 25.828750506576693,
+      "survival_score": 80.0,
+      "value_score": 51.657501013153386,
+      "month_12_value": 4649.175091183804,
+      "month_12_roi": -48.342498986846614,
+      "survival_rate": 80.0
+    },
+    {
+      "liquidity": 75000000,
+      "model": "Hybrid Model",
+      "fairness_score": 47.83267060339713,
+      "roi_score": 23.832670603397137,
+      "survival_score": 80.0,
+      "value_score": 47.665341206794274,
+      "month_12_value": 4289.880708611485,
+      "month_12_roi": -52.334658793205726,
+      "survival_rate": 80.0
+    },
+    {
+      "liquidity": 150000000,
+      "model": "Protocol v2.6",
+      "fairness_score": 45.496668559356635,
+      "roi_score": 27.496668559356635,
+      "survival_score": 60.0,
+      "value_score": 54.99333711871327,
+      "month_12_value": 4949.400340684195,
+      "month_12_roi": -45.00666288128673,
+      "survival_rate": 60.0
+    },
+    {
+      "liquidity": 50000000,
+      "model": "Hybrid Model",
+      "fairness_score": 42.730064829136865,
+      "roi_score": 18.73006482913686,
+      "survival_score": 80.0,
+      "value_score": 37.46012965827372,
+      "month_12_value": 3371.411669244635,
+      "month_12_roi": -62.53987034172628,
+      "survival_rate": 80.0
+    },
+    {
+      "liquidity": 32000000,
+      "model": "Hybrid Model",
+      "fairness_score": 32.424386817222874,
+      "roi_score": 14.424386817222874,
+      "survival_score": 60.0,
+      "value_score": 28.848773634445752,
+      "month_12_value": 2596.3896271001177,
+      "month_12_roi": -71.15122636555425,
+      "survival_rate": 60.0
+    },
+    {
+      "liquidity": 150000000,
+      "model": "Original Model",
+      "fairness_score": 31.092950303819443,
+      "roi_score": 7.092950303819443,
+      "survival_score": 80.0,
+      "value_score": 14.18590060763889,
+      "month_12_value": 1276.7310546875,
+      "month_12_roi": -85.81409939236111,
+      "survival_rate": 80.0
+    },
+    {
+      "liquidity": 100000000,
+      "model": "Original Model",
+      "fairness_score": 28.728633535879627,
+      "roi_score": 4.728633535879631,
+      "survival_score": 80.0,
+      "value_score": 9.45726707175926,
+      "month_12_value": 851.1540364583334,
+      "month_12_roi": -90.54273292824074,
+      "survival_rate": 80.0
+    },
+    {
+      "liquidity": 75000000,
+      "model": "Original Model",
+      "fairness_score": 27.546475151909725,
+      "roi_score": 3.546475151909725,
+      "survival_score": 80.0,
+      "value_score": 7.092950303819445,
+      "month_12_value": 638.36552734375,
+      "month_12_roi": -92.90704969618055,
+      "survival_rate": 80.0
+    },
+    {
+      "liquidity": 100000000,
+      "model": "Protocol v2.6",
+      "fairness_score": 27.33111237290442,
+      "roi_score": 18.331112372904425,
+      "survival_score": 30.0,
+      "value_score": 36.66222474580885,
+      "month_12_value": 3299.6002271227962,
+      "month_12_roi": -63.33777525419115,
+      "survival_rate": 30.0
+    }
+  ],
+  "critical_scenario_analysis": {
+    "COVID_Crash": {
+      "32000000": {
+        "Original Model": {
+          "avg_month_12_roi": -98.92255892255892,
+          "avg_month_12_value": 96.96969696969694,
+          "survival_rate": 0.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -89.72917680931816,
+          "avg_month_12_value": 924.3740871613661,
+          "survival_rate": 0.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -95.82317104594964,
+          "avg_month_12_value": 375.91460586453303,
+          "survival_rate": 0.0
+        }
+      },
+      "50000000": {
+        "Original Model": {
+          "avg_month_12_roi": -98.31649831649831,
+          "avg_month_12_value": 151.51515151515147,
+          "survival_rate": 0.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -83.95183876455961,
+          "avg_month_12_value": 1444.3345111896344,
+          "survival_rate": 0.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -93.47370475929631,
+          "avg_month_12_value": 587.3665716633329,
+          "survival_rate": 0.0
+        }
+      },
+      "75000000": {
+        "Original Model": {
+          "avg_month_12_roi": -97.47474747474747,
+          "avg_month_12_value": 227.2727272727272,
+          "survival_rate": 0.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -75.92775814683944,
+          "avg_month_12_value": 2166.501766784452,
+          "survival_rate": 0.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -90.21055713894445,
+          "avg_month_12_value": 881.0498574949993,
+          "survival_rate": 0.0
+        }
+      },
+      "100000000": {
+        "Original Model": {
+          "avg_month_12_roi": -96.63299663299664,
+          "avg_month_12_value": 303.03030303030295,
+          "survival_rate": 0.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -67.90367752911924,
+          "avg_month_12_value": 2888.669022379269,
+          "survival_rate": 0.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -86.9474095185926,
+          "avg_month_12_value": 1174.7331433266659,
+          "survival_rate": 0.0
+        }
+      },
+      "150000000": {
+        "Original Model": {
+          "avg_month_12_roi": -94.94949494949495,
+          "avg_month_12_value": 454.5454545454544,
+          "survival_rate": 0.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -51.855516293678846,
+          "avg_month_12_value": 4333.003533568904,
+          "survival_rate": 0.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -80.4211142778889,
+          "avg_month_12_value": 1762.0997149899986,
+          "survival_rate": 0.0
+        }
+      }
+    },
+    "FTX_Collapse": {
+      "32000000": {
+        "Original Model": {
+          "avg_month_12_roi": -98.38383838383838,
+          "avg_month_12_value": 145.4545454545455,
+          "survival_rate": 0.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -84.59376521397722,
+          "avg_month_12_value": 1386.5611307420497,
+          "survival_rate": 0.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -93.73475656892445,
+          "avg_month_12_value": 563.8719087967999,
+          "survival_rate": 0.0
+        }
+      },
+      "50000000": {
+        "Original Model": {
+          "avg_month_12_roi": -97.47474747474747,
+          "avg_month_12_value": 227.2727272727273,
+          "survival_rate": 0.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -75.92775814683942,
+          "avg_month_12_value": 2166.5017667844522,
+          "survival_rate": 0.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -90.21055713894445,
+          "avg_month_12_value": 881.0498574949996,
+          "survival_rate": 0.0
+        }
+      },
+      "75000000": {
+        "Original Model": {
+          "avg_month_12_roi": -96.21212121212122,
+          "avg_month_12_value": 340.909090909091,
+          "survival_rate": 0.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -63.89163722025912,
+          "avg_month_12_value": 3249.752650176679,
+          "survival_rate": 0.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -85.31583570841667,
+          "avg_month_12_value": 1321.5747862424996,
+          "survival_rate": 0.0
+        }
+      },
+      "100000000": {
+        "Original Model": {
+          "avg_month_12_roi": -94.94949494949495,
+          "avg_month_12_value": 454.5454545454546,
+          "survival_rate": 0.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -51.85551629367884,
+          "avg_month_12_value": 4333.0035335689045,
+          "survival_rate": 0.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -80.42111427788889,
+          "avg_month_12_value": 1762.0997149899993,
+          "survival_rate": 0.0
+        }
+      },
+      "150000000": {
+        "Original Model": {
+          "avg_month_12_roi": -92.42424242424242,
+          "avg_month_12_value": 681.818181818182,
+          "survival_rate": 0.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -27.783274440518248,
+          "avg_month_12_value": 6499.505300353358,
+          "survival_rate": 0.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -70.63167141683334,
+          "avg_month_12_value": 2643.149572484999,
+          "survival_rate": 0.0
+        }
+      }
+    },
+    "May_2021_Crash": {
+      "32000000": {
+        "Original Model": {
+          "avg_month_12_roi": -97.84511784511784,
+          "avg_month_12_value": 193.93939393939394,
+          "survival_rate": 100.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -79.4583536186363,
+          "avg_month_12_value": 1848.7481743227327,
+          "survival_rate": 0.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -91.64634209189926,
+          "avg_month_12_value": 751.8292117290663,
+          "survival_rate": 0.0
+        }
+      },
+      "50000000": {
+        "Original Model": {
+          "avg_month_12_roi": -96.63299663299664,
+          "avg_month_12_value": 303.030303030303,
+          "survival_rate": 100.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -67.90367752911922,
+          "avg_month_12_value": 2888.66902237927,
+          "survival_rate": 100.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -86.9474095185926,
+          "avg_month_12_value": 1174.733143326666,
+          "survival_rate": 0.0
+        }
+      },
+      "75000000": {
+        "Original Model": {
+          "avg_month_12_roi": -94.94949494949495,
+          "avg_month_12_value": 454.54545454545456,
+          "survival_rate": 100.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -51.85551629367884,
+          "avg_month_12_value": 4333.0035335689045,
+          "survival_rate": 100.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -80.42111427788889,
+          "avg_month_12_value": 1762.0997149899993,
+          "survival_rate": 0.0
+        }
+      },
+      "100000000": {
+        "Original Model": {
+          "avg_month_12_roi": -93.26599326599326,
+          "avg_month_12_value": 606.060606060606,
+          "survival_rate": 100.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -35.80735505823844,
+          "avg_month_12_value": 5777.33804475854,
+          "survival_rate": 100.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -73.8948190371852,
+          "avg_month_12_value": 2349.466286653332,
+          "survival_rate": 0.0
+        }
+      },
+      "150000000": {
+        "Original Model": {
+          "avg_month_12_roi": -89.8989898989899,
+          "avg_month_12_value": 909.0909090909091,
+          "survival_rate": 100.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -71.90985883228818,
+          "avg_month_12_value": 2528.112705094064,
+          "survival_rate": 100.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -60.84222855577779,
+          "avg_month_12_value": 3524.1994299799985,
+          "survival_rate": 0.0
+        }
+      }
+    },
+    "Multiple_Crashes": {
+      "32000000": {
+        "Original Model": {
+          "avg_month_12_roi": -98.83636363636363,
+          "avg_month_12_value": 104.72727272727272,
+          "survival_rate": 100.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -88.90751095406361,
+          "avg_month_12_value": 998.3240141342756,
+          "survival_rate": 0.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -95.4890247296256,
+          "avg_month_12_value": 405.9877743336958,
+          "survival_rate": 0.0
+        }
+      },
+      "50000000": {
+        "Original Model": {
+          "avg_month_12_roi": -98.18181818181819,
+          "avg_month_12_value": 163.63636363636363,
+          "survival_rate": 100.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -82.66798586572438,
+          "avg_month_12_value": 1559.8812720848057,
+          "survival_rate": 100.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -92.95160114004001,
+          "avg_month_12_value": 634.3558973963997,
+          "survival_rate": 0.0
+        }
+      },
+      "75000000": {
+        "Original Model": {
+          "avg_month_12_roi": -97.27272727272728,
+          "avg_month_12_value": 245.45454545454544,
+          "survival_rate": 100.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -74.00197879858656,
+          "avg_month_12_value": 2339.8219081272086,
+          "survival_rate": 100.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -89.42740171006001,
+          "avg_month_12_value": 951.5338460945995,
+          "survival_rate": 0.0
+        }
+      },
+      "100000000": {
+        "Original Model": {
+          "avg_month_12_roi": -96.36363636363636,
+          "avg_month_12_value": 327.27272727272725,
+          "survival_rate": 100.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -65.33597173144877,
+          "avg_month_12_value": 3119.7625441696114,
+          "survival_rate": 100.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -85.90320228008001,
+          "avg_month_12_value": 1268.7117947927993,
+          "survival_rate": 0.0
+        }
+      },
+      "150000000": {
+        "Original Model": {
+          "avg_month_12_roi": -94.54545454545455,
+          "avg_month_12_value": 490.9090909090909,
+          "survival_rate": 100.0
+        },
+        "Hybrid Model": {
+          "avg_month_12_roi": -48.00395759717314,
+          "avg_month_12_value": 4679.643816254417,
+          "survival_rate": 100.0
+        },
+        "Protocol v2.6": {
+          "avg_month_12_roi": -78.85480342012,
+          "avg_month_12_value": 1903.067692189199,
+          "survival_rate": 0.0
+        }
+      }
+    }
+  }
+}

@@ -1,10 +1,20 @@
 # BlockDAG Vesting Solution
 
-## 🏆 THE WINNING MODEL: Protocol v2.6
+## 🏆 THE WINNING MODEL: Depends on Liquidity Tier
 
-After **400+ simulations** across multiple market conditions, **Protocol v2.6** has been validated as the optimal solution for investor returns.
+After **1,500+ simulations** across **5 liquidity tiers** and **10 historical market scenarios**, we discovered:
 
-**Validation**: Tested against Original Model and Hybrid Model - Protocol v2.6 provides **37% better returns** than Hybrid and **266% better returns** than Original.
+**The winner depends on liquidity level:**
+
+| Liquidity Tier | Winner | Reason |
+|----------------|--------|--------|
+| **$32M - $100M** | **Hybrid Model** | Better protection in critical crashes |
+| **$150M+** | **Protocol v2.6** | Higher liquidity supports faster vesting |
+
+**🏆 Optimal Configuration: Hybrid Model at $100M Liquidity**
+- Fairness Score: 52.4/100 (highest)
+- Month 12 Value: $5,106 (on $9K investment)
+- Survival Rate: 80%
 
 ---
 
@@ -67,27 +77,35 @@ After **400+ simulations** across multiple market conditions, **Protocol v2.6** 
 
 ---
 
-## 🏆 Three Model Comparison: Investor Returns
+## 🏆 Liquidity Tier Comparison: 1,500 Simulations
 
-**400 Simulations Complete:** Compared Original Model, Hybrid Model, and Protocol v2.6 across Bull, Bear, Normal, and Volatile markets.
+**1,500 Simulations Complete:** Tested all three models across **5 liquidity tiers** ($32M-$150M) and **10 historical market scenarios**.
 
-### Winner: Protocol v2.6
+### Key Discovery: Liquidity Determines Winner
 
-| Model | Month 12 ROI | Month 12 Value | Verdict |
-|-------|--------------|----------------|---------|
-| Original Model (2% TGE, 12mo cliff) | -94.3% | $511 | ❌ Worst |
-| Hybrid Model (3% TGE, 3mo cliff) | -84.4% | $1,406 | ⚠️ Middle |
-| **Protocol v2.6 (3% TGE, 21mo vest)** | **-79.2%** | **$1,871** | ✅ **Best** |
+| Liquidity | Winner | Month 12 Value | Survival Rate |
+|-----------|--------|----------------|---------------|
+| **$32M** | **Hybrid Model** | $2,596 | 60% |
+| **$50M** | **Hybrid Model** | $3,371 | 80% |
+| **$75M** | **Hybrid Model** | $4,290 | 80% |
+| **$100M** | **Hybrid Model** | **$5,106** ✅ | 80% |
+| **$150M** | **Protocol v2.6** | $4,949 | 60% |
 
-**Key Finding:** Protocol v2.6 provides **37% better returns** than Hybrid Model and **266% better returns** than Original Model.
+**🏆 Optimal: Hybrid Model at $100M** (Fairness Score: 52.4/100)
 
-**Why Protocol v2.6 Wins:**
-- ✅ Faster vesting (21 months vs 36 months)
-- ✅ No emission cap (more network activity)
-- ✅ Oracle price gate at $0.05 (protects without frequent brake)
-- ✅ Better performance in ALL market conditions
+**Why Hybrid Model Wins at Lower Liquidity:**
+- ✅ Emergency brake protects value in crashes
+- ✅ Emission cap prevents supply flood
+- ✅ Mandatory staking reduces circulating supply
+- ✅ Best performance in critical scenarios (COVID, FTX)
 
-**[Full Comparison →](docs/vesting/THREE_MODEL_COMPARISON.md)**
+**Why Protocol v2.6 Wins at $150M:**
+- ✅ Higher liquidity supports faster vesting
+- ✅ No emission cap allows full network activity
+- ✅ Oracle price gate sufficient at high liquidity
+
+**[Full Liquidity Tier Analysis →](docs/vesting/LIQUIDITY_TIER_ANALYSIS.md)**  
+**[Three Model Comparison →](docs/vesting/THREE_MODEL_COMPARISON.md)**
 
 ---
 
@@ -236,8 +254,9 @@ TRIPLE PROTECTION:
 
 | Document | Description |
 |----------|-------------|
-| **[Protocol v2.6 Comparison](docs/vesting/PROTOCOL_V26_COMPARISON.md)** | ⭐ THE WINNING SOLUTION - Validated through 400+ simulations |
+| **[Liquidity Tier Analysis](docs/vesting/LIQUIDITY_TIER_ANALYSIS.md)** | ⭐ 1,500 simulations: Optimal liquidity and protocol selection |
 | **[Three Model Comparison](docs/vesting/THREE_MODEL_COMPARISON.md)** | ⭐ 400 simulations: Original vs Hybrid vs Protocol v2.6 |
+| **[Protocol v2.6 Comparison](docs/vesting/PROTOCOL_V26_COMPARISON.md)** | Second opinion analysis |
 | **[Hybrid Model Validation](docs/vesting/HYBRID_MODEL_VALIDATION.md)** | ⭐ 100 simulations + 10 market scenarios |
 | [Protocol v2.6 Comparison](docs/vesting/PROTOCOL_V26_COMPARISON.md) | Second opinion analysis |
 | [Optimal Liquidity Analysis](docs/vesting/OPTIMAL_LIQUIDITY_ANALYSIS.md) | 360 simulations |
@@ -266,7 +285,8 @@ TRIPLE PROTECTION:
 
 ```bash
 # Core simulations
-python3 scripts/three_model_comparison.py                # 400 sims: Original vs Hybrid vs v2.6 ⭐ NEW
+python3 scripts/liquidity_tier_comparison.py             # 1,500 sims: Liquidity tiers + protocols ⭐ NEW
+python3 scripts/three_model_comparison.py                # 400 sims: Original vs Hybrid vs v2.6 ⭐
 python3 scripts/hybrid_model_validation.py              # 100 sims + 10 markets ⭐
 python3 scripts/vesting_simulations_v3_real_miners.py   # Real miner data ⭐
 python3 scripts/burn_market_stress_test.py              # Historical crashes
