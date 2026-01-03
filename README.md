@@ -62,6 +62,30 @@ After 360+ simulations, Protocol v2.6 analysis, and real-world adjustments, we'v
 
 ---
 
+## 🏆 Three Model Comparison: Investor Returns
+
+**400 Simulations Complete:** Compared Original Model, Hybrid Model, and Protocol v2.6 across Bull, Bear, Normal, and Volatile markets.
+
+### Winner: Protocol v2.6
+
+| Model | Month 12 ROI | Month 12 Value | Verdict |
+|-------|--------------|----------------|---------|
+| Original Model (2% TGE, 12mo cliff) | -94.3% | $511 | ❌ Worst |
+| Hybrid Model (3% TGE, 3mo cliff) | -84.4% | $1,406 | ⚠️ Middle |
+| **Protocol v2.6 (3% TGE, 21mo vest)** | **-79.2%** | **$1,871** | ✅ **Best** |
+
+**Key Finding:** Protocol v2.6 provides **37% better returns** than Hybrid Model and **266% better returns** than Original Model.
+
+**Why Protocol v2.6 Wins:**
+- ✅ Faster vesting (21 months vs 36 months)
+- ✅ No emission cap (more network activity)
+- ✅ Oracle price gate at $0.05 (protects without frequent brake)
+- ✅ Better performance in ALL market conditions
+
+**[Full Comparison →](docs/vesting/THREE_MODEL_COMPARISON.md)**
+
+---
+
 ## 📈 Why This Model Wins
 
 ### ✅ What Protocol v2.6 Got Right (We Adopted)
@@ -185,6 +209,7 @@ TRIPLE PROTECTION:
 | Document | Description |
 |----------|-------------|
 | **[Realistic Hybrid Model](docs/vesting/REALISTIC_HYBRID_MODEL.md)** | ⭐ THE WINNING SOLUTION |
+| **[Three Model Comparison](docs/vesting/THREE_MODEL_COMPARISON.md)** | ⭐ 400 simulations: Original vs Hybrid vs Protocol v2.6 |
 | **[Hybrid Model Validation](docs/vesting/HYBRID_MODEL_VALIDATION.md)** | ⭐ 100 simulations + 10 market scenarios |
 | [Protocol v2.6 Comparison](docs/vesting/PROTOCOL_V26_COMPARISON.md) | Second opinion analysis |
 | [Optimal Liquidity Analysis](docs/vesting/OPTIMAL_LIQUIDITY_ANALYSIS.md) | 360 simulations |
@@ -213,7 +238,8 @@ TRIPLE PROTECTION:
 
 ```bash
 # Core simulations
-python3 scripts/hybrid_model_validation.py              # 100 sims + 10 markets ⭐ NEW
+python3 scripts/three_model_comparison.py                # 400 sims: Original vs Hybrid vs v2.6 ⭐ NEW
+python3 scripts/hybrid_model_validation.py              # 100 sims + 10 markets ⭐
 python3 scripts/vesting_simulations_v3_real_miners.py   # Real miner data ⭐
 python3 scripts/burn_market_stress_test.py              # Historical crashes
 python3 scripts/optimal_liquidity_analysis.py           # 360 liquidity tests
