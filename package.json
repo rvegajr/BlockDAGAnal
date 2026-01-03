@@ -1,0 +1,33 @@
+{
+  "name": "blockdag-vesting-contracts",
+  "version": "1.0.0",
+  "description": "BlockDAG Vesting Contracts - Protocol v2.6 Implementation",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy/all.js --network phoenixTestnet",
+    "deploy:mainnet": "hardhat run scripts/deploy/all.js --network phoenix",
+    "verify": "hardhat verify",
+    "node": "hardhat node"
+  },
+  "keywords": [
+    "blockchain",
+    "vesting",
+    "smart-contracts",
+    "blockdag"
+  ],
+  "author": "BlockDAG Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.0.0"
+  }
+}
+
