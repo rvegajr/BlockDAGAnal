@@ -14,7 +14,8 @@ This repository contains a complete, production-ready vesting solution with smar
 |---------|-------------|------|
 | **Solution Overview** | How the vesting works | [Below](#solution-overview) |
 | **Market Scenarios** | 10 historical crash simulations | [Below](#market-scenarios-tested) |
-| **Utility Conversion** | 75% bonus to non-tradable utility ⭐ NEW | [Below](#utility-token-conversion-proposal) |
+| **Optimal Liquidity** | $100M best, 3 exchanges, 10% TGE ⭐ NEW | [Below](#optimal-liquidity-finding) |
+| **Utility Conversion** | 75% bonus to non-tradable utility | [Below](#utility-token-conversion-proposal) |
 | **Simulations** | Run your own analysis | [Below](#run-simulations) |
 | **Documentation** | Full index of all docs | [Below](#complete-documentation-index) |
 
@@ -82,6 +83,41 @@ This repository contains a complete, production-ready vesting solution with smar
 | 🟢 Resilient (Brake Month 14+) | 3 | Volatility, Growth, Recovery |
 
 **✅ Emergency brake activated in 100% of scenarios** - Protection works as designed.
+
+---
+
+## Optimal Liquidity Finding
+
+### 360 Simulations Tested: $10M → $100M Liquidity
+
+| Rank | Liquidity | Presale | New Buyer | Project | **Overall** |
+|------|-----------|---------|-----------|---------|-------------|
+| 🥇 | **$100M** | 39.3 | 52.2 | 62.0 | **51.1** |
+| 🥈 | $75M | 28.0 | 52.2 | 52.0 | 43.7 |
+| 🥉 | $50M | 16.0 | 46.2 | 41.7 | 34.0 |
+| 4 | $32M | 7.3 | 41.7 | 34.5 | 27.2 |
+
+### 🎯 Recommended Configuration
+
+| Parameter | Value | Rationale |
+|-----------|-------|-----------|
+| **Liquidity** | $100M | 5% scenarios survive without brake |
+| **Exchanges** | 3 | Better depth than 5 or 10 |
+| **TGE %** | 10% | Best balance for all stakeholders |
+| **Launch Price** | ~$0.045 | Sustainable with this liquidity |
+
+### $9K Investor TGE Value by Liquidity
+
+| Liquidity | TGE Value | % of Investment |
+|-----------|-----------|-----------------|
+| $32M | $328 | 3.6% |
+| $50M | $1,004 | 11.2% |
+| $75M | $1,508 | 16.8% |
+| **$100M** | **$2,007** | **22.3%** |
+
+**Key Finding**: $100M liquidity gives presale investors **6x more** TGE value than $32M.
+
+**[Full Analysis →](docs/vesting/OPTIMAL_LIQUIDITY_ANALYSIS.md)**
 
 ---
 
@@ -171,8 +207,9 @@ python3 scripts/fairness_optimization.py                # TGE % optimization
 
 | Document | Description |
 |----------|-------------|
-| [**Utility Conversion Analysis**](docs/vesting/UTILITY_CONVERSION_ANALYSIS.md) | **75% bonus to utility tokens proposal** ⭐ NEW |
-| [**40% TGE Analysis**](docs/vesting/FORTY_PERCENT_TGE_ANALYSIS.md) | **"As Promised" - What 40% TGE really means** ⭐ |
+| [**Optimal Liquidity Analysis**](docs/vesting/OPTIMAL_LIQUIDITY_ANALYSIS.md) | **360 simulations: Best liquidity = $100M** ⭐ NEW |
+| [**Utility Conversion Analysis**](docs/vesting/UTILITY_CONVERSION_ANALYSIS.md) | **75% bonus to utility tokens proposal** |
+| [**40% TGE Analysis**](docs/vesting/FORTY_PERCENT_TGE_ANALYSIS.md) | **"As Promised" - What 40% TGE really means** |
 | [**Market Scenario Breakdown**](docs/vesting/MARKET_SCENARIO_BREAKDOWN.md) | **Detailed breakdown of all 10 scenarios** |
 | [Simulation Results](docs/vesting/SIMULATION_RESULTS.md) | 10 scenario analysis |
 | [Model Comparison](docs/vesting/MODEL_COMPARISON.md) | All 4 models compared |
@@ -209,7 +246,8 @@ python3 scripts/fairness_optimization.py                # TGE % optimization
 | [burn_poe_simulations.py](scripts/burn_poe_simulations.py) | Burn rate optimization |
 | [burn_poe_simulations_v2.py](scripts/burn_poe_simulations_v2.py) | Burn + emission caps |
 | [fairness_optimization.py](scripts/fairness_optimization.py) | TGE fairness analysis |
-| [forty_percent_32m_simulations.py](scripts/forty_percent_32m_simulations.py) | 40% TGE @ $32M analysis ⭐ |
+| [forty_percent_32m_simulations.py](scripts/forty_percent_32m_simulations.py) | 40% TGE @ $32M analysis |
+| [optimal_liquidity_analysis.py](scripts/optimal_liquidity_analysis.py) | 360 liquidity simulations ⭐ NEW |
 
 ### 📁 Simulation Results (JSON)
 
