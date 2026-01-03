@@ -1,64 +1,52 @@
 # BlockDAG Vesting Solution
 
-## 🏆 THE WINNING MODEL: Depends on Market Conditions & Liquidity
+## 🏆 THE WINNING MODEL: Depends on Liquidity Tier (Now Including Protocol 3.0)
 
-After **1,900+ total simulations** across multiple scenarios, we discovered:
+We added **Protocol 3.0 (Hybrid Optimized)** and re-ran:
+- **100 sims/model** under bull/bear/normal/volatile markets
+- **20,000 sims** across **5 liquidity tiers × 10 historical crash scenarios × 4 models**
 
-**The winner depends on TWO factors:**
+**What we found:** the “winner” changes by liquidity tier.
 
-### 1. Market Condition Severity
-- **Moderate conditions** (Bull/Bear/Normal/Volatile): **Protocol v2.6** wins ✅
-- **Severe crashes** (COVID, FTX, etc.): **Hybrid Model** wins ✅
+| Liquidity | Winner | Why |
+|----------:|--------|-----|
+| **$32M – $75M** | **Hybrid Model** | Protection dominates when liquidity is fragile |
+| **$100M – $150M** | **Protocol v3.0** | Oracle gate + brake + drip dominates when liquidity is strong |
 
-### 2. Liquidity Tier
-- **$32M - $100M**: **Hybrid Model** wins (protection mechanisms critical)
-- **$150M+**: **Protocol v2.6** wins (higher liquidity supports faster vesting)
+**Optimal (within tiers tested): $150M + Protocol v3.0**  
+- Avg Month-12 ROI: **+0.79%**  
+- Avg Month-12 Value: **$9,070.81** (on $9k reference)  
+- Survival rate: **100%** (no breach below $0.02)  
 
-**🏆 Optimal Configuration: Hybrid Model at $100M Liquidity**
-- Fairness Score: 52.4/100 (highest)
-- Month 12 Value: $5,106 (on $9K investment)
-- Survival Rate: 80%
-- Best protection in severe crashes
-
-**[Why Different Simulations Show Different Winners →](docs/vesting/SIMULATION_COMPARISON_EXPLAINED.md)**
+**[Liquidity Tier Analysis v2 →](docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md)**  
+**[Protocol 3.0 Simulation Comparison →](docs/vesting/PROTOCOL_3_0_SIMULATION_COMPARISON.md)**
 
 ---
 
-## ⭐ Recommended Parameters (Protocol v2.6)
+## ⭐ Recommended Parameters (Protocol v3.0 @ $100M+ Liquidity)
 
 | Parameter | Value | Source |
 |-----------|-------|--------|
-| **TGE Unlock** | 3% | Proven Day 1 solvency |
-| **Cliff Period** | 3 months | Aligns with hardware delivery |
-| **Vesting Duration** | **21 months** | Faster investor access |
-| **Mining Emission Cap** | **None (uncapped)** | More network activity |
-| **Staking APY** | 40% | Reduces sell pressure |
-| **Mandatory Staking** | **0% (voluntary)** | More tokens available |
-| **Oracle Price Gate** | **$0.05** | Smart contract protection |
-| **Emergency Brake** | $0.02 / $10M | Automatic protection |
+| **TGE Unlock** | 3% | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
+| **Cliff Period** | 3 months | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
+| **Vesting Duration** | **36 months total (drip to Month 36)** | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
+| **Oracle Price Gate** | **$0.05** | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
+| **Emergency Brake** | **$0.02** | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
+| **Mining Emission Cap** | **20%** | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
+| **Volume Pegging (Drip)** | **2% of 24h volume** | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
 
-### 📊 Realistic Launch Expectations (Protocol v2.6)
+### 📊 Quick Results Snapshot
 
-| Metric | Day 1 | Month 3 | Month 12 |
-|--------|-------|---------|----------|
-| **Price** | ~$0.037 | $0.025-0.050 | $0.008-0.015 |
-| **Effective Circulating** | ~680M | ~650M | ~2.4B |
-| **Staking Rate** | Voluntary | Voluntary | Voluntary |
-| **Liquidity** | $32M | $30M | $22M |
+| Test | Result |
+|------|--------|
+| **Moderate markets (100 sims/model @ $32M)** | Protocol v3.0 best avg Month-12 ROI (**-49.8%**) |
+| **Historical crashes (20,000 sims across tiers)** | Protocol v3.0 wins at **$100M–$150M**, Hybrid wins at **$32M–$75M** |
 
-### 💰 $9,000 Investment Reality (Protocol v2.6)
+### 📄 Detailed Docs
 
-| Milestone | Tokens | Value | % of Investment |
-|-----------|--------|-------|-----------------|
-| **TGE (3%)** | 13,500 | $500 | 5.5% |
-| **Month 3** | 13,500 | $338-675 | 3.8-7.5% |
-| **Month 6** | ~67,500 | $1,350 | 15% |
-| **Month 12** | ~157,500 | **$1,871** | **20.8%** |
-
-**Best Performance**: Bull Market = $2,920 value (32.4% of investment)
-
-**[Full Protocol v2.6 Analysis →](docs/vesting/PROTOCOL_V26_COMPARISON.md)**  
-**[Three Model Comparison →](docs/vesting/THREE_MODEL_COMPARISON.md)**
+- **[Protocol 3.0 Simulation Comparison →](docs/vesting/PROTOCOL_3_0_SIMULATION_COMPARISON.md)**
+- **[Four Model Comparison →](docs/vesting/FOUR_MODEL_COMPARISON.md)**
+- **[Liquidity Tier Analysis v2 →](docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md)**
 
 ---
 
