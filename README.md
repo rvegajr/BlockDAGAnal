@@ -1,20 +1,26 @@
 # BlockDAG Vesting Solution
 
-## 🏆 THE WINNING MODEL: Depends on Liquidity Tier
+## 🏆 THE WINNING MODEL: Depends on Market Conditions & Liquidity
 
-After **1,500+ simulations** across **5 liquidity tiers** and **10 historical market scenarios**, we discovered:
+After **1,900+ total simulations** across multiple scenarios, we discovered:
 
-**The winner depends on liquidity level:**
+**The winner depends on TWO factors:**
 
-| Liquidity Tier | Winner | Reason |
-|----------------|--------|--------|
-| **$32M - $100M** | **Hybrid Model** | Better protection in critical crashes |
-| **$150M+** | **Protocol v2.6** | Higher liquidity supports faster vesting |
+### 1. Market Condition Severity
+- **Moderate conditions** (Bull/Bear/Normal/Volatile): **Protocol v2.6** wins ✅
+- **Severe crashes** (COVID, FTX, etc.): **Hybrid Model** wins ✅
+
+### 2. Liquidity Tier
+- **$32M - $100M**: **Hybrid Model** wins (protection mechanisms critical)
+- **$150M+**: **Protocol v2.6** wins (higher liquidity supports faster vesting)
 
 **🏆 Optimal Configuration: Hybrid Model at $100M Liquidity**
 - Fairness Score: 52.4/100 (highest)
 - Month 12 Value: $5,106 (on $9K investment)
 - Survival Rate: 80%
+- Best protection in severe crashes
+
+**[Why Different Simulations Show Different Winners →](docs/vesting/SIMULATION_COMPARISON_EXPLAINED.md)**
 
 ---
 
