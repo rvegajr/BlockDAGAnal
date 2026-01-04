@@ -287,3 +287,4 @@ SOLUTION: Burns + Emission Caps work together:
 if __name__ == "__main__":
     main()
 
+

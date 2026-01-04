@@ -232,3 +232,4 @@ Month 1: Price crashes to $0.0022
 *Status: SIMULATION DIFFERENCES EXPLAINED*  
 *Conclusion: Both models are valid - choice depends on risk tolerance and liquidity level*
 
+

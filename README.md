@@ -1,6 +1,73 @@
 # BlockDAG Vesting Solution
 
-## 🏆 THE WINNING MODEL: Depends on Liquidity Tier (Now Including Protocol 3.0)
+## Latest Update (Jan 2026): Final Summary (Option A → B → C)
+
+We now have **three independent simulation “opinions”** (different methodologies) and the latest model set includes:
+- **Hybrid Tokenomics (Solvency‑Anchored, State‑Driven)**
+- **Hybrid B**
+- **Protocol v3.0**
+- **Protocol v3.1 (Adjusted)** ([source](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/))
+
+**Second-opinion (order-book + sell-pressure) artifacts**:
+- **Report**: [`SECOND_OPINION_COMPARE_REPORT_V31.md`](SECOND_OPINION_COMPARE_REPORT_V31.md)
+- **Raw results**: [`second_opinion_compare_results_v31.json`](second_opinion_compare_results_v31.json)
+
+**Cross-model comparison artifact**:
+- [`HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md`](HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md)
+
+---
+
+## Option A — Single Winner (one pick)
+
+### **Winner: Protocol v3.0**
+
+**Why**: It has the **best Month‑12 ROI** and the **best choppy-market average ROI** under the **second-opinion** (order-book + sell-pressure) methodology, and it also ranks #1 on our simple access-adjusted score.
+
+- **Justification (numbers + tables)**: `SECOND_OPINION_COMPARE_REPORT_V31.md`
+- **Justification (broad compare/contrast across all models + liquidity notes)**: `HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md`
+- **Protocol v3.1 spec reference (included in comparisons)**: [Protocol v3.1 Adjusted](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/)
+
+---
+
+## Option B — Best-by-Category (multiple winners)
+
+All of these are from the **second opinion @ $32M** (100 sims/model).
+
+- **Best raw ROI (Month‑12 avg)**: **Protocol v3.0** (ROI **-64.1%**)  
+  - **Justification**: [`SECOND_OPINION_COMPARE_REPORT_V31.md`](SECOND_OPINION_COMPARE_REPORT_V31.md)
+
+- **Best balance (low brake + solid ROI)**: **Hybrid Tokenomics (Solvency‑Anchored)** (ROI **-86.8%**, brake **2.0%**)  
+  - **Justification**: [`SECOND_OPINION_COMPARE_REPORT_V31.md`](SECOND_OPINION_COMPARE_REPORT_V31.md)
+  - **Deeper rationale + cross-model comparison**: [`HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md`](HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md)
+
+- **Best choppy markets (avg ROI across 10 scenarios)**: **Protocol v3.0** (avg choppy ROI **-77.5%**)  
+  - **Justification**: [`SECOND_OPINION_COMPARE_REPORT_V31.md`](SECOND_OPINION_COMPARE_REPORT_V31.md)
+
+- **Best “access-adjusted” rank (ROI penalized by brake rate)**: **Protocol v3.0**  
+  - **Justification**: [`SECOND_OPINION_COMPARE_REPORT_V31.md`](SECOND_OPINION_COMPARE_REPORT_V31.md)
+
+---
+
+## Option C — Liquidity-Tier Winner
+
+The “winner” depends on **launch liquidity**.
+
+### Practical tier guidance
+
+| Liquidity tier | Winner | Why | Justification |
+|---:|---|---|---|
+| **$20M–$75M** | **Hybrid Tokenomics (Solvency‑Anchored)** | Lowest brake rate + strong scenario survival while liquidity is fragile | [`HYBRID_TOKENOMICS_COMPREHENSIVE_VALIDATION.md`](HYBRID_TOKENOMICS_COMPREHENSIVE_VALIDATION.md) |
+| **$100M–$150M** | **Protocol v3.0** | Stronger ROI once liquidity is deep enough for gates/drip to function | [`docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md`](docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md) and [`HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md`](HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md) |
+
+Notes:
+- Hybrid Tokenomics liquidity sweep and scenario survival are documented in `HYBRID_TOKENOMICS_COMPREHENSIVE_VALIDATION.md`.
+- Protocol v3.0 liquidity-tier behavior comes from the tier harness documented in `docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md`.
+
+---
+
+## 🏆 Liquidity Tier Winner (Legacy 4-model tier harness)
+
+This section is from a **legacy liquidity-tier harness** that compares **Original / Hybrid Model / Protocol v2.6 / Protocol v3.0** (it does **not** include Hybrid Tokenomics). Use it for v3.0/v2.6 historical tier behavior, and use **Option C** above for the current “all-models” recommendation set.
 
 We added **Protocol 3.0 (Hybrid Optimized)** and re-ran:
 - **100 sims/model** under bull/bear/normal/volatile markets

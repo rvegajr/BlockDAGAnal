@@ -391,3 +391,4 @@ function stake(uint256 amount, StakeTier tier) external {
 - [Emission Cap Schedule](../mining/EMISSION_CAP_SCHEDULE.md)
 - [DAO Triggers](./DAO_TRIGGERS.md)
 
+

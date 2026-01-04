@@ -467,3 +467,4 @@ The emergency brake system activates in **100% of tested scenarios**, demonstrat
 *Based on: 4 independent simulation models*  
 *Data: [vesting_simulation_results.json](../../vesting_simulation_results.json)*
 
+

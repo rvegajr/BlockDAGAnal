@@ -287,3 +287,4 @@ This simulation uses the exact miner numbers from this document.
 *Data source: Stakeholder-provided miner sales figures*  
 *Model: v3 Real Miner Simulation*
 
+

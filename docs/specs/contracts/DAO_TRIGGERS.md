@@ -409,3 +409,4 @@ function getVotingPower(address voter) external view returns (uint256) {
 - [Staking Contract Spec](./STAKING_CONTRACT_SPEC.md)
 - [Emergency Brake Logic](./EMERGENCY_BRAKE.md)
 
+

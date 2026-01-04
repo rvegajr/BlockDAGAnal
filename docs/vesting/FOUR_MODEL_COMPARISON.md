@@ -21,3 +21,4 @@
 **Takeaway**: Under typical bull/bear/normal/volatile conditions, **Protocol 3.0** materially improves investor outcomes versus v2.6 and the prior models.
 
 
+

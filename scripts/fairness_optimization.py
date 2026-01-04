@@ -423,3 +423,4 @@ IMPROVEMENT: {best_32m.tge_percent}% TGE gives presale investors {best_32m.tge_p
 if __name__ == "__main__":
     results, best, best_32m = find_optimal()
 
+
