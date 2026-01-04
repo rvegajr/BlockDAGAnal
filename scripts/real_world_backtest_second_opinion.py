@@ -313,6 +313,9 @@ class ReplayConfig:
     liquidity_vol_penalty: float
     buy_support_beta: float
     use_volume: bool
+    # “Ideal / adoption overlay”: structural liquidity growth independent of market returns
+    liquidity_cagr_annual: float  # e.g. 0.50 => +50% per year
+    net_inflow_monthly_pct: float  # e.g. 0.01 => +1% additive monthly inflow
 
 
 def replay_months(
@@ -330,6 +333,9 @@ def replay_months(
     buy_support_path = []
     labels = []
 
+    # Convert overlays to monthly multipliers
+    cagr_monthly = (1.0 + cfg.liquidity_cagr_annual) ** (1.0 / 12.0) - 1.0 if cfg.liquidity_cagr_annual else 0.0
+
     for t in range(0, months + 1):
         row = monthly[start_idx + t]
         r = float(row["ret"])
@@ -337,6 +343,11 @@ def replay_months(
 
         # liquidity moves with market return but is penalized by volatility
         liq *= max(0.05, (1.0 + cfg.liquidity_beta * r) * (1.0 - cfg.liquidity_vol_penalty * v))
+        # adoption overlay: compound growth + additive inflow
+        if cagr_monthly:
+            liq *= (1.0 + cagr_monthly)
+        if cfg.net_inflow_monthly_pct:
+            liq += cfg.launch_liquidity * cfg.net_inflow_monthly_pct
         liq = max(MIN_LIQUIDITY * 0.5, liq)  # allow some degradation but keep numeric stability
 
         # extra buy support proxy:
@@ -460,6 +471,18 @@ def main() -> None:
     ap.add_argument("--liquidity-beta", type=float, default=1.25, help="How strongly liquidity follows market returns")
     ap.add_argument("--liquidity-vol-penalty", type=float, default=0.75, help="How strongly volatility reduces liquidity")
     ap.add_argument("--buy-support-beta", type=float, default=0.40, help="Extra buy-support USD proxy from positive returns")
+    ap.add_argument(
+        "--liquidity-cagr-annual",
+        type=float,
+        default=0.0,
+        help="Adoption overlay: structural annual liquidity CAGR (e.g. 0.5 = +50 pct/yr)",
+    )
+    ap.add_argument(
+        "--net-inflow-monthly-pct",
+        type=float,
+        default=0.0,
+        help="Adoption overlay: additive monthly inflow as pct of launch liquidity (e.g. 0.01 = +1 pct/mo)",
+    )
     ap.add_argument("--use-volume", action="store_true", help="Use volume column (if present) to scale buy support")
     args = ap.parse_args()
 
@@ -477,6 +500,8 @@ def main() -> None:
         liquidity_vol_penalty=args.liquidity_vol_penalty,
         buy_support_beta=args.buy_support_beta,
         use_volume=args.use_volume,
+        liquidity_cagr_annual=args.liquidity_cagr_annual,
+        net_inflow_monthly_pct=args.net_inflow_monthly_pct,
     )
 
     base_tokens = investor_base_tokens(INVESTMENT_REF_USD)

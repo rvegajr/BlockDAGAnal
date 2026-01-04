@@ -19,6 +19,16 @@ It still does *not* model:
 - listing effects / market-maker programs
 - chain-specific liquidity provisioning mechanics
 
+## “Ideal” mode (recommended for investment-style ROI questions)
+
+Real projects can outperform a pure stress-test because liquidity is not static: listings, market making, and user demand can create **structural liquidity growth**.
+
+The backtest harness supports an **adoption overlay**:
+- **Liquidity CAGR (annual)**: compounded monthly growth in liquidity independent of market returns
+- **Net inflow (monthly %)**: additive inflow as a % of launch liquidity
+
+This lets you test: “If the market regime looked like 2017–2021 (or 2020–2024), and the project’s liquidity *also* grew structurally, do we see positive ROI?”
+
 ## Data requirement (CSV)
 
 Provide a daily CSV with these columns:
@@ -57,6 +67,8 @@ python3 scripts/real_world_backtest_second_opinion.py \
   --window-months 72 \
   --step-months 1 \
   --runs 50 \
+  --liquidity-cagr-annual 0.50 \
+  --net-inflow-monthly-pct 0.01 \
   --use-volume
 ```
 
@@ -71,6 +83,15 @@ python3 scripts/real_world_backtest_second_opinion.py \
 - **step**: 1 month (rolling)
 - **runs**: 50 per window per model
 - **use volume**: on (if you have volume)
+
+### Two presets to run
+
+- **Conservative stress-test preset** (answers: “what survives sell pressure?”)
+  - `--liquidity-cagr-annual 0.0 --net-inflow-monthly-pct 0.0`
+
+- **Ideal / adoption preset** (answers: “what if liquidity grows like a successful project?”)
+  - start with: `--liquidity-cagr-annual 0.50 --net-inflow-monthly-pct 0.01`
+  - then sweep sensitivity (e.g. CAGR 0.25..1.0, inflow 0.0..0.02)
 
 If runtime is too slow:
 - increase `--step-months` to 3 or 6
