@@ -1,0 +1,502 @@
+{
+  "timestamp": "2026-01-04T16:33:00.027890",
+  "input_csv": "scripts/_smoke_btc_daily.csv",
+  "methodology": "Second opinion replay (historical monthly regimes \u2192 liquidity path + optional buy-support proxy).",
+  "config": {
+    "launch_liquidity": 32000000,
+    "liquidity_beta": 1.25,
+    "liquidity_vol_penalty": 0.75,
+    "buy_support_beta": 0.4,
+    "use_volume": false
+  },
+  "investment_ref_usd": 9000,
+  "roi_horizons_months": [
+    12,
+    24,
+    36,
+    48,
+    72
+  ],
+  "window_months": 72,
+  "step_months": 12,
+  "runs_per_window": 3,
+  "models": [
+    {
+      "name": "Original Model",
+      "tge_percent": 2.0,
+      "cliff_months": 12,
+      "vesting_months": 60,
+      "emission_cap": 0.2,
+      "mandatory_stake_pct": 50.0,
+      "state_driven_release": false,
+      "global_monthly_cap": null,
+      "mining_lock_ratio": null,
+      "price_gate_high": null,
+      "brake_low": null,
+      "drip_factor_between": null,
+      "mining_lock_months": 0,
+      "use_volume_peg": false,
+      "vest_volume_peg_pct": 0.0,
+      "mining_volume_cap_pct": 0.0
+    },
+    {
+      "name": "Hybrid Model",
+      "tge_percent": 3.0,
+      "cliff_months": 3,
+      "vesting_months": 36,
+      "emission_cap": 0.2,
+      "mandatory_stake_pct": 50.0,
+      "state_driven_release": false,
+      "global_monthly_cap": null,
+      "mining_lock_ratio": null,
+      "price_gate_high": null,
+      "brake_low": null,
+      "drip_factor_between": null,
+      "mining_lock_months": 0,
+      "use_volume_peg": false,
+      "vest_volume_peg_pct": 0.0,
+      "mining_volume_cap_pct": 0.0
+    },
+    {
+      "name": "Protocol v2.6",
+      "tge_percent": 3.0,
+      "cliff_months": 3,
+      "vesting_months": 21,
+      "emission_cap": 1.0,
+      "mandatory_stake_pct": 0.0,
+      "state_driven_release": false,
+      "global_monthly_cap": null,
+      "mining_lock_ratio": null,
+      "price_gate_high": 0.05,
+      "brake_low": null,
+      "drip_factor_between": 0.0,
+      "mining_lock_months": 0,
+      "use_volume_peg": false,
+      "vest_volume_peg_pct": 0.0,
+      "mining_volume_cap_pct": 0.0
+    },
+    {
+      "name": "Protocol v3.0",
+      "tge_percent": 3.0,
+      "cliff_months": 3,
+      "vesting_months": 33,
+      "emission_cap": 0.2,
+      "mandatory_stake_pct": 0.0,
+      "state_driven_release": false,
+      "global_monthly_cap": null,
+      "mining_lock_ratio": null,
+      "price_gate_high": 0.05,
+      "brake_low": 0.02,
+      "drip_factor_between": 0.1,
+      "mining_lock_months": 24,
+      "use_volume_peg": false,
+      "vest_volume_peg_pct": 0.0,
+      "mining_volume_cap_pct": 0.0
+    },
+    {
+      "name": "Protocol v3.1 (Adjusted)",
+      "tge_percent": 3.0,
+      "cliff_months": 3,
+      "vesting_months": 21,
+      "emission_cap": 1.0,
+      "mandatory_stake_pct": 0.0,
+      "state_driven_release": false,
+      "global_monthly_cap": null,
+      "mining_lock_ratio": null,
+      "price_gate_high": 0.05,
+      "brake_low": 0.02,
+      "drip_factor_between": null,
+      "mining_lock_months": 0,
+      "use_volume_peg": true,
+      "vest_volume_peg_pct": 0.02,
+      "mining_volume_cap_pct": 0.2
+    },
+    {
+      "name": "Hybrid B",
+      "tge_percent": 3.0,
+      "cliff_months": 3,
+      "vesting_months": 36,
+      "emission_cap": 0.2,
+      "mandatory_stake_pct": 50.0,
+      "state_driven_release": true,
+      "global_monthly_cap": 1.0,
+      "mining_lock_ratio": null,
+      "price_gate_high": 0.05,
+      "brake_low": 0.02,
+      "drip_factor_between": null,
+      "mining_lock_months": 0,
+      "use_volume_peg": false,
+      "vest_volume_peg_pct": 0.0,
+      "mining_volume_cap_pct": 0.0
+    },
+    {
+      "name": "Hybrid Tokenomics (Solvency-Anchored)",
+      "tge_percent": 3.0,
+      "cliff_months": 3,
+      "vesting_months": 36,
+      "emission_cap": 0.2,
+      "mandatory_stake_pct": 60.0,
+      "state_driven_release": true,
+      "global_monthly_cap": 1.0,
+      "mining_lock_ratio": 0.7,
+      "price_gate_high": 0.05,
+      "brake_low": 0.02,
+      "drip_factor_between": null,
+      "mining_lock_months": 0,
+      "use_volume_peg": false,
+      "vest_volume_peg_pct": 0.0,
+      "mining_volume_cap_pct": 0.0
+    }
+  ],
+  "results": [
+    {
+      "start_month": "2018-01",
+      "end_month": "2024-01",
+      "by_model": {
+        "Original Model": {
+          "summary": {
+            "12": {
+              "roi_avg": -97.27617869945227,
+              "roi_median": -97.27330756304869,
+              "roi_p10": -97.28785200962622,
+              "roi_p90": -97.27254457120833,
+              "value_avg": 245.14391704929594,
+              "brake_rate_pct": 0.0,
+              "positive_rate_pct": 0.0
+            },
+            "24": {
+              "roi_avg": -96.87310488936738,
+              "roi_median": -96.88123372416833,
+              "roi_p10": -96.90973037564622,
+              "roi_p90": -96.8137186656459,
+              "value_avg": 281.4205599569359,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "36": {
+              "roi_avg": -96.48100869486761,
+              "roi_median": -96.47804760343679,
+              "roi_p10": -96.51155039275761,
+              "roi_p90": -96.4587580529839,
+              "value_avg": 316.7092174619152,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "48": {
+              "roi_avg": -97.1095727656047,
+              "roi_median": -97.1095727656047,
+              "roi_p10": -97.1095727656047,
+              "roi_p90": -97.1095727656047,
+              "value_avg": 260.13845109557695,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "72": {
+              "roi_avg": -93.35023251988478,
+              "roi_median": -93.35023251988478,
+              "roi_p10": -93.35023251988478,
+              "roi_p90": -93.35023251988478,
+              "value_avg": 598.4790732103687,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            }
+          }
+        },
+        "Hybrid Model": {
+          "summary": {
+            "12": {
+              "roi_avg": -90.5337938557095,
+              "roi_median": -90.63637617473601,
+              "roi_p10": -90.79164602764826,
+              "roi_p90": -89.98871119049656,
+              "value_avg": 851.9585529861445,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "24": {
+              "roi_avg": -96.00204720584802,
+              "roi_median": -96.03642768784132,
+              "roi_p10": -96.04407681905904,
+              "roi_p90": -95.86375224305569,
+              "value_avg": 359.8157514736788,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "36": {
+              "roi_avg": -95.84104060209037,
+              "roi_median": -95.82960324138796,
+              "roi_p10": -95.89162161348645,
+              "roi_p90": -95.82248420066108,
+              "value_avg": 374.3063458118662,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "48": {
+              "roi_avg": -96.79472723005847,
+              "roi_median": -96.79472723005847,
+              "roi_p10": -96.79472723005847,
+              "roi_p90": -96.79472723005847,
+              "value_avg": 288.47454929473747,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "72": {
+              "roi_avg": -93.35021775469902,
+              "roi_median": -93.35021775469902,
+              "roi_p10": -93.35021775469902,
+              "roi_p90": -93.35021775469902,
+              "value_avg": 598.4804020770888,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            }
+          }
+        },
+        "Protocol v2.6": {
+          "summary": {
+            "12": {
+              "roi_avg": -86.4601115655931,
+              "roi_median": -86.48182198788294,
+              "roi_p10": -86.49051544422834,
+              "roi_p90": -86.3689185045463,
+              "value_avg": 1218.589959096621,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "24": {
+              "roi_avg": -94.31074687656266,
+              "roi_median": -94.31263632276948,
+              "roi_p10": -94.31327941647665,
+              "roi_p90": -94.3029238872696,
+              "value_avg": 512.0327811093607,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "36": {
+              "roi_avg": -96.21835632025436,
+              "roi_median": -96.21903542077625,
+              "roi_p10": -96.22024499834603,
+              "roi_p90": -96.21456616070138,
+              "value_avg": 340.34793117710836,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "48": {
+              "roi_avg": -97.77810332989824,
+              "roi_median": -97.77810332989824,
+              "roi_p10": -97.77810332989824,
+              "roi_p90": -97.77810332989824,
+              "value_avg": 199.97070030915776,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "72": {
+              "roi_avg": -96.72677452422012,
+              "roi_median": -96.72677452422012,
+              "roi_p10": -96.72677452422012,
+              "roi_p90": -96.72677452422012,
+              "value_avg": 294.59029282019,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            }
+          }
+        },
+        "Protocol v3.0": {
+          "summary": {
+            "12": {
+              "roi_avg": -75.90457733029317,
+              "roi_median": -75.90457733029317,
+              "roi_p10": -75.90457733029317,
+              "roi_p90": -75.90457733029317,
+              "value_avg": 2168.5880402736148,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "24": {
+              "roi_avg": -80.04283256466294,
+              "roi_median": -80.04283256466294,
+              "roi_p10": -80.04283256466294,
+              "roi_p90": -80.04283256466294,
+              "value_avg": 1796.1450691803345,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "36": {
+              "roi_avg": -80.2278597461464,
+              "roi_median": -80.22991367750603,
+              "roi_p10": -80.25119533695226,
+              "roi_p90": -80.19877314753356,
+              "value_avg": 1779.4926228468248,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "48": {
+              "roi_avg": -88.51215314903655,
+              "roi_median": -88.51215314903655,
+              "roi_p10": -88.51215314903655,
+              "roi_p90": -88.51215314903655,
+              "value_avg": 1033.9062165867113,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "72": {
+              "roi_avg": -83.26952263273589,
+              "roi_median": -83.26952263273589,
+              "roi_p10": -83.26952263273589,
+              "roi_p90": -83.26952263273589,
+              "value_avg": 1505.7429630537708,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            }
+          }
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "summary": {
+            "12": {
+              "roi_avg": -86.8488078861035,
+              "roi_median": -86.95374804537838,
+              "roi_p10": -86.96348878048927,
+              "roi_p90": -86.44029454574805,
+              "value_avg": 1183.6072902506855,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "24": {
+              "roi_avg": -94.3800952704038,
+              "roi_median": -94.40280066804205,
+              "roi_p10": -94.40387532163247,
+              "roi_p90": -94.29274010578801,
+              "value_avg": 505.7914256636582,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "36": {
+              "roi_avg": -96.25006033237749,
+              "roi_median": -96.25834736994142,
+              "roi_p10": -96.26357706107946,
+              "roi_p90": -96.21333989849653,
+              "value_avg": 337.4945700860254,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "48": {
+              "roi_avg": -97.79237871173741,
+              "roi_median": -97.79593652025854,
+              "roi_p10": -97.79777685962404,
+              "roi_p90": -97.77701869999164,
+              "value_avg": 198.68591594363275,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "72": {
+              "roi_avg": -96.74071527095063,
+              "roi_median": -96.74419273192021,
+              "roi_p10": -96.74599546422851,
+              "roi_p90": -96.7256981869579,
+              "value_avg": 293.33562561444364,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            }
+          }
+        },
+        "Hybrid B": {
+          "summary": {
+            "12": {
+              "roi_avg": -95.02869938709425,
+              "roi_median": -95.00386521568052,
+              "roi_p10": -95.13007719843408,
+              "roi_p90": -94.99685725571285,
+              "value_avg": 447.41705516151796,
+              "brake_rate_pct": 0.0,
+              "positive_rate_pct": 0.0
+            },
+            "24": {
+              "roi_avg": -99.1564232252777,
+              "roi_median": -99.15562953262838,
+              "roi_p10": -99.15973265531909,
+              "roi_p90": -99.15533613465443,
+              "value_avg": 75.92190972500651,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "36": {
+              "roi_avg": -99.32228434301837,
+              "roi_median": -99.32217780573957,
+              "roi_p10": -99.32340996507035,
+              "roi_p90": -99.32145702534703,
+              "value_avg": 60.994409128346874,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "48": {
+              "roi_avg": -99.55547756080053,
+              "roi_median": -99.55547756080053,
+              "roi_p10": -99.55547756080053,
+              "roi_p90": -99.55547756080053,
+              "value_avg": 40.00701952795356,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "72": {
+              "roi_avg": -99.26183720886927,
+              "roi_median": -99.26183720886927,
+              "roi_p10": -99.26183720886927,
+              "roi_p90": -99.26183720886927,
+              "value_avg": 66.43465120176599,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            }
+          }
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "summary": {
+            "12": {
+              "roi_avg": -92.92336244554258,
+              "roi_median": -92.91272668853651,
+              "roi_p10": -93.02509806230739,
+              "roi_p90": -92.85140694839478,
+              "value_avg": 636.8973799011673,
+              "brake_rate_pct": 0.0,
+              "positive_rate_pct": 0.0
+            },
+            "24": {
+              "roi_avg": -98.87440667412284,
+              "roi_median": -98.86898392274428,
+              "roi_p10": -98.89751949643272,
+              "roi_p90": -98.86647755567293,
+              "value_avg": 101.303399328945,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "36": {
+              "roi_avg": -99.10711157691716,
+              "roi_median": -99.10358584038077,
+              "roi_p10": -99.12107209876908,
+              "roi_p90": -99.10302311736717,
+              "value_avg": 80.35995807745537,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "48": {
+              "roi_avg": -99.41849306771935,
+              "roi_median": -99.41616451967941,
+              "roi_p10": -99.42734155027112,
+              "roi_p90": -99.41616451967941,
+              "value_avg": 52.335623905258565,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            },
+            "72": {
+              "roi_avg": -99.04567862510903,
+              "roi_median": -99.04286077966262,
+              "roi_p10": -99.0563864378054,
+              "roi_p90": -99.04286077966262,
+              "value_avg": 85.88892374018742,
+              "brake_rate_pct": 100.0,
+              "positive_rate_pct": 0.0
+            }
+          }
+        }
+      }
+    }
+  ]
+}

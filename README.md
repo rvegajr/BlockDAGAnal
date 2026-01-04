@@ -263,6 +263,7 @@ TRIPLE PROTECTION:
 |----------|-------------|
 | **[All-Model Liquidity Tier Analysis](docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md)** | ✅ *All models* tested across liquidity tiers × choppy scenarios |
 | **[All-Model Comparison (Second Opinion)](docs/vesting/ALL_MODEL_COMPARISON.md)** | ✅ *All models* compared (v2.6/v3.0/v3.1/Hybrid B/Hybrid Tokenomics/etc) using order-book + sell-pressure |
+| **[Real-World Backtest Plan](docs/vesting/REAL_WORLD_BACKTEST_PLAN.md)** | 🚧 How to run a historical replay (BTC/ETH) to estimate ROI across rolling windows |
 | **[All-Model Comparison (Hybrid Tokenomics focus)](HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md)** | ✅ Compares Hybrid Tokenomics vs *all* past tested models (incl. v3.0/v3.1) |
 | **[Second Opinion Report (All models @ $32M)](SECOND_OPINION_COMPARE_REPORT_V31.md)** | ✅ Order-book + sell-pressure methodology across all models |
 | **[Third Opinion Report (adds Protocol v3.1)](THIRD_OPINION_V31_REPORT.md)** | ✅ Path-dependent harness including v3.1 volume peg/caps |
@@ -299,6 +300,7 @@ python3 scripts/hybrid_tokenomics_comparison.py                 # Primary all-mo
 python3 scripts/hybrid_tokenomics_second_opinion_compare.py     # Second opinion (order-book + sell pressure, includes v3.0/v3.1)
 python3 scripts/third_opinion_protocol_v31_compare.py           # Third opinion (adds Protocol v3.1 volume peg/caps)
 python3 scripts/all_model_liquidity_tier_second_opinion.py      # All-model liquidity tiers × choppy scenarios
+python3 scripts/real_world_backtest_second_opinion.py --csv /path/to/btc_daily.csv --use-volume  # Real-world historical replay (rolling windows)
 
 # Other supporting simulations
 python3 scripts/hybrid_model_validation.py                      # Parameter search + scenario validation (legacy hybrid focus)
