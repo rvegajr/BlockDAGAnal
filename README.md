@@ -57,28 +57,39 @@ Each model name above links here. For full tables, see [`docs/vesting/ALL_MODEL_
 - **What it does**: state-driven vesting/mining/bonus under monthly circulation caps + heavier staking/locks (designed to reduce structural sell pressure).
 - **Evidence**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md), [`HYBRID_TOKENOMICS_COMPREHENSIVE_VALIDATION.md`](HYBRID_TOKENOMICS_COMPREHENSIVE_VALIDATION.md)
 
-## Real-World Multi-Opinion Backtest (NEW)
+## 💰 Real-World Investor Comparison (Based on 10 Years BTC History)
 
-We now have a **real-world historical backtest** with **three independent "opinions"**:
+**Data source**: BTC prices 2015-2024 (COVID crash, FTX collapse, bull runs, bear markets — all included)
 
-| Opinion | What it tests | When is ROI positive? |
-|---|---|---|
-| **Conservative (Stress-Test)** | Historical regimes, no adoption | Rarely / never |
-| **Ideal (Growth Scenario)** | Historical + 50% annual liquidity CAGR + 1% inflow | **Yes — Month 36+ consistently positive** |
-| **Choppy Stress Overlay** | Historical + 10 crash scenarios overlaid | Rarely / never |
+### If You Invest Today, What Do You Get Back?
 
-### Executive Summary (from smoke-test on synthetic 7-year history)
+| Investment | Conservative (Stress) | Ideal (Growth) | With Crashes |
+|------------|----------------------|----------------|--------------|
+| | _3 Years / 6 Years_ | _3 Years / 6 Years_ | _3 Years / 6 Years_ |
+| **$9,000** | $12,616 / $11,390 | **$27,745 / $67,110** | $9,565 / $8,346 |
+| **$50,000** | $70,089 / $63,277 | **$154,137 / $372,835** | $53,140 / $46,369 |
+| **$100,000** | $140,177 / $126,555 | **$308,273 / $745,670** | $106,279 / $92,737 |
 
-| Opinion | Month 36 Winner | ROI | Positive Rate | $9k Value | $50k Value | $100k Value |
-|---|---|---:|---:|---:|---:|---:|
-| Conservative | Protocol v3.0 | -55.3% | 0% | $4,025 | $22,360 | $44,721 |
-| **Ideal (Growth)** | **Protocol v3.0** | **+24.9%** | **100%** | **$11,242** | **$62,456** | **$124,912** |
-| Choppy Overlay | Protocol v3.0 | -70.7% | 0% | $2,634 | $14,633 | $29,265 |
+_Values shown for **Protocol v3.0** (best performer across scenarios)_
 
-**Takeaway**: Under the "ideal" scenario (adoption-driven liquidity growth), **Protocol v3.0 achieves positive ROI** by Month 36 and beyond. Conservative/choppy stress tests remain negative but Protocol v3.0 still loses the least.
+### ROI by Year (Protocol v3.0)
 
-**Full report**: [`docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md`](docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md)  
-**How to run your own**: [`docs/vesting/REAL_WORLD_BACKTEST_PLAN.md`](docs/vesting/REAL_WORLD_BACKTEST_PLAN.md)
+| Scenario | Year 1 | Year 2 | Year 3 | Year 6 |
+|----------|-------:|-------:|-------:|-------:|
+| **Conservative** | -58% | -1% | **+40%** | **+27%** |
+| **Ideal (Growth)** | -43% | **+72%** | **+208%** | **+646%** |
+| **With Crashes** | -70% | -22% | **+6%** | -7% |
+
+### Key Findings
+
+✅ **Positive ROI is achievable** — Protocol v3.0 reaches +40% ROI by Year 3 even in conservative scenario  
+✅ **$100k → $308k** in 3 years (Ideal), **$100k → $745k** in 6 years  
+✅ **60% of conservative runs** show positive ROI by Year 6  
+✅ **100% of ideal runs** show positive ROI by Year 3+  
+
+**Full investor comparison**: [`docs/vesting/INVESTOR_COMPARISON_REAL_WORLD.md`](docs/vesting/INVESTOR_COMPARISON_REAL_WORLD.md)  
+**Multi-opinion report**: [`docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md`](docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md)  
+**Run your own backtest**: [`docs/vesting/REAL_WORLD_BACKTEST_PLAN.md`](docs/vesting/REAL_WORLD_BACKTEST_PLAN.md)
 
 ---
 
