@@ -67,6 +67,7 @@ python3 scripts/real_world_backtest_second_opinion.py \
   --window-months 72 \
   --step-months 1 \
   --runs 50 \
+  --investment-levels 9000,50000,100000 \
   --liquidity-cagr-annual 0.50 \
   --net-inflow-monthly-pct 0.01 \
   --use-volume

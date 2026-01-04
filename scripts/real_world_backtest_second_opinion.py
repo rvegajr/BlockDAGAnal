@@ -63,7 +63,7 @@ DEPTH_FACTOR = 0.12
 MAX_IMPACT = 0.90
 
 PRESALE_PRICE = 0.01
-INVESTMENT_REF_USD = 9000
+DEFAULT_INVESTMENT_LEVELS = [9000, 50_000, 100_000]
 
 ROI_HORIZONS = [12, 24, 36, 48, 72]
 
@@ -460,6 +460,25 @@ def roi_pct(value: float, investment: float) -> float:
     return (value / investment - 1.0) * 100.0
 
 
+def fmt_usd(x: float) -> str:
+    return f"${x:,.0f}"
+
+
+def parse_investment_levels(s: str) -> List[int]:
+    parts = [p.strip() for p in s.split(",") if p.strip()]
+    out: List[int] = []
+    for p in parts:
+        out.append(int(float(p)))
+    # de-dupe while preserving order
+    seen = set()
+    uniq = []
+    for x in out:
+        if x not in seen:
+            seen.add(x)
+            uniq.append(x)
+    return uniq
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--csv", required=True, help="Path to daily CSV with date,close,(volume)")
@@ -468,6 +487,12 @@ def main() -> None:
     ap.add_argument("--runs", type=int, default=50, help="Monte Carlo runs per window per model (sell behavior)")
     ap.add_argument("--window-months", type=int, default=72, help="Window length in months (must cover horizons)")
     ap.add_argument("--step-months", type=int, default=1, help="Rolling window step in months")
+    ap.add_argument(
+        "--investment-levels",
+        type=str,
+        default="9000,50000,100000",
+        help="Comma-separated USD investment levels to report (ROI is mostly scale-invariant here; values scale linearly)",
+    )
     ap.add_argument("--liquidity-beta", type=float, default=1.25, help="How strongly liquidity follows market returns")
     ap.add_argument("--liquidity-vol-penalty", type=float, default=0.75, help="How strongly volatility reduces liquidity")
     ap.add_argument("--buy-support-beta", type=float, default=0.40, help="Extra buy-support USD proxy from positive returns")
@@ -504,7 +529,8 @@ def main() -> None:
         net_inflow_monthly_pct=args.net_inflow_monthly_pct,
     )
 
-    base_tokens = investor_base_tokens(INVESTMENT_REF_USD)
+    investment_levels = parse_investment_levels(args.investment_levels)
+    base_tokens_by_inv = {str(inv): investor_base_tokens(inv) for inv in investment_levels}
     horizons = [h for h in ROI_HORIZONS if h <= args.window_months]
 
     windows = []
@@ -517,7 +543,7 @@ def main() -> None:
         "input_csv": str(csv_path),
         "methodology": "Second opinion replay (historical monthly regimes → liquidity path + optional buy-support proxy).",
         "config": cfg.__dict__,
-        "investment_ref_usd": INVESTMENT_REF_USD,
+        "investment_levels_usd": investment_levels,
         "roi_horizons_months": horizons,
         "window_months": args.window_months,
         "step_months": args.step_months,
@@ -533,31 +559,40 @@ def main() -> None:
             for _ in range(args.runs):
                 sim = simulate_replay_path(model, w["liq_path"], w["buy_path"], months=args.window_months)
                 em = int(sim["emergency_brake_month"])
-                rec = {"emergency_brake_month": em, "by_horizon": {}}
-                for h in horizons:
-                    price = sim["prices"][h]
-                    pct = investor_vested_pct(h, model, em)
-                    vested = int(base_tokens * pct)
-                    value = vested * price
-                    rec["by_horizon"][str(h)] = {"price": price, "value": value, "roi_pct": roi_pct(value, INVESTMENT_REF_USD)}
+                rec = {"emergency_brake_month": em, "by_investment": {}}
+                for inv in investment_levels:
+                    inv_key = str(inv)
+                    base_tokens = base_tokens_by_inv[inv_key]
+                    by_h = {}
+                    for h in horizons:
+                        price = sim["prices"][h]
+                        pct = investor_vested_pct(h, model, em)
+                        vested = int(base_tokens * pct)
+                        value = vested * price
+                        by_h[str(h)] = {"price": price, "value": value, "roi_pct": roi_pct(value, inv)}
+                    rec["by_investment"][inv_key] = {"by_horizon": by_h}
                 runs.append(rec)
             # summarize
-            summary = {}
-            for h in horizons:
-                hs = str(h)
-                rois = [r["by_horizon"][hs]["roi_pct"] for r in runs]
-                values = [r["by_horizon"][hs]["value"] for r in runs]
-                brakes = sum(1 for r in runs if r["emergency_brake_month"] and r["emergency_brake_month"] <= h)
-                summary[hs] = {
-                    "roi_avg": statistics.mean(rois),
-                    "roi_median": statistics.median(rois),
-                    "roi_p10": statistics.quantiles(rois, n=10)[0],
-                    "roi_p90": statistics.quantiles(rois, n=10)[-1],
-                    "value_avg": statistics.mean(values),
-                    "brake_rate_pct": brakes / len(runs) * 100.0,
-                    "positive_rate_pct": sum(1 for x in rois if x > 0) / len(rois) * 100.0,
-                }
-            wres["by_model"][model.name] = {"summary": summary}
+            summary_by_inv: Dict[str, Dict[str, Dict]] = {}
+            for inv in investment_levels:
+                inv_key = str(inv)
+                summary = {}
+                for h in horizons:
+                    hs = str(h)
+                    rois = [r["by_investment"][inv_key]["by_horizon"][hs]["roi_pct"] for r in runs]
+                    values = [r["by_investment"][inv_key]["by_horizon"][hs]["value"] for r in runs]
+                    brakes = sum(1 for r in runs if r["emergency_brake_month"] and r["emergency_brake_month"] <= h)
+                    summary[hs] = {
+                        "roi_avg": statistics.mean(rois),
+                        "roi_median": statistics.median(rois),
+                        "roi_p10": statistics.quantiles(rois, n=10)[0],
+                        "roi_p90": statistics.quantiles(rois, n=10)[-1],
+                        "value_avg": statistics.mean(values),
+                        "brake_rate_pct": brakes / len(runs) * 100.0,
+                        "positive_rate_pct": sum(1 for x in rois if x > 0) / len(rois) * 100.0,
+                    }
+                summary_by_inv[inv_key] = summary
+            wres["by_model"][model.name] = {"summary_by_investment": summary_by_inv}
         out["results"].append(wres)
 
     Path("backtest_second_opinion_results.json").write_text(json.dumps(out, indent=2))
@@ -569,22 +604,33 @@ def main() -> None:
     lines.append(f"**Input**: `{out['input_csv']}`\n\n")
     lines.append(f"**Windows**: {len(out['results'])} rolling windows, {args.window_months} months each (step {args.step_months})\n\n")
     lines.append(f"**Runs/window/model**: {args.runs}\n\n")
-    lines.append(f"**Investment reference**: ${INVESTMENT_REF_USD:,}\n\n")
+    lines.append(f"**Investment levels**: {', '.join(f'${x:,}' for x in investment_levels)}\n\n")
 
     lines.append("## Winner by horizon (avg ROI across all rolling windows)\n\n")
-    lines.append("| Horizon | Winner | Avg ROI | Avg positive rate |\n")
-    lines.append("|---:|---|---:|---:|\n")
+    lines.append("| Horizon | Winner (by ROI) | Avg ROI | Avg positive rate | Avg value @ $9k | Avg value @ $50k | Avg value @ $100k |\n")
+    lines.append("|---:|---|---:|---:|---:|---:|---:|\n")
     for h in horizons:
         hs = str(h)
         avg_by_model = {}
         pos_by_model = {}
+        val_by_model = {k: {} for k in ["9000", "50000", "100000"]}
         for model in MODELS:
-            rois = [w['by_model'][model.name]['summary'][hs]['roi_avg'] for w in out['results']]
-            poss = [w['by_model'][model.name]['summary'][hs]['positive_rate_pct'] for w in out['results']]
+            rois = [w["by_model"][model.name]["summary_by_investment"][str(investment_levels[0])][hs]["roi_avg"] for w in out["results"]]
+            poss = [w["by_model"][model.name]["summary_by_investment"][str(investment_levels[0])][hs]["positive_rate_pct"] for w in out["results"]]
             avg_by_model[model.name] = sum(rois) / len(rois)
             pos_by_model[model.name] = sum(poss) / len(poss)
+            # capture values for common comparison levels if present
+            for inv_key in val_by_model.keys():
+                if inv_key in {str(x) for x in investment_levels}:
+                    vals = [w["by_model"][model.name]["summary_by_investment"][inv_key][hs]["value_avg"] for w in out["results"]]
+                    val_by_model[inv_key][model.name] = sum(vals) / len(vals)
         win = max(avg_by_model.items(), key=lambda kv: kv[1])
-        lines.append(f"| Month {h} | **{win[0]}** | {win[1]:+.1f}% | {pos_by_model[win[0]]:.1f}% |\n")
+        v9 = val_by_model.get("9000", {}).get(win[0], float("nan"))
+        v50 = val_by_model.get("50000", {}).get(win[0], float("nan"))
+        v100 = val_by_model.get("100000", {}).get(win[0], float("nan"))
+        lines.append(
+            f"| Month {h} | **{win[0]}** | {win[1]:+.1f}% | {pos_by_model[win[0]]:.1f}% | {fmt_usd(v9) if not math.isnan(v9) else '—'} | {fmt_usd(v50) if not math.isnan(v50) else '—'} | {fmt_usd(v100) if not math.isnan(v100) else '—'} |\n"
+        )
 
     lines.append("\n## Notes\n")
     lines.append("- This is still a *tokenomics stress test* (it includes sell pressure + order-book impact). It becomes more “real-world” by replaying historical market regimes into liquidity/buy-support.\n")
