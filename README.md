@@ -1,5 +1,9 @@
 # BlockDAG Vesting Solution
 
+## Start Here: All-Model Comparison (recommended)
+
+- **All models compared (second opinion, order-book + sell-pressure)**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md)
+
 ## Latest Update (Jan 2026): Final Summary (Option A → B → C)
 
 We now have **three independent simulation “opinions”** (different methodologies) and the latest model set includes:
@@ -7,6 +11,16 @@ We now have **three independent simulation “opinions”** (different methodolo
 - **Hybrid B**
 - **Protocol v3.0**
 - **Protocol v3.1 (Adjusted)** ([source](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/))
+
+### Models we challenged (brief “what it does”)
+
+- **Original Model**: Long, time-based schedule (2% TGE, long cliff). Prioritizes predictability; tends to underperform on investor ROI but avoids frequent gate/brake behavior.
+- **Hybrid Model**: Time-based vesting + emergency-brake style protection. Better ROI in some conditions, but can “freeze” under stress depending on triggers.
+- **Protocol v2.6**: **Hard oracle gate** at target price (e.g. $0.05). Releases can halt entirely if price is below the gate; strong protection but high “stuck” risk.
+- **Protocol v3.0**: Oracle gate + **emergency brake** + **drip between bands** (reduced vesting when price is between $0.02 and $0.05) + **mining lock**. Designed to do well when liquidity is deep enough for gates/drip to function.
+- **Protocol v3.1 (Adjusted)**: 3% solvency + oracle gate + emergency brake + **volume pegging** (release limited by a % of volume when below target) + **volume-capped mining**. Spec reference: [Protocol v3.1 Adjusted](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/).
+- **Hybrid B**: Market-state driven issuance with time only defining review windows (in concept). In our harness it behaves as state-gated release under global caps; typically more conservative than time-based unlocks.
+- **Hybrid Tokenomics (Solvency‑Anchored)**: State-driven vesting/mining/bonus under hard monthly circulation caps, plus heavier staking/locks (designed to minimize structural sell pressure and reduce brake frequency).
 
 **Second-opinion (order-book + sell-pressure) artifacts**:
 - **Report**: [`SECOND_OPINION_COMPARE_REPORT_V31.md`](SECOND_OPINION_COMPARE_REPORT_V31.md)
@@ -138,9 +152,11 @@ We added **Protocol 3.0 (Hybrid Optimized)** and re-ran:
 
 ---
 
-## 🏆 Liquidity Tier Comparison: 1,500 Simulations
+## 🏆 Liquidity Tier Comparison (Legacy 3-model harness): 1,500 Simulations
 
-**1,500 Simulations Complete:** Tested all three models across **5 liquidity tiers** ($32M-$150M) and **10 historical market scenarios**.
+**Note**: This section is from an older harness that tested **3 models only** (Original / Hybrid / Protocol v2.6). For the current **all-model** recommendation set, use the **Option A/B/C** summary at the top and the linked all-model reports.
+
+**1,500 Simulations Complete:** Tested three legacy models across **5 liquidity tiers** ($32M-$150M) and **10 historical market scenarios**.
 
 ### Key Discovery: Liquidity Determines Winner
 
@@ -166,25 +182,19 @@ We added **Protocol 3.0 (Hybrid Optimized)** and re-ran:
 - ✅ Oracle price gate sufficient at high liquidity
 
 **[Full Liquidity Tier Analysis →](docs/vesting/LIQUIDITY_TIER_ANALYSIS.md)**  
-**[Three Model Comparison →](docs/vesting/THREE_MODEL_COMPARISON.md)**
+**Legacy 3-model report**: [Three Model Comparison →](docs/vesting/THREE_MODEL_COMPARISON.md)
 
 ---
 
-## 📈 Why Protocol v2.6 Wins
+## 📈 Legacy Notes: Why Protocol v2.6 “Won” in the earlier 3-model comparison
 
-### ✅ Validated Through 400 Simulations
+### ✅ Context
 
-**Tested Across:**
-- Bull Market (+50% liquidity growth)
-- Bear Market (-50% liquidity decline)
-- Normal Market (stable conditions)
-- Volatile Market (±30% swings)
+This was an earlier conclusion from the **3-model-only harness** (Original vs Hybrid vs Protocol v2.6). It does **not** reflect the newer all-model comparisons that now include Hybrid Tokenomics, Hybrid B, Protocol v3.0, and Protocol v3.1.
 
-**Results:**
-- ✅ **Best ROI in all market conditions**
-- ✅ **37% better returns than Hybrid Model**
-- ✅ **266% better returns than Original Model**
-- ✅ **Oracle price gate prevents frequent brake activation**
+For up-to-date “all models” results, see:
+- **Second opinion (order-book + sell-pressure)**: [`SECOND_OPINION_COMPARE_REPORT_V31.md`](SECOND_OPINION_COMPARE_REPORT_V31.md)
+- **All-model compare/contrast**: [`HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md`](HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md)
 
 ### ✅ Key Advantages
 
@@ -316,7 +326,11 @@ TRIPLE PROTECTION:
 | Document | Description |
 |----------|-------------|
 | **[Liquidity Tier Analysis](docs/vesting/LIQUIDITY_TIER_ANALYSIS.md)** | ⭐ 1,500 simulations: Optimal liquidity and protocol selection |
-| **[Three Model Comparison](docs/vesting/THREE_MODEL_COMPARISON.md)** | ⭐ 400 simulations: Original vs Hybrid vs Protocol v2.6 |
+| **[All-Model Comparison (Second Opinion)](docs/vesting/ALL_MODEL_COMPARISON.md)** | ✅ *All models* compared (v2.6/v3.0/v3.1/Hybrid B/Hybrid Tokenomics/etc) using order-book + sell-pressure |
+| **[All-Model Comparison (Hybrid Tokenomics focus)](HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md)** | ✅ Compares Hybrid Tokenomics vs *all* past tested models (incl. v3.0/v3.1) |
+| **[Second Opinion Report (All models @ $32M)](SECOND_OPINION_COMPARE_REPORT_V31.md)** | ✅ Order-book + sell-pressure methodology across all models |
+| **[Third Opinion Report (adds Protocol v3.1)](THIRD_OPINION_V31_REPORT.md)** | ✅ Path-dependent harness including v3.1 volume peg/caps |
+| **Legacy: [Three Model Comparison](docs/vesting/THREE_MODEL_COMPARISON.md)** | Historical harness: Original vs Hybrid vs Protocol v2.6 |
 | **[Protocol v2.6 Comparison](docs/vesting/PROTOCOL_V26_COMPARISON.md)** | Second opinion analysis |
 | **[Hybrid Model Validation](docs/vesting/HYBRID_MODEL_VALIDATION.md)** | ⭐ 100 simulations + 10 market scenarios |
 | [Protocol v2.6 Comparison](docs/vesting/PROTOCOL_V26_COMPARISON.md) | Second opinion analysis |
@@ -345,13 +359,21 @@ TRIPLE PROTECTION:
 ### Run Simulations
 
 ```bash
-# Core simulations
-python3 scripts/liquidity_tier_comparison.py             # 1,500 sims: Liquidity tiers + protocols ⭐ NEW
-python3 scripts/three_model_comparison.py                # 400 sims: Original vs Hybrid vs v2.6 ⭐
-python3 scripts/hybrid_model_validation.py              # 100 sims + 10 markets ⭐
-python3 scripts/vesting_simulations_v3_real_miners.py   # Real miner data ⭐
-python3 scripts/burn_market_stress_test.py              # Historical crashes
-python3 scripts/optimal_liquidity_analysis.py           # 360 liquidity tests
+# All-model comparisons (recommended)
+python3 scripts/hybrid_tokenomics_comparison.py                 # Primary all-model harness (Hybrid Tokenomics included)
+python3 scripts/hybrid_tokenomics_second_opinion_compare.py     # Second opinion (order-book + sell pressure, includes v3.0/v3.1)
+python3 scripts/third_opinion_protocol_v31_compare.py           # Third opinion (adds Protocol v3.1 volume peg/caps)
+
+# Legacy harnesses (historical)
+python3 scripts/three_model_comparison.py                       # Legacy 3-model comparison
+python3 scripts/liquidity_tier_comparison_v2_four_models.py      # Legacy 4-model liquidity tier harness (includes v3.0)
+python3 scripts/liquidity_tier_comparison.py                    # Older liquidity tier harness
+
+# Other supporting simulations
+python3 scripts/hybrid_model_validation.py                      # Parameter search + scenario validation (legacy hybrid focus)
+python3 scripts/vesting_simulations_v3_real_miners.py           # Real miner data harness
+python3 scripts/burn_market_stress_test.py                      # Historical crash harness
+python3 scripts/optimal_liquidity_analysis.py                   # Liquidity grid search
 
 # All scripts
 python3 scripts/vesting_simulations.py
@@ -369,11 +391,13 @@ python3 scripts/forty_percent_32m_simulations.py
 
 ### For Presale Investors
 
-> "Protocol v2.6 provides the best returns: 3% unlocks at TGE, 21-month vesting (faster than alternatives), oracle price gate protects value. Expect launch price around $0.037. Month 12 value: $1,871 on $9K investment (best case: $2,920 in bull market). Plan for a 2-3 year hold for best returns."
+Use the **Option A/B/C** summary at the top of this README (all-model comparison), and see the linked evidence:
+- [`SECOND_OPINION_COMPARE_REPORT_V31.md`](SECOND_OPINION_COMPARE_REPORT_V31.md)
+- [`HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md`](HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md)
 
 ### For the Project
 
-> "Protocol v2.6 is validated through 400+ simulations as the optimal solution. It provides Day 1 solvency, faster investor access, oracle protection, and best-in-class returns across all market conditions."
+The best choice depends on what you optimize for (raw ROI vs access vs liquidity tier). Use **Option A/B/C** at the top and the linked reports for the full all-model evidence set.
 
 ---
 
