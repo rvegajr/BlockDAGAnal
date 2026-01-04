@@ -21,6 +21,14 @@ We also track **brake rate** (how often the emergency condition is hit).
 ### Avg choppy-market ROI (10 scenarios)
 - **Protocol v3.0**: avg choppy ROI **-77.5%**
 
+### Quick verdicts (based on our factors)
+
+- **Protocol v3.0**: **Best ROI + best choppy performance**, but **meaningful brake risk** at $32M (44%).
+- **Hybrid Tokenomics (Solvency-Anchored)**: **Best balance** (very low brake rate + decent ROI), typically the most “investor-accessible” in stressed conditions.
+- **Protocol v2.6 / Protocol v3.1**: good raw ROI in some conditions but **near-certain gating/brake** in this harness (≈99–100%).
+- **Hybrid B**: conservative / state-gated, but weaker ROI than Hybrid Tokenomics.
+- **Original Model**: most stable (low brake) but **worst ROI**.
+
 ## Model Parameters (high level)
 For full model mechanics and definitions see:
 - `scripts/hybrid_tokenomics_second_opinion_compare.py`
@@ -28,15 +36,16 @@ For full model mechanics and definitions see:
 - Protocol v3.1 reference: https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/
 
 ## Month-12 Results (All Models) — $9,000 Reference
-| Model | Avg ROI | Median ROI | P10..P90 ROI | Brake rate |
-|---|---:|---:|---:|---:|
-| Protocol v3.0 | -64.1% | -67.0% | -76.7%..-46.6% | 44.0% |
-| Protocol v2.6 | -78.9% | -79.6% | -87.9%..-67.4% | 99.0% |
-| Protocol v3.1 (Adjusted) | -79.4% | -80.8% | -88.0%..-69.0% | 100.0% |
-| Hybrid Model | -85.4% | -85.9% | -91.6%..-77.2% | 100.0% |
-| Hybrid Tokenomics (Solvency-Anchored) | -86.8% | -87.2% | -92.2%..-79.8% | 2.0% |
-| Hybrid B | -91.3% | -91.4% | -94.9%..-86.1% | 9.0% |
-| Original Model | -95.6% | -95.9% | -97.5%..-93.4% | 1.0% |
+
+| Model | Avg ROI | Avg Value | Median ROI | P10..P90 ROI | Brake rate | Verdict |
+|---|---:|---:|---:|---:|---:|---|
+| Protocol v3.0 | -64.1% | $3,227 | -67.0% | -76.7%..-46.6% | 44.0% | Best ROI + best choppy; access risk (brakes) |
+| Protocol v2.6 | -78.9% | $1,899 | -79.6% | -87.9%..-67.4% | 99.0% | High gate/brake risk (often “stuck”) |
+| Protocol v3.1 (Adjusted) | -79.4% | $1,850 | -80.8% | -88.0%..-69.0% | 100.0% | High gate/brake risk (often “stuck”) |
+| Hybrid Model | -85.4% | $1,314 | -85.9% | -91.6%..-77.2% | 100.0% | High brake risk (often “stuck”) |
+| Hybrid Tokenomics (Solvency-Anchored) | -86.8% | $1,190 | -87.2% | -92.2%..-79.8% | 2.0% | Best balance (ROI + access) |
+| Hybrid B | -91.3% | $782 | -91.4% | -94.9%..-86.1% | 9.0% | Conservative; weaker ROI than Hybrid Tokenomics |
+| Original Model | -95.6% | $400 | -95.9% | -97.5%..-93.4% | 1.0% | Most stable; lowest ROI |
 
 ## Month-12 ROI by Market Type (All Models) — Avg ROI / Brake rate
 | Model | Bull | Bear | Normal | Volatile |

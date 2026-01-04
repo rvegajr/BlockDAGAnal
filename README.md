@@ -4,6 +4,22 @@
 
 - **All models compared (second opinion, order-book + sell-pressure)**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md)
 
+### All models (topline) — ROI / Value / Verdict
+
+This table is generated from the **second-opinion** results (order-book + sell-pressure) at **$32M liquidity**, using a **$9,000 reference investment**:
+
+| Model | Month-12 ROI (avg) | Month-12 Value (avg) | Brake rate | Verdict |
+|---|---:|---:|---:|---|
+| Protocol v3.0 | -64.1% | $3,227 | 44.0% | Best ROI + best choppy; access risk (brakes) |
+| Hybrid Tokenomics (Solvency-Anchored) | -86.8% | $1,190 | 2.0% | Best balance (ROI + access) |
+| Hybrid B | -91.3% | $782 | 9.0% | Conservative; weaker ROI than Hybrid Tokenomics |
+| Protocol v2.6 | -78.9% | $1,899 | 99.0% | High gate/brake risk (often “stuck”) |
+| Protocol v3.1 (Adjusted) | -79.4% | $1,850 | 100.0% | High gate/brake risk (often “stuck”) |
+| Hybrid Model | -85.4% | $1,314 | 100.0% | High brake risk (often “stuck”) |
+| Original Model | -95.6% | $400 | 1.0% | Most stable; lowest ROI |
+
+Full evidence + per-market + choppy breakdown: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md).
+
 ## Latest Update (Jan 2026): Final Summary (Option A → B → C)
 
 We now have **three independent simulation “opinions”** (different methodologies) and the latest model set includes:
