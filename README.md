@@ -57,9 +57,34 @@ Each model name above links here. For full tables, see [`docs/vesting/ALL_MODEL_
 - **What it does**: state-driven vesting/mining/bonus under monthly circulation caps + heavier staking/locks (designed to reduce structural sell pressure).
 - **Evidence**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md), [`HYBRID_TOKENOMICS_COMPREHENSIVE_VALIDATION.md`](HYBRID_TOKENOMICS_COMPREHENSIVE_VALIDATION.md)
 
+## Real-World Multi-Opinion Backtest (NEW)
+
+We now have a **real-world historical backtest** with **three independent "opinions"**:
+
+| Opinion | What it tests | When is ROI positive? |
+|---|---|---|
+| **Conservative (Stress-Test)** | Historical regimes, no adoption | Rarely / never |
+| **Ideal (Growth Scenario)** | Historical + 50% annual liquidity CAGR + 1% inflow | **Yes — Month 36+ consistently positive** |
+| **Choppy Stress Overlay** | Historical + 10 crash scenarios overlaid | Rarely / never |
+
+### Executive Summary (from smoke-test on synthetic 7-year history)
+
+| Opinion | Month 36 Winner | ROI | Positive Rate | $9k Value | $50k Value | $100k Value |
+|---|---|---:|---:|---:|---:|---:|
+| Conservative | Protocol v3.0 | -55.3% | 0% | $4,025 | $22,360 | $44,721 |
+| **Ideal (Growth)** | **Protocol v3.0** | **+24.9%** | **100%** | **$11,242** | **$62,456** | **$124,912** |
+| Choppy Overlay | Protocol v3.0 | -70.7% | 0% | $2,634 | $14,633 | $29,265 |
+
+**Takeaway**: Under the "ideal" scenario (adoption-driven liquidity growth), **Protocol v3.0 achieves positive ROI** by Month 36 and beyond. Conservative/choppy stress tests remain negative but Protocol v3.0 still loses the least.
+
+**Full report**: [`docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md`](docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md)  
+**How to run your own**: [`docs/vesting/REAL_WORLD_BACKTEST_PLAN.md`](docs/vesting/REAL_WORLD_BACKTEST_PLAN.md)
+
+---
+
 ## Latest Update (Jan 2026): Final Summary (Option A → B → C)
 
-We now have **three independent simulation “opinions”** (different methodologies) and the latest model set includes:
+We now have **three independent simulation "opinions"** (different methodologies) and the latest model set includes:
 - **Hybrid Tokenomics (Solvency‑Anchored, State‑Driven)**
 - **Hybrid B**
 - **Protocol v3.0**
