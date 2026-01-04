@@ -22,6 +22,14 @@ This document mirrors the *format/style* of `docs/vesting/THREE_MODEL_COMPARISON
 | Month 48 | **Protocol v3.0** | **-49.3%** |
 | Month 72 | **Protocol v3.0** | **-65.2%** |
 
+### When do we ever see **positive ROI**?
+
+Under this **second-opinion harness** (baseline liquidity/circulating + sell-pressure + order-book impact), **positive ROI is rare**:
+- **Observed**: only in the **market-type Monte Carlo** (bull/bear/normal/volatile), and only for **Protocol v3.0** at **Month 24 (3/100 runs)** and **Month 36 (2/100 runs)** — driven entirely by the **volatile** market generator.
+- **Not observed**: **0 positive runs** in any of the **10 choppy scenarios** at **any** horizon (12/24/36/48/72).
+
+Why this happens (in plain English): this harness is intentionally conservative because it **models persistent sell pressure** and prices tokens off **launch liquidity vs circulating supply** (plus order-book slippage). Without sustained *external buy demand / liquidity growth* overwhelming unlock/mining sell pressure, ROI stays negative.
+
 ### Best balance (ROI + access) by horizon
 
 | Horizon | Best balance | Avg ROI | Brake rate |

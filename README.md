@@ -8,6 +8,8 @@
 
 This table is generated from the **second-opinion** results (order-book + sell-pressure) at **$32M liquidity**, using a **$9,000 reference investment**:
 
+> Note on “why invest”: this harness is a **conservative stress-test** (persistent sell pressure + order-book impact). **Positive ROI is rare** here and (so far) only appears in a small number of **Protocol v3.0** runs at **Month 24/36** under the **volatile** market generator; **no choppy/crash scenario** produces positive ROI. See the multi-horizon detail: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md).
+
 | Model | Month-12 ROI (avg) | Month-12 Value (avg) | Brake rate | Verdict |
 |---|---:|---:|---:|---|
 | [Protocol v3.0](#protocol-v30) | -64.1% | $3,227 | 44.0% | Best ROI + best choppy; access risk (brakes) |
