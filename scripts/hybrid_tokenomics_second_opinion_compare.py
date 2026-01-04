@@ -65,6 +65,9 @@ SELL_BEHAVIOR = {
 INVESTMENT_LEVELS = [1_000, 5_000, 9_000, 25_000, 50_000, 100_000]
 PRESALE_PRICE = 0.01  # used only for sizing token allocations
 
+# ROI horizons requested (months)
+ROI_HORIZONS = [12, 24, 36, 48, 72]
+
 # =============================================================================
 # MODELS
 # =============================================================================
@@ -531,19 +534,25 @@ def run_100_sims_per_model_market_types(seed: int = 1337) -> Dict[str, List[Dict
         for market in market_types:
             for i in range(sims_per_market):
                 events = generate_market_events(market)
-                path = simulate_month_path(model, DEFAULT_LAUNCH_LIQUIDITY, events, months=12)
+                months_max = max(ROI_HORIZONS)
+                path = simulate_month_path(model, DEFAULT_LAUNCH_LIQUIDITY, events, months=months_max)
                 month_12_price = path["prices"][12]
                 # ROI table across investment levels
                 roi_by_invest = {}
                 for inv in INVESTMENT_LEVELS:
                     base = investor_base_tokens(inv)
-                    pct = investor_vested_pct(12, model, path)
-                    vested = int(base * pct)
-                    roi_by_invest[str(inv)] = {
-                        "vested_tokens": vested,
-                        "value": vested * month_12_price,
-                        "roi_pct": roi_for_investment(inv, vested, month_12_price),
-                    }
+                    by_month = {}
+                    for h in ROI_HORIZONS:
+                        px = path["prices"][h]
+                        pct = investor_vested_pct(h, model, path)
+                        vested = int(base * pct)
+                        by_month[str(h)] = {
+                            "vested_tokens": vested,
+                            "value": vested * px,
+                            "roi_pct": roi_for_investment(inv, vested, px),
+                            "price": px,
+                        }
+                    roi_by_invest[str(inv)] = {"by_month": by_month}
                 model_runs.append(
                     {
                         "market_type": market,
@@ -552,6 +561,7 @@ def run_100_sims_per_model_market_types(seed: int = 1337) -> Dict[str, List[Dict
                         "min_price": min(path["prices"]),
                         "max_price": max(path["prices"]),
                         "emergency_brake_month": path["emergency_brake_month"],
+                        "prices_by_horizon": {str(h): path["prices"][h] for h in ROI_HORIZONS},
                         "roi_by_investment": roi_by_invest,
                     }
                 )
@@ -569,18 +579,24 @@ def run_100_per_model_per_choppy_scenario(seed: int = 2026) -> Dict[str, Dict[st
             events = scenario["events"]
             for run_id in range(100):
                 # note: keep base liquidity constant, events apply deltas
-                path = simulate_month_path(model, DEFAULT_LAUNCH_LIQUIDITY, events, months=12)
+                months_max = max(ROI_HORIZONS)
+                path = simulate_month_path(model, DEFAULT_LAUNCH_LIQUIDITY, events, months=months_max)
                 month_12_price = path["prices"][12]
                 roi_by_invest = {}
                 for inv in INVESTMENT_LEVELS:
                     base = investor_base_tokens(inv)
-                    pct = investor_vested_pct(12, model, path)
-                    vested = int(base * pct)
-                    roi_by_invest[str(inv)] = {
-                        "vested_tokens": vested,
-                        "value": vested * month_12_price,
-                        "roi_pct": roi_for_investment(inv, vested, month_12_price),
-                    }
+                    by_month = {}
+                    for h in ROI_HORIZONS:
+                        px = path["prices"][h]
+                        pct = investor_vested_pct(h, model, path)
+                        vested = int(base * pct)
+                        by_month[str(h)] = {
+                            "vested_tokens": vested,
+                            "value": vested * px,
+                            "roi_pct": roi_for_investment(inv, vested, px),
+                            "price": px,
+                        }
+                    roi_by_invest[str(inv)] = {"by_month": by_month}
                 scenario_runs.append(
                     {
                         "run_id": run_id,
@@ -588,6 +604,7 @@ def run_100_per_model_per_choppy_scenario(seed: int = 2026) -> Dict[str, Dict[st
                         "min_price": min(path["prices"]),
                         "max_price": max(path["prices"]),
                         "emergency_brake_month": path["emergency_brake_month"],
+                        "prices_by_horizon": {str(h): path["prices"][h] for h in ROI_HORIZONS},
                         "roi_by_investment": roi_by_invest,
                     }
                 )
@@ -595,18 +612,28 @@ def run_100_per_model_per_choppy_scenario(seed: int = 2026) -> Dict[str, Dict[st
     return results
 
 
-def summarize_roi(model_runs: List[Dict], investment: int) -> Dict:
-    rois = [r["roi_by_investment"][str(investment)]["roi_pct"] for r in model_runs]
-    prices = [r["month_12_price"] for r in model_runs]
-    brake_rate = sum(1 for r in model_runs if r["emergency_brake_month"] != 0) / len(model_runs) * 100.0
-    return {
-        "roi_avg": statistics.mean(rois),
-        "roi_median": statistics.median(rois),
-        "roi_p10": statistics.quantiles(rois, n=10)[0],
-        "roi_p90": statistics.quantiles(rois, n=10)[-1],
-        "price_avg": statistics.mean(prices),
-        "brake_rate_pct": brake_rate,
-    }
+def summarize_roi_by_horizon(model_runs: List[Dict], investment: int) -> Dict[str, Dict]:
+    out: Dict[str, Dict] = {}
+    for h in ROI_HORIZONS:
+        hs = str(h)
+        rois = [r["roi_by_investment"][str(investment)]["by_month"][hs]["roi_pct"] for r in model_runs]
+        values = [r["roi_by_investment"][str(investment)]["by_month"][hs]["value"] for r in model_runs]
+        prices = [r["roi_by_investment"][str(investment)]["by_month"][hs]["price"] for r in model_runs]
+        brake_rate = (
+            sum(1 for r in model_runs if r["emergency_brake_month"] != 0 and r["emergency_brake_month"] <= h)
+            / len(model_runs)
+            * 100.0
+        )
+        out[hs] = {
+            "roi_avg": statistics.mean(rois),
+            "roi_median": statistics.median(rois),
+            "roi_p10": statistics.quantiles(rois, n=10)[0],
+            "roi_p90": statistics.quantiles(rois, n=10)[-1],
+            "value_avg": statistics.mean(values),
+            "price_avg": statistics.mean(prices),
+            "brake_rate_pct": brake_rate,
+        }
+    return out
 
 
 def main() -> None:
@@ -626,13 +653,13 @@ def main() -> None:
     print("Phase C: Aggregating summaries...")
     investment_summaries = {}
     for model_name, runs in primary.items():
-        investment_summaries[model_name] = {str(inv): summarize_roi(runs, inv) for inv in INVESTMENT_LEVELS}
+        investment_summaries[model_name] = {str(inv): summarize_roi_by_horizon(runs, inv) for inv in INVESTMENT_LEVELS}
 
     choppy_summaries = {}
     for model_name, scenarios in choppy.items():
         choppy_summaries[model_name] = {}
         for scenario_key, runs in scenarios.items():
-            choppy_summaries[model_name][scenario_key] = {str(inv): summarize_roi(runs, inv) for inv in INVESTMENT_LEVELS}
+            choppy_summaries[model_name][scenario_key] = {str(inv): summarize_roi_by_horizon(runs, inv) for inv in INVESTMENT_LEVELS}
 
     output = {
         "timestamp": datetime.now().isoformat(),
@@ -644,7 +671,9 @@ def main() -> None:
         },
         "models": [m.__dict__ for m in MODELS],
         "investment_levels": INVESTMENT_LEVELS,
+        "roi_horizons_months": ROI_HORIZONS,
         "liquidity_base": DEFAULT_LAUNCH_LIQUIDITY,
+        "market_scenarios": {k: v["name"] for k, v in MARKET_SCENARIOS.items()},
         "primary_100_sims": primary,
         "choppy_100_runs": choppy,
         "summaries": {
@@ -678,40 +707,50 @@ def main() -> None:
     lines.append(f"- **Liquidity base**: {fmt_usd(DEFAULT_LAUNCH_LIQUIDITY)}\n")
 
     lines.append("\n## Focus Comparison (Hybrid Tokenomics vs Hybrid B)\n")
+    lines.append(f"**ROI horizons**: {', '.join(str(h) for h in ROI_HORIZONS)} months\n\n")
     for inv in INVESTMENT_LEVELS:
-        a = investment_summaries[HYBRID_TOKENOMICS_MODEL.name][str(inv)]
-        b = investment_summaries[HYBRID_B_MODEL.name][str(inv)]
         lines.append(f"### Investment: {fmt_usd(inv)}\n")
-        lines.append("| Model | Avg ROI | Median ROI | P10..P90 ROI | Brake Rate |\n")
-        lines.append("|---|---:|---:|---:|---:|\n")
-        lines.append(
-            f"| {HYBRID_TOKENOMICS_MODEL.name} | {fmt_pct(a['roi_avg'])} | {fmt_pct(a['roi_median'])} | {fmt_pct(a['roi_p10'])}..{fmt_pct(a['roi_p90'])} | {a['brake_rate_pct']:.1f}% |\n"
-        )
-        lines.append(
-            f"| {HYBRID_B_MODEL.name} | {fmt_pct(b['roi_avg'])} | {fmt_pct(b['roi_median'])} | {fmt_pct(b['roi_p10'])}..{fmt_pct(b['roi_p90'])} | {b['brake_rate_pct']:.1f}% |\n"
-        )
+        for h in ROI_HORIZONS:
+            hs = str(h)
+            a = investment_summaries[HYBRID_TOKENOMICS_MODEL.name][str(inv)][hs]
+            b = investment_summaries[HYBRID_B_MODEL.name][str(inv)][hs]
+            lines.append(f"#### Month {h}\n")
+            lines.append("| Model | Avg ROI | Avg Value | Median ROI | P10..P90 ROI | Brake Rate |\n")
+            lines.append("|---|---:|---:|---:|---:|---:|\n")
+            lines.append(
+                f"| {HYBRID_TOKENOMICS_MODEL.name} | {fmt_pct(a['roi_avg'])} | {fmt_usd(a['value_avg'])} | {fmt_pct(a['roi_median'])} | {fmt_pct(a['roi_p10'])}..{fmt_pct(a['roi_p90'])} | {a['brake_rate_pct']:.1f}% |\n"
+            )
+            lines.append(
+                f"| {HYBRID_B_MODEL.name} | {fmt_pct(b['roi_avg'])} | {fmt_usd(b['value_avg'])} | {fmt_pct(b['roi_median'])} | {fmt_pct(b['roi_p10'])}..{fmt_pct(b['roi_p90'])} | {b['brake_rate_pct']:.1f}% |\n"
+            )
 
     lines.append("\n## ROI by Investment Level (All Models)\n")
     lines.append("_Note: In a linear model with no investor-size slippage, ROI will be very similar across investment sizes; we still list all levels as requested._\n\n")
     for inv in INVESTMENT_LEVELS:
         lines.append(f"### Investment: {fmt_usd(inv)}\n")
-        lines.append("| Model | Avg ROI | Median ROI | Brake Rate |\n")
-        lines.append("|---|---:|---:|---:|\n")
-        for m in MODELS:
-            s = investment_summaries[m.name][str(inv)]
-            lines.append(f"| {m.name} | {fmt_pct(s['roi_avg'])} | {fmt_pct(s['roi_median'])} | {s['brake_rate_pct']:.1f}% |\n")
+        for h in ROI_HORIZONS:
+            hs = str(h)
+            lines.append(f"#### Month {h}\n")
+            lines.append("| Model | Avg ROI | Avg Value | Median ROI | Brake Rate |\n")
+            lines.append("|---|---:|---:|---:|---:|\n")
+            for m in MODELS:
+                s = investment_summaries[m.name][str(inv)][hs]
+                lines.append(f"| {m.name} | {fmt_pct(s['roi_avg'])} | {fmt_usd(s['value_avg'])} | {fmt_pct(s['roi_median'])} | {s['brake_rate_pct']:.1f}% |\n")
 
-    lines.append("\n## Choppy Market Performance (Avg ROI @ $9,000)\n")
+    lines.append("\n## Choppy Market Performance (10 scenarios) — Avg ROI @ $9,000\n")
     inv = 9000
-    lines.append("| Scenario | Hybrid Tokenomics Avg ROI | Hybrid B Avg ROI | Notes |\n")
-    lines.append("|---|---:|---:|---|\n")
-    for scenario_key, scenario in MARKET_SCENARIOS.items():
-        a = choppy_summaries[HYBRID_TOKENOMICS_MODEL.name][scenario_key][str(inv)]
-        b = choppy_summaries[HYBRID_B_MODEL.name][scenario_key][str(inv)]
-        notes = ""
-        if "Crash" in scenario["name"] or "Collapse" in scenario["name"] or "Black Swan" in scenario["name"]:
-            notes = "stress"
-        lines.append(f"| {scenario['name']} | {fmt_pct(a['roi_avg'])} | {fmt_pct(b['roi_avg'])} | {notes} |\n")
+    for h in ROI_HORIZONS:
+        hs = str(h)
+        lines.append(f"### Month {h}\n")
+        lines.append("| Scenario | Hybrid Tokenomics Avg ROI | Hybrid B Avg ROI | Notes |\n")
+        lines.append("|---|---:|---:|---|\n")
+        for scenario_key, scenario in MARKET_SCENARIOS.items():
+            a = choppy_summaries[HYBRID_TOKENOMICS_MODEL.name][scenario_key][str(inv)][hs]
+            b = choppy_summaries[HYBRID_B_MODEL.name][scenario_key][str(inv)][hs]
+            notes = ""
+            if "Crash" in scenario["name"] or "Collapse" in scenario["name"] or "Black Swan" in scenario["name"]:
+                notes = "stress"
+            lines.append(f"| {scenario['name']} | {fmt_pct(a['roi_avg'])} | {fmt_pct(b['roi_avg'])} | {notes} |\n")
 
     with open("SECOND_OPINION_COMPARE_REPORT_V31.md", "w") as f:
         f.write("".join(lines))
