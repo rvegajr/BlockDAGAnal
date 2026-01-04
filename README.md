@@ -10,15 +10,50 @@ This table is generated from the **second-opinion** results (order-book + sell-p
 
 | Model | Month-12 ROI (avg) | Month-12 Value (avg) | Brake rate | Verdict |
 |---|---:|---:|---:|---|
-| Protocol v3.0 | -64.1% | $3,227 | 44.0% | Best ROI + best choppy; access risk (brakes) |
-| Hybrid Tokenomics (Solvency-Anchored) | -86.8% | $1,190 | 2.0% | Best balance (ROI + access) |
-| Hybrid B | -91.3% | $782 | 9.0% | Conservative; weaker ROI than Hybrid Tokenomics |
-| Protocol v2.6 | -78.9% | $1,899 | 99.0% | High gate/brake risk (often “stuck”) |
-| Protocol v3.1 (Adjusted) | -79.4% | $1,850 | 100.0% | High gate/brake risk (often “stuck”) |
-| Hybrid Model | -85.4% | $1,314 | 100.0% | High brake risk (often “stuck”) |
-| Original Model | -95.6% | $400 | 1.0% | Most stable; lowest ROI |
+| [Protocol v3.0](#protocol-v30) | -64.1% | $3,227 | 44.0% | Best ROI + best choppy; access risk (brakes) |
+| [Hybrid Tokenomics (Solvency-Anchored)](#hybrid-tokenomics-solvency-anchored) | -86.8% | $1,190 | 2.0% | Best balance (ROI + access) |
+| [Hybrid B](#hybrid-b) | -91.3% | $782 | 9.0% | Conservative; weaker ROI than Hybrid Tokenomics |
+| [Protocol v2.6](#protocol-v26) | -78.9% | $1,899 | 99.0% | High gate/brake risk (often “stuck”) |
+| [Protocol v3.1 (Adjusted)](#protocol-v31-adjusted) | -79.4% | $1,850 | 100.0% | High gate/brake risk (often “stuck”) |
+| [Hybrid Model](#hybrid-model) | -85.4% | $1,314 | 100.0% | High brake risk (often “stuck”) |
+| [Original Model](#original-model) | -95.6% | $400 | 1.0% | Most stable; lowest ROI |
 
 Full evidence + per-market + choppy breakdown: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md).
+
+### Model Index (what each does + sources)
+
+Each model name above links here. For full tables, see [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md).
+
+#### Original Model
+- **What it does**: time-based long vesting (2% TGE + long cliff) with conservative schedule.
+- **Evidence**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md)
+
+#### Hybrid Model
+- **What it does**: time-based vesting with emergency-brake style protections (can pause/“freeze” under stress in our harness).
+- **Evidence**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md)
+
+#### Protocol v2.6
+- **What it does**: 3% solvency + **oracle price gate** (hard gate behavior below target).
+- **Evidence**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md), [`docs/vesting/PROTOCOL_V26_COMPARISON.md`](docs/vesting/PROTOCOL_V26_COMPARISON.md)
+- **Source**: [BlockDag Launch Protocol v2.6](https://a-changer-plus-tard.github.io/BlockDag-Launch-Protocol-v2.6/)
+
+#### Protocol v3.0
+- **What it does**: oracle gate + emergency brake + drip/volume-peg style throttling + mining locks (stronger at high liquidity tiers).
+- **Evidence**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md), [`docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md`](docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md)
+- **Source**: [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/)
+
+#### Protocol v3.1 (Adjusted)
+- **What it does**: 3% solvency + oracle gate + emergency brake + **volume pegging** + **volume-capped mining**.
+- **Evidence**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md)
+- **Source**: [Protocol v3.1 Adjusted](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/)
+
+#### Hybrid B
+- **What it does**: state-gated issuance under caps; more conservative than time-based unlocks; less aggressive than Hybrid Tokenomics locks.
+- **Evidence**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md)
+
+#### Hybrid Tokenomics (Solvency-Anchored)
+- **What it does**: state-driven vesting/mining/bonus under monthly circulation caps + heavier staking/locks (designed to reduce structural sell pressure).
+- **Evidence**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md), [`HYBRID_TOKENOMICS_COMPREHENSIVE_VALIDATION.md`](HYBRID_TOKENOMICS_COMPREHENSIVE_VALIDATION.md)
 
 ## Latest Update (Jan 2026): Final Summary (Option A → B → C)
 
@@ -30,13 +65,13 @@ We now have **three independent simulation “opinions”** (different methodolo
 
 ### Models we challenged (brief “what it does”)
 
-- **Original Model**: Long, time-based schedule (2% TGE, long cliff). Prioritizes predictability; tends to underperform on investor ROI but avoids frequent gate/brake behavior.
-- **Hybrid Model**: Time-based vesting + emergency-brake style protection. Better ROI in some conditions, but can “freeze” under stress depending on triggers.
-- **Protocol v2.6**: **Hard oracle gate** at target price (e.g. $0.05). Releases can halt entirely if price is below the gate; strong protection but high “stuck” risk.
-- **Protocol v3.0**: Oracle gate + **emergency brake** + **drip between bands** (reduced vesting when price is between $0.02 and $0.05) + **mining lock**. Designed to do well when liquidity is deep enough for gates/drip to function.
-- **Protocol v3.1 (Adjusted)**: 3% solvency + oracle gate + emergency brake + **volume pegging** (release limited by a % of volume when below target) + **volume-capped mining**. Spec reference: [Protocol v3.1 Adjusted](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/).
-- **Hybrid B**: Market-state driven issuance with time only defining review windows (in concept). In our harness it behaves as state-gated release under global caps; typically more conservative than time-based unlocks.
-- **Hybrid Tokenomics (Solvency‑Anchored)**: State-driven vesting/mining/bonus under hard monthly circulation caps, plus heavier staking/locks (designed to minimize structural sell pressure and reduce brake frequency).
+- **[Original Model](#original-model)**: Long, time-based schedule (2% TGE, long cliff). Prioritizes predictability; tends to underperform on investor ROI but avoids frequent gate/brake behavior.
+- **[Hybrid Model](#hybrid-model)**: Time-based vesting + emergency-brake style protection. Better ROI in some conditions, but can “freeze” under stress depending on triggers.
+- **[Protocol v2.6](#protocol-v26)**: **Hard oracle gate** at target price (e.g. $0.05). Releases can halt entirely if price is below the gate; strong protection but high “stuck” risk.
+- **[Protocol v3.0](#protocol-v30)**: Oracle gate + **emergency brake** + **drip between bands** (reduced vesting when price is between $0.02 and $0.05) + **mining lock**. Designed to do well when liquidity is deep enough for gates/drip to function.
+- **[Protocol v3.1 (Adjusted)](#protocol-v31-adjusted)**: 3% solvency + oracle gate + emergency brake + **volume pegging** (release limited by a % of volume when below target) + **volume-capped mining**. Spec reference: [Protocol v3.1 Adjusted](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/).
+- **[Hybrid B](#hybrid-b)**: Market-state driven issuance with time only defining review windows (in concept). In our harness it behaves as state-gated release under global caps; typically more conservative than time-based unlocks.
+- **[Hybrid Tokenomics (Solvency‑Anchored)](#hybrid-tokenomics-solvency-anchored)**: State-driven vesting/mining/bonus under hard monthly circulation caps, plus heavier staking/locks (designed to minimize structural sell pressure and reduce brake frequency).
 
 **Second-opinion (order-book + sell-pressure) artifacts**:
 - **Report**: [`SECOND_OPINION_COMPARE_REPORT_V31.md`](SECOND_OPINION_COMPARE_REPORT_V31.md)
