@@ -1,0 +1,2808 @@
+{
+  "timestamp": "2026-01-04T00:48:52.829601",
+  "methodology": "Second opinion (order-book + sell-pressure), extended across liquidity tiers for all models.",
+  "liquidity_tiers": [
+    20000000,
+    32000000,
+    50000000,
+    75000000,
+    100000000,
+    150000000
+  ],
+  "runs_per_model": 100,
+  "investment_usd": 9000,
+  "models": [
+    {
+      "name": "Original Model",
+      "tge_percent": 2.0,
+      "cliff_months": 12,
+      "vesting_months": 60,
+      "emission_cap": 0.2,
+      "mandatory_stake_pct": 50.0,
+      "state_driven_release": false,
+      "global_monthly_cap": null,
+      "mining_lock_ratio": null,
+      "price_gate_high": null,
+      "brake_low": null,
+      "drip_factor_between": null,
+      "mining_lock_months": 0,
+      "use_volume_peg": false,
+      "vest_volume_peg_pct": 0.0,
+      "mining_volume_cap_pct": 0.0
+    },
+    {
+      "name": "Hybrid Model",
+      "tge_percent": 3.0,
+      "cliff_months": 3,
+      "vesting_months": 36,
+      "emission_cap": 0.2,
+      "mandatory_stake_pct": 50.0,
+      "state_driven_release": false,
+      "global_monthly_cap": null,
+      "mining_lock_ratio": null,
+      "price_gate_high": null,
+      "brake_low": 0.02,
+      "drip_factor_between": null,
+      "mining_lock_months": 0,
+      "use_volume_peg": false,
+      "vest_volume_peg_pct": 0.0,
+      "mining_volume_cap_pct": 0.0
+    },
+    {
+      "name": "Protocol v2.6",
+      "tge_percent": 3.0,
+      "cliff_months": 3,
+      "vesting_months": 21,
+      "emission_cap": 1.0,
+      "mandatory_stake_pct": 0.0,
+      "state_driven_release": false,
+      "global_monthly_cap": null,
+      "mining_lock_ratio": null,
+      "price_gate_high": 0.05,
+      "brake_low": null,
+      "drip_factor_between": 0.0,
+      "mining_lock_months": 0,
+      "use_volume_peg": false,
+      "vest_volume_peg_pct": 0.0,
+      "mining_volume_cap_pct": 0.0
+    },
+    {
+      "name": "Protocol v3.0",
+      "tge_percent": 3.0,
+      "cliff_months": 3,
+      "vesting_months": 33,
+      "emission_cap": 0.2,
+      "mandatory_stake_pct": 0.0,
+      "state_driven_release": false,
+      "global_monthly_cap": null,
+      "mining_lock_ratio": null,
+      "price_gate_high": 0.05,
+      "brake_low": 0.02,
+      "drip_factor_between": 0.1,
+      "mining_lock_months": 24,
+      "use_volume_peg": false,
+      "vest_volume_peg_pct": 0.0,
+      "mining_volume_cap_pct": 0.0
+    },
+    {
+      "name": "Protocol v3.1 (Adjusted)",
+      "tge_percent": 3.0,
+      "cliff_months": 3,
+      "vesting_months": 21,
+      "emission_cap": 1.0,
+      "mandatory_stake_pct": 0.0,
+      "state_driven_release": false,
+      "global_monthly_cap": null,
+      "mining_lock_ratio": null,
+      "price_gate_high": 0.05,
+      "brake_low": 0.02,
+      "drip_factor_between": null,
+      "mining_lock_months": 0,
+      "use_volume_peg": true,
+      "vest_volume_peg_pct": 0.02,
+      "mining_volume_cap_pct": 0.2
+    },
+    {
+      "name": "Hybrid B",
+      "tge_percent": 3.0,
+      "cliff_months": 3,
+      "vesting_months": 36,
+      "emission_cap": 0.2,
+      "mandatory_stake_pct": 50.0,
+      "state_driven_release": true,
+      "global_monthly_cap": 1.0,
+      "mining_lock_ratio": null,
+      "price_gate_high": 0.05,
+      "brake_low": 0.02,
+      "drip_factor_between": null,
+      "mining_lock_months": 0,
+      "use_volume_peg": false,
+      "vest_volume_peg_pct": 0.0,
+      "mining_volume_cap_pct": 0.0
+    },
+    {
+      "name": "Hybrid Tokenomics (Solvency-Anchored)",
+      "tge_percent": 3.0,
+      "cliff_months": 3,
+      "vesting_months": 36,
+      "emission_cap": 0.2,
+      "mandatory_stake_pct": 60.0,
+      "state_driven_release": true,
+      "global_monthly_cap": 1.0,
+      "mining_lock_ratio": 0.7,
+      "price_gate_high": 0.05,
+      "brake_low": 0.02,
+      "drip_factor_between": null,
+      "mining_lock_months": 0,
+      "use_volume_peg": false,
+      "vest_volume_peg_pct": 0.0,
+      "mining_volume_cap_pct": 0.0
+    }
+  ],
+  "scenarios": {
+    "normal": "Normal Market Conditions",
+    "may_2021_crash": "May 2021-Style Crash",
+    "ftx_collapse": "FTX Collapse",
+    "covid_black_swan": "COVID Black Swan",
+    "gradual_bear": "Gradual Bear Market",
+    "bull_then_crash": "Bull Run Then Crash",
+    "high_volatility": "High Volatility",
+    "stable_growth": "Stable Growth",
+    "early_crash_recovery": "Early Crash with Recovery",
+    "multiple_crashes": "Multiple Crashes"
+  },
+  "analysis": {
+    "20000000": {
+      "normal": {
+        "Original Model": {
+          "roi_avg": -97.43170970911261,
+          "roi_median": -97.43311175642226,
+          "value_avg": 231.14612617986566,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -93.65958909730631,
+          "roi_median": -93.65965129453761,
+          "value_avg": 570.6369812424326,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.14219139961403,
+          "roi_median": -99.14284471345806,
+          "value_avg": 77.20277403473743,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -96.52814181120551,
+          "roi_median": -96.52934664985693,
+          "value_avg": 312.4672369915034,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.14041063266299,
+          "roi_median": -99.14054620318933,
+          "value_avg": 77.36304306033107,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -96.52595175497494,
+          "roi_median": -96.52890879266477,
+          "value_avg": 312.6643420522557,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -94.90501616205803,
+          "roi_median": -94.89925248473241,
+          "value_avg": 458.5485454147767,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "may_2021_crash": {
+        "Original Model": {
+          "roi_avg": -98.97482627861919,
+          "roi_median": -98.97632827038078,
+          "value_avg": 92.26563492427351,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -98.6144920048048,
+          "roi_median": -98.61502535572387,
+          "value_avg": 124.69571956756735,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.65602811602079,
+          "roi_median": -99.65564894770372,
+          "value_avg": 30.957469558128953,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -98.72549670098553,
+          "roi_median": -98.72420910748227,
+          "value_avg": 114.70529691130271,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.65395797921114,
+          "roi_median": -99.65369187761823,
+          "value_avg": 31.14378187099718,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -98.60991627479748,
+          "roi_median": -98.60854755486255,
+          "value_avg": 125.10753526822643,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -97.96281509478955,
+          "roi_median": -97.96380179773442,
+          "value_avg": 183.34664146894124,
+          "brake_rate_pct": 100.0
+        }
+      },
+      "ftx_collapse": {
+        "Original Model": {
+          "roi_avg": -99.22927776810523,
+          "roi_median": -99.22965838467456,
+          "value_avg": 69.36500087052849,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -98.9595579055408,
+          "roi_median": -98.95856631440583,
+          "value_avg": 93.63978850132749,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.74194022327818,
+          "roi_median": -99.74158732996887,
+          "value_avg": 23.225379904964214,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -99.04587450483086,
+          "roi_median": -99.04560991339159,
+          "value_avg": 85.8712945652224,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.73708842764883,
+          "roi_median": -99.73673376599253,
+          "value_avg": 23.66204151160543,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -98.95927752881435,
+          "roi_median": -98.95797841842054,
+          "value_avg": 93.66502240670805,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -98.46969128849814,
+          "roi_median": -98.46751599512923,
+          "value_avg": 137.72778403516767,
+          "brake_rate_pct": 100.0
+        }
+      },
+      "covid_black_swan": {
+        "Original Model": {
+          "roi_avg": -99.48660837914787,
+          "roi_median": -99.4863580083063,
+          "value_avg": 46.20524587669163,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -99.30711484992206,
+          "roi_median": -99.3094772097665,
+          "value_avg": 62.35966350701496,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.82843190972615,
+          "roi_median": -99.82867707818528,
+          "value_avg": 15.44112812464672,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -99.36345850178805,
+          "roi_median": -99.36441073712197,
+          "value_avg": 57.2887348390758,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.82626893242711,
+          "roi_median": -99.82607457019988,
+          "value_avg": 15.635796081559555,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -99.30553488739264,
+          "roi_median": -99.30552026844069,
+          "value_avg": 62.50186013466285,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -98.9820624651119,
+          "roi_median": -98.9825916526434,
+          "value_avg": 91.61437813992927,
+          "brake_rate_pct": 100.0
+        }
+      },
+      "gradual_bear": {
+        "Original Model": {
+          "roi_avg": -98.5413630582566,
+          "roi_median": -98.54035108918933,
+          "value_avg": 131.27732475690667,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -96.67098720505689,
+          "roi_median": -96.44257714890705,
+          "value_avg": 299.6111515448798,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.51213814054009,
+          "roi_median": -99.51231860332797,
+          "value_avg": 43.90756735139218,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -98.10972773795166,
+          "roi_median": -98.1062807516097,
+          "value_avg": 170.1245035843509,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.51034671303859,
+          "roi_median": -99.50988254838688,
+          "value_avg": 44.06879582652674,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -98.028519014717,
+          "roi_median": -98.03328607603316,
+          "value_avg": 177.43328867547007,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -97.09865065714403,
+          "roi_median": -97.09874768705038,
+          "value_avg": 261.12144085703704,
+          "brake_rate_pct": 100.0
+        }
+      },
+      "bull_then_crash": {
+        "Original Model": {
+          "roi_avg": -98.45448151959009,
+          "roi_median": -98.45586542303712,
+          "value_avg": 139.09666323689225,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -95.33778826997158,
+          "roi_median": -95.34728005421549,
+          "value_avg": 419.5990557025574,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.482092097622,
+          "roi_median": -99.48279732783737,
+          "value_avg": 46.611711214020374,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -97.79741196474431,
+          "roi_median": -97.79850729643911,
+          "value_avg": 198.23292317301213,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.32878310786481,
+          "roi_median": -99.33186832647826,
+          "value_avg": 60.4095202921676,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -97.9096255179791,
+          "roi_median": -97.90916621346045,
+          "value_avg": 188.13370338188147,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -96.73382193381487,
+          "roi_median": -96.73590521003257,
+          "value_avg": 293.95602595666224,
+          "brake_rate_pct": 74.0
+        }
+      },
+      "high_volatility": {
+        "Original Model": {
+          "roi_avg": -98.6277642227546,
+          "roi_median": -98.62757980833527,
+          "value_avg": 123.50121995208585,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -96.61159264007928,
+          "roi_median": -96.61517462588402,
+          "value_avg": 304.9566623928652,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.53999470991467,
+          "roi_median": -99.53995287728831,
+          "value_avg": 41.40047610768076,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -98.16128687643531,
+          "roi_median": -98.15830449916413,
+          "value_avg": 165.4841811208221,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.53503053416006,
+          "roi_median": -99.53556303792678,
+          "value_avg": 41.847251925594676,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -98.14169319513385,
+          "roi_median": -98.14286792952896,
+          "value_avg": 167.24761243795314,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -97.27150606899836,
+          "roi_median": -97.26874362757626,
+          "value_avg": 245.564453790147,
+          "brake_rate_pct": 100.0
+        }
+      },
+      "stable_growth": {
+        "Original Model": {
+          "roi_avg": -96.80373899967785,
+          "roi_median": -96.80873816644254,
+          "value_avg": 287.66349002899324,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -92.0241261860023,
+          "roi_median": -92.10322601106182,
+          "value_avg": 717.8286432597926,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -98.93320485392545,
+          "roi_median": -98.93605988759836,
+          "value_avg": 96.01156314671002,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -95.23607204583163,
+          "roi_median": -95.23138150193051,
+          "value_avg": 428.7535158751527,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -98.92800022119613,
+          "roi_median": -98.92674565582067,
+          "value_avg": 96.47998009234885,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -95.6830912227184,
+          "roi_median": -95.68823553897774,
+          "value_avg": 388.5217899553437,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -93.66808019502272,
+          "roi_median": -93.66090887253159,
+          "value_avg": 569.8727824479545,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "early_crash_recovery": {
+        "Original Model": {
+          "roi_avg": -97.5931402073995,
+          "roi_median": -97.59460192296427,
+          "value_avg": 216.6173813340455,
+          "brake_rate_pct": 74.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -94.0598456406897,
+          "roi_median": -94.06829592955009,
+          "value_avg": 534.6138923379272,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.1946050262995,
+          "roi_median": -99.19479648019822,
+          "value_avg": 72.48554763304548,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -96.8957442693331,
+          "roi_median": -96.89534619790959,
+          "value_avg": 279.38301576002124,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.19230468299249,
+          "roi_median": -99.19213129173289,
+          "value_avg": 72.69257853067606,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -96.44852467554787,
+          "roi_median": -96.37522106019651,
+          "value_avg": 319.6327792006918,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -94.72489300210701,
+          "roi_median": -94.6997740140826,
+          "value_avg": 474.75962981036974,
+          "brake_rate_pct": 79.0
+        }
+      },
+      "multiple_crashes": {
+        "Original Model": {
+          "roi_avg": -99.44528630269016,
+          "roi_median": -99.44518209988277,
+          "value_avg": 49.92423275788497,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -98.87680249877921,
+          "roi_median": -98.87764903924378,
+          "value_avg": 101.08777510987063,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.81469232469745,
+          "roi_median": -99.8153501264564,
+          "value_avg": 16.677690777230413,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -99.31317143739768,
+          "roi_median": -99.31377360940387,
+          "value_avg": 61.81457063420786,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.81258041657095,
+          "roi_median": -99.81348340814017,
+          "value_avg": 16.86776250861448,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -99.25087999350313,
+          "roi_median": -99.25203237272135,
+          "value_avg": 67.42080058471775,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -98.89805421892903,
+          "roi_median": -98.89607709878217,
+          "value_avg": 99.1751202963864,
+          "brake_rate_pct": 100.0
+        }
+      }
+    },
+    "32000000": {
+      "normal": {
+        "Original Model": {
+          "roi_avg": -95.8883988606494,
+          "roi_median": -95.879511495472,
+          "value_avg": 370.0441025415541,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -87.6132131953511,
+          "roi_median": -87.6002896722238,
+          "value_avg": 1114.810812418402,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -98.62610407720753,
+          "roi_median": -98.62601518363758,
+          "value_avg": 123.65063305132226,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -93.54974163595888,
+          "roi_median": -93.54226768728894,
+          "value_avg": 580.5232527637,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -98.41867786736987,
+          "roi_median": -98.42011895330745,
+          "value_avg": 142.3189919367117,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -94.43970996623754,
+          "roi_median": -94.43001237285401,
+          "value_avg": 500.42610303862114,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -91.85641492778777,
+          "roi_median": -91.8558340857362,
+          "value_avg": 732.9226564991003,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "may_2021_crash": {
+        "Original Model": {
+          "roi_avg": -98.35849660899999,
+          "roi_median": -98.35801202453393,
+          "value_avg": 147.73530519000096,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -96.66435041071388,
+          "roi_median": -96.66941309518691,
+          "value_avg": 300.208463035751,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.45029392761342,
+          "roi_median": -99.44917045175639,
+          "value_avg": 49.47354651479229,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -97.96222690755373,
+          "roi_median": -97.96113769600906,
+          "value_avg": 183.3995783201648,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.44545944491415,
+          "roi_median": -99.44527067111247,
+          "value_avg": 49.908649957726475,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -97.78104532197472,
+          "roi_median": -97.78625781180865,
+          "value_avg": 199.7059210222761,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -96.74966532364058,
+          "roi_median": -96.75411668241564,
+          "value_avg": 292.5301208723479,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "ftx_collapse": {
+        "Original Model": {
+          "roi_avg": -98.7715238721285,
+          "roi_median": -98.77280154685201,
+          "value_avg": 110.56285150843503,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -98.33335620248404,
+          "roi_median": -98.33209818782703,
+          "value_avg": 149.9979417764359,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.58736250999574,
+          "roi_median": -99.58722376172685,
+          "value_avg": 37.13737410038308,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -98.47030648606193,
+          "roi_median": -98.47155659416035,
+          "value_avg": 137.6724162544257,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.57983190652585,
+          "roi_median": -99.58023273332671,
+          "value_avg": 37.81512841267289,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -98.33319809385796,
+          "roi_median": -98.33241940535942,
+          "value_avg": 150.0121715527834,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -97.55897904382257,
+          "roi_median": -97.56007271895697,
+          "value_avg": 219.6918860559689,
+          "brake_rate_pct": 100.0
+        }
+      },
+      "covid_black_swan": {
+        "Original Model": {
+          "roi_avg": -99.17792827068249,
+          "roi_median": -99.17605710962138,
+          "value_avg": 73.98645563857653,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -98.88832409174337,
+          "roi_median": -98.8895419846746,
+          "value_avg": 100.05083174309686,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.724997223722,
+          "roi_median": -99.72494556393184,
+          "value_avg": 24.750249865019423,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -98.9796757988458,
+          "roi_median": -98.9804464898717,
+          "value_avg": 91.82917810387733,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.72243835051528,
+          "roi_median": -99.72190315998141,
+          "value_avg": 24.98054845362451,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -98.88856790914653,
+          "roi_median": -98.88810985550805,
+          "value_avg": 100.02888817681163,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -98.36991092093578,
+          "roi_median": -98.3694707545888,
+          "value_avg": 146.70801711577982,
+          "brake_rate_pct": 100.0
+        }
+      },
+      "gradual_bear": {
+        "Original Model": {
+          "roi_avg": -97.6667070459686,
+          "roi_median": -97.66733281578755,
+          "value_avg": 209.99636586282685,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -93.50817414620606,
+          "roi_median": -93.50939609497541,
+          "value_avg": 584.2643268414548,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.21657593709209,
+          "roi_median": -99.21613199685636,
+          "value_avg": 70.50816566171217,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -96.5869817862248,
+          "roi_median": -96.58975173721831,
+          "value_avg": 307.1716392397688,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.16279780283787,
+          "roi_median": -99.1612846424689,
+          "value_avg": 75.34819774459096,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -96.84444125952248,
+          "roi_median": -96.84514063222932,
+          "value_avg": 284.00028664297594,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -95.36066829576203,
+          "roi_median": -95.35166801844935,
+          "value_avg": 417.53985338141774,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "bull_then_crash": {
+        "Original Model": {
+          "roi_avg": -97.5191463454294,
+          "roi_median": -97.5176455379204,
+          "value_avg": 223.276828911353,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -92.53225603088353,
+          "roi_median": -92.52541244834418,
+          "value_avg": 672.0969572204829,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.17122969349623,
+          "roi_median": -99.17192041518479,
+          "value_avg": 74.58932758533936,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -95.85407338781017,
+          "roi_median": -95.84766590189687,
+          "value_avg": 373.1333950970838,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -98.89325276554958,
+          "roi_median": -98.89132580052178,
+          "value_avg": 99.60725110053772,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -96.64451419239737,
+          "roi_median": -96.64415124177651,
+          "value_avg": 301.9937226842364,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -94.77076077721702,
+          "roi_median": -94.78252698437583,
+          "value_avg": 470.6315300504684,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "high_volatility": {
+        "Original Model": {
+          "roi_avg": -97.80743490804153,
+          "roi_median": -97.80817150237644,
+          "value_avg": 197.33085827626283,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -93.87611993240907,
+          "roi_median": -93.87328649886953,
+          "value_avg": 551.1492060831843,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.26493876141737,
+          "roi_median": -99.26401417293614,
+          "value_avg": 66.15551147243707,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -96.79060400118554,
+          "roi_median": -96.79213633265314,
+          "value_avg": 288.84563989330076,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.20225807378593,
+          "roi_median": -99.20257614131793,
+          "value_avg": 71.79677335926604,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -97.0280728891938,
+          "roi_median": -97.03121021043638,
+          "value_avg": 267.47343997255865,
+          "brake_rate_pct": 74.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -95.63760352811485,
+          "roi_median": -95.64004733269562,
+          "value_avg": 392.61568246966374,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "stable_growth": {
+        "Original Model": {
+          "roi_avg": -94.891170288283,
+          "roi_median": -94.8883930951276,
+          "value_avg": 459.79467405452937,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -83.61343213232672,
+          "roi_median": -83.58667287405325,
+          "value_avg": 1474.7911080905947,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -98.28697999212467,
+          "roi_median": -98.28645859872842,
+          "value_avg": 154.17180070877978,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -91.9840824119278,
+          "roi_median": -91.98868006088115,
+          "value_avg": 721.432582926498,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -97.86074054951204,
+          "roi_median": -97.87103636711002,
+          "value_avg": 192.53335054391587,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -93.09134064159925,
+          "roi_median": -93.09136516023109,
+          "value_avg": 621.7793422560673,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -89.87546055635582,
+          "roi_median": -89.87714952618559,
+          "value_avg": 911.2085499279762,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "early_crash_recovery": {
+        "Original Model": {
+          "roi_avg": -96.14804182964234,
+          "roi_median": -96.15426622910027,
+          "value_avg": 346.6762353321898,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -88.41141876127686,
+          "roi_median": -88.42743788014738,
+          "value_avg": 1042.9723114850822,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -98.71201979460905,
+          "roi_median": -98.71370908354852,
+          "value_avg": 115.9182184851862,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -94.05275196632618,
+          "roi_median": -94.0483504807213,
+          "value_avg": 535.2523230306439,
+          "brake_rate_pct": 97.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -98.70689992847439,
+          "roi_median": -98.70531927727804,
+          "value_avg": 116.37900643730528,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -94.26098362021739,
+          "roi_median": -94.15089412542736,
+          "value_avg": 516.5114741804355,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -91.54394011455732,
+          "roi_median": -91.52183989057286,
+          "value_avg": 761.0453896898414,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "multiple_crashes": {
+        "Original Model": {
+          "roi_avg": -99.11196489189143,
+          "roi_median": -99.1128334739306,
+          "value_avg": 79.92315972977062,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -97.80628801531036,
+          "roi_median": -97.8036523588061,
+          "value_avg": 197.43407862206791,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.70388005164025,
+          "roi_median": -99.70432330656844,
+          "value_avg": 26.650795352377703,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -98.80920936694496,
+          "roi_median": -98.80899287483619,
+          "value_avg": 107.17115697495383,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.70042290155168,
+          "roi_median": -99.70085692342883,
+          "value_avg": 26.96193886034973,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -98.80096745560424,
+          "roi_median": -98.80166221118688,
+          "value_avg": 107.912928995618,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -98.235564770307,
+          "roi_median": -98.23037611298255,
+          "value_avg": 158.7991706723702,
+          "brake_rate_pct": 100.0
+        }
+      }
+    },
+    "50000000": {
+      "normal": {
+        "Original Model": {
+          "roi_avg": -93.57525962236629,
+          "roi_median": -93.56879658814096,
+          "value_avg": 578.2266339870341,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -77.4678832201374,
+          "roi_median": -77.33605042091804,
+          "value_avg": 2027.8905101876346,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -97.85278981722722,
+          "roi_median": -97.85489880930561,
+          "value_avg": 193.24891644954997,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -88.79041056351046,
+          "roi_median": -88.7924520581235,
+          "value_avg": 1008.8630492840581,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -96.82549506867547,
+          "roi_median": -96.83007995329291,
+          "value_avg": 285.70544381920763,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -91.33111862640258,
+          "roi_median": -91.33415088698965,
+          "value_avg": 780.1993236237673,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -87.26662809682048,
+          "roi_median": -87.28445793433428,
+          "value_avg": 1146.0034712861561,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "may_2021_crash": {
+        "Original Model": {
+          "roi_avg": -97.43332537624897,
+          "roi_median": -97.43619562557473,
+          "value_avg": 231.00071613759266,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -93.65333422720681,
+          "roi_median": -93.65880112384158,
+          "value_avg": 571.1999195513863,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.14088414840924,
+          "roi_median": -99.13970023280382,
+          "value_avg": 77.32042664316876,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -96.52316598039042,
+          "roi_median": -96.52657737481393,
+          "value_avg": 312.9150617648624,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.13477009060632,
+          "roi_median": -99.1342514908348,
+          "value_avg": 77.87069184543128,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -96.529339751196,
+          "roi_median": -96.52394492463029,
+          "value_avg": 312.3594223923594,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -94.90417339830151,
+          "roi_median": -94.90999967929923,
+          "value_avg": 458.62439415286383,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "ftx_collapse": {
+        "Original Model": {
+          "roi_avg": -98.07608001070376,
+          "roi_median": -98.07715638589521,
+          "value_avg": 173.152799036662,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -96.09072005085352,
+          "roi_median": -96.09158644902452,
+          "value_avg": 351.83519542318373,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.35529860244732,
+          "roi_median": -99.35568220596994,
+          "value_avg": 58.0231257797408,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -97.60886952875053,
+          "roi_median": -97.60826229212026,
+          "value_avg": 215.20174241245212,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.34588688545495,
+          "roi_median": -99.34652579387009,
+          "value_avg": 58.87018030905529,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -97.39938187414522,
+          "roi_median": -97.39994578518305,
+          "value_avg": 234.05563132693038,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -96.18067831345236,
+          "roi_median": -96.17897933864398,
+          "value_avg": 343.7389517892869,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "covid_black_swan": {
+        "Original Model": {
+          "roi_avg": -98.71663517842408,
+          "roi_median": -98.7162295109645,
+          "value_avg": 115.50283394183302,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -98.264984746731,
+          "roi_median": -98.26662517979562,
+          "value_avg": 156.15137279420924,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.57081034724753,
+          "roi_median": -99.57069654068329,
+          "value_avg": 38.62706874772225,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -98.40665404130418,
+          "roi_median": -98.40841371271782,
+          "value_avg": 143.40113628262358,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.56626442422404,
+          "roi_median": -99.56591402426864,
+          "value_avg": 39.0362018198365,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -98.26319332230189,
+          "roi_median": -98.26342801725963,
+          "value_avg": 156.31260099283003,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -97.44875843380517,
+          "roi_median": -97.4429565094747,
+          "value_avg": 229.61174095753535,
+          "brake_rate_pct": 100.0
+        }
+      },
+      "gradual_bear": {
+        "Original Model": {
+          "roi_avg": -96.3548598655722,
+          "roi_median": -96.35943236629382,
+          "value_avg": 328.06261209850237,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -88.35242209733808,
+          "roi_median": -88.35706585993879,
+          "value_avg": 1048.2820112395725,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -98.78012578442602,
+          "roi_median": -98.78056259337005,
+          "value_avg": 109.78867940165807,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -93.7585436523825,
+          "roi_median": -93.75261324330178,
+          "value_avg": 561.7310712855749,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -98.4816931034877,
+          "roi_median": -98.48378599564711,
+          "value_avg": 136.64762068610662,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -95.05692792243357,
+          "roi_median": -95.05601764215012,
+          "value_avg": 444.87648698097894,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -92.75574250741812,
+          "roi_median": -92.7544083961719,
+          "value_avg": 651.983174332369,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "bull_then_crash": {
+        "Original Model": {
+          "roi_avg": -96.12912614042116,
+          "roi_median": -96.13110095278128,
+          "value_avg": 348.3786473620955,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -88.31731057994993,
+          "roi_median": -88.32300383979471,
+          "value_avg": 1051.442047804506,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -97.31167623847043,
+          "roi_median": -97.31313727092612,
+          "value_avg": 241.94913853766178,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -92.8244411975751,
+          "roi_median": -92.80367482874985,
+          "value_avg": 645.8002922182416,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -96.99351123451538,
+          "roi_median": -96.99241911439697,
+          "value_avg": 270.58398889361507,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -94.75842253058714,
+          "roi_median": -94.7530766946454,
+          "value_avg": 471.7419722471572,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -91.81629127787926,
+          "roi_median": -91.81504572604504,
+          "value_avg": 736.5337849908668,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "high_volatility": {
+        "Original Model": {
+          "roi_avg": -96.57019668076265,
+          "roi_median": -96.56885176020361,
+          "value_avg": 308.682298731362,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -88.96555705614135,
+          "roi_median": -88.99683293709333,
+          "value_avg": 993.0998649472783,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -98.84871880810107,
+          "roi_median": -98.84850157732933,
+          "value_avg": 103.61530727090349,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -94.19362402692799,
+          "roi_median": -94.19148621681049,
+          "value_avg": 522.5738375764811,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -98.57744136182353,
+          "roi_median": -98.57735237235687,
+          "value_avg": 128.03027743588217,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -95.35863020410791,
+          "roi_median": -95.35540576738991,
+          "value_avg": 417.7232816302885,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -93.19128697373783,
+          "roi_median": -93.20295522048718,
+          "value_avg": 612.7841723635946,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "stable_growth": {
+        "Original Model": {
+          "roi_avg": -92.02050742247802,
+          "roi_median": -92.01073606164974,
+          "value_avg": 718.1543319769785,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -71.74431343605862,
+          "roi_median": -71.74217975296094,
+          "value_avg": 2543.0117907547246,
+          "brake_rate_pct": 5.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -97.33247995076908,
+          "roi_median": -97.32813143303515,
+          "value_avg": 240.07680443078226,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -86.06314255160908,
+          "roi_median": -86.0525337062439,
+          "value_avg": 1254.3171703551825,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -95.65240887736636,
+          "roi_median": -95.64295980718477,
+          "value_avg": 391.28320103702873,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -89.22494162653615,
+          "roi_median": -89.23588400622592,
+          "value_avg": 969.7552536117465,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -84.15988076859077,
+          "roi_median": -84.14071461458428,
+          "value_avg": 1425.610730826831,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "early_crash_recovery": {
+        "Original Model": {
+          "roi_avg": -93.98976681937778,
+          "roi_median": -93.99315161060886,
+          "value_avg": 540.9209862560002,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -79.24991957809239,
+          "roi_median": -79.29209168745956,
+          "value_avg": 1867.5072379716848,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -97.98475225471931,
+          "roi_median": -97.98343876893165,
+          "value_avg": 181.37229707526242,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -90.54253715529372,
+          "roi_median": -90.54512900142251,
+          "value_avg": 851.1716560235657,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -97.25530708932754,
+          "roi_median": -97.25093567316776,
+          "value_avg": 247.02236196052124,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -91.16765586168837,
+          "roi_median": -90.97817535779187,
+          "value_avg": 794.9109724480467,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -86.77649128633551,
+          "roi_median": -86.70134052602211,
+          "value_avg": 1190.1157842298041,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "multiple_crashes": {
+        "Original Model": {
+          "roi_avg": -98.6138550721153,
+          "roi_median": -98.61466006356129,
+          "value_avg": 124.75304350962348,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -96.13693228283596,
+          "roi_median": -96.13873485121877,
+          "value_avg": 347.6760945447644,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.53576700101964,
+          "roi_median": -99.53617620149693,
+          "value_avg": 41.78096990823241,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -98.08128135539542,
+          "roi_median": -98.0811430688216,
+          "value_avg": 172.68467801441253,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.46300522574846,
+          "roi_median": -99.46635123031078,
+          "value_avg": 48.3295296826388,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -98.12833325540043,
+          "roi_median": -98.13459927481102,
+          "value_avg": 168.45000701396106,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -97.25028395256135,
+          "roi_median": -97.25089024081134,
+          "value_avg": 247.4744442694782,
+          "brake_rate_pct": 100.0
+        }
+      }
+    },
+    "75000000": {
+      "normal": {
+        "Original Model": {
+          "roi_avg": -90.39333365983447,
+          "roi_median": -90.38596439476026,
+          "value_avg": 864.5999706148982,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -65.77723111045137,
+          "roi_median": -65.66232827105986,
+          "value_avg": 3080.049200059377,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -93.3075484009664,
+          "roi_median": -93.30162110918042,
+          "value_avg": 602.3206439130237,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -82.141061584655,
+          "roi_median": -82.11673547243468,
+          "value_avg": 1607.3044573810496,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -91.637172578395,
+          "roi_median": -91.6341968773549,
+          "value_avg": 752.6544679444503,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -87.00996472197227,
+          "roi_median": -87.01644896611987,
+          "value_avg": 1169.1031750224965,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -80.93131409039778,
+          "roi_median": -80.94597765452878,
+          "value_avg": 1716.1817318641995,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "may_2021_crash": {
+        "Original Model": {
+          "roi_avg": -96.15419743998456,
+          "roi_median": -96.15432548998952,
+          "value_avg": 346.1222304013898,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -88.40662115740395,
+          "roi_median": -88.41918832663949,
+          "value_avg": 1043.4040958336448,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -98.70937712286151,
+          "roi_median": -98.70863208928864,
+          "value_avg": 116.15605894246386,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -93.94720214088932,
+          "roi_median": -93.93508893496896,
+          "value_avg": 544.7518073199616,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -98.50327011002729,
+          "roi_median": -98.50252592038012,
+          "value_avg": 134.70569009754453,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -94.80432948737264,
+          "roi_median": -94.80501781663611,
+          "value_avg": 467.61034613646217,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -92.37537581182023,
+          "roi_median": -92.38199776456995,
+          "value_avg": 686.2161769361784,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "ftx_collapse": {
+        "Original Model": {
+          "roi_avg": -97.10805336883011,
+          "roi_median": -97.10891703292918,
+          "value_avg": 260.27519680528997,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -92.3858705040892,
+          "roi_median": -92.1048415698763,
+          "value_avg": 685.2716546319721,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.03264266725483,
+          "roi_median": -99.03109802539605,
+          "value_avg": 87.0621599470654,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -95.83390546620396,
+          "roi_median": -95.83383049876902,
+          "value_avg": 374.9485080416437,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -98.98444242277822,
+          "roi_median": -98.98185819040823,
+          "value_avg": 91.40018194996071,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -96.1002237035695,
+          "roi_median": -96.11164623096727,
+          "value_avg": 350.97986667874545,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -94.26434749350851,
+          "roi_median": -94.25429601648537,
+          "value_avg": 516.2087255842342,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "covid_black_swan": {
+        "Original Model": {
+          "roi_avg": -98.07704545007608,
+          "roi_median": -98.07518995821724,
+          "value_avg": 173.06590949315185,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -96.08320155346257,
+          "roi_median": -96.07309406202123,
+          "value_avg": 352.51186018836785,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.35470631038093,
+          "roi_median": -99.35485076397345,
+          "value_avg": 58.07643206571605,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -97.61330014028981,
+          "roi_median": -97.61446643666491,
+          "value_avg": 214.8029873739176,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.3492584607661,
+          "roi_median": -99.35029013047124,
+          "value_avg": 58.566738531051655,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -97.39993170597458,
+          "roi_median": -97.40484421550873,
+          "value_avg": 234.00614646228811,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -96.1780354123038,
+          "roi_median": -96.17656730237398,
+          "value_avg": 343.97681289265813,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "gradual_bear": {
+        "Original Model": {
+          "roi_avg": -94.52282196289578,
+          "roi_median": -94.5225754337551,
+          "value_avg": 492.94602333938036,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -81.08520836827007,
+          "roi_median": -81.064495115759,
+          "value_avg": 1702.331246855693,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -96.20540382911044,
+          "roi_median": -96.20598048455305,
+          "value_avg": 341.5136553800606,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -90.42755065902364,
+          "roi_median": -90.4106290863723,
+          "value_avg": 861.5204406878727,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -95.73668056439672,
+          "roi_median": -95.73690435256248,
+          "value_avg": 383.69874920429453,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -92.60713773111672,
+          "roi_median": -92.59984659201535,
+          "value_avg": 665.357604199495,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -89.12108871749052,
+          "roi_median": -89.11145938447058,
+          "value_avg": 979.1020154258534,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "bull_then_crash": {
+        "Original Model": {
+          "roi_avg": -94.19532005247157,
+          "roi_median": -94.20150030425205,
+          "value_avg": 522.4211952775581,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -79.97222907545184,
+          "roi_median": -79.99310550851762,
+          "value_avg": 1802.4993832093344,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -94.5325787027112,
+          "roi_median": -94.5317880113452,
+          "value_avg": 492.06791675599203,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -88.65239962823655,
+          "roi_median": -88.665128003524,
+          "value_avg": 1021.2840334587103,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -94.27940382836377,
+          "roi_median": -94.29716303347303,
+          "value_avg": 514.8536554472606,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -92.1261831113419,
+          "roi_median": -92.11660484960305,
+          "value_avg": 708.643519979229,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -87.73581849616508,
+          "roi_median": -87.74821195606529,
+          "value_avg": 1103.7763353451421,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "high_volatility": {
+        "Original Model": {
+          "roi_avg": -94.85997519458506,
+          "roi_median": -94.8618898374699,
+          "value_avg": 462.6022324873447,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -82.23088102114,
+          "roi_median": -82.22671158940292,
+          "value_avg": 1599.2207080974,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -96.42061855222575,
+          "roi_median": -96.4235882580646,
+          "value_avg": 322.1443302996826,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -90.55558071102305,
+          "roi_median": -90.52072608401673,
+          "value_avg": 849.9977360079248,
+          "brake_rate_pct": 92.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -96.57952421146142,
+          "roi_median": -96.24524363467947,
+          "value_avg": 307.84282096847227,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -93.05925128881522,
+          "roi_median": -93.07131762036292,
+          "value_avg": 624.6673840066301,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -89.78787569867822,
+          "roi_median": -89.79981729054592,
+          "value_avg": 919.09118711896,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "stable_growth": {
+        "Original Model": {
+          "roi_avg": -88.00012714729044,
+          "roi_median": -87.97855251099705,
+          "value_avg": 1079.9885567438596,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -57.606283188743866,
+          "roi_median": -57.48133763604626,
+          "value_avg": 3815.434513013052,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -91.67356885313805,
+          "roi_median": -91.67460733110269,
+          "value_avg": 749.3788032175755,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -77.81657208542283,
+          "roi_median": -77.83048501333809,
+          "value_avg": 1996.5085123119443,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -88.73031300829341,
+          "roi_median": -88.75409438509473,
+          "value_avg": 1014.2718292535928,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -83.80283392013145,
+          "roi_median": -83.8370733818404,
+          "value_avg": 1457.7449471881694,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -76.30033741915764,
+          "roi_median": -76.3739580171586,
+          "value_avg": 2132.969632275812,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "early_crash_recovery": {
+        "Original Model": {
+          "roi_avg": -90.98633039816767,
+          "roi_median": -90.99860045898117,
+          "value_avg": 811.2302641649102,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -67.99658801045713,
+          "roi_median": -67.82246422717428,
+          "value_avg": 2880.307079058858,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -96.98041861971161,
+          "roi_median": -96.97335609869923,
+          "value_avg": 271.7623242259544,
+          "brake_rate_pct": 40.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -84.21618410256809,
+          "roi_median": -84.2007266408593,
+          "value_avg": 1420.543430768871,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -94.24192377881664,
+          "roi_median": -94.20144349941646,
+          "value_avg": 518.2268599065022,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -86.68821106841476,
+          "roi_median": -86.39370770406651,
+          "value_avg": 1198.0610038426712,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -80.16469456853281,
+          "roi_median": -80.1013854793682,
+          "value_avg": 1785.1774888320476,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "multiple_crashes": {
+        "Original Model": {
+          "roi_avg": -97.92082064659927,
+          "roi_median": -97.92206127533794,
+          "value_avg": 187.1261418060655,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -94.21477890083958,
+          "roi_median": -94.21729032141673,
+          "value_avg": 520.669898924438,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.30374353566674,
+          "roi_median": -99.30444973679246,
+          "value_avg": 62.66308178999393,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -96.57568115521832,
+          "roi_median": -96.57996640106333,
+          "value_avg": 308.18869603035085,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.15352744627998,
+          "roi_median": -99.15793187946485,
+          "value_avg": 76.18252983480195,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -97.18960620190349,
+          "roi_median": -97.18947297079845,
+          "value_avg": 252.93544182868652,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -95.8748203424954,
+          "roi_median": -95.87210210135082,
+          "value_avg": 371.2661691754137,
+          "brake_rate_pct": 0.0
+        }
+      }
+    },
+    "100000000": {
+      "normal": {
+        "Original Model": {
+          "roi_avg": -87.18692506126182,
+          "roi_median": -87.2044983210819,
+          "value_avg": 1153.176744486436,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -54.527481331029,
+          "roi_median": -54.39351504364434,
+          "value_avg": 4092.5266802073897,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -91.08775148650817,
+          "roi_median": -91.0859729130762,
+          "value_avg": 802.1023662142643,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -75.55816401055665,
+          "roi_median": -75.55721998229421,
+          "value_avg": 2199.765239049901,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -87.42401250371925,
+          "roi_median": -87.42658158958653,
+          "value_avg": 1131.8388746652668,
+          "brake_rate_pct": 96.0
+        },
+        "Hybrid B": {
+          "roi_avg": -82.62783009982086,
+          "roi_median": -82.62003415868847,
+          "value_avg": 1563.4952910161237,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -74.49764121923852,
+          "roi_median": -74.47002927745669,
+          "value_avg": 2295.212290268533,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "may_2021_crash": {
+        "Original Model": {
+          "roi_avg": -94.85169145600955,
+          "roi_median": -94.85146242291725,
+          "value_avg": 463.34776895914024,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -82.8622604597908,
+          "roi_median": -82.85545080979863,
+          "value_avg": 1542.3965586188274,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -98.2827735453773,
+          "roi_median": -98.28111844512037,
+          "value_avg": 154.55038091604297,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -91.83786686728212,
+          "roi_median": -91.90815606348576,
+          "value_avg": 734.59198194461,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -97.79398602613551,
+          "roi_median": -97.80312132085028,
+          "value_avg": 198.54125764780363,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -93.06010131319368,
+          "roi_median": -93.05853485642976,
+          "value_avg": 624.5908818125688,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -89.7895500350464,
+          "roi_median": -89.78792263256483,
+          "value_avg": 918.9404968458241,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "ftx_collapse": {
+        "Original Model": {
+          "roi_avg": -96.14733025218845,
+          "roi_median": -96.14178299820583,
+          "value_avg": 346.7402773030386,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -88.40539236779124,
+          "roi_median": -88.42647676059542,
+          "value_avg": 1043.5146868987886,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -98.71133769299985,
+          "roi_median": -98.70798965203576,
+          "value_avg": 115.97960763001322,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -93.9457715671136,
+          "roi_median": -93.9430043139518,
+          "value_avg": 544.8805589597769,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -98.50338418703424,
+          "roi_median": -98.5023946059442,
+          "value_avg": 134.69542316691812,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -94.78121004321451,
+          "roi_median": -94.77704809939401,
+          "value_avg": 469.6910961106937,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -92.35912844097632,
+          "roi_median": -92.34846606692496,
+          "value_avg": 687.6784403121306,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "covid_black_swan": {
+        "Original Model": {
+          "roi_avg": -97.43542051909748,
+          "roi_median": -97.43875443896867,
+          "value_avg": 230.8121532812272,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -93.6546791653572,
+          "roi_median": -93.65102848552982,
+          "value_avg": 571.0788751178528,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -99.14011522013561,
+          "roi_median": -99.14166311654168,
+          "value_avg": 77.38963018779465,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -96.53936306228093,
+          "roi_median": -96.5539553919809,
+          "value_avg": 311.45732439471607,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -99.13004287053428,
+          "roi_median": -99.13076302433959,
+          "value_avg": 78.29614165191437,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -96.53545421416806,
+          "roi_median": -96.54021350669623,
+          "value_avg": 311.80912072487513,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -94.91270725144928,
+          "roi_median": -94.90675481649384,
+          "value_avg": 457.8563473695652,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "gradual_bear": {
+        "Original Model": {
+          "roi_avg": -92.69236862065593,
+          "roi_median": -92.69485316007106,
+          "value_avg": 657.6868241409661,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -74.12865343976638,
+          "roi_median": -74.08544744046458,
+          "value_avg": 2328.4211904210256,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -94.93294306597261,
+          "roi_median": -94.93853238636756,
+          "value_avg": 456.0351240624656,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -86.44489517264505,
+          "roi_median": -86.40267596279092,
+          "value_avg": 1219.9594344619454,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -93.9476197030131,
+          "roi_median": -93.95221014859416,
+          "value_avg": 544.7142267288206,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -90.10420920664394,
+          "roi_median": -90.0971839463887,
+          "value_avg": 890.6211714020445,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -85.50173586588969,
+          "roi_median": -85.50920341736682,
+          "value_avg": 1304.8437720699287,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "bull_then_crash": {
+        "Original Model": {
+          "roi_avg": -92.26873647470305,
+          "roi_median": -92.27199353667771,
+          "value_avg": 695.8137172767255,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -72.5684295942531,
+          "roi_median": -72.51246031252086,
+          "value_avg": 2468.84133651722,
+          "brake_rate_pct": 42.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -91.3088609487611,
+          "roi_median": -91.32404166013758,
+          "value_avg": 782.2025146115018,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -84.74747590330026,
+          "roi_median": -84.75496882942366,
+          "value_avg": 1372.7271687029765,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -91.22467845462387,
+          "roi_median": -91.22490506611058,
+          "value_avg": 789.7789390838512,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -89.51951755092148,
+          "roi_median": -89.52112766220529,
+          "value_avg": 943.2434204170672,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -83.68573674919652,
+          "roi_median": -83.68510418049704,
+          "value_avg": 1468.2836925723132,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "high_volatility": {
+        "Original Model": {
+          "roi_avg": -93.12644723666988,
+          "roi_median": -93.1200653498349,
+          "value_avg": 618.6197486997113,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -75.63238819825943,
+          "roi_median": -75.61700836140301,
+          "value_avg": 2193.085062156651,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -95.23531355106284,
+          "roi_median": -95.22753523356977,
+          "value_avg": 428.82178040434434,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -87.0952283998852,
+          "roi_median": -87.10783514139291,
+          "value_avg": 1161.429444010332,
+          "brake_rate_pct": 43.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -94.26244812342456,
+          "roi_median": -94.26904110384747,
+          "value_avg": 516.3796688917897,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -90.70986103026561,
+          "roi_median": -90.69675352749744,
+          "value_avg": 836.112507276095,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -86.35509147781147,
+          "roi_median": -86.34448094525789,
+          "value_avg": 1228.041766996967,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "stable_growth": {
+        "Original Model": {
+          "roi_avg": -84.0548306954672,
+          "roi_median": -84.06885828836357,
+          "value_avg": 1435.065237407952,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -43.57866566697262,
+          "roi_median": -43.42596535276377,
+          "value_avg": 5077.920089972465,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -88.93209615495724,
+          "roi_median": -88.9318506551727,
+          "value_avg": 996.1113460538483,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -69.31531636915877,
+          "roi_median": -69.32022484576399,
+          "value_avg": 2761.621526775711,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -84.1002050676422,
+          "roi_median": -84.09014790571871,
+          "value_avg": 1430.9815439122021,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid B": {
+          "roi_avg": -78.40574214245757,
+          "roi_median": -78.41819530757093,
+          "value_avg": 1943.4832071788194,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -68.29929998580099,
+          "roi_median": -68.29547619073946,
+          "value_avg": 2853.0630012779116,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "early_crash_recovery": {
+        "Original Model": {
+          "roi_avg": -87.97602616907362,
+          "roi_median": -87.96563293315879,
+          "value_avg": 1082.1576447833745,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -57.33621455209049,
+          "roi_median": -57.15827971408139,
+          "value_avg": 3839.7406903118563,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -95.54067670632668,
+          "roi_median": -95.96075029630653,
+          "value_avg": 401.3390964305992,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -77.6713023941976,
+          "roi_median": -77.6829066915832,
+          "value_avg": 2009.5827845222168,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -91.41785883839493,
+          "roi_median": -91.3896174753107,
+          "value_avg": 772.392704544456,
+          "brake_rate_pct": 2.0
+        },
+        "Hybrid B": {
+          "roi_avg": -82.1292869605845,
+          "roi_median": -81.70652710115857,
+          "value_avg": 1608.3641735473955,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -73.53926377395405,
+          "roi_median": -73.39597157157047,
+          "value_avg": 2381.466260344135,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "multiple_crashes": {
+        "Original Model": {
+          "roi_avg": -97.23149365137547,
+          "roi_median": -97.23634421470211,
+          "value_avg": 249.16557137620694,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -91.14287677433366,
+          "roi_median": -91.14395011912362,
+          "value_avg": 797.1410903099705,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -98.24351647074477,
+          "roi_median": -98.07761129235841,
+          "value_avg": 158.08351763297105,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -95.16965347721003,
+          "roi_median": -95.16680285039922,
+          "value_avg": 434.73118705109647,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -98.00197399249109,
+          "roi_median": -97.94625631550133,
+          "value_avg": 179.82234067580166,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -96.25390286112543,
+          "roi_median": -96.2462693825025,
+          "value_avg": 337.1487424987114,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -94.50205038171212,
+          "roi_median": -94.50146717361804,
+          "value_avg": 494.8154656459094,
+          "brake_rate_pct": 0.0
+        }
+      }
+    },
+    "150000000": {
+      "normal": {
+        "Original Model": {
+          "roi_avg": -80.70416640221816,
+          "roi_median": -80.68446642146631,
+          "value_avg": 1736.625023800365,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -31.39440150612157,
+          "roi_median": -31.20948393074653,
+          "value_avg": 6174.503864449059,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -81.87834869470082,
+          "roi_median": -81.89122692779515,
+          "value_avg": 1630.9486174769268,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -61.32718291625077,
+          "roi_median": -61.29656594080605,
+          "value_avg": 3480.5535375374307,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -77.30373309740621,
+          "roi_median": -77.3450873820353,
+          "value_avg": 2042.6640212334412,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid B": {
+          "roi_avg": -73.97452327292228,
+          "roi_median": -73.97471174764964,
+          "value_avg": 2342.2929054369947,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -61.840494566493284,
+          "roi_median": -61.86350444844935,
+          "value_avg": 3434.3554890156047,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "may_2021_crash": {
+        "Original Model": {
+          "roi_avg": -92.31787284401764,
+          "roi_median": -92.33341200260288,
+          "value_avg": 691.391444038412,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -72.63329315562413,
+          "roi_median": -72.53858713879389,
+          "value_avg": 2463.0036159938277,
+          "brake_rate_pct": 42.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -95.01428479370392,
+          "roi_median": -94.65967987371141,
+          "value_avg": 448.7143685666471,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -86.54411991360155,
+          "roi_median": -86.54635745769308,
+          "value_avg": 1211.0292077758606,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -93.99313315004245,
+          "roi_median": -93.90550859240602,
+          "value_avg": 540.618016496179,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -89.58185967688179,
+          "roi_median": -89.59875113263307,
+          "value_avg": 937.6326290806384,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -84.71009108524991,
+          "roi_median": -84.71073048537903,
+          "value_avg": 1376.0918023275083,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "ftx_collapse": {
+        "Original Model": {
+          "roi_avg": -94.22802855295257,
+          "roi_median": -94.22926021900923,
+          "value_avg": 519.4774302342688,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -80.06278451504834,
+          "roi_median": -80.03857588833426,
+          "value_avg": 1794.34939364565,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -98.07500465824934,
+          "roi_median": -98.07980819726032,
+          "value_avg": 173.2495807575597,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -89.93825781084033,
+          "roi_median": -89.94709556136719,
+          "value_avg": 905.5567970243709,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -97.3258042047457,
+          "roi_median": -97.30348713683833,
+          "value_avg": 240.6776215728879,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -92.2011144922394,
+          "roi_median": -92.20209467398345,
+          "value_avg": 701.8996956984537,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -88.53039118576883,
+          "roi_median": -88.52340616971873,
+          "value_avg": 1032.264793280805,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "covid_black_swan": {
+        "Original Model": {
+          "roi_avg": -96.14758779662321,
+          "roi_median": -96.14318320131319,
+          "value_avg": 346.7170983039102,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -88.3911343701962,
+          "roi_median": -88.39382680214932,
+          "value_avg": 1044.7979066823427,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -98.71151445902443,
+          "roi_median": -98.7123503576888,
+          "value_avg": 115.96369868780147,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -93.93715537972045,
+          "roi_median": -93.92967822499396,
+          "value_avg": 545.6560158251597,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -98.5032062849335,
+          "roi_median": -98.49737116199748,
+          "value_avg": 134.7114343559855,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -94.79195538892641,
+          "roi_median": -94.79206792851161,
+          "value_avg": 468.7240149966237,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -92.3534186111292,
+          "roi_median": -92.35665358718295,
+          "value_avg": 688.1923249983718,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "gradual_bear": {
+        "Original Model": {
+          "roi_avg": -89.05334998890528,
+          "roi_median": -89.06097424691765,
+          "value_avg": 985.1985009985249,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -61.233180582951086,
+          "roi_median": -61.18133818840397,
+          "value_avg": 3489.0137475344022,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -89.68147842694927,
+          "roi_median": -89.66958189647644,
+          "value_avg": 928.6669415745655,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -78.90396612020007,
+          "roi_median": -78.90471681758606,
+          "value_avg": 1898.6430491819935,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -87.95507075017885,
+          "roi_median": -87.94314491123086,
+          "value_avg": 1084.0436324839031,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -85.20957026185414,
+          "roi_median": -85.2021779864755,
+          "value_avg": 1331.138676433128,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -78.28814562098718,
+          "roi_median": -78.28080414395066,
+          "value_avg": 1954.066894111154,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "bull_then_crash": {
+        "Original Model": {
+          "roi_avg": -88.39877612363486,
+          "roi_median": -88.40904069721127,
+          "value_avg": 1044.1101488728625,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -58.85750121685687,
+          "roi_median": -58.71495489991081,
+          "value_avg": 3702.8248904828815,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -85.35067550497683,
+          "roi_median": -85.36086245203887,
+          "value_avg": 1318.4392045520847,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -77.02997445291994,
+          "roi_median": -77.0268299753887,
+          "value_avg": 2067.3022992372057,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -85.34578975882297,
+          "roi_median": -85.33778555570072,
+          "value_avg": 1318.8789217059327,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -84.30690504177933,
+          "roi_median": -84.32680230901659,
+          "value_avg": 1412.3785462398598,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -75.51864788648211,
+          "roi_median": -75.54413233218209,
+          "value_avg": 2203.321690216609,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "high_volatility": {
+        "Original Model": {
+          "roi_avg": -89.69018630831178,
+          "roi_median": -89.68675334212158,
+          "value_avg": 927.8832322519397,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -63.459326646505886,
+          "roi_median": -63.39554926282899,
+          "value_avg": 3288.6606018144707,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -90.30549861275271,
+          "roi_median": -90.30946466501047,
+          "value_avg": 872.505124852256,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -80.20437059530859,
+          "roi_median": -80.21642854066361,
+          "value_avg": 1781.6066464222274,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -88.67462100704874,
+          "roi_median": -88.65774729769421,
+          "value_avg": 1019.2841093656139,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -86.08791686796,
+          "roi_median": -86.11232205644012,
+          "value_avg": 1252.0874818836,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -79.53381327533164,
+          "roi_median": -79.51815944536995,
+          "value_avg": 1841.956805220153,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "stable_growth": {
+        "Original Model": {
+          "roi_avg": -76.06957607131913,
+          "roi_median": -76.092525766563,
+          "value_avg": 2153.7381535812774,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -15.319663698141149,
+          "roi_median": -15.158011058741577,
+          "value_avg": 7621.230267167297,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -75.20306284192642,
+          "roi_median": -73.55611393167602,
+          "value_avg": 2231.724344226622,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -51.14379371002044,
+          "roi_median": -51.11497964869089,
+          "value_avg": 4397.058566098161,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -70.32237164628822,
+          "roi_median": -70.98872493394927,
+          "value_avg": 2670.9865518340603,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid B": {
+          "roi_avg": -67.61725935999135,
+          "roi_median": -67.57050968531627,
+          "value_avg": 2914.4466576007776,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -52.42701644489269,
+          "roi_median": -52.43512422295178,
+          "value_avg": 4281.568519959657,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "early_crash_recovery": {
+        "Original Model": {
+          "roi_avg": -81.94649780077498,
+          "roi_median": -81.95225269424603,
+          "value_avg": 1624.8151979302515,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -35.80570500575821,
+          "roi_median": -35.608351398374275,
+          "value_avg": 5777.48654948176,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -83.02593275166659,
+          "roi_median": -83.02060717399903,
+          "value_avg": 1527.6660523500072,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -64.33467662157146,
+          "roi_median": -64.35037286771939,
+          "value_avg": 3209.8791040585684,
+          "brake_rate_pct": 0.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -81.74703259526896,
+          "roi_median": -81.79178602153402,
+          "value_avg": 1642.767066425794,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid B": {
+          "roi_avg": -73.5417250803008,
+          "roi_median": -72.87939613771096,
+          "value_avg": 2381.244742772928,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -60.30070700513757,
+          "roi_median": -60.10334829091392,
+          "value_avg": 3572.9363695376187,
+          "brake_rate_pct": 0.0
+        }
+      },
+      "multiple_crashes": {
+        "Original Model": {
+          "roi_avg": -95.84164401831318,
+          "roi_median": -95.83694755333326,
+          "value_avg": 374.2520383518137,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Model": {
+          "roi_avg": -85.22317967926794,
+          "roi_median": -85.20337419399883,
+          "value_avg": 1329.9138288658846,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v2.6": {
+          "roi_avg": -97.1147807270505,
+          "roi_median": -97.11732554005397,
+          "value_avg": 259.66973456545486,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.0": {
+          "roi_avg": -92.30238201208779,
+          "roi_median": -92.30635381874416,
+          "value_avg": 692.7856189120993,
+          "brake_rate_pct": 100.0
+        },
+        "Protocol v3.1 (Adjusted)": {
+          "roi_avg": -96.89929908274105,
+          "roi_median": -96.8895775485139,
+          "value_avg": 279.0630825533049,
+          "brake_rate_pct": 100.0
+        },
+        "Hybrid B": {
+          "roi_avg": -94.36683825348051,
+          "roi_median": -94.36247747534111,
+          "value_avg": 506.9845571867538,
+          "brake_rate_pct": 0.0
+        },
+        "Hybrid Tokenomics (Solvency-Anchored)": {
+          "roi_avg": -91.75959882059347,
+          "roi_median": -91.7556078919127,
+          "value_avg": 741.6361061465885,
+          "brake_rate_pct": 0.0
+        }
+      }
+    }
+  }
+}

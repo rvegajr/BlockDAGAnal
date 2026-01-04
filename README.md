@@ -39,7 +39,7 @@ Each model name above links here. For full tables, see [`docs/vesting/ALL_MODEL_
 
 #### Protocol v3.0
 - **What it does**: oracle gate + emergency brake + drip/volume-peg style throttling + mining locks (stronger at high liquidity tiers).
-- **Evidence**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md), [`docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md`](docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md)
+- **Evidence**: [`docs/vesting/ALL_MODEL_COMPARISON.md`](docs/vesting/ALL_MODEL_COMPARISON.md), [`docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md`](docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md)
 - **Source**: [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/)
 
 #### Protocol v3.1 (Adjusted)
@@ -121,133 +121,16 @@ The “winner” depends on **launch liquidity**.
 
 | Liquidity tier | Winner | Why | Justification |
 |---:|---|---|---|
-| **$20M–$75M** | **Hybrid Tokenomics (Solvency‑Anchored)** | Lowest brake rate + strong scenario survival while liquidity is fragile | [`HYBRID_TOKENOMICS_COMPREHENSIVE_VALIDATION.md`](HYBRID_TOKENOMICS_COMPREHENSIVE_VALIDATION.md) |
-| **$100M–$150M** | **Protocol v3.0** | Stronger ROI once liquidity is deep enough for gates/drip to function | [`docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md`](docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md) and [`HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md`](HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md) |
+| **$20M–$150M** | **See per-tier winners** | Tier winners vary by model mechanics and brake behavior | [`docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md`](docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md) |
 
 Notes:
-- Hybrid Tokenomics liquidity sweep and scenario survival are documented in `HYBRID_TOKENOMICS_COMPREHENSIVE_VALIDATION.md`.
-- Protocol v3.0 liquidity-tier behavior comes from the tier harness documented in `docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md`.
+- This section now references an **all-model** liquidity-tier analysis (not a legacy 3-model/4-model harness).
 
 ---
 
-## 🏆 Liquidity Tier Winner (Legacy 4-model tier harness)
+## 📈 Protocol Mechanics Notes (applies across all-model comparisons)
 
-This section is from a **legacy liquidity-tier harness** that compares **Original / Hybrid Model / Protocol v2.6 / Protocol v3.0** (it does **not** include Hybrid Tokenomics). Use it for v3.0/v2.6 historical tier behavior, and use **Option C** above for the current “all-models” recommendation set.
-
-We added **Protocol 3.0 (Hybrid Optimized)** and re-ran:
-- **100 sims/model** under bull/bear/normal/volatile markets
-- **20,000 sims** across **5 liquidity tiers × 10 historical crash scenarios × 4 models**
-
-**What we found:** the “winner” changes by liquidity tier.
-
-| Liquidity | Winner | Why |
-|----------:|--------|-----|
-| **$32M – $75M** | **Hybrid Model** | Protection dominates when liquidity is fragile |
-| **$100M – $150M** | **Protocol v3.0** | Oracle gate + brake + drip dominates when liquidity is strong |
-
-**Optimal (within tiers tested): $150M + Protocol v3.0**  
-- Avg Month-12 ROI: **+0.79%**  
-- Avg Month-12 Value: **$9,070.81** (on $9k reference)  
-- Survival rate: **100%** (no breach below $0.02)  
-
-**[Liquidity Tier Analysis v2 →](docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md)**  
-**[Protocol 3.0 Simulation Comparison →](docs/vesting/PROTOCOL_3_0_SIMULATION_COMPARISON.md)**
-
----
-
-## ⭐ Recommended Parameters (Protocol v3.0 @ $100M+ Liquidity)
-
-| Parameter | Value | Source |
-|-----------|-------|--------|
-| **TGE Unlock** | 3% | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
-| **Cliff Period** | 3 months | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
-| **Vesting Duration** | **36 months total (drip to Month 36)** | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
-| **Oracle Price Gate** | **$0.05** | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
-| **Emergency Brake** | **$0.02** | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
-| **Mining Emission Cap** | **20%** | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
-| **Volume Pegging (Drip)** | **2% of 24h volume** | [Protocol 3.0](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
-
-### 📊 Quick Results Snapshot
-
-| Test | Result |
-|------|--------|
-| **Moderate markets (100 sims/model @ $32M)** | Protocol v3.0 best avg Month-12 ROI (**-49.8%**) |
-| **Historical crashes (20,000 sims across tiers)** | Protocol v3.0 wins at **$100M–$150M**, Hybrid wins at **$32M–$75M** |
-
-### 📄 Detailed Docs
-
-- **[Protocol 3.0 Simulation Comparison →](docs/vesting/PROTOCOL_3_0_SIMULATION_COMPARISON.md)**
-- **[Four Model Comparison →](docs/vesting/FOUR_MODEL_COMPARISON.md)**
-- **[Liquidity Tier Analysis v2 →](docs/vesting/LIQUIDITY_TIER_ANALYSIS_V2.md)**
-
----
-
-## ✅ Validated: 100 Simulations + 10 Market Scenarios
-
-**Comprehensive Testing Complete:** We tested **101 parameter combinations** and validated against **10 historical market crashes**.
-
-### Key Finding: Survival vs. Investor ROI Trade-off
-
-| Model | Survival Rate | Investor ROI | Verdict |
-|-------|---------------|--------------|---------|
-| Top Model (10% TGE, 12mo cliff) | 70% | -50.6% | Survives but investors lose |
-| **Hybrid Model (3% TGE, 3mo cliff)** | **0%** | **Better ROI** | **Brake protects, honest expectations** |
-
-**Our Hybrid Model Rank: #56 out of 101**
-
-**Why #56?** The scoring prioritized "survival metrics" over investor returns. Our model triggers the emergency brake in all scenarios (by design - it protects value), but provides better investor returns and realistic expectations.
-
-**Reality:** No model survives severe crashes (COVID, FTX) without triggering the brake. The top model also triggers in 3/10 scenarios.
-
-**[Full Validation Analysis →](docs/vesting/HYBRID_MODEL_VALIDATION.md)**
-
----
-
-## 🏆 Liquidity Tier Comparison (Legacy 3-model harness): 1,500 Simulations
-
-**Note**: This section is from an older harness that tested **3 models only** (Original / Hybrid / Protocol v2.6). For the current **all-model** recommendation set, use the **Option A/B/C** summary at the top and the linked all-model reports.
-
-**1,500 Simulations Complete:** Tested three legacy models across **5 liquidity tiers** ($32M-$150M) and **10 historical market scenarios**.
-
-### Key Discovery: Liquidity Determines Winner
-
-| Liquidity | Winner | Month 12 Value | Survival Rate |
-|-----------|--------|----------------|---------------|
-| **$32M** | **Hybrid Model** | $2,596 | 60% |
-| **$50M** | **Hybrid Model** | $3,371 | 80% |
-| **$75M** | **Hybrid Model** | $4,290 | 80% |
-| **$100M** | **Hybrid Model** | **$5,106** ✅ | 80% |
-| **$150M** | **Protocol v2.6** | $4,949 | 60% |
-
-**🏆 Optimal: Hybrid Model at $100M** (Fairness Score: 52.4/100)
-
-**Why Hybrid Model Wins at Lower Liquidity:**
-- ✅ Emergency brake protects value in crashes
-- ✅ Emission cap prevents supply flood
-- ✅ Mandatory staking reduces circulating supply
-- ✅ Best performance in critical scenarios (COVID, FTX)
-
-**Why Protocol v2.6 Wins at $150M:**
-- ✅ Higher liquidity supports faster vesting
-- ✅ No emission cap allows full network activity
-- ✅ Oracle price gate sufficient at high liquidity
-
-**[Full Liquidity Tier Analysis →](docs/vesting/LIQUIDITY_TIER_ANALYSIS.md)**  
-**Legacy 3-model report**: [Three Model Comparison →](docs/vesting/THREE_MODEL_COMPARISON.md)
-
----
-
-## 📈 Legacy Notes: Why Protocol v2.6 “Won” in the earlier 3-model comparison
-
-### ✅ Context
-
-This was an earlier conclusion from the **3-model-only harness** (Original vs Hybrid vs Protocol v2.6). It does **not** reflect the newer all-model comparisons that now include Hybrid Tokenomics, Hybrid B, Protocol v3.0, and Protocol v3.1.
-
-For up-to-date “all models” results, see:
-- **Second opinion (order-book + sell-pressure)**: [`SECOND_OPINION_COMPARE_REPORT_V31.md`](SECOND_OPINION_COMPARE_REPORT_V31.md)
-- **All-model compare/contrast**: [`HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md`](HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md)
-
-### ✅ Key Advantages
+### ✅ Key Advantages (Protocol v2.6 example)
 
 1. **Faster Vesting (21 months)**
    - Investors access tokens 15 months earlier than Hybrid Model
@@ -376,12 +259,11 @@ TRIPLE PROTECTION:
 
 | Document | Description |
 |----------|-------------|
-| **[Liquidity Tier Analysis](docs/vesting/LIQUIDITY_TIER_ANALYSIS.md)** | ⭐ 1,500 simulations: Optimal liquidity and protocol selection |
+| **[All-Model Liquidity Tier Analysis](docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md)** | ✅ *All models* tested across liquidity tiers × choppy scenarios |
 | **[All-Model Comparison (Second Opinion)](docs/vesting/ALL_MODEL_COMPARISON.md)** | ✅ *All models* compared (v2.6/v3.0/v3.1/Hybrid B/Hybrid Tokenomics/etc) using order-book + sell-pressure |
 | **[All-Model Comparison (Hybrid Tokenomics focus)](HYBRID_TOKENOMICS_COMPARE_ALL_PAST_MODELS.md)** | ✅ Compares Hybrid Tokenomics vs *all* past tested models (incl. v3.0/v3.1) |
 | **[Second Opinion Report (All models @ $32M)](SECOND_OPINION_COMPARE_REPORT_V31.md)** | ✅ Order-book + sell-pressure methodology across all models |
 | **[Third Opinion Report (adds Protocol v3.1)](THIRD_OPINION_V31_REPORT.md)** | ✅ Path-dependent harness including v3.1 volume peg/caps |
-| **Legacy: [Three Model Comparison](docs/vesting/THREE_MODEL_COMPARISON.md)** | Historical harness: Original vs Hybrid vs Protocol v2.6 |
 | **[Protocol v2.6 Comparison](docs/vesting/PROTOCOL_V26_COMPARISON.md)** | Second opinion analysis |
 | **[Hybrid Model Validation](docs/vesting/HYBRID_MODEL_VALIDATION.md)** | ⭐ 100 simulations + 10 market scenarios |
 | [Protocol v2.6 Comparison](docs/vesting/PROTOCOL_V26_COMPARISON.md) | Second opinion analysis |
@@ -414,11 +296,7 @@ TRIPLE PROTECTION:
 python3 scripts/hybrid_tokenomics_comparison.py                 # Primary all-model harness (Hybrid Tokenomics included)
 python3 scripts/hybrid_tokenomics_second_opinion_compare.py     # Second opinion (order-book + sell pressure, includes v3.0/v3.1)
 python3 scripts/third_opinion_protocol_v31_compare.py           # Third opinion (adds Protocol v3.1 volume peg/caps)
-
-# Legacy harnesses (historical)
-python3 scripts/three_model_comparison.py                       # Legacy 3-model comparison
-python3 scripts/liquidity_tier_comparison_v2_four_models.py      # Legacy 4-model liquidity tier harness (includes v3.0)
-python3 scripts/liquidity_tier_comparison.py                    # Older liquidity tier harness
+python3 scripts/all_model_liquidity_tier_second_opinion.py      # All-model liquidity tiers × choppy scenarios
 
 # Other supporting simulations
 python3 scripts/hybrid_model_validation.py                      # Parameter search + scenario validation (legacy hybrid focus)
