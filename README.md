@@ -119,11 +119,11 @@ These documents contain useful historical analysis but do **not** include all 7 
 - [Utility Conversion Analysis](docs/vesting/UTILITY_CONVERSION_ANALYSIS.md)
 - [Presale Investor Communication](docs/vesting/PRESALE_INVESTOR_COMMUNICATION.md)
 
-### Root-Level Reports (Mixed Coverage)
-- [Hybrid Tokenomics Analysis](HYBRID_TOKENOMICS_ANALYSIS.md)
-- [Hybrid Tokenomics Summary](HYBRID_TOKENOMICS_SUMMARY.md)
-- [Second Opinion Report](SECOND_OPINION_COMPARE_REPORT_V31.md)
-- [Third Opinion Report](THIRD_OPINION_V31_REPORT.md)
+### Simulation Reports
+- [Hybrid Tokenomics Analysis](docs/reports/HYBRID_TOKENOMICS_ANALYSIS.md)
+- [Hybrid Tokenomics Summary](docs/reports/HYBRID_TOKENOMICS_SUMMARY.md)
+- [Second Opinion Report](docs/reports/SECOND_OPINION_COMPARE_REPORT_V31.md)
+- [Third Opinion Report](docs/reports/THIRD_OPINION_V31_REPORT.md)
 
 </details>
 
