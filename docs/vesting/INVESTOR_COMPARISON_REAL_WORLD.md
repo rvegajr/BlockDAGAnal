@@ -15,43 +15,46 @@ This comparison uses **real historical crypto market data** (BTC 2015-2024) to s
 
 ---
 
-## 💰 Investment Comparison: What You Get Back (All 7 Models)
+## 💰 Investment Comparison: What You Get Back (All 8 Models)
 
 ### $100,000 Investment — Conservative (Stress-Test)
 
 | Model | Year 1 | Year 3 | Year 6 | $100k → Y3 | $100k → Y6 |
 |-------|-------:|-------:|-------:|----------:|----------:|
-| **Protocol v3.0** | -58% | **+40%** | **+27%** | **$140,177** | **$126,555** |
-| Hybrid Model | -72% | -35% | +3% | $65,491 | $102,860 |
-| Original Model | -92% | -45% | +3% | $55,297 | $103,071 |
-| Hybrid Tokenomics | -80% | -58% | -27% | $41,757 | $72,628 |
-| Hybrid B | -86% | -68% | -44% | $31,631 | $56,440 |
-| Protocol v2.6 | -65% | -41% | -49% | $59,041 | $50,601 |
-| Protocol v3.1 (Adjusted) | -66% | -46% | -54% | $53,775 | $45,940 |
+| **Protocol v3.0** | -58% | **+40%** | **+27%** | **$140,094** | **$126,470** |
+| Hybrid Model | -72% | -35% | +3% | $65,473 | $102,824 |
+| Original Model | -92% | -45% | +3% | $55,309 | $103,023 |
+| Hybrid Tokenomics | -80% | -58% | -27% | $41,723 | $72,628 |
+| **Harris Model** | -83% | -67% | -48% | $33,441 | $51,751 |
+| Hybrid B | -86% | -68% | -44% | $31,624 | $56,444 |
+| Protocol v2.6 | -65% | -41% | -49% | $59,038 | $50,602 |
+| Protocol v3.1 (Adjusted) | -66% | -46% | -54% | $53,625 | $46,005 |
 
 ### $100,000 Investment — Ideal (Growth Scenario)
 
 | Model | Year 1 | Year 3 | Year 6 | $100k → Y3 | $100k → Y6 |
 |-------|-------:|-------:|-------:|----------:|----------:|
-| **Protocol v3.0** | -43% | **+208%** | +646% | **$308,273** | $745,717 |
-| Hybrid Model | -55% | +153% | **+1241%** | $252,600 | **$1,340,657** |
-| Original Model | -87% | +113% | **+1245%** | $213,322 | **$1,344,667** |
-| Hybrid Tokenomics | -67% | +68% | +880% | $168,211 | $979,783 |
-| Hybrid B | -77% | +28% | +661% | $127,486 | $761,445 |
-| Protocol v2.6 | -51% | +86% | +306% | $186,403 | $405,835 |
-| Protocol v3.1 (Adjusted) | -55% | +46% | +287% | $145,457 | $387,444 |
+| **Protocol v3.0** | -42% | **+209%** | +646% | **$309,189** | $745,561 |
+| Hybrid Model | -55% | +153% | **+1241%** | $252,882 | **$1,341,332** |
+| Original Model | -87% | +113% | **+1244%** | $213,181 | **$1,344,369** |
+| Hybrid Tokenomics | -67% | +68% | +880% | $168,236 | $979,660 |
+| **Harris Model** | -73% | +29% | +577% | $129,418 | $676,855 |
+| Hybrid B | -77% | +28% | +661% | $127,507 | $761,434 |
+| Protocol v2.6 | -51% | +86% | +306% | $186,373 | $405,672 |
+| Protocol v3.1 (Adjusted) | -54% | +45% | +287% | $144,654 | $387,396 |
 
 ### $100,000 Investment — With Crash Overlays (10 Scenarios)
 
 | Model | Year 1 | Year 3 | Year 6 | $100k → Y3 | $100k → Y6 |
 |-------|-------:|-------:|-------:|----------:|----------:|
-| **Protocol v3.0** | -70% | **+6%** | -7% | **$106,279** | **$92,737** |
-| Hybrid Model | -83% | -61% | -38% | $39,483 | $61,938 |
-| Original Model | -95% | -67% | -38% | $33,353 | $62,029 |
-| Hybrid Tokenomics | -88% | -78% | -64% | $22,042 | $35,953 |
-| Hybrid B | -92% | -86% | -77% | $13,683 | $23,542 |
-| Protocol v2.6 | -78% | -65% | -70% | $35,479 | $30,371 |
-| Protocol v3.1 (Adjusted) | -79% | -66% | -71% | $33,622 | $28,559 |
+| **Protocol v3.0** | -70% | **+7%** | -7% | **$106,614** | **$92,803** |
+| Hybrid Model | -83% | -61% | -38% | $39,486 | $61,901 |
+| Original Model | -95% | -67% | -38% | $33,337 | $62,063 |
+| Hybrid Tokenomics | -88% | -78% | -64% | $22,038 | $35,965 |
+| **Harris Model** | -90% | -80% | -69% | $20,144 | $31,190 |
+| Hybrid B | -92% | -86% | -77% | $13,683 | $23,538 |
+| Protocol v2.6 | -78% | -65% | -70% | $35,480 | $30,371 |
+| Protocol v3.1 (Adjusted) | -79% | -66% | -71% | $33,563 | $28,561 |
 
 ### Quick Reference: $50,000 and $9,000 Investments
 
@@ -65,7 +68,7 @@ Values scale linearly. For **$50,000**, divide the $100k values by 2. For **$9,0
 
 ---
 
-## 📊 ROI Summary — All 7 Models (% Return)
+## 📊 ROI Summary — All 8 Models (% Return)
 
 ### Conservative Scenario (No Adoption Growth)
 
@@ -75,6 +78,7 @@ Values scale linearly. For **$50,000**, divide the $100k values by 2. For **$9,0
 | Hybrid Model | -72% | -51% | -35% | +3% | Breaks even by Y6 |
 | Original Model | -92% | -62% | -45% | +3% | Breaks even by Y6 |
 | Hybrid Tokenomics | -80% | -68% | -58% | -27% | Slow recovery |
+| **Harris Model** | -83% | -74% | -67% | -48% | ❌ Negative at Y6 |
 | Hybrid B | -86% | -76% | -68% | -44% | Weak recovery |
 | Protocol v2.6 | -65% | -32% | -41% | -49% | ❌ Negative at Y6 |
 | Protocol v3.1 (Adjusted) | -66% | -40% | -46% | -54% | ❌ Negative at Y6 |

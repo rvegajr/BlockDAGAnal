@@ -1,10 +1,10 @@
 # BlockDAG Vesting Analysis
 
-## 📊 Comprehensive Simulation Analysis (All 7 Protocols)
+## 📊 Comprehensive Simulation Analysis (All 8 Protocols)
 
-We tested **all 7 tokenomics protocols** using **10 years of real BTC market data** (2015-2024), including COVID crash, FTX collapse, bull runs, and bear markets.
+We tested **all 8 tokenomics protocols** using **10 years of real BTC market data** (2015-2024), including COVID crash, FTX collapse, bull runs, and bear markets.
 
-### The 7 Protocols Tested
+### The 8 Protocols Tested
 
 | # | Protocol | What It Does |
 |---|----------|--------------|
@@ -15,6 +15,7 @@ We tested **all 7 tokenomics protocols** using **10 years of real BTC market dat
 | 5 | **Protocol v3.1** | Volume pegging + volume-capped mining ([source](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/)) |
 | 6 | **Hybrid B** | State-gated issuance under caps |
 | 7 | **Hybrid Tokenomics** | State-driven vesting/mining + heavy staking locks |
+| 8 | **Harris Model** | 10% TGE, 9mo vesting, miner incentive (75% hold for 1.75x multiplier) ([source](https://github.com/harrisjustinhagen-oss/Vesting-Economy_Harris/blob/main/BDAG%20VESTING%20HARRIS.pdf)) |
 
 ---
 
@@ -26,11 +27,12 @@ We tested **all 7 tokenomics protocols** using **10 years of real BTC market dat
 
 | Protocol | Conservative (Y3/Y6) | Ideal Growth (Y3/Y6) | With Crashes (Y3/Y6) |
 |----------|---------------------|----------------------|----------------------|
-| **Protocol v3.0** | **$140k / $127k** | **$308k / $746k** | **$106k / $93k** |
+| **Protocol v3.0** | **$140k / $127k** | **$309k / $746k** | **$107k / $93k** |
 | Hybrid Model | $65k / $103k | $253k / $1.34M | $39k / $62k |
 | Original Model | $55k / $103k | $213k / $1.34M | $33k / $62k |
 | Hybrid Tokenomics | $42k / $73k | $168k / $980k | $22k / $36k |
-| Hybrid B | $32k / $56k | $127k / $761k | $14k / $24k |
+| Harris Model | $33k / $52k | $129k / $677k | $20k / $31k |
+| Hybrid B | $32k / $56k | $128k / $761k | $14k / $24k |
 | Protocol v2.6 | $59k / $51k | $186k / $406k | $35k / $30k |
 | Protocol v3.1 | $54k / $46k | $145k / $387k | $34k / $29k |
 
@@ -42,6 +44,7 @@ We tested **all 7 tokenomics protocols** using **10 years of real BTC market dat
 | Hybrid Model | -72% | -35% | +3% | Breaks even Y6 |
 | Original Model | -92% | -45% | +3% | Breaks even Y6 |
 | Hybrid Tokenomics | -80% | -58% | -27% | Slow recovery |
+| Harris Model | -83% | -67% | -48% | ❌ Negative Y6 |
 | Hybrid B | -86% | -68% | -44% | Weak |
 | Protocol v2.6 | -65% | -41% | -49% | ❌ Negative Y6 |
 | Protocol v3.1 | -66% | -46% | -54% | ❌ Negative Y6 |
@@ -58,14 +61,14 @@ We tested **all 7 tokenomics protocols** using **10 years of real BTC market dat
 
 ---
 
-## 📁 Comprehensive Documentation (All 7 Models)
+## 📁 Comprehensive Documentation (All 8 Models)
 
 | Document | What It Contains |
 |----------|------------------|
-| **[Investor Comparison (Real-World)](docs/vesting/INVESTOR_COMPARISON_REAL_WORLD.md)** | ✅ All 7 protocols, real BTC data, ROI tables |
+| **[Investor Comparison (Real-World)](docs/vesting/INVESTOR_COMPARISON_REAL_WORLD.md)** | ✅ All 8 protocols, real BTC data, ROI tables |
 | **[Multi-Opinion Report](docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md)** | ✅ Conservative + Ideal + Choppy scenarios |
-| **[All-Model Comparison](docs/vesting/ALL_MODEL_COMPARISON.md)** | ✅ Synthetic market simulations, all 7 protocols |
-| **[Liquidity Tier Analysis](docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md)** | ✅ $20M-$150M liquidity, all 7 protocols |
+| **[All-Model Comparison](docs/vesting/ALL_MODEL_COMPARISON.md)** | ✅ Synthetic market simulations, all 8 protocols |
+| **[Liquidity Tier Analysis](docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md)** | ✅ $20M-$150M liquidity, all 8 protocols |
 
 ### Run Your Own Simulation
 
@@ -96,7 +99,7 @@ python3 scripts/all_model_liquidity_tier_second_opinion.py
 
 ## 📚 Archive: Legacy & Partial Comparisons
 
-These documents contain useful historical analysis but do **not** include all 7 protocols:
+These documents contain useful historical analysis but do **not** include all 8 protocols:
 
 <details>
 <summary>Click to expand legacy docs</summary>

@@ -107,6 +107,12 @@ MODELS = [
         "Hybrid Tokenomics (Solvency-Anchored)", 3.0, 3, 36, 0.20, 60.0,
         state_driven_release=True, global_monthly_cap=1.0, mining_lock_ratio=0.70, price_gate_high=0.05, brake_low=0.02,
     ),
+    # Harris Model: 10% TGE, 9mo vesting, miner incentive (75% hold = 1.75x multiplier), 8% raffle burn
+    # Source: https://github.com/harrisjustinhagen-oss/Vesting-Economy_Harris/blob/main/BDAG%20VESTING%20HARRIS.pdf
+    ModelParams(
+        "Harris Model", 10.0, 0, 9, 0.20, 0.0,
+        mining_lock_ratio=0.75,  # Miners incentivized to hold 75% for multiplier
+    ),
 ]
 
 
