@@ -21,16 +21,18 @@ What it produces:
 - Focus comparison: Hybrid Tokenomics (Solvency-Anchored) vs Hybrid B (the 4th model)
 
 Outputs:
-- `second_opinion_compare_results_v31.json`
-- `SECOND_OPINION_COMPARE_REPORT_V31.md`
+- `data/results/second_opinion_compare_results_13_models.json`
+- `docs/vesting/SECOND_OPINION_COMPARE_REPORT_13_MODELS.md`
 """
 
 import json
 import random
 import statistics
+import gzip
 from collections import deque
 from dataclasses import dataclass
 from datetime import datetime
+from pathlib import Path
 from typing import Deque, Dict, List, Optional, Tuple
 
 # =============================================================================
@@ -189,6 +191,106 @@ HYBRID_TOKENOMICS_MODEL = ModelParams(
     brake_low=0.02,
 )
 
+# Harris vesting model (external PDF spec). Approximated here using a higher TGE and faster vesting.
+HARRIS_MODEL = ModelParams(
+    name="Harris Model",
+    tge_percent=10.0,
+    cliff_months=0,
+    vesting_months=9,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    model_type="time_based",
+    # We approximate the miner “diamond hands” incentive by reducing early liquid mining.
+    mining_lock_ratio=0.75,
+)
+
+# Maxime v5.x family (spec pages). Approximated using the existing gate/brake/volume-peg mechanics.
+# Sources:
+# - https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/
+# - https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/
+# - https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/
+# - https://a-changer-plus-tard.github.io/Protocol-v5.8-Revised-Protocol-Bonus-48-Months/
+PROTOCOL_V53_MODEL = ModelParams(
+    name="Protocol v5.3",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=21,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    model_type="time_based",
+    price_gate_high=0.05,
+    brake_low=0.02,
+    use_volume_peg=True,
+    vest_volume_peg_pct=0.02,
+    mining_volume_cap_pct=0.20,
+)
+
+PROTOCOL_V55_MODEL = ModelParams(
+    name="Protocol v5.5",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=21,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    model_type="time_based",
+    price_gate_high=0.05,
+    brake_low=0.02,
+    use_volume_peg=True,
+    vest_volume_peg_pct=0.02,
+    mining_volume_cap_pct=0.20,
+)
+
+PROTOCOL_V57_MODEL = ModelParams(
+    name="Protocol v5.7",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=21,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    model_type="time_based",
+    price_gate_high=0.05,
+    brake_low=0.02,
+    use_volume_peg=True,
+    vest_volume_peg_pct=0.02,
+    mining_volume_cap_pct=0.20,
+    # Revised “streaming” is approximated as a softer vesting drip in the band.
+    drip_factor_between=0.15,
+)
+
+PROTOCOL_V58_MODEL = ModelParams(
+    name="Protocol v5.8",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=21,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    model_type="time_based",
+    price_gate_high=0.05,
+    brake_low=0.02,
+    use_volume_peg=True,
+    vest_volume_peg_pct=0.02,
+    mining_volume_cap_pct=0.20,
+    drip_factor_between=0.15,
+)
+
+# HybridC (spreadsheet spec). Approximated using a hard monthly cap and heavy locks.
+HYBRID_C_MODEL = ModelParams(
+    name="HybridC",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=36,
+    emission_cap=0.20,
+    mandatory_stake_pct=50.0,
+    model_type="state_driven",
+    state_driven_release=True,
+    # Spreadsheet: 0.3% monthly cap (0.003) of supply.
+    global_monthly_cap=0.30,
+    # Spreadsheet: 15% mining liquid share (85% effectively locked).
+    mining_lock_ratio=0.85,
+    price_gate_high=0.05,
+    brake_low=0.02,
+)
+
 MODELS = [
     ORIGINAL_MODEL,
     HYBRID_MODEL,
@@ -197,6 +299,12 @@ MODELS = [
     PROTOCOL_V31_MODEL,
     HYBRID_B_MODEL,
     HYBRID_TOKENOMICS_MODEL,
+    HARRIS_MODEL,
+    PROTOCOL_V53_MODEL,
+    PROTOCOL_V55_MODEL,
+    PROTOCOL_V57_MODEL,
+    PROTOCOL_V58_MODEL,
+    HYBRID_C_MODEL,
 ]
 
 # =============================================================================
@@ -636,6 +744,20 @@ def summarize_roi_by_horizon(model_runs: List[Dict], investment: int) -> Dict[st
     return out
 
 
+def summarize_roi_by_market_type(model_runs: List[Dict], investment: int) -> Dict[str, Dict[str, Dict]]:
+    """
+    Summarize ROI by market type (bull/bear/normal/volatile) for each horizon.
+    Output shape: market_type -> horizon(str) -> stats
+    """
+    out: Dict[str, Dict[str, Dict]] = {}
+    by_mt: Dict[str, List[Dict]] = {}
+    for r in model_runs:
+        by_mt.setdefault(r["market_type"], []).append(r)
+    for mt, runs in by_mt.items():
+        out[mt] = summarize_roi_by_horizon(runs, investment)
+    return out
+
+
 def main() -> None:
     print("=" * 80)
     print("SECOND OPINION: 100 sims compare + investment-level ROI + choppy market")
@@ -661,6 +783,7 @@ def main() -> None:
         for scenario_key, runs in scenarios.items():
             choppy_summaries[model_name][scenario_key] = {str(inv): summarize_roi_by_horizon(runs, inv) for inv in INVESTMENT_LEVELS}
 
+    # Compact, analysis-ready output (keeps summaries; omits raw run cubes to stay under repo limits).
     output = {
         "timestamp": datetime.now().isoformat(),
         "methodology": {
@@ -674,20 +797,34 @@ def main() -> None:
         "roi_horizons_months": ROI_HORIZONS,
         "liquidity_base": DEFAULT_LAUNCH_LIQUIDITY,
         "market_scenarios": {k: v["name"] for k, v in MARKET_SCENARIOS.items()},
-        "primary_100_sims": primary,
-        "choppy_100_runs": choppy,
         "summaries": {
             "primary_by_investment": investment_summaries,
+            "primary_by_market_type_and_investment": {
+                model_name: {str(inv): summarize_roi_by_market_type(runs, inv) for inv in INVESTMENT_LEVELS}
+                for model_name, runs in primary.items()
+            },
             "choppy_by_scenario_and_investment": choppy_summaries,
-        },
-        "focus_compare": {
-            "hybrid_tokenomics": HYBRID_TOKENOMICS_MODEL.name,
-            "fourth_model": HYBRID_B_MODEL.name,
         },
     }
 
-    with open("second_opinion_compare_results_v31.json", "w") as f:
-        json.dump(output, f, indent=2)
+    out_json = Path("data/results/second_opinion_compare_results_13_models.json")
+    out_json.parent.mkdir(parents=True, exist_ok=True)
+    out_json.write_text(json.dumps(output, indent=2))
+
+    # Optional: store the full raw cube as gzip for offline triage (kept out of markdown generator).
+    raw_out_gz = Path("data/results/second_opinion_compare_results_13_models_raw.json.gz")
+    raw_payload = {
+        "timestamp": output["timestamp"],
+        "models": [m.__dict__ for m in MODELS],
+        "investment_levels": INVESTMENT_LEVELS,
+        "roi_horizons_months": ROI_HORIZONS,
+        "liquidity_base": DEFAULT_LAUNCH_LIQUIDITY,
+        "market_scenarios": {k: v["name"] for k, v in MARKET_SCENARIOS.items()},
+        "primary_100_sims": primary,
+        "choppy_100_runs": choppy,
+    }
+    with gzip.open(raw_out_gz, "wt", encoding="utf-8") as f:
+        json.dump(raw_payload, f)
 
     # Produce a short markdown report
     def fmt_pct(x: float) -> str:
@@ -697,7 +834,7 @@ def main() -> None:
         return f"${x:,.0f}"
 
     lines: List[str] = []
-    lines.append("# Second Opinion Report: 100 Sims Comparison + Investment-Level ROI\n")
+    lines.append("# Second Opinion Report (13 Models): 100 Sims Comparison + Investment-Level ROI\n")
     lines.append(f"**Generated**: {output['timestamp']}\n")
     lines.append("## Methodology\n")
     lines.append("- **Pricing**: baseline (Liquidity / Circulating) + order-book depth + sell-pressure impacts\n")
@@ -705,6 +842,7 @@ def main() -> None:
     lines.append(f"- **Depth factor**: {DEPTH_FACTOR:.2f}\n")
     lines.append(f"- **Runs**: 100 per model (market-type Monte Carlo) + 100 per model per choppy scenario\n")
     lines.append(f"- **Liquidity base**: {fmt_usd(DEFAULT_LAUNCH_LIQUIDITY)}\n")
+    lines.append("- **Note**: Some newer protocol mechanics are approximated to fit this harness (e.g., adaptive gates/streaming/buyback logic).\n")
 
     lines.append("\n## Focus Comparison (Hybrid Tokenomics vs Hybrid B)\n")
     lines.append(f"**ROI horizons**: {', '.join(str(h) for h in ROI_HORIZONS)} months\n\n")
@@ -752,12 +890,14 @@ def main() -> None:
                 notes = "stress"
             lines.append(f"| {scenario['name']} | {fmt_pct(a['roi_avg'])} | {fmt_pct(b['roi_avg'])} | {notes} |\n")
 
-    with open("SECOND_OPINION_COMPARE_REPORT_V31.md", "w") as f:
-        f.write("".join(lines))
+    out_md = Path("docs/vesting/SECOND_OPINION_COMPARE_REPORT_13_MODELS.md")
+    out_md.parent.mkdir(parents=True, exist_ok=True)
+    out_md.write_text("".join(lines))
 
     print("\n✅ Wrote:")
-    print("- second_opinion_compare_results_v31.json")
-    print("- SECOND_OPINION_COMPARE_REPORT_V31.md")
+    print(f"- {out_json}")
+    print(f"- {out_md}")
+    print(f"- {raw_out_gz} (gzipped raw runs for offline triage)")
 
 
 if __name__ == "__main__":

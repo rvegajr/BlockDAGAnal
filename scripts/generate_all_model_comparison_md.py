@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 
-IN_JSON = Path("second_opinion_compare_results_v31.json")
+IN_JSON = Path("data/results/second_opinion_compare_results_13_models.json")
 OUT_MD = Path("docs/vesting/ALL_MODEL_COMPARISON.md")
 
 INVESTMENT_REF = "9000"
@@ -72,13 +72,15 @@ def main() -> None:
     scenario_name_map: Dict[str, str] = data.get("market_scenarios", {})
 
     models = [m["name"] for m in data["models"]]
-    primary = data["primary_100_sims"]  # model -> list[runs]
-    choppy = data["choppy_100_runs"]    # model -> scenario -> list[runs]
+    summaries = data["summaries"]
+    primary_by_inv = summaries["primary_by_investment"]  # model -> inv -> horizon -> stats
+    primary_by_mt_inv = summaries.get("primary_by_market_type_and_investment", {})  # model -> inv -> mt -> horizon -> stats
+    choppy_by_scenario_inv = summaries["choppy_by_scenario_and_investment"]  # model -> scenario -> inv -> horizon -> stats
 
     # Precompute overall per-horizon stats for reference investment
     overall: Dict[str, Dict[str, Dict]] = {}
     for model in models:
-        overall[model] = summarize_runs_by_horizon(primary[model], INVESTMENT_REF, horizons)
+        overall[model] = primary_by_inv[model][INVESTMENT_REF]
 
     # Winner per horizon (raw ROI)
     winner_by_h: Dict[str, Tuple[str, float]] = {}
@@ -89,30 +91,27 @@ def main() -> None:
 
     # Choppy avg ROI per horizon (avg across 10 scenarios)
     choppy_avg_by_h: Dict[str, Dict[str, float]] = {str(h): {} for h in horizons}
-    scenario_keys = list(next(iter(choppy.values())).keys())
+    scenario_keys = list(next(iter(choppy_by_scenario_inv.values())).keys())
     for h in horizons:
         hs = str(h)
         for model in models:
             scenario_rois = []
             for sc in scenario_keys:
-                runs = choppy[model][sc]
-                rois = [r["roi_by_investment"][INVESTMENT_REF]["by_month"][hs]["roi_pct"] for r in runs]
-                scenario_rois.append(statistics.mean(rois))
+                scenario_rois.append(choppy_by_scenario_inv[model][sc][INVESTMENT_REF][hs]["roi_avg"])
             choppy_avg_by_h[hs][model] = sum(scenario_rois) / len(scenario_rois)
 
     # Market-type breakdown per horizon
     market_types = ["bull", "bear", "normal", "volatile"]
     by_market: Dict[str, Dict[str, Dict[str, Dict]]] = {str(h): {} for h in horizons}  # h -> model -> market -> stats
     for model in models:
-        grouped = group_by_market_type(primary[model])
+        mt_block = primary_by_mt_inv.get(model, {}).get(INVESTMENT_REF, {})
         for h in horizons:
             hs = str(h)
             by_market[hs].setdefault(model, {})
             for mt in market_types:
-                runs = grouped.get(mt, [])
-                if not runs:
+                s = mt_block.get(mt, {}).get(hs)
+                if not s:
                     continue
-                s = summarize_runs_by_horizon(runs, INVESTMENT_REF, [h])[hs]
                 by_market[hs][model][mt] = {"roi_avg": s["roi_avg"], "brake_rate_pct": s["brake_rate_pct"]}
 
     lines: List[str] = []
@@ -215,9 +214,7 @@ def main() -> None:
             # (we keep the key readable and consistent with scripts)
             scenario_rois = []
             for m in models:
-                runs = choppy[m][sc]
-                rois = [r["roi_by_investment"][INVESTMENT_REF]["by_month"][hs]["roi_pct"] for r in runs]
-                scenario_rois.append(fmt_pct(statistics.mean(rois)))
+                scenario_rois.append(fmt_pct(choppy_by_scenario_inv[m][sc][INVESTMENT_REF][hs]["roi_avg"]))
             label = scenario_name_map.get(sc, sc)
             lines.append(f"| {label} | " + " | ".join(scenario_rois) + " |\n")
         lines.append("\n")
