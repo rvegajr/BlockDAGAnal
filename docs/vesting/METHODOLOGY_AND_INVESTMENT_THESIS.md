@@ -1,6 +1,6 @@
 # Methodology & Investment Thesis
 
-**Author**: Reid  
+**Author**: Ricky  
 **Date**: January 2026
 
 ---
@@ -119,7 +119,7 @@ If 10 years of the S&P 500 means the odds of a positive return on my investment 
 
 I would put my money on that.
 
-### What This Means for Tokenomics Analysis
+### What This Means for Any Tokenomics Analysis
 
 I reworked all my scenarios to match **return on investment over the past 10 years of actual crypto history**. By using BTC price data from 2015-2024, I'm capturing:
 
@@ -132,7 +132,7 @@ I reworked all my scenarios to match **return on investment over the past 10 yea
 
 **In the next 10 years, we will see the same exponential gains that we saw in the past 10 years in crypto.**
 
-This is my thesis. It's not financial advice. It's a framework for understanding why I believe historical backtesting is the most accurate way to evaluate tokenomics models.
+This is my thesis. It's not financial advice. It's a framework for understanding why I believe historical backtesting is the most accurate way to evaluate any tokenomics model.
 
 ---
 
@@ -149,28 +149,20 @@ A model with more checkmarks looks "safer."
 
 **But safety features don't guarantee returns.**
 
-Example: **HybridC** has the most protective features of any model I tested:
-- 0.3% monthly cap (very restrictive)
-- Mandatory staking
-- Deterministic queue repayment
-- Identity-weighted mining caps
+A model can have every protective feature imaginable—strict caps, mandatory staking, deterministic queues, identity-weighted limits—and still underperform in actual market conditions.
 
-On a feature matrix, HybridC scores highest.
-
-**In my 10-year historical backtest, HybridC ranks 11th of 13 with -66% Year 3 ROI.**
-
-Why? Because those protective features are **so restrictive** that they prevent the price appreciation that would benefit investors. It's like a car with so much safety equipment that it can't win any race.
+Why? Because protective features that are **too restrictive** can prevent the price appreciation that would benefit investors. It's like a car with so much safety equipment that it can't win any race.
 
 ---
 
 ## The Right Question to Ask
 
-| Question | Analysis Type | Best Model |
-|----------|---------------|------------|
-| "Which model has the best design?" | Feature matrix | HybridC |
-| "Which model makes me money?" | Historical backtest | Protocol v3.0 |
-| "Which model won't collapse?" | Feature matrix | HybridC |
-| "Which model has best risk-adjusted returns?" | Historical backtest | Protocol v3.0 |
+| Question | Analysis Type |
+|----------|---------------|
+| "Which model has the best design?" | Feature matrix |
+| "Which model makes me money?" | Historical backtest |
+| "Which model won't collapse?" | Feature matrix |
+| "Which model has best risk-adjusted returns?" | Historical backtest |
 
 **I care about the second and fourth questions.** That's why I use 10-year historical data.
 
@@ -185,7 +177,7 @@ Why? Because those protective features are **so restrictive** that they prevent 
 
 **Do not mortgage your home on this.**
 
-But if you're going to invest in a tokenomics model, I believe evaluating it against real historical market conditions—including crashes, recoveries, bull runs, and bear markets—gives you a more accurate picture than theoretical feature matrices.
+But if you're going to invest in any tokenomics model, I believe evaluating it against real historical market conditions—including crashes, recoveries, bull runs, and bear markets—gives you a more accurate picture than theoretical feature matrices.
 
 ---
 
@@ -203,4 +195,3 @@ But if you're going to invest in a tokenomics model, I believe evaluating it aga
 ---
 
 *This document represents my personal investment thesis and methodology. It is not financial advice. Always do your own research.*
-
