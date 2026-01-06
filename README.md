@@ -105,6 +105,7 @@ We tested **13 tokenomics protocols** using **10 years of real BTC market data**
 
 | Document | What It Contains |
 |----------|------------------|
+| **[Methodology & Investment Thesis](docs/vesting/METHODOLOGY_AND_INVESTMENT_THESIS.md)** | 📖 Why we use 10-year historical data instead of theoretical models |
 | **[13-Model Comprehensive Analysis](docs/vesting/13_MODEL_COMPREHENSIVE_ANALYSIS.md)** | ✅ Full analysis of all 13 protocols with explanations |
 | **[Investor Comparison (Real-World)](docs/vesting/INVESTOR_COMPARISON_REAL_WORLD.md)** | ✅ ROI tables for all investment levels |
 | **[Multi-Opinion Report](docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md)** | ✅ Conservative + Ideal + Choppy scenarios |
