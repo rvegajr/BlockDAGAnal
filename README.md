@@ -6,21 +6,21 @@ We tested **13 tokenomics protocols** using **10 years of real BTC market data**
 
 ### The 13 Protocols Tested
 
-| # | Protocol | Author | What It Does |
-|---|----------|--------|--------------|
-| 1 | **Original Model** | — | Time-based (2% TGE, 12mo cliff, 60mo vesting) |
-| 2 | **Hybrid Model** | — | Time-based + emergency brake protection |
-| 3 | **Protocol v2.6** | — | Oracle price gate at $0.05 ([source](https://a-changer-plus-tard.github.io/BlockDag-Launch-Protocol-v2.6/)) |
-| 4 | **Protocol v3.0** | — | Oracle gate + emergency brake + drip throttling + mining locks ([source](https://a-changer-plus-tard.github.io/Protocol-3.0/)) |
-| 5 | **Protocol v3.1** | — | Volume pegging + volume-capped mining ([source](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/)) |
-| 6 | **Hybrid B** | — | State-gated issuance under caps |
-| 7 | **Hybrid Tokenomics** | — | State-driven vesting/mining + heavy staking locks |
-| 8 | **Harris Model** | Harris | 10% TGE, 9mo vesting, miner incentive ([source](https://github.com/harrisjustinhagen-oss/Vesting-Economy_Harris/blob/main/BDAG%20VESTING%20HARRIS.pdf)) |
-| 9 | **Protocol v5.3** | Maxime | Original 6-pillar protocol, 36mo bonus ([source](https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/)) |
-| 10 | **Protocol v5.5** | Maxime | Original 6-pillar protocol, 48mo bonus ([source](https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/)) |
-| 11 | **Protocol v5.7** | Maxime | Revised: Adaptive Shield + Block Streaming, 36mo ([source](https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/)) |
-| 12 | **Protocol v5.8** | Maxime | Revised: Adaptive Shield + Block Streaming, 48mo ([source](https://a-changer-plus-tard.github.io/Protocol-v5.8-Revised-Protocol-Bonus-48-Months/)) |
-| 13 | **HybridC** | Ingo Jeanrond | Ultra-conservative: 0.3% monthly cap, 50% auto-stake |
+| # | Protocol | What It Does |
+|---|----------|--------------|
+| 1 | **Original Model** | Time-based (2% TGE, 12mo cliff, 60mo vesting) |
+| 2 | **Hybrid Model** | Time-based + emergency brake protection |
+| 3 | **Protocol v2.6** | Oracle price gate at $0.05 ([source](https://a-changer-plus-tard.github.io/BlockDag-Launch-Protocol-v2.6/)) |
+| 4 | **Protocol v3.0** | Oracle gate + emergency brake + drip throttling + mining locks ([source](https://a-changer-plus-tard.github.io/Protocol-3.0/)) |
+| 5 | **Protocol v3.1** | Volume pegging + volume-capped mining ([source](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/)) |
+| 6 | **Hybrid B** | State-gated issuance under caps |
+| 7 | **Hybrid Tokenomics** | State-driven vesting/mining + heavy staking locks |
+| 8 | **Harris Model** | 10% TGE, 9mo vesting, miner incentive ([source](https://github.com/harrisjustinhagen-oss/Vesting-Economy_Harris/blob/main/BDAG%20VESTING%20HARRIS.pdf)) |
+| 9 | **Protocol v5.3** | Original 6-pillar protocol, 36mo bonus ([source](https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/)) |
+| 10 | **Protocol v5.5** | Original 6-pillar protocol, 48mo bonus ([source](https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/)) |
+| 11 | **Protocol v5.7** | Revised: Adaptive Shield + Block Streaming, 36mo ([source](https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/)) |
+| 12 | **Protocol v5.8** | Revised: Adaptive Shield + Block Streaming, 48mo ([source](https://a-changer-plus-tard.github.io/Protocol-v5.8-Revised-Protocol-Bonus-48-Months/)) |
+| 13 | **HybridC** | Ultra-conservative: 0.3% monthly cap, 50% auto-stake |
 
 ---
 
@@ -28,21 +28,21 @@ We tested **13 tokenomics protocols** using **10 years of real BTC market data**
 
 ### Conservative Scenario (Stress-Test) — Year 3 ROI
 
-| Rank | Protocol | Author | Y1 | Y3 | Y6 | Verdict |
-|:----:|----------|--------|---:|---:|---:|---------|
-| 1 | **Protocol v3.0** | — | -58% | **+40%** | +27% | ✅ **WINNER** |
-| 2 | Protocol v5.5 | Maxime | -37% | +7% | -14% | 🥈 Strong |
-| 3 | Protocol v5.8 | Maxime | -38% | +7% | -14% | 🥈 Strong |
-| 4 | Protocol v5.7 | Maxime | -50% | +4% | -15% | ⚠️ Good |
-| 5 | Protocol v5.3 | Maxime | -50% | +3% | -15% | ⚠️ Good |
-| 6 | Hybrid Model | — | -72% | -35% | +3% | Breaks even Y6 |
-| 7 | Protocol v2.6 | — | -65% | -41% | -49% | ❌ Underperforms |
-| 8 | Original Model | — | -92% | -45% | +3% | Breaks even Y6 |
-| 9 | Protocol v3.1 | — | -66% | -46% | -54% | ❌ Volume peg too restrictive |
-| 10 | Hybrid Tokenomics | — | -80% | -58% | -27% | ❌ Over-conservative |
-| 11 | HybridC | Ingo Jeanrond | -83% | -66% | -41% | ❌ Too restrictive |
-| 12 | Harris Model | Harris | -83% | -67% | -48% | ❌ TGE too high |
-| 13 | Hybrid B | — | -86% | -68% | -44% | ❌ Weakest |
+| Rank | Protocol | Y1 | Y3 | Y6 | Verdict |
+|:----:|----------|---:|---:|---:|---------|
+| 1 | **Protocol v3.0** | -58% | **+40%** | +27% | ✅ **WINNER** |
+| 2 | Protocol v5.5 | -37% | +7% | -14% | 🥈 Strong |
+| 3 | Protocol v5.8 | -38% | +7% | -14% | 🥈 Strong |
+| 4 | Protocol v5.7 | -50% | +4% | -15% | ⚠️ Good |
+| 5 | Protocol v5.3 | -50% | +3% | -15% | ⚠️ Good |
+| 6 | Hybrid Model | -72% | -35% | +3% | Breaks even Y6 |
+| 7 | Protocol v2.6 | -65% | -41% | -49% | ❌ Underperforms |
+| 8 | Original Model | -92% | -45% | +3% | Breaks even Y6 |
+| 9 | Protocol v3.1 | -66% | -46% | -54% | ❌ Volume peg too restrictive |
+| 10 | Hybrid Tokenomics | -80% | -58% | -27% | ❌ Over-conservative |
+| 11 | HybridC | -83% | -66% | -41% | ❌ Too restrictive |
+| 12 | Harris Model | -83% | -67% | -48% | ❌ TGE too high |
+| 13 | Hybrid B | -86% | -68% | -44% | ❌ Weakest |
 
 ---
 
@@ -50,21 +50,21 @@ We tested **13 tokenomics protocols** using **10 years of real BTC market data**
 
 ### All 13 Protocols — Year 3 / Year 6 Values
 
-| Protocol | Author | Conservative | Ideal Growth | With Crashes |
-|----------|--------|--------------|--------------|--------------|
-| **Protocol v3.0** | — | **$140k / $127k** | **$309k / $746k** | **$106k / $93k** |
-| Protocol v5.5 | Maxime | $107k / $86k | $230k / $696k | $85k / $69k |
-| Protocol v5.8 | Maxime | $107k / $86k | $228k / $696k | $85k / $69k |
-| Protocol v5.7 | Maxime | $104k / $85k | $224k / $673k | $79k / $67k |
-| Protocol v5.3 | Maxime | $103k / $85k | $225k / $673k | $79k / $67k |
-| Hybrid Model | — | $65k / $103k | $253k / $1.34M | $39k / $62k |
-| Original Model | — | $55k / $103k | $213k / $1.35M | $33k / $62k |
-| Protocol v2.6 | — | $59k / $51k | $186k / $406k | $35k / $30k |
-| Protocol v3.1 | — | $54k / $46k | $144k / $387k | $34k / $29k |
-| Hybrid Tokenomics | — | $42k / $73k | $168k / $980k | $22k / $36k |
-| HybridC | Ingo Jeanrond | $34k / $59k | $137k / $790k | $16k / $25k |
-| Harris Model | Harris | $33k / $52k | $129k / $677k | $20k / $31k |
-| Hybrid B | — | $32k / $56k | $128k / $762k | $14k / $24k |
+| Protocol | Conservative | Ideal Growth | With Crashes |
+|----------|--------------|--------------|--------------|
+| **Protocol v3.0** | **$140k / $127k** | **$309k / $746k** | **$106k / $93k** |
+| Protocol v5.5 | $107k / $86k | $230k / $696k | $85k / $69k |
+| Protocol v5.8 | $107k / $86k | $228k / $696k | $85k / $69k |
+| Protocol v5.7 | $104k / $85k | $224k / $673k | $79k / $67k |
+| Protocol v5.3 | $103k / $85k | $225k / $673k | $79k / $67k |
+| Hybrid Model | $65k / $103k | $253k / $1.34M | $39k / $62k |
+| Original Model | $55k / $103k | $213k / $1.35M | $33k / $62k |
+| Protocol v2.6 | $59k / $51k | $186k / $406k | $35k / $30k |
+| Protocol v3.1 | $54k / $46k | $144k / $387k | $34k / $29k |
+| Hybrid Tokenomics | $42k / $73k | $168k / $980k | $22k / $36k |
+| HybridC | $34k / $59k | $137k / $790k | $16k / $25k |
+| Harris Model | $33k / $52k | $129k / $677k | $20k / $31k |
+| Hybrid B | $32k / $56k | $128k / $762k | $14k / $24k |
 
 ---
 
@@ -179,5 +179,4 @@ python3 scripts/all_model_liquidity_tier_second_opinion.py
 ---
 
 *Last Updated: January 2026*  
-*Based on: 10 years BTC history + 13 protocols × 3 scenarios × 5 time horizons*  
-*Attribution: Maxime (v5.x family), Ingo Jeanrond (HybridC), Harris (Harris Model)*
+*Based on: 10 years BTC history + 13 protocols × 3 scenarios × 5 time horizons*
