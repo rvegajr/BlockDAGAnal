@@ -86,15 +86,15 @@ We tested **13 tokenomics protocols** using **10 years of real BTC market data**
 
 | Model | Why It Performs This Way |
 |-------|-------------------------|
-| **v3.0** | Drip throttling creates gradual recovery; doesn't "bunch up" supply |
-| **v5.5/v5.8 (Maxime)** | 48-month bonus lock reduces long-term pressure; volume pegging helps |
-| **v5.3/v5.7 (Maxime)** | 36-month bonus is shorter than v5.5; slightly more pressure |
+| **Protocol v3.0** | Drip throttling creates gradual recovery; doesn't "bunch up" supply |
+| **Protocol v5.5/v5.8** | 48-month bonus lock reduces long-term pressure; volume pegging helps |
+| **Protocol v5.3/v5.7** | 36-month bonus is shorter than v5.5; slightly more pressure |
 | **Hybrid/Original** | Long vesting (36-60mo) eventually pays off; no price adaptation |
-| **v2.6** | Price gate but NO drip throttling = binary on/off creates shocks |
-| **v3.1** | Volume peg is good but 21-month vesting is too fast |
+| **Protocol v2.6** | Price gate but NO drip throttling = binary on/off creates shocks |
+| **Protocol v3.1** | Volume peg is good but 21-month vesting is too fast |
 | **Hybrid Tokenomics** | 60% staking + 70% mining lock = too conservative |
-| **HybridC (Ingo)** | 0.3% monthly cap is far too restrictive |
-| **Harris** | 10% TGE creates massive day-1 sell pressure |
+| **HybridC** | 0.3% monthly cap is far too restrictive |
+| **Harris Model** | 10% TGE creates massive day-1 sell pressure |
 | **Hybrid B** | State-gating causes tokens to "bunch up" and release in clusters |
 
 👉 **[Full per-model analysis with detailed explanations](docs/vesting/13_MODEL_COMPREHENSIVE_ANALYSIS.md)**
@@ -133,8 +133,8 @@ python3 scripts/all_model_liquidity_tier_second_opinion.py
 | **Best short-term (Y1-3)** | Protocol v3.0 | Only one positive by Y3 |
 | **Best long-term (Y6)** | Original or Hybrid Model | +1245% ROI in ideal scenario |
 | **Best in crashes** | Protocol v3.0 | Only one stays close to breakeven |
-| **Maxime's best** | Protocol v5.5 or v5.8 | 48-month bonus lock is key |
-| **Most conservative** | HybridC (Ingo) | 0.3% cap (but underperforms) |
+| **Best v5.x variant** | Protocol v5.5 or v5.8 | 48-month bonus lock is key |
+| **Most conservative** | HybridC | 0.3% cap (but underperforms) |
 | **Avoid** | Harris Model | 10% TGE is too aggressive |
 | **Overall recommendation** | **Protocol v3.0** | Best risk-adjusted returns |
 
