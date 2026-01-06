@@ -1,5 +1,36 @@
 # BlockDAG Vesting Analysis
 
+## 📖 Why 10-Year Historical Data?
+
+> *"Short-term gains in crypto are risky to predict. If you can do it consistently, congratulations—most cannot."*
+
+I reworked all my tokenomics simulations because I was looking at **theoretical scenarios**—hypothetical market conditions that may or may not occur. What I wanted instead: **real historical data** that reflects actual human behavior, actual crashes, actual recoveries.
+
+### The S&P 500 Lesson
+
+The S&P 500 has shown that **~95% of rolling 10-year periods have been positive**. Extend to 15-20 years with dividends reinvested, and historically there's been no negative period. The odds are overwhelmingly in your favor for long-term horizons.
+
+### The Crypto Compression Theory
+
+I believe crypto cycles are **compressed stock cycles** at a 3:1 to 4:1 ratio:
+
+| Market | Major Crash Frequency |
+|--------|----------------------|
+| Stock Market | 7-15 years (1929 → 1987 → 2000 → 2008 → 2020) |
+| Crypto | 3-4 years (2011 → 2014 → 2018 → 2022) |
+
+The same emotional patterns—fear, greed, panic, recovery—play out faster in crypto because of 24/7 markets, global participation, and instant information flow.
+
+### My Thesis
+
+If 10 years of the S&P 500 means the odds of positive returns are in my favor, I postulate that **10 years in the crypto market supports that also**. By backtesting against 2015-2024 BTC history, I'm capturing the 2017 bull run, 2018 crash, COVID crash, 2021 bull run, and 2022 crash—multiple full market cycles.
+
+**In the next 10 years, we will see the same exponential gains that we saw in the past 10 years in crypto.**
+
+👉 **[Full Methodology & Investment Thesis](docs/vesting/METHODOLOGY_AND_INVESTMENT_THESIS.md)**
+
+---
+
 ## 📊 Comprehensive Simulation Analysis (All 13 Protocols)
 
 We tested **13 tokenomics protocols** using **10 years of real BTC market data** (2015-2024), including COVID crash, FTX collapse, bull runs, and bear markets.
