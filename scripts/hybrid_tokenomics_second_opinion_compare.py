@@ -21,8 +21,8 @@ What it produces:
 - Focus comparison: Hybrid Tokenomics (Solvency-Anchored) vs Hybrid B (the 4th model)
 
 Outputs:
-- `data/results/second_opinion_compare_results_13_models.json`
-- `docs/vesting/SECOND_OPINION_COMPARE_REPORT_13_MODELS.md`
+- `data/results/second_opinion_compare_results_14_models.json`
+- `docs/vesting/SECOND_OPINION_COMPARE_REPORT_14_MODELS.md`
 """
 
 import json
@@ -87,6 +87,9 @@ class ModelParams:
     global_monthly_cap: Optional[float] = None  # % of BASE_COINS per month across sources (soft in this harness)
     bonus_option: Optional[str] = None
     mining_lock_ratio: Optional[float] = None
+    # v7.0 style mechanics (approximations)
+    adaptive_trend_shield_pct: Optional[float] = None  # require price within ±X of moving average
+    miner_burn_fee_pct: float = 0.0  # burn on miner claims reduces sellable emissions
     # protocol gates / special mechanics (v2.6/v3.0/v3.1)
     price_gate_high: Optional[float] = None        # e.g. 0.05
     brake_low: Optional[float] = None              # e.g. 0.02
@@ -291,6 +294,30 @@ HYBRID_C_MODEL = ModelParams(
     brake_low=0.02,
 )
 
+# Protocol v7.0 (Definitive Edition) — approximated into this harness.
+# Source: https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/
+#
+# Key mechanics mapped:
+# - Adaptive Trend Shield: vesting halts if price deviates >±25% from moving average.
+# - Dynamic Discharge: miner sell allowance capped at 20% of retail buy volume (mapped to mining volume cap 20%).
+# - Setup Grace Period: X-tier miners hard-locked 6 months (mapped to mining_lock_months=6).
+# - Ecosystem Burn Guard: 2.5% burn on high-tier claims (mapped to miner_burn_fee_pct=2.5%).
+PROTOCOL_V70_MODEL = ModelParams(
+    name="Protocol v7.0",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=21,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    model_type="time_based",
+    price_gate_high=0.05,
+    brake_low=0.02,
+    adaptive_trend_shield_pct=0.25,
+    mining_lock_months=6,
+    mining_volume_cap_pct=0.20,
+    miner_burn_fee_pct=0.025,
+)
+
 MODELS = [
     ORIGINAL_MODEL,
     HYBRID_MODEL,
@@ -305,6 +332,7 @@ MODELS = [
     PROTOCOL_V57_MODEL,
     PROTOCOL_V58_MODEL,
     HYBRID_C_MODEL,
+    PROTOCOL_V70_MODEL,
 ]
 
 # =============================================================================
@@ -479,6 +507,7 @@ def simulate_month_path(
 
         # baseline reference price uses last observed price as market price for gating decisions
         last_price = prices[-1] if prices else TARGET_PRICE
+        current_vwap = vwap_30(prices)
 
         # --- vesting delta (path dependent)
         if month == 0:
@@ -510,6 +539,11 @@ def simulate_month_path(
             # emergency brake (if defined)
             if params.brake_low is not None and last_price < params.brake_low:
                 vested_delta = 0
+
+            # Adaptive Trend Shield (v7.0): halt vesting if price deviates too far from moving average.
+            if params.adaptive_trend_shield_pct is not None and current_vwap > 0:
+                if abs(last_price - current_vwap) / current_vwap > params.adaptive_trend_shield_pct:
+                    vested_delta = 0
 
             # price gate behaviors
             if params.price_gate_high is not None and last_price < params.price_gate_high:
@@ -556,7 +590,8 @@ def simulate_month_path(
 
         # miners: sell 50-70% of their liquid emissions to cover costs (stochastic)
         miner_sell_frac = random.uniform(0.50, 0.70)
-        mining_sell_usd = mining_liquid_this_month * miner_sell_frac * reference_price
+        miner_sellable_tokens = mining_liquid_this_month * (1.0 - max(0.0, min(1.0, params.miner_burn_fee_pct)))
+        mining_sell_usd = miner_sellable_tokens * miner_sell_frac * reference_price
 
         # prelaunch migration: assume 10-40% sells quickly (stochastic)
         prelaunch_sell_frac = random.uniform(0.10, 0.40)
@@ -807,12 +842,12 @@ def main() -> None:
         },
     }
 
-    out_json = Path("data/results/second_opinion_compare_results_13_models.json")
+    out_json = Path("data/results/second_opinion_compare_results_14_models.json")
     out_json.parent.mkdir(parents=True, exist_ok=True)
     out_json.write_text(json.dumps(output, indent=2))
 
     # Optional: store the full raw cube as gzip for offline triage (kept out of markdown generator).
-    raw_out_gz = Path("data/results/second_opinion_compare_results_13_models_raw.json.gz")
+    raw_out_gz = Path("data/results/second_opinion_compare_results_14_models_raw.json.gz")
     raw_payload = {
         "timestamp": output["timestamp"],
         "models": [m.__dict__ for m in MODELS],
@@ -890,7 +925,7 @@ def main() -> None:
                 notes = "stress"
             lines.append(f"| {scenario['name']} | {fmt_pct(a['roi_avg'])} | {fmt_pct(b['roi_avg'])} | {notes} |\n")
 
-    out_md = Path("docs/vesting/SECOND_OPINION_COMPARE_REPORT_13_MODELS.md")
+    out_md = Path("docs/vesting/SECOND_OPINION_COMPARE_REPORT_14_MODELS.md")
     out_md.parent.mkdir(parents=True, exist_ok=True)
     out_md.write_text("".join(lines))
 

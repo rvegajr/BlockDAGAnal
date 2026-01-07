@@ -194,7 +194,7 @@ python3 scripts/all_model_liquidity_tier_second_opinion.py
 
 ### Simulation Reports
 - [Hybrid Tokenomics Analysis](docs/reports/HYBRID_TOKENOMICS_ANALYSIS.md)
-- [Second Opinion Report (13 Models)](docs/vesting/SECOND_OPINION_COMPARE_REPORT_13_MODELS.md)
+- [Second Opinion Report (14 Models)](docs/vesting/SECOND_OPINION_COMPARE_REPORT_14_MODELS.md)
 - [Third Opinion Report](docs/reports/THIRD_OPINION_V31_REPORT.md)
 
 </details>

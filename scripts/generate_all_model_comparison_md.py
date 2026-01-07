@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 
-IN_JSON = Path("data/results/second_opinion_compare_results_13_models.json")
+IN_JSON = Path("data/results/second_opinion_compare_results_14_models.json")
 OUT_MD = Path("docs/vesting/ALL_MODEL_COMPARISON.md")
 
 INVESTMENT_REF = "9000"
