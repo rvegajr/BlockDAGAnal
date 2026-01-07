@@ -8,7 +8,7 @@ Goal:
 - Uses the same "second opinion" methodology as `scripts/hybrid_tokenomics_second_opinion_compare.py`:
   baseline (Liquidity/Circulating) + order-book depth + sell-pressure impacts.
 
-Models (7):
+Models:
 - Original Model
 - Hybrid Model
 - Protocol v2.6
@@ -16,6 +16,13 @@ Models (7):
 - Protocol v3.1 (Adjusted)
 - Hybrid B
 - Hybrid Tokenomics (Solvency-Anchored)
+- Harris Model
+- Protocol v5.3
+- Protocol v5.5
+- Protocol v5.7
+- Protocol v5.8
+- HybridC
+- Protocol v7.0
 
 What we run:
 - For each liquidity tier and each of the 10 choppy scenarios:
@@ -187,6 +194,123 @@ HYBRID_TOKENOMICS = ModelParams(
 )
 
 MODELS = [ORIGINAL_MODEL, HYBRID_MODEL, PROTOCOL_V26, PROTOCOL_V30, PROTOCOL_V31, HYBRID_B, HYBRID_TOKENOMICS]
+
+# Harris model (PDF). Approximated as high TGE + fast vesting with reduced early miner liquidity.
+HARRIS_MODEL = ModelParams(
+    name="Harris Model",
+    tge_percent=10.0,
+    cliff_months=0,
+    vesting_months=9,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    mining_lock_ratio=0.75,
+)
+
+# v5.x family (spec pages). Approximated using existing gates + volume peg.
+PROTOCOL_V53 = ModelParams(
+    name="Protocol v5.3",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=21,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    use_volume_peg=True,
+    vest_volume_peg_pct=0.02,
+    mining_volume_cap_pct=0.20,
+)
+PROTOCOL_V55 = ModelParams(
+    name="Protocol v5.5",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=21,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    use_volume_peg=True,
+    vest_volume_peg_pct=0.02,
+    mining_volume_cap_pct=0.20,
+    mining_lock_months=12,
+)
+PROTOCOL_V57 = ModelParams(
+    name="Protocol v5.7",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=21,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    use_volume_peg=True,
+    vest_volume_peg_pct=0.02,
+    mining_volume_cap_pct=0.20,
+    drip_factor_between=0.15,
+)
+PROTOCOL_V58 = ModelParams(
+    name="Protocol v5.8",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=21,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    use_volume_peg=True,
+    vest_volume_peg_pct=0.02,
+    mining_volume_cap_pct=0.20,
+    drip_factor_between=0.15,
+    mining_lock_months=12,
+)
+
+# HybridC (spreadsheet). Approximated as state-driven with a hard monthly cap and heavy locks.
+HYBRID_C = ModelParams(
+    name="HybridC",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=36,
+    emission_cap=0.20,
+    mandatory_stake_pct=50.0,
+    state_driven_release=True,
+    global_monthly_cap=0.30,
+    mining_lock_ratio=0.85,
+    price_gate_high=0.05,
+    brake_low=0.02,
+)
+
+# Protocol v7.0 (Definitive Edition) — approximated into this harness.
+# Source: https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/
+PROTOCOL_V70 = ModelParams(
+    name="Protocol v7.0",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=21,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    drip_factor_between=0.15,
+    mining_lock_months=6,
+    mining_volume_cap_pct=0.20,
+)
+
+MODELS = [
+    ORIGINAL_MODEL,
+    HYBRID_MODEL,
+    PROTOCOL_V26,
+    PROTOCOL_V30,
+    PROTOCOL_V31,
+    HYBRID_B,
+    HYBRID_TOKENOMICS,
+    HARRIS_MODEL,
+    PROTOCOL_V53,
+    PROTOCOL_V55,
+    PROTOCOL_V57,
+    PROTOCOL_V58,
+    HYBRID_C,
+    PROTOCOL_V70,
+]
 
 
 def investor_base_tokens(investment_usd: float) -> int:

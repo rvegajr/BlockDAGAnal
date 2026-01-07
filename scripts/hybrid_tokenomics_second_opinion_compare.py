@@ -869,7 +869,7 @@ def main() -> None:
         return f"${x:,.0f}"
 
     lines: List[str] = []
-    lines.append("# Second Opinion Report (13 Models): 100 Sims Comparison + Investment-Level ROI\n")
+    lines.append(f"# Second Opinion Report ({len(MODELS)} Models): 100 Sims Comparison + Investment-Level ROI\n")
     lines.append(f"**Generated**: {output['timestamp']}\n")
     lines.append("## Methodology\n")
     lines.append("- **Pricing**: baseline (Liquidity / Circulating) + order-book depth + sell-pressure impacts\n")

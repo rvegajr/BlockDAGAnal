@@ -1,4 +1,4 @@
-# 13-Model Comprehensive Analysis
+# 13-Model Comprehensive Analysis (Legacy)
 
 **Generated**: 2026-01-05  
 **Data Source**: BTC historical prices 2015-2024 (10 years of actual crypto market cycles)  
@@ -9,9 +9,9 @@
 
 ## Executive Summary
 
-We tested **13 tokenomics protocols** using real-world historical crypto market data to determine which provides the best investor outcomes. The results reveal a clear hierarchy based on how each model handles sell pressure, liquidity preservation, and market volatility.
+We tested **13 tokenomics protocols** using real-world historical crypto market data to determine which provides the best investor outcomes. This document is retained as a **legacy snapshot**; the repo now includes a **14th model (Protocol v7.0)** in the main comparisons.
 
-### 🏆 Final Rankings (by Conservative Year 3 ROI)
+### 🏆 Final Rankings (by Conservative Year 3 ROI) — 13-model snapshot
 
 | Rank | Model | Author | Y3 ROI | Verdict |
 |:----:|-------|--------|-------:|---------|
@@ -331,7 +331,7 @@ The **drip throttling** is the key differentiator. When price falls below $0.05 
 
 ## Appendix: Full Data Tables
 
-### Conservative Scenario (All 13 Models)
+### Conservative Scenario (All 13 Models) — 13-model snapshot
 
 | Model | Y1 | Y2 | Y3 | Y6 | $100k→Y3 | $100k→Y6 |
 |-------|---:|---:|---:|---:|---------:|---------:|

@@ -1,5 +1,5 @@
-# Second Opinion Report (13 Models): 100 Sims Comparison + Investment-Level ROI
-**Generated**: 2026-01-06T21:58:05.679777
+# Second Opinion Report (14 Models): 100 Sims Comparison + Investment-Level ROI
+**Generated**: 2026-01-06T22:37:25.224426
 ## Methodology
 - **Pricing**: baseline (Liquidity / Circulating) + order-book depth + sell-pressure impacts
 - **Buy-support fraction**: 30%
