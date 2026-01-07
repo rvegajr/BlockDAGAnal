@@ -115,43 +115,59 @@ MODELS = [
         mining_lock_ratio=0.75,  # Miners incentivized to hold 75% for multiplier
     ),
 
-    # === MAXIME'S PROTOCOL FAMILY (v5.x) ===
-    # Source: https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/
-    # Original protocol with 36-month bonus vesting, 6 pillars: Oracle Gate, Mining Cap, Emergency Brake, Volume Peg, DAO Consensus, Ultimatum Burn
+    # === PROTOCOL FAMILY (v5.x) ===
+    # Sources:
+    # - https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/
+    # - https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/
+    # - https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/
+    # - https://a-changer-plus-tard.github.io/Protocol-v5.8-Revised-Protocol-Bonus-48-Months/
     ModelParams(
-        "Protocol v5.3 (Maxime)", 3.0, 3, 21, 0.20, 0.0,
+        "Protocol v5.3", 3.0, 3, 21, 0.20, 0.0,
         price_gate_high=0.05, brake_low=0.02, use_volume_peg=True, vest_volume_peg_pct=0.02, mining_volume_cap_pct=0.20,
     ),
     # Source: https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/
     # Same as v5.3 but with 48-month bonus vesting (longer lock = less pressure)
     ModelParams(
-        "Protocol v5.5 (Maxime)", 3.0, 3, 21, 0.20, 0.0,
+        "Protocol v5.5", 3.0, 3, 21, 0.20, 0.0,
         price_gate_high=0.05, brake_low=0.02, use_volume_peg=True, vest_volume_peg_pct=0.02, mining_volume_cap_pct=0.20,
         mining_lock_months=12,  # Extended bonus lock period effect
     ),
     # Source: https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/
     # REVISED: Adaptive Trend Shield (15% trailing MA), Dynamic Discharge (20% buy-wall), Circuit Breaker (auto-buyback), Block Streaming
     ModelParams(
-        "Protocol v5.7 (Maxime)", 3.0, 3, 21, 0.20, 0.0,
+        "Protocol v5.7", 3.0, 3, 21, 0.20, 0.0,
         price_gate_high=0.05, brake_low=0.02, use_volume_peg=True, vest_volume_peg_pct=0.02, mining_volume_cap_pct=0.20,
         drip_factor_between=0.15,  # Block-by-block streaming effect
     ),
     # Source: https://a-changer-plus-tard.github.io/Protocol-v5.8-Revised-Protocol-Bonus-48-Months/
     # Same as v5.7 but with 48-month bonus vesting
     ModelParams(
-        "Protocol v5.8 (Maxime)", 3.0, 3, 21, 0.20, 0.0,
+        "Protocol v5.8", 3.0, 3, 21, 0.20, 0.0,
         price_gate_high=0.05, brake_low=0.02, use_volume_peg=True, vest_volume_peg_pct=0.02, mining_volume_cap_pct=0.20,
         drip_factor_between=0.15, mining_lock_months=12,  # Extended bonus lock + streaming
     ),
 
-    # === INGO JEANROND'S HYBRIDC MODEL ===
+    # HybridC
     # Source: docs/HybridC_Tokenomics_Test.xlsx
-    # Ultra-conservative: 0.3% monthly cap, 50% auto-stake, state-driven (Normal/Restricted/Emergency factors)
     ModelParams(
-        "HybridC (Ingo)", 3.0, 3, 36, 0.20, 50.0,
+        "HybridC", 3.0, 3, 36, 0.20, 50.0,
         state_driven_release=True, global_monthly_cap=0.3,  # Very conservative 0.3% monthly cap
         mining_lock_ratio=0.85,  # 85% mining locked (only 15% liquid per Excel)
         price_gate_high=0.05, brake_low=0.02,
+    ),
+
+    # Protocol v7.0 (Definitive Edition) — mapped into this harness as close as possible.
+    # Source: https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/
+    # Notes:
+    # - Adaptive Trend Shield (±25% MA) and circuit-breaker buybacks are not explicitly modeled here.
+    # - Dynamic Discharge is approximated via mining volume cap (20% of proxy daily volume).
+    # - Setup grace period is approximated via mining_lock_months=6.
+    ModelParams(
+        "Protocol v7.0", 3.0, 3, 21, 0.20, 0.0,
+        price_gate_high=0.05, brake_low=0.02,
+        drip_factor_between=0.15,
+        mining_lock_months=6,
+        mining_volume_cap_pct=0.20,
     ),
 ]
 
