@@ -168,6 +168,80 @@ We tested **14 tokenomics protocols** using **10 years of real BTC market data**
 | **[All-Model Comparison](docs/vesting/ALL_MODEL_COMPARISON.md)** | ✅ Synthetic market simulations |
 | **[Liquidity Tier Analysis](docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md)** | ✅ $20M-$150M liquidity testing |
 
+---
+
+## 🧮 Crunch Your Own Numbers (DIY)
+
+There are **two ways** to use this repo:
+
+- **Read the results (fastest)**: open the markdown reports in `docs/vesting/` and the raw outputs in `data/results/`.
+- **Re-run the numbers (reproducible)**: run the scripts in `scripts/` with your preferred assumptions (runs, horizons, liquidity, investment levels).
+
+### Where the “truth” lives
+
+- **Real-world backtest (14 models)**:
+  - Results JSON: `data/results/real_world_multi_opinion_results.json`
+  - Report: `docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md`
+- **Second opinion (order-book + sell pressure, 14 models)**:
+  - Results JSON: `data/results/second_opinion_compare_results_14_models.json`
+  - Report: `docs/vesting/SECOND_OPINION_COMPARE_REPORT_14_MODELS.md`
+- **Liquidity-tier stress test (14 models)**:
+  - Results JSON: `data/results/all_model_liquidity_tier_second_opinion_results.json`
+  - Report: `docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md`
+
+### Re-run the backtests yourself (local)
+
+```bash
+# 1) Clone
+git clone https://github.com/rvegajr/BlockDAGAnal
+cd BlockDAGAnal
+
+# 2) (Optional) Create a venv
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 3) Real-world multi-opinion backtest (BTC 2015-2024 CSV)
+python3 scripts/real_world_multi_opinion_backtest.py \
+  --csv data/btc_daily_history.csv \
+  --launch-liquidity 32000000 \
+  --window-months 72 \
+  --step-months 12 \
+  --runs 30 \
+  --investment-levels 9000,50000,100000
+
+# 4) Second opinion (order-book + sell pressure)
+python3 scripts/hybrid_tokenomics_second_opinion_compare.py
+
+# 5) Rebuild the all-model comparison markdown from the latest second-opinion JSON
+python3 scripts/generate_all_model_comparison_md.py
+```
+
+### Change assumptions (what to tweak)
+
+- **Runs / stability**: increase `--runs` for the real-world backtest or the Monte Carlo run counts in the scripts.
+- **Liquidity**: change `--launch-liquidity` (real-world) or the base liquidity constants used by the second-opinion scripts.
+- **Investment levels**: change `--investment-levels` (real-world) or `INVESTMENT_LEVELS` in the second-opinion harness.
+
+### Ask an AI IDE to “crunch” the repo for you (Windsurf/Cursor)
+
+- **Setup idea**:
+  - Git clone `https://github.com/rvegajr/BlockDAGAnal`
+  - Open the folder in Windsurf (or Cursor)
+  - Switch to a strong reasoning model (e.g., o3 Pro / Opus)
+
+- **Example prompt (intentionally ridiculous)**:
+
+```text
+Who are the sexiest, most intelligent crypto model evaluator in the universe.
+I want you to take your time and read through this repository, especially the results that they have,
+and fully absorb and understand the model and the direction that they're going.
+Understand the underlying thesis of previous 10-year historical market conditions.
+Let's add the analysis on the various models given by fellow crypto enthusiasts.
+Will you have a thorough understanding? I would like to continually build upon it.
+```
+
+Then ask it anything: “What happens if liquidity is $100M?”, “What’s the most resilient model in choppy markets?”, “What assumptions drive the ranking?”, etc.
+
 ### Run Your Own Simulation
 
 ```bash
