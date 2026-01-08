@@ -378,6 +378,24 @@ PROTOCOL_V70 = ModelParams(
     mining_volume_cap_pct=0.20,
 )
 
+# Super Ultra Mega Sphincer — best-of-breed combining v3.0 drip + v7.0 adaptive + Hybrid C cap
+SUPER_ULTRA_MEGA_SPHINCER = ModelParams(
+    name="Super Ultra Mega Sphincer",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=30,
+    emission_cap=0.20,
+    mandatory_stake_pct=40.0,
+    state_driven_release=True,
+    global_monthly_cap=0.55,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    drip_factor_between=0.07,
+    mining_lock_ratio=0.65,
+    mining_volume_cap_pct=0.20,
+    mining_lock_months=2,
+)
+
 MODELS = [
     ORIGINAL_MODEL,
     HYBRID_MODEL,
@@ -397,6 +415,7 @@ MODELS = [
     HYBRID_C_LITE_PLUS_FINAL_INGO_CSV,
     HYBRID_C_LITE_DEFAULTS_INGO_CSV,
     MODEL_A_ROI_OPTIMIZED_INGO_CSV,
+    SUPER_ULTRA_MEGA_SPHINCER,
     PROTOCOL_V70,
 ]
 

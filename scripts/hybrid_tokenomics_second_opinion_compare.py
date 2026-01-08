@@ -378,6 +378,26 @@ HYBRID_C_LITE_DEFAULTS_MODEL = ModelParams(
     brake_low=0.02,
 )
 
+# Super Ultra Mega Sphincer best-of-breed model
+SUPER_ULTRA_MEGA_SPHINCER_MODEL = ModelParams(
+    name="Super Ultra Mega Sphincer",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=30,
+    emission_cap=0.20,
+    mandatory_stake_pct=40.0,
+    model_type="state_driven",
+    state_driven_release=True,
+    global_monthly_cap=0.55,
+    adaptive_trend_shield_pct=0.20,
+    drip_factor_between=0.07,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    mining_lock_ratio=0.65,
+    mining_volume_cap_pct=0.20,
+    mining_lock_months=2,
+)
+
 # Model A (ROI Optimized): deliberately aggressive benchmark model.
 # Source: docs/sources/Ingo  Projects/Model_A_ROI_Final_Test.csv
 MODEL_A_ROI_OPTIMIZED_MODEL = ModelParams(
@@ -435,7 +455,8 @@ MODELS = [
     HYBRID_C_INGO_CSV_MODEL,
     HYBRID_C_LITE_PLUS_FINAL_MODEL,
     HYBRID_C_LITE_DEFAULTS_MODEL,
-    MODEL_A_ROI_OPTIMIZED_MODEL,
+MODEL_A_ROI_OPTIMIZED_MODEL,
+    SUPER_ULTRA_MEGA_SPHINCER_MODEL,
     PROTOCOL_V70_MODEL,
 ]
 

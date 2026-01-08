@@ -205,6 +205,19 @@ MODELS = [
         mining_lock_months=6,
         mining_volume_cap_pct=0.20,
     ),
+
+    # Super Ultra Mega Sphincer — best-of-breed combining v3.0 drip + v7.0 adaptive + Hybrid C cap
+    ModelParams(
+        "Super Ultra Mega Sphincer", 3.0, 3, 30, 0.20, 40.0,
+        state_driven_release=True,
+        global_monthly_cap=0.55,
+        price_gate_high=0.05,
+        brake_low=0.02,
+        drip_factor_between=0.07,
+        mining_lock_ratio=0.65,
+        mining_volume_cap_pct=0.20,
+        mining_lock_months=2,
+    ),
 ]
 
 
