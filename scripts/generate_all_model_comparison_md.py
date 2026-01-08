@@ -12,7 +12,27 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 
-IN_JSON = Path("data/results/second_opinion_compare_results_14_models.json")
+def latest_second_opinion_results_json() -> Path:
+    """
+    Pick the newest 'second_opinion_compare_results_{N}_models.json' by highest N.
+    Falls back to the legacy 14-model filename if no matches exist.
+    """
+    candidates = list(Path("data/results").glob("second_opinion_compare_results_*_models.json"))
+    best: tuple[int, Path] | None = None
+    for p in candidates:
+        stem = p.name.replace("second_opinion_compare_results_", "").replace("_models.json", "")
+        try:
+            n = int(stem)
+        except ValueError:
+            continue
+        if best is None or n > best[0]:
+            best = (n, p)
+    if best is not None:
+        return best[1]
+    return Path("data/results/second_opinion_compare_results_14_models.json")
+
+
+IN_JSON = latest_second_opinion_results_json()
 OUT_MD = Path("docs/vesting/ALL_MODEL_COMPARISON.md")
 
 INVESTMENT_REF = "9000"

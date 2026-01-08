@@ -21,8 +21,8 @@ What it produces:
 - Focus comparison: Hybrid Tokenomics (Solvency-Anchored) vs Hybrid B (the 4th model)
 
 Outputs:
-- `data/results/second_opinion_compare_results_14_models.json`
-- `docs/vesting/SECOND_OPINION_COMPARE_REPORT_14_MODELS.md`
+- `data/results/second_opinion_compare_results_{N}_models.json`
+- `docs/vesting/SECOND_OPINION_COMPARE_REPORT_{N}_MODELS.md`
 """
 
 import json
@@ -294,6 +294,105 @@ HYBRID_C_MODEL = ModelParams(
     brake_low=0.02,
 )
 
+# =============================================================================
+# Additional Ingo CSV models (source material)
+# =============================================================================
+#
+# Notes:
+# - These CSVs describe rule-driven monetary policy with ranges (not a single
+#   canonical parameter set). We map them into this harness as fixed-point
+#   approximations so they can be compared consistently against the rest of the
+#   suite.
+# - Sources live under `docs/sources/Ingo  Projects/`.
+#
+
+# Hybrid (Ingo CSV): state-driven, wide global cap range (0.3–1.0%/mo), optional staking.
+# Source: docs/sources/Ingo  Projects/Hybrid.csv
+HYBRID_INGO_CSV_MODEL = ModelParams(
+    name="Hybrid (Ingo CSV)",
+    tge_percent=3.0,
+    cliff_months=3,          # "Hard cliff, 90 days"
+    vesting_months=36,       # mapped as a max-duration vesting window (releases are still state-driven here)
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,  # CSV states "optional" auto-staking
+    model_type="state_driven",
+    state_driven_release=True,
+    global_monthly_cap=0.70,   # midpoint of 0.3–1.0% range
+    mining_lock_ratio=0.70,    # "≥70% locked" in early phase
+    price_gate_high=0.05,
+    brake_low=0.02,
+)
+
+# Hybrid C (Ingo CSV): strict 0.30%/30d cap, deterministic states, stronger auto-stake range.
+# Source: docs/sources/Ingo  Projects/hybrid C.csv
+HYBRID_C_INGO_CSV_MODEL = ModelParams(
+    name="Hybrid C (Ingo CSV)",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=36,
+    emission_cap=0.20,
+    mandatory_stake_pct=55.0,  # midpoint of 40–70% "Auto-staking"
+    model_type="state_driven",
+    state_driven_release=True,
+    global_monthly_cap=0.30,
+    mining_lock_ratio=0.65,    # midpoint of 30–40% liquid => 60–70% locked
+    price_gate_high=0.05,
+    brake_low=0.02,
+)
+
+# Hybrid C Lite Plus (Final): looser cap (0.40–0.45%/30d), lower auto-stake, higher miner liquidity.
+# Source: docs/sources/Ingo  Projects/Hybrid_C_Lite_Plus_Final.csv
+HYBRID_C_LITE_PLUS_FINAL_MODEL = ModelParams(
+    name="Hybrid C Lite+ (Final, Ingo CSV)",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=36,
+    emission_cap=0.20,
+    mandatory_stake_pct=30.0,  # midpoint of 20–40% auto-staking
+    model_type="state_driven",
+    state_driven_release=True,
+    global_monthly_cap=0.45,   # upper bound of 0.40–0.45% range
+    mining_lock_ratio=0.55,    # midpoint of 45–50% liquid => 50–55% locked
+    price_gate_high=0.05,
+    brake_low=0.02,
+)
+
+# Hybrid C Lite (Defaults): parameter defaults snapshot (distinct from Lite+ Final).
+# Source: docs/sources/Ingo  Projects/Hybrid_C_Lite_Defaults.csv
+HYBRID_C_LITE_DEFAULTS_MODEL = ModelParams(
+    name="Hybrid C Lite (Defaults, Ingo CSV)",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=36,
+    emission_cap=0.20,
+    # CSV: Auto-staking 30–60% (use midpoint)
+    mandatory_stake_pct=45.0,
+    model_type="state_driven",
+    state_driven_release=True,
+    # CSV: Max new circulation / 30d = 0.45%
+    global_monthly_cap=0.45,
+    # CSV: Mining liquid 40–45%, locked 35–45%, performance 10–20%.
+    # We treat (locked + performance) as "effectively locked" supply in this harness.
+    mining_lock_ratio=0.55,
+    price_gate_high=0.05,
+    brake_low=0.02,
+)
+
+# Model A (ROI Optimized): deliberately aggressive benchmark model.
+# Source: docs/sources/Ingo  Projects/Model_A_ROI_Final_Test.csv
+MODEL_A_ROI_OPTIMIZED_MODEL = ModelParams(
+    name="Model A (ROI Optimized, Ingo CSV)",
+    tge_percent=15.0,
+    cliff_months=0,
+    vesting_months=12,        # "Linear, 12 months"
+    emission_cap=1.0,         # "High, volume-scaled" mining output (mapped to uncapped in this harness)
+    mandatory_stake_pct=0.0,
+    model_type="time_based",
+    mining_lock_ratio=0.20,   # 80% liquid mining rewards
+    price_gate_high=None,
+    brake_low=None,
+)
+
 # Protocol v7.0 (Definitive Edition) — approximated into this harness.
 # Source: https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/
 #
@@ -332,6 +431,11 @@ MODELS = [
     PROTOCOL_V57_MODEL,
     PROTOCOL_V58_MODEL,
     HYBRID_C_MODEL,
+    HYBRID_INGO_CSV_MODEL,
+    HYBRID_C_INGO_CSV_MODEL,
+    HYBRID_C_LITE_PLUS_FINAL_MODEL,
+    HYBRID_C_LITE_DEFAULTS_MODEL,
+    MODEL_A_ROI_OPTIMIZED_MODEL,
     PROTOCOL_V70_MODEL,
 ]
 
@@ -842,12 +946,13 @@ def main() -> None:
         },
     }
 
-    out_json = Path("data/results/second_opinion_compare_results_14_models.json")
+    model_count = len(MODELS)
+    out_json = Path(f"data/results/second_opinion_compare_results_{model_count}_models.json")
     out_json.parent.mkdir(parents=True, exist_ok=True)
     out_json.write_text(json.dumps(output, indent=2))
 
     # Optional: store the full raw cube as gzip for offline triage (kept out of markdown generator).
-    raw_out_gz = Path("data/results/second_opinion_compare_results_14_models_raw.json.gz")
+    raw_out_gz = Path(f"data/results/second_opinion_compare_results_{model_count}_models_raw.json.gz")
     raw_payload = {
         "timestamp": output["timestamp"],
         "models": [m.__dict__ for m in MODELS],
@@ -925,7 +1030,7 @@ def main() -> None:
                 notes = "stress"
             lines.append(f"| {scenario['name']} | {fmt_pct(a['roi_avg'])} | {fmt_pct(b['roi_avg'])} | {notes} |\n")
 
-    out_md = Path("docs/vesting/SECOND_OPINION_COMPARE_REPORT_14_MODELS.md")
+    out_md = Path(f"docs/vesting/SECOND_OPINION_COMPARE_REPORT_{model_count}_MODELS.md")
     out_md.parent.mkdir(parents=True, exist_ok=True)
     out_md.write_text("".join(lines))
 

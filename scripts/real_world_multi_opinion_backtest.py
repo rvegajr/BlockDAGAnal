@@ -156,6 +156,42 @@ MODELS = [
         price_gate_high=0.05, brake_low=0.02,
     ),
 
+    # === INGO CSV MODELS (additional) ===
+    # Sources:
+    # - docs/sources/Ingo  Projects/Hybrid.csv
+    # - docs/sources/Ingo  Projects/hybrid C.csv
+    # - docs/sources/Ingo  Projects/Hybrid_C_Lite_Plus_Final.csv
+    # - docs/sources/Ingo  Projects/Model_A_ROI_Final_Test.csv
+    ModelParams(
+        "Hybrid (Ingo CSV)", 3.0, 3, 36, 0.20, 0.0,
+        state_driven_release=True, global_monthly_cap=0.70,
+        mining_lock_ratio=0.70,
+        price_gate_high=0.05, brake_low=0.02,
+    ),
+    ModelParams(
+        "Hybrid C (Ingo CSV)", 3.0, 3, 36, 0.20, 55.0,
+        state_driven_release=True, global_monthly_cap=0.30,
+        mining_lock_ratio=0.65,
+        price_gate_high=0.05, brake_low=0.02,
+    ),
+    ModelParams(
+        "Hybrid C Lite+ (Final, Ingo CSV)", 3.0, 3, 36, 0.20, 30.0,
+        state_driven_release=True, global_monthly_cap=0.45,
+        mining_lock_ratio=0.55,
+        price_gate_high=0.05, brake_low=0.02,
+    ),
+    # Source: docs/sources/Ingo  Projects/Hybrid_C_Lite_Defaults.csv
+    ModelParams(
+        "Hybrid C Lite (Defaults, Ingo CSV)", 3.0, 3, 36, 0.20, 45.0,
+        state_driven_release=True, global_monthly_cap=0.45,
+        mining_lock_ratio=0.55,
+        price_gate_high=0.05, brake_low=0.02,
+    ),
+    ModelParams(
+        "Model A (ROI Optimized, Ingo CSV)", 15.0, 0, 12, 1.0, 0.0,
+        mining_lock_ratio=0.20,
+    ),
+
     # Protocol v7.0 (Definitive Edition) — mapped into this harness as close as possible.
     # Source: https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/
     # Notes:
@@ -719,7 +755,8 @@ def main():
         "opinions": opinions,
     }
 
-    json_path = "real_world_multi_opinion_results.json"
+    json_path = "data/results/real_world_multi_opinion_results.json"
+    Path(json_path).parent.mkdir(parents=True, exist_ok=True)
     with open(json_path, "w") as f:
         json.dump(output, f, indent=2, default=str)
     print(f"✅ wrote {json_path}")

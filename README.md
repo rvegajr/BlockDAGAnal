@@ -50,13 +50,20 @@ If 10 years of the S&P 500 means the odds of positive returns are in my favor, I
 | Protocol v7.0 | [`https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/`](https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/) |
 | Harris Model | [`https://github.com/harrisjustinhagen-oss/Vesting-Economy_Harris/blob/main/BDAG%20VESTING%20HARRIS.pdf`](https://github.com/harrisjustinhagen-oss/Vesting-Economy_Harris/blob/main/BDAG%20VESTING%20HARRIS.pdf) |
 | HybridC | Spreadsheet: [`docs/HybridC_Tokenomics_Test.xlsx`](docs/HybridC_Tokenomics_Test.xlsx) |
+| Hybrid (Ingo CSV) | CSV source: [`docs/sources/Ingo  Projects/Hybrid.csv`](docs/sources/Ingo%20%20Projects/Hybrid.csv) |
+| Hybrid C (Ingo CSV) | CSV source: [`docs/sources/Ingo  Projects/hybrid C.csv`](docs/sources/Ingo%20%20Projects/hybrid%20C.csv) |
+| Hybrid C Lite+ (Final, Ingo CSV) | CSV source: [`docs/sources/Ingo  Projects/Hybrid_C_Lite_Plus_Final.csv`](docs/sources/Ingo%20%20Projects/Hybrid_C_Lite_Plus_Final.csv) |
+| Hybrid C Lite (Defaults, Ingo CSV) | CSV source: [`docs/sources/Ingo  Projects/Hybrid_C_Lite_Defaults.csv`](docs/sources/Ingo%20%20Projects/Hybrid_C_Lite_Defaults.csv) |
+| Model A (ROI Optimized, Ingo CSV) | CSV source: [`docs/sources/Ingo  Projects/Model_A_ROI_Final_Test.csv`](docs/sources/Ingo%20%20Projects/Model_A_ROI_Final_Test.csv) |
 | Ingo Projects (CSV sources) | [`docs/sources/Ingo  Projects/README.md`](docs/sources/Ingo%20%20Projects/README.md) |
 
-## 📊 Comprehensive Simulation Analysis (All 14 Protocols)
+## 📊 Comprehensive Simulation Analysis (All 19 Models)
 
-We tested **14 tokenomics protocols** using **10 years of real BTC market data** (2015-2024), including COVID crash, FTX collapse, bull runs, and bear markets.
+We tested **19 tokenomics models** using **10 years of real BTC market data** (2015-2024), including COVID crash, FTX collapse, bull runs, and bear markets.
 
-### The 14 Protocols Tested
+This includes the **core 14 protocols** plus **5 additional “Ingo CSV” variants** that were found under `docs/sources/Ingo  Projects/` and added to the same harnesses for consistency.
+
+### The 19 Models Tested
 
 | # | Protocol | What It Does |
 |---|----------|--------------|
@@ -74,6 +81,11 @@ We tested **14 tokenomics protocols** using **10 years of real BTC market data**
 | 12 | **Protocol v5.8** | Revised: Adaptive Shield + Block Streaming, 48mo ([source](https://a-changer-plus-tard.github.io/Protocol-v5.8-Revised-Protocol-Bonus-48-Months/)) |
 | 13 | **HybridC** | Ultra-conservative: 0.3% monthly cap, 50% auto-stake |
 | 14 | **Protocol v7.0** | Definitive edition w/ 9 pillars (trend shield, dynamic discharge, circuit breaker, daily airdrops, etc.) ([source](https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/)) |
+| 15 | **Hybrid (Ingo CSV)** | State-driven emissions under a wide global cap range (0.3–1.0%/mo) |
+| 16 | **Hybrid C (Ingo CSV)** | State-driven with strict 0.30%/30d global cap |
+| 17 | **Hybrid C Lite+ (Final, Ingo CSV)** | State-driven with 0.40–0.45%/30d cap + lower auto-stake |
+| 18 | **Hybrid C Lite (Defaults, Ingo CSV)** | Defaults snapshot of “Lite” parameters (0.45%/30d cap; higher auto-stake midpoint) |
+| 19 | **Model A (ROI Optimized, Ingo CSV)** | Aggressive ROI benchmark (high TGE, fast vesting, high liquid mining) |
 
 ---
 
@@ -84,42 +96,52 @@ We tested **14 tokenomics protocols** using **10 years of real BTC market data**
 | Rank | Protocol | Y1 | Y3 | Y6 | Verdict |
 |:----:|----------|---:|---:|---:|---------|
 | 1 | **Protocol v3.0** | -58% | **+40%** | +27% | ✅ **WINNER** |
-| 2 | **Protocol v7.0** | -52% | +9% | +9% | 🥈 Strong runner-up |
-| 3 | Protocol v5.8 | -37% | +7% | -14% | 🥈 Strong |
-| 4 | Protocol v5.5 | -38% | +7% | -15% | 🥈 Strong |
-| 5 | Protocol v5.7 | -50% | +4% | -15% | ⚠️ Good |
-| 6 | Protocol v5.3 | -50% | +4% | -15% | ⚠️ Good |
+| 2 | **Protocol v7.0** | -53% | +9% | +9% | 🥈 Strong runner-up |
+| 3 | Protocol v5.8 | -38% | +7% | -14% | 🥈 Strong |
+| 4 | Protocol v5.5 | -38% | +6% | -15% | 🥈 Strong |
+| 5 | Protocol v5.3 | -50% | +4% | -15% | ⚠️ Good |
+| 6 | Protocol v5.7 | -50% | +4% | -15% | ⚠️ Good |
 | 7 | Hybrid Model | -72% | -35% | +3% | Breaks even Y6 |
 | 8 | Protocol v2.6 | -65% | -41% | -49% | ❌ Underperforms |
 | 9 | Original Model | -92% | -45% | +3% | Breaks even Y6 |
-| 10 | Protocol v3.1 | -66% | -47% | -54% | ❌ Volume peg too restrictive |
+| 10 | Protocol v3.1 (Adjusted) | -66% | -46% | -54% | ❌ Volume peg too restrictive |
 | 11 | Hybrid Tokenomics | -80% | -58% | -27% | ❌ Over-conservative |
-| 12 | HybridC | -83% | -66% | -41% | ❌ Too restrictive |
-| 13 | Harris Model | -83% | -67% | -48% | ❌ TGE too high |
-| 14 | Hybrid B | -86% | -68% | -44% | ❌ Weakest |
+| 12 | Hybrid C (Ingo CSV) | -82% | -63% | -36% | ❌ Too restrictive (cap + gating) |
+| 13 | HybridC | -83% | -66% | -41% | ❌ Too restrictive |
+| 14 | Harris Model | -83% | -67% | -48% | ❌ TGE too high |
+| 15 | Hybrid B | -86% | -68% | -44% | ❌ Weakest |
+| 16 | Hybrid C Lite (Defaults, Ingo CSV) | -85% | -70% | -47% | ❌ Too restrictive |
+| 17 | Model A (ROI Optimized, Ingo CSV) | -84% | -76% | -71% | ❌ High dump risk |
+| 18 | Hybrid C Lite+ (Final, Ingo CSV) | -88% | -76% | -64% | ❌ Too restrictive (still “stuck”) |
+| 19 | Hybrid (Ingo CSV) | -92% | -92% | -86% | ❌ Mostly “stuck” under stress |
 
 ---
 
 ## 💰 Real-World ROI: If You Invest $100,000
 
-### All 14 Protocols — Year 3 / Year 6 Values
+### All 19 Models — Year 3 / Year 6 Values
 
 | Protocol | Conservative | Ideal Growth | With Crashes |
 |----------|--------------|--------------|--------------|
 | **Protocol v3.0** | **$140k / $126k** | **$309k / $745k** | **$106k / $93k** |
 | **Protocol v7.0** | **$109k / $109k** | $245k / $703k | $82k / $79k |
-| Protocol v5.8 | $107k / $86k | $229k / $695k | $85k / $69k |
-| Protocol v5.5 | $107k / $85k | $229k / $696k | $85k / $69k |
-| Protocol v5.7 | $104k / $85k | $224k / $673k | $79k / $67k |
+| Protocol v5.8 | $107k / $86k | $229k / $696k | $85k / $69k |
+| Protocol v5.5 | $106k / $85k | $230k / $696k | $86k / $69k |
 | Protocol v5.3 | $104k / $85k | $225k / $673k | $78k / $67k |
+| Protocol v5.7 | $104k / $85k | $225k / $672k | $78k / $67k |
 | Hybrid Model | $65k / $103k | $253k / $1.34M | $39k / $62k |
 | Original Model | $55k / $103k | $213k / $1.35M | $33k / $62k |
 | Protocol v2.6 | $59k / $51k | $186k / $406k | $35k / $30k |
-| Protocol v3.1 | $54k / $46k | $145k / $387k | $34k / $29k |
+| Protocol v3.1 (Adjusted) | $54k / $46k | $144k / $388k | $34k / $29k |
 | Hybrid Tokenomics | $42k / $73k | $168k / $980k | $22k / $36k |
+| Hybrid C (Ingo CSV) | $37k / $64k | $149k / $870k | $19k / $31k |
 | HybridC | $34k / $59k | $137k / $790k | $16k / $25k |
 | Harris Model | $33k / $52k | $129k / $676k | $20k / $31k |
 | Hybrid B | $32k / $56k | $127k / $761k | $14k / $24k |
+| Hybrid C Lite (Defaults, Ingo CSV) | $30k / $53k | $121k / $709k | $13k / $20k |
+| Model A (ROI Optimized, Ingo CSV) | $24k / $29k | $92k / $382k | $14k / $18k |
+| Hybrid C Lite+ (Final, Ingo CSV) | $24k / $36k | $91k / $535k | $9k / $13k |
+| Hybrid (Ingo CSV) | $8k / $14k | $64k / $378k | $5k / $6k |
 
 ---
 
@@ -152,8 +174,12 @@ We tested **14 tokenomics protocols** using **10 years of real BTC market data**
 | **HybridC** | 0.3% monthly cap is far too restrictive |
 | **Harris Model** | 10% TGE creates massive day-1 sell pressure |
 | **Hybrid B** | State-gating causes tokens to "bunch up" and release in clusters |
+| **Hybrid C (Ingo CSV)** | Very strict cap + gating keeps it “stuck” under stress |
+| **Hybrid C Lite+ / Lite Defaults (Ingo CSV)** | Slightly looser than Hybrid C but still too restrictive for stress regimes |
+| **Hybrid (Ingo CSV)** | Wide parameter ranges, but in stress it behaves as “mostly halted” in this harness |
+| **Model A (ROI Optimized, Ingo CSV)** | Aggressive unlock + high liquid mining: high dump risk dominates |
 
-👉 **[Full per-model analysis with detailed explanations](docs/vesting/13_MODEL_COMPREHENSIVE_ANALYSIS.md)**
+👉 **[Legacy per-model analysis (13-model snapshot)](docs/vesting/13_MODEL_COMPREHENSIVE_ANALYSIS.md)**
 
 ---
 
@@ -162,7 +188,7 @@ We tested **14 tokenomics protocols** using **10 years of real BTC market data**
 | Document | What It Contains |
 |----------|------------------|
 | **[Methodology & Investment Thesis](docs/vesting/METHODOLOGY_AND_INVESTMENT_THESIS.md)** | 📖 Why we use 10-year historical data instead of theoretical models |
-| **[13-Model Comprehensive Analysis](docs/vesting/13_MODEL_COMPREHENSIVE_ANALYSIS.md)** | ✅ Full analysis of the first 13 protocols (v7.0 pending write-up) |
+| **[Legacy 13-Model Comprehensive Analysis](docs/vesting/13_MODEL_COMPREHENSIVE_ANALYSIS.md)** | Legacy snapshot (does not cover later additions like Ingo variants) |
 | **[Investor Comparison (Real-World)](docs/vesting/INVESTOR_COMPARISON_REAL_WORLD.md)** | ✅ ROI tables for all investment levels |
 | **[Multi-Opinion Report](docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md)** | ✅ Conservative + Ideal + Choppy scenarios |
 | **[All-Model Comparison](docs/vesting/ALL_MODEL_COMPARISON.md)** | ✅ Synthetic market simulations |
@@ -179,13 +205,13 @@ There are **two ways** to use this repo:
 
 ### Where the “truth” lives
 
-- **Real-world backtest (14 models)**:
+- **Real-world backtest (19 models)**:
   - Results JSON: `data/results/real_world_multi_opinion_results.json`
   - Report: `docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md`
-- **Second opinion (order-book + sell pressure, 14 models)**:
-  - Results JSON: `data/results/second_opinion_compare_results_14_models.json`
-  - Report: `docs/vesting/SECOND_OPINION_COMPARE_REPORT_14_MODELS.md`
-- **Liquidity-tier stress test (14 models)**:
+- **Second opinion (order-book + sell pressure, 19 models)**:
+  - Results JSON: `data/results/second_opinion_compare_results_19_models.json`
+  - Report: `docs/vesting/SECOND_OPINION_COMPARE_REPORT_19_MODELS.md`
+- **Liquidity-tier stress test (19 models)**:
   - Results JSON: `data/results/all_model_liquidity_tier_second_opinion_results.json`
   - Report: `docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md`
 
@@ -310,4 +336,4 @@ python3 scripts/all_model_liquidity_tier_second_opinion.py
 ---
 
 *Last Updated: January 2026*  
-*Based on: 10 years BTC history + 14 protocols × 3 scenarios × 5 time horizons*
+*Based on: 10 years BTC history + 19 models × 3 scenarios × 5 time horizons*

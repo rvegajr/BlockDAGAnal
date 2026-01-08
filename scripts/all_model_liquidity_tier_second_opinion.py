@@ -279,6 +279,89 @@ HYBRID_C = ModelParams(
     brake_low=0.02,
 )
 
+# =============================================================================
+# Additional Ingo CSV models (source material)
+# =============================================================================
+#
+# Sources live under `docs/sources/Ingo  Projects/`.
+#
+
+# Hybrid (Ingo CSV): state-driven, wide global cap range (0.3–1.0%/mo), optional staking.
+# Source: docs/sources/Ingo  Projects/Hybrid.csv
+HYBRID_INGO_CSV = ModelParams(
+    name="Hybrid (Ingo CSV)",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=36,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    state_driven_release=True,
+    global_monthly_cap=0.70,
+    mining_lock_ratio=0.70,
+    price_gate_high=0.05,
+    brake_low=0.02,
+)
+
+# Hybrid C (Ingo CSV): strict 0.30%/30d cap, deterministic states, stronger auto-stake range.
+# Source: docs/sources/Ingo  Projects/hybrid C.csv
+HYBRID_C_INGO_CSV = ModelParams(
+    name="Hybrid C (Ingo CSV)",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=36,
+    emission_cap=0.20,
+    mandatory_stake_pct=55.0,
+    state_driven_release=True,
+    global_monthly_cap=0.30,
+    mining_lock_ratio=0.65,
+    price_gate_high=0.05,
+    brake_low=0.02,
+)
+
+# Hybrid C Lite+ (Final): looser cap (0.40–0.45%/30d), lower auto-stake, higher miner liquidity.
+# Source: docs/sources/Ingo  Projects/Hybrid_C_Lite_Plus_Final.csv
+HYBRID_C_LITE_PLUS_FINAL_INGO_CSV = ModelParams(
+    name="Hybrid C Lite+ (Final, Ingo CSV)",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=36,
+    emission_cap=0.20,
+    mandatory_stake_pct=30.0,
+    state_driven_release=True,
+    global_monthly_cap=0.45,
+    mining_lock_ratio=0.55,
+    price_gate_high=0.05,
+    brake_low=0.02,
+)
+
+# Hybrid C Lite (Defaults): defaults snapshot; distinct from Lite+ Final.
+# Source: docs/sources/Ingo  Projects/Hybrid_C_Lite_Defaults.csv
+HYBRID_C_LITE_DEFAULTS_INGO_CSV = ModelParams(
+    name="Hybrid C Lite (Defaults, Ingo CSV)",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=36,
+    emission_cap=0.20,
+    mandatory_stake_pct=45.0,
+    state_driven_release=True,
+    global_monthly_cap=0.45,
+    mining_lock_ratio=0.55,
+    price_gate_high=0.05,
+    brake_low=0.02,
+)
+
+# Model A (ROI Optimized): aggressive benchmark (not deployable).
+# Source: docs/sources/Ingo  Projects/Model_A_ROI_Final_Test.csv
+MODEL_A_ROI_OPTIMIZED_INGO_CSV = ModelParams(
+    name="Model A (ROI Optimized, Ingo CSV)",
+    tge_percent=15.0,
+    cliff_months=0,
+    vesting_months=12,
+    emission_cap=1.0,
+    mandatory_stake_pct=0.0,
+    mining_lock_ratio=0.20,
+)
+
 # Protocol v7.0 (Definitive Edition) — approximated into this harness.
 # Source: https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/
 PROTOCOL_V70 = ModelParams(
@@ -309,6 +392,11 @@ MODELS = [
     PROTOCOL_V57,
     PROTOCOL_V58,
     HYBRID_C,
+    HYBRID_INGO_CSV,
+    HYBRID_C_INGO_CSV,
+    HYBRID_C_LITE_PLUS_FINAL_INGO_CSV,
+    HYBRID_C_LITE_DEFAULTS_INGO_CSV,
+    MODEL_A_ROI_OPTIMIZED_INGO_CSV,
     PROTOCOL_V70,
 ]
 
@@ -553,7 +641,8 @@ def main() -> None:
                 }
 
     # Write JSON
-    out_json = Path("all_model_liquidity_tier_second_opinion_results.json")
+    out_json = Path("data/results/all_model_liquidity_tier_second_opinion_results.json")
+    out_json.parent.mkdir(parents=True, exist_ok=True)
     out_json.write_text(json.dumps(results, indent=2))
 
     # Build Markdown summary
@@ -590,13 +679,13 @@ def main() -> None:
         md.append("\n")
 
     md.append("## Full per-scenario tables\n\n")
-    md.append("See `all_model_liquidity_tier_second_opinion_results.json` for the complete cube: tier × scenario × model.\n")
+    md.append("See `data/results/all_model_liquidity_tier_second_opinion_results.json` for the complete cube: tier × scenario × model.\n")
 
     out_md = Path("docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md")
     out_md.parent.mkdir(parents=True, exist_ok=True)
     out_md.write_text("".join(md))
 
-    print("✅ wrote all_model_liquidity_tier_second_opinion_results.json")
+    print("✅ wrote data/results/all_model_liquidity_tier_second_opinion_results.json")
     print("✅ wrote docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md")
 
 
