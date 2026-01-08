@@ -1,0 +1,53 @@
+Scope,Parameter,Value,Notes
+Objective,Guarantee launch-day survivability,Prevent long-term structural sell pressure,"All releases governed by market state, liquidity, staking (no fixed timelines)"
+Phase 0 – Solvency TGE,TGE Unlock,3% of total supply,One-time; price discovery + liquidity anchoring
+Phase 0 – Solvency TGE,Post-TGE Cliff,90 days,No further releases
+Phase 0 – Solvency TGE,Price guarantees,None,Downside risk structurally limited (no guarantee)
+Phase 0 – Solvency TGE,Auto-staking,Optional,"Incentivized, not mandatory"
+Phase 0 – Solvency TGE,Principle,Initial sell pressure < available liquidity,Reduce Day-1 failure risk
+Phase 1 – Observation & Stabilization (Day 0–90),Vesting releases,0%,No vesting releases during Day 0–90
+Phase 1 – Observation & Stabilization (Day 0–90),Mining,"Active, heavily constrained",Emission rate dynamically adjusted
+Phase 1 – Observation & Stabilization (Day 0–90),Mining rewards locked,≥70% locked,Locking absorbs sell pressure
+Phase 1 – Observation & Stabilization (Day 0–90),Emission inputs,Price stability; effective liquidity; participation,State-driven adjustment
+Phase 1 – Observation & Stabilization (Day 0–90),Objective,Real price formation,"Migration becomes measurable, not speculative"
+Phase 2 – State-Driven Emission & Vesting (From Day 91),Start,Day 91+,State-driven releases begin
+Global Guardrails (All Sources),Max new circulating supply per month,0.3–1.0%,Vesting + mining + bonus combined
+Global Guardrails (All Sources),Negative price trend,0% release,Automatic stop
+Global Guardrails (All Sources),DAO authority,Timing + parameter fine-tuning only,Supply caps cannot be changed
+Presale – Base Tokens,Early: max release,≤0.3% / month,Condition: stable 30-day VWAP; mandatory staking ≥50%
+Presale – Base Tokens,Stable: max release,≤0.7% / month,Condition: liquidity growth; mandatory staking ≥40%
+Presale – Base Tokens,Accelerated: add-on,+0.2% / month,Condition: ≥60% globally staked; mandatory staking ≥70%
+Presale – Base Tokens,Entitlement,No guaranteed monthly entitlement,"If conditions deteriorate, releases stop"
+Bonus Tokens – Purpose,Classification,Not core circulating assets; not exit capital,Long-term participation & incentives; stricter than Base Tokens
+Bonus Tokens – Option A,Structural non-liquidity,Permanently non-liquid incentive tokens,Restrictions structural; not removable incl. by DAO vote
+Bonus Tokens – Option A,Prohibited uses,No AMM LP; no pairing; no exit capital; no immediate free sell,Structural prohibitions
+Bonus Tokens – Option A,Permitted uses,Protocol staking; participation rewards; optional non-transferable governance weight,
+Bonus Tokens – Option B,Vesting,No time-vesting,Releases are strictly state-driven
+Bonus Tokens – Option B,Release conditions (all),Under global cap; VWAP ≥ target band; min staking; no negative trends,Fail any → 0% bonus release
+Bonus Tokens – Option B,Max release rate,0.05–0.10% / month,Always counts toward global cap
+Bonus Tokens – Option C,Voluntary conversion,Irreversible conversion,To long-duration locked staking / reward claims / non-transferable governance
+Bonus Tokens – Option C,After conversion,No market-release eligibility; not circulating; irreversible,
+Bonus Tokens – Locking & Staking,Mandatory staking on release,60–70% mandatory,Lock periods fixed; non-shortenable
+Bonus Tokens – Locking & Staking,Accelerated unlocks under stress,None,No accelerated unlocks
+Bonus Tokens – Priority,Inactive/unstaked bonus tokens,No release priority,Active/staked favored
+Abuse & Stress Protection,Post-release sell pressure,Triggers vesting pauses + higher lock ratios,
+Abuse & Stress Protection,Cap accounting,Bonus tokens count toward global cap,
+Abuse & Stress Protection,DAO limits,May fine-tune parameters only,Cannot lift structural constraints
+Mining Emissions (Explicitly Capped),Reward split: liquid,30–40%,
+Mining Emissions (Explicitly Capped),Reward split: locked,40–50%,Locked 60–90 days
+Mining Emissions (Explicitly Capped),Reward split: bonus,10–20%,Performance- & staking-based
+Mining Emissions (Explicitly Capped),Dynamic controls,Price↓ → emissions↓; Liquidity↓ → higher lock ratios; Hashrate↑ → difficulty↑,Counts toward global monthly circulation cap
+Mining Emissions (Explicitly Capped),Minting policy,No fixed volume-based minting,Avoid manipulation risk
+Staking – Core Control Mechanism,30-day lock,Base rewards,
+Staking – Core Control Mechanism,90-day lock,Vesting acceleration,
+Staking – Core Control Mechanism,180–360-day lock,Strong acceleration + supply brake,
+Staking – Core Control Mechanism,Dumping response,Immediate dumping triggers vesting pauses,
+Emergency & Long-Term Safeguards,Price Gate,No vesting or mining release below target VWAP,
+Emergency & Long-Term Safeguards,Emergency Brake,Extreme price events pause all emissions,
+Emergency & Long-Term Safeguards,DAO ultimatum,After multiple years: burn or redeploy decision,
+Emergency & Long-Term Safeguards,Automation policy,Intentionally minimal automation,Reduce oracle dependency & attack surface
+Bottom Line,Launch conditions,3% TGE stabilizes launch,
+Bottom Line,Long-term supply control,State-driven vesting/mining/bonus prevent oversupply,
+Bottom Line,Bonus supply risk,Options A/B/C neutralize bonus-related supply risk,
+Bottom Line,Absorption mechanism,Staking + locks absorb circulating supply,
+Bottom Line,Governance boundary,DAO operates within hard economic constraints,

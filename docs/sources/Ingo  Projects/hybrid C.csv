@@ -1,0 +1,40 @@
+Section,Parameter,Value,Notes
+Core Principle,Model type,"State-based, rule-driven monetary policy",No calendar-based issuance
+Core Principle,Objective,"Avoid supply shocks, cliffs, discretionary governance",Hard emission limits
+Supply,Total supply,"150,000,000,000 BDAG",Fixed
+Supply,Presale allocation,"50,000,000,000 BDAG",
+Supply,Mining pool,"75,000,000,000 BDAG",
+Supply,Reminting,Disabled,
+Global Circulation Cap,Max circulation / 30 days,≤ 0.30% of total supply,
+Global Circulation Cap,Cap scope,All unlocks cap-relevant,"Presale, mining, rewards, fees"
+Global Circulation Cap,Excess emissions,Queued,Not discarded
+System States,State set,NORMAL / RESTRICTED / EMERGENCY,
+System States,State inputs (30d MA),Price volatility; liquidity change; TVL change,
+System States,Minimum duration,14 days,
+System States,Emission factor NORMAL,1.00,
+System States,Emission factor RESTRICTED,0.40–0.60,
+System States,Emission factor EMERGENCY,0.00,Emissions halted
+Presale Vesting,State gating,NORMAL only,
+Presale Vesting,Early phase cap,≤ 0.30% / month,
+Presale Vesting,Stable phase cap,≤ 0.70% / month,
+Presale Vesting,Acceleration,+0.20% max,Driven by staking ratio (30d MA)
+Presale Vesting,Auto-staking,40–70%,
+Presale Vesting,Cap treatment,Counts toward global cap,
+Mining,Daily caps (identity-weighted),"20 / 200 / 600 / 2,000 BDAG",
+Mining,Availability NORMAL,100%,
+Mining,Availability RESTRICTED,~50%,
+Mining,Availability EMERGENCY,0%,
+Mining,Reward split liquid,30–40%,
+Mining,Reward split locked,40–50%,
+Mining,Reward split performance,10–20%,
+Mining,Lock duration,60–180 days,
+Queue Mechanism,Queue trigger,>5% total supply or >6× monthly cap,
+Queue Mechanism,Drawdown allocation,70% queue / 30% new emissions,
+Queue Mechanism,Mining liquid reduction,Temporary (e.g. to 20%),
+Queue Mechanism,Governance,None,Deterministic
+Utility Credits & Fees,Bonus split,25% BDAG / 75% Utility Credits,
+Utility Credits & Fees,Utility Credit properties,"Non-transferable, non-tradable, non-convertible",
+Utility Credits & Fees,Expiry,24 months,
+Utility Credits & Fees,Fee payment order,Utility Credits → BDAG,
+Utility Credits & Fees,Fee distribution,50% miners; 30% treasury; 20% buyback & burn,Burn only in NORMAL
+Simulation,State sequences,Exogenous test inputs,

@@ -31,6 +31,26 @@ If 10 years of the S&P 500 means the odds of positive returns are in my favor, I
 
 ---
 
+## 🔗 Model Sources (Specs & Inputs)
+
+**Protocol specs index (v2.6 / v3.0 / v5.x / v7.0):** [`https://a-changer-plus-tard.github.io/BlockDAG-Protocol-List-3/`](https://a-changer-plus-tard.github.io/BlockDAG-Protocol-List-3/)
+
+| Model | Source |
+|------|--------|
+| Original Model | Defined in repo: [`scripts/real_world_multi_opinion_backtest.py`](scripts/real_world_multi_opinion_backtest.py) + [`scripts/hybrid_tokenomics_second_opinion_compare.py`](scripts/hybrid_tokenomics_second_opinion_compare.py) |
+| Hybrid Model | Defined in repo: [`scripts/real_world_multi_opinion_backtest.py`](scripts/real_world_multi_opinion_backtest.py) + [`scripts/hybrid_tokenomics_second_opinion_compare.py`](scripts/hybrid_tokenomics_second_opinion_compare.py) |
+| Protocol v2.6 | [`https://a-changer-plus-tard.github.io/BlockDag-Launch-Protocol-v2.6/`](https://a-changer-plus-tard.github.io/BlockDag-Launch-Protocol-v2.6/) |
+| Protocol v3.0 | [`https://a-changer-plus-tard.github.io/Protocol-3.0/`](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
+| Protocol v3.1 (Adjusted) | [`https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/`](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/) |
+| Protocol v5.3 | [`https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/`](https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/) |
+| Protocol v5.5 | [`https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/`](https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/) |
+| Protocol v5.7 | [`https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/`](https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/) |
+| Protocol v5.8 | [`https://a-changer-plus-tard.github.io/Protocol-v5.8-Revised-Protocol-Bonus-48-Months/`](https://a-changer-plus-tard.github.io/Protocol-v5.8-Revised-Protocol-Bonus-48-Months/) |
+| Protocol v7.0 | [`https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/`](https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/) |
+| Harris Model | [`https://github.com/harrisjustinhagen-oss/Vesting-Economy_Harris/blob/main/BDAG%20VESTING%20HARRIS.pdf`](https://github.com/harrisjustinhagen-oss/Vesting-Economy_Harris/blob/main/BDAG%20VESTING%20HARRIS.pdf) |
+| HybridC | Spreadsheet: [`docs/HybridC_Tokenomics_Test.xlsx`](docs/HybridC_Tokenomics_Test.xlsx) |
+| Ingo Projects (CSV sources) | [`docs/sources/Ingo  Projects/README.md`](docs/sources/Ingo%20%20Projects/README.md) |
+
 ## 📊 Comprehensive Simulation Analysis (All 14 Protocols)
 
 We tested **14 tokenomics protocols** using **10 years of real BTC market data** (2015-2024), including COVID crash, FTX collapse, bull runs, and bear markets.

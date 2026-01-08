@@ -1,0 +1,22 @@
+Category,Parameter,Model A – ROI Optimized (Final Test Config)
+Meta,Purpose,ROI benchmark – aligned with common test assumptions
+Meta,Deployment,Not intended for deployment
+Initial Conditions,Initial Liquidity,Assumed equal to peer models
+Initial Conditions,Start Price,Same as competitors (normalized)
+Initial Conditions,Trading Enabled,At TGE
+Emission,Monthly Emission Rate,1.5 %
+Emission,Global Circulation Cap,
+Emission,Emission Smoothness,Linear
+TGE / Vesting,TGE Unlock,15 %
+TGE / Vesting,Cliff,
+TGE / Vesting,Vesting Schedule,"Linear, 12 months"
+Mining,Reward Liquidity,80 % liquid
+Mining,Reward Locks,
+Mining,Mining Output,"High, volume-scaled"
+States,State Logic,Disabled (cosmetic only)
+States,Emergency Emission,≥ 0.5
+Fees,Fees,Disabled or neutral
+Governance,Parameter Flexibility,Enabled
+Risk,Volatility Assumption,High
+Risk,Dump Risk,Very high
+Risk,Long-Term Survival,Not optimized

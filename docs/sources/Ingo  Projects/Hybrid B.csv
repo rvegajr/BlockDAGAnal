@@ -1,0 +1,37 @@
+Scope,Parameter,Value,Notes
+Objective,Goal,Launch survivability + long-term supply discipline,"No price guarantees, no linear vesting overhangs"
+Principle,Core rule,Market decides release; time decides review,"Time = option, not entitlement"
+Phase 0 – Solvency TGE,TGE unlock,3% (one-time),Price discovery + liquidity anchoring
+Phase 0 – Solvency TGE,Auto-staking,Optional,"Incentivized, not mandatory"
+Phase 0 – Solvency TGE,Hard cliff,90 days,No additional releases
+Phase 0 – Solvency TGE,Principle,Day-one sell pressure < liquidity,Launch survivability
+Phase 1 – Observation (Day 0–90),Vesting,0%,No vesting releases
+Phase 1 – Observation (Day 0–90),Mining,"Active, constrained",≥70% rewards locked
+Phase 1 – Observation (Day 0–90),Dynamic controls,Price↓ → emissions↓; Liquidity↓ → lock ratios↑,State-driven adjustment
+Phase 1 – Observation (Day 0–90),Objective,Real market signals replace speculation,
+Phase 2 – Hybrid Emission Framework,Start,From Day 91,
+Global Hard Caps,Max new circulating supply / month,0.3–1.0%,Vesting + mining + bonus combined
+Global Hard Caps,Negative market trend,0% release,Automatic pause
+Global Hard Caps,DAO authority,Parameter tuning only,Caps cannot be increased
+Emission Logic A – State-Driven (~75%),Governance inputs,30-day VWAP; liquidity growth; staking,
+Emission Logic A – State-Driven (~75%),Monthly entitlement,None,Paused releases expire
+Emission Logic A – State-Driven (~75%),Accumulation,Not allowed,No catch-up
+Emission Logic B – Time-Oriented Review (~25%),Review window,Every 12 months,
+Emission Logic B – Time-Oriented Review (~25%),Max allowance,0.1–0.2% / month,Only if caps respected
+Emission Logic B – Time-Oriented Review (~25%),Unused allowance,Expires,Not carried forward
+Bonus Tokens,Classification,Not exit capital,Structurally subordinate
+Bonus Tokens,Release rate,0.05–0.1% / month,Only after Base + Mining
+Bonus Tokens,Mandatory lock,≥70%,"Fixed, non-shortenable"
+Bonus Tokens,Acceleration / entitlement,None,"No catch-up, no guarantees"
+Bonus Tokens,Cap treatment,Counts toward global cap,
+Mining,Liquid portion,30–40%,
+Mining,Locked portion,40–50%,
+Mining,Performance portion,10–20%,
+Mining,Minting policy,No volume-based minting,Anti-manipulation
+Mining,Cap treatment,Counts toward global cap,
+Price Logic,Price targets,None,Narrative only
+Price Logic,Above band,Releases may accelerate,
+Price Logic,Below band,Automatic pauses,"Signal, not trigger"
+Bottom Line,Overhang risk,None,No hidden inflation
+Bottom Line,Supply limit,Market absorption capacity,Hard constraint
+Bottom Line,Positioning,Survivability + credibility,No false promises

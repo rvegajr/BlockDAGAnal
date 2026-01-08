@@ -1,0 +1,4 @@
+Scenario,Time Horizon,Assumptions,Expected ROI Range
+Bear / Stress,0–12 months,"Low demand, frequent RESTRICTED states, weak liquidity growth",-30% to +10%
+Base Case,6–24 months,"Stable NORMAL state, gradual utility adoption, controlled emission",+20% to +80%
+Bull / Adoption,12–36 months,"Strong utility usage, sustained NORMAL state, organic liquidity growth",+100% to +300%

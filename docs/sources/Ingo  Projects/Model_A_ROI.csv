@@ -1,0 +1,25 @@
+Category,Parameter,Model A – ROI Optimized
+Positioning,Purpose,Pure ROI benchmark (not for deployment)
+Emission,Monthly Emission Rate,1.5 %
+Emission,Global Circulation Cap,
+Emission,Queue Mechanism,
+Emission,Cap-Relevant Unlocks,Presale & Mining only
+TGE / Vesting,TGE Unlock,10 – 15 %
+TGE / Vesting,Vesting Model,Time-based (12 – 24 months)
+TGE / Vesting,Auto-Staking,
+TGE / Vesting,State Gating,
+Mining,Reward Liquidity,70 – 80 % liquid
+Mining,Reward Locks,None or max 30 days
+Mining,Mining Caps,"High, volume-based"
+Mining,State Dependency,Weak
+States,Active States,Optional / cosmetic
+States,Emergency Emission Factor,≥ 0.5
+States,Minimum State Duration,
+Bonus,Bonus Structure,100 % BDAG
+Bonus,Utility Credits,
+Fees,Fee Policy,"Optional, non-deflationary"
+Governance,Monetary Governance,Enabled
+Governance,Emergency Overrides,Allowed
+Risk,Volatility,Very high
+Risk,Dump Risk,Very high
+Risk,Long-Term Robustness,Low to medium

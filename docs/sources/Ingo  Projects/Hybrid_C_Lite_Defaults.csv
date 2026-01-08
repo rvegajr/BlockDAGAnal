@@ -1,0 +1,41 @@
+Category,Parameter,Default Value
+Supply,Total Supply,"150,000,000,000 BDAG"
+Supply,Presale Allocation,"50,000,000,000 BDAG"
+Supply,Mining Pool,"75,000,000,000 BDAG"
+Supply,Reminting,false
+Global Cap,Max New Circulation / 30d,0.45 %
+Global Cap,Emission Period,30 days
+Global Cap,Overflow Handling,Queue to next period
+Global Cap,All Unlocks Cap-Relevant,true
+States,States,NORMAL / RESTRICTED / EMERGENCY
+States,State Inputs (30d MA),"Price Volatility, Liquidity Change, TVL Change"
+States,Minimum State Duration,14 days
+States,Emission Factor NORMAL,1.00
+States,Emission Factor RESTRICTED,0.55
+States,Emission Factor EMERGENCY,0.00
+Emission,Emission Rate Range,0.15 – 0.45 % / month
+Emission,Max Adjustment Frequency,1 per period
+Emission,Max Delta per Period,±0.05 %
+Presale,Unlock Condition,NORMAL only
+Presale,Early Phase Vesting,≤ 0.35 % / month
+Presale,Stable Phase Vesting,≤ 0.75 % / month
+Presale,Vesting Acceleration Max,+0.20 %
+Presale,Auto-Staking,30 – 60 %
+Mining,Daily Caps,"20 / 200 / 600 / 2,000 BDAG"
+Mining,Mining State Factors,NORMAL 1.00 / RESTRICTED 0.55 / EMERGENCY 0.00
+Mining,Liquid Reward Share,40 – 45 %
+Mining,Locked Reward Share,35 – 45 %
+Mining,Performance/Staking Share,10 – 20 %
+Mining,Lock Duration,60 – 180 days
+Queue,Queue Trigger,>5% supply or >6× monthly cap
+Queue,Queue Repayment Share,80 % of cap
+Queue,New Emission Share,20 % of cap
+Queue,Mining Liquid Throttle,down to 20 %
+Bonus,Bonus Split,25 % BDAG / 75 % Utility Credits
+Bonus,Utility Credits Properties,"Non-transferable, non-tradable, non-convertible"
+Bonus,Utility Credits Expiry,24 months
+Fees,Fee Payment Order,Utility Credits → BDAG
+Fees,Fee Split,50% Miners / 30% Treasury / 20% Buyback (NORMAL only)
+Governance,Monetary Governance,
+Governance,Rule Overrides,
+Governance,Parameter Changes,Versioned only

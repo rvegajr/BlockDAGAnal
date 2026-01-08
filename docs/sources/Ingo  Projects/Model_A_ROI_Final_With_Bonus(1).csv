@@ -1,0 +1,28 @@
+Category,Parameter,"Model A – ROI Optimized (Final, Bonus-Aware)"
+Meta,Purpose,ROI benchmark with explicit bonus separation
+Meta,Deployment,Not intended for deployment
+Initial Conditions,Start Price,Equal to peer models
+Initial Conditions,Initial Liquidity,Equal to peer models
+Initial Conditions,Trading Enabled,At TGE
+Emission,Monthly Emission Rate,1.5 %
+Emission,Global Circulation Cap,
+Emission,Queue Mechanism,
+Bonus,Bonus Split,25 % BDAG / 75 % Utility Credits
+Bonus,Utility Credits Valuation,Non-priced (excluded from ROI calc)
+Bonus,Utility Credits Properties,"Non-transferable, non-tradable"
+TGE / Vesting,TGE Unlock,15 % (BDAG portion only)
+TGE / Vesting,Vesting Schedule,"Linear, 12 months"
+TGE / Vesting,Auto-Staking,
+Mining,Mining Output,"High, volume-based"
+Mining,Liquid Reward Share,80 % (BDAG portion)
+Mining,Locked Rewards,
+States,State Logic,Disabled / cosmetic
+States,Emergency Emission Factor,≥ 0.5
+Fees,Fee Policy,Neutral / non-deflationary
+Governance,Monetary Governance,Enabled
+Governance,Emergency Overrides,Allowed
+ROI Treatment,ROI Input Asset,BDAG only
+ROI Treatment,Excluded from ROI,Utility Credits (75 %)
+Risk,Volatility,Very high
+Risk,Dump Risk,Very high
+Risk,Long-Term Robustness,Low to medium

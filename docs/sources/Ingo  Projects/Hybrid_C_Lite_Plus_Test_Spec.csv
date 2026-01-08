@@ -1,0 +1,14 @@
+Test Item,Expected Behaviour,Category
+Global circulation cap,Never exceeds 0.40–0.45% per 30 days,Invariant
+All unlocks cap-relevant,"Presale, mining, rewards, fees included",Invariant
+State handling,NORMAL / RESTRICTED / EMERGENCY deterministic,Logic
+Minimum state duration,>= 14 days enforced,Logic
+Emergency emission,Bounded to 0.10–0.20,Invariant
+Queue creation,Only when cap binds,Logic
+Queue repayment,70% cap to queue / 30% new emission,Logic
+Presale vesting,"Only NORMAL/RESTRICTED, within monthly limits",Constraint
+Mining caps,Identity-weighted daily caps enforced,Constraint
+Mining reward split,Liquid/Locked/Performance within ranges,Constraint
+Bonus split,35% BDAG / 65% Utility Credits,Constraint
+Utility credits,"Non-transferable, non-tradable, expiry enforced",Constraint
+Forbidden actions,"No buybacks, no circuit breakers, no governance overrides",Invariant
