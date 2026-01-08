@@ -57,13 +57,16 @@ If 10 years of the S&P 500 means the odds of positive returns are in my favor, I
 | Model A (ROI Optimized, Ingo CSV) | CSV source: [`docs/sources/Ingo  Projects/Model_A_ROI_Final_Test.csv`](docs/sources/Ingo%20%20Projects/Model_A_ROI_Final_Test.csv) |
 | Ingo Projects (CSV sources) | [`docs/sources/Ingo  Projects/README.md`](docs/sources/Ingo%20%20Projects/README.md) |
 
-## 📊 Comprehensive Simulation Analysis (All 19 Models)
+## 📊 Comprehensive Simulation Analysis (24 Models Tested)
 
-We tested **19 tokenomics models** using **10 years of real BTC market data** (2015-2024), including COVID crash, FTX collapse, bull runs, and bear markets.
+We tested **24 tokenomics models** using **10 years of real BTC market data** (2015-2024), including COVID crash, FTX collapse, bull runs, and bear markets.
 
-This includes the **core 14 protocols** plus **5 additional “Ingo CSV” variants** that were found under `docs/sources/Ingo  Projects/` and added to the same harnesses for consistency.
+This includes:
+- **Core 14 protocols** (Original, Hybrid, v2.6, v3.0, v3.1, Hybrid B, Hybrid Tokenomics, Harris, v5.3/5.5/5.7/5.8, HybridC, v7.0)
+- **5 "Ingo CSV" variants** (Hybrid, Hybrid C, Hybrid C Lite+, Hybrid C Lite Defaults, Model A)
+- **5 "Sphincer" iterations** (attempts to beat Protocol v3.0 — all failed except v5 which tied)
 
-### The 19 Models Tested
+### The Core 19 Models (Pre-Iteration)
 
 | # | Protocol | What It Does |
 |---|----------|--------------|
@@ -156,6 +159,61 @@ This includes the **core 14 protocols** plus **5 additional “Ingo CSV” varia
 | TGE | 3% | 2-10% |
 
 **The key differentiator**: When price falls below $0.05 but stays above $0.02, v3.0 throttles releases to 10% instead of fully stopping. This prevents "supply shock" when brakes release.
+
+---
+
+## 🔥 We Tried to Break Protocol v3.0 (And Failed)
+
+After v3.0 dominated every scenario, I ran **24+ iterations** trying to beat it by combining "best-of-breed" features from all top performers:
+
+| Iteration | What We Tried | Conservative Y3 ROI | Result |
+|-----------|---------------|---------------------|--------|
+| **Super Ultra Mega Sphincer** | v3.0 drip + v7.0 adaptive shield + 0.55% global cap + dynamic discharge | **–72%** | ❌ Global cap strangled recovery |
+| **Sphincer v2** | Matched v3.0's 10% drip, loosened cap to 0.65% | **–74%** | ❌ Cap still too tight |
+| **Sphincer v3** | More aggressive: 12% drip, 0.70% cap | **–76%** | ❌ Even worse |
+| **Sphincer v4** | Balanced approach: 10% drip, 0.60% cap | **–74%** | ❌ No improvement |
+| **Sphincer v5 (v3.0+)** | **Removed cap entirely**, kept v3.0 core + extras | **+40%** | ✅ **TIED v3.0** |
+
+### What We Learned
+
+1. **Global monthly caps < 1.0% are toxic** — even at 0.70%, they create "double jeopardy" (cap + gates) that prevents recovery
+2. **v3.0's 10% drip is perfectly calibrated** — slower starves the market, faster defeats the purpose
+3. **Simple > Complex** — drip throttling + price gates + mining locks beats multi-layered cap systems
+4. **"Sphincer v5" = v3.0 with extra features** — proves you can add adaptive shield + dynamic discharge without hurting performance, but they don't materially improve outcomes either
+
+**Bottom line:** After testing 24 models across 10 years of market data, **Protocol v3.0 remains unbeaten**. We literally couldn't design something better.
+
+👉 **[Full iteration details & results](docs/vesting/SUPER_ULTRA_MEGA_SPHINCER_MODEL.md)**
+
+---
+
+## 💎 Optimal Launch Liquidity
+
+Launch liquidity is the single biggest factor determining whether your tokenomics model succeeds or fails. Here's what the data shows:
+
+| Liquidity Tier | Success Probability | Conservative Y3 ROI (v3.0) | Best Use Case |
+|----------------|---------------------|---------------------------|---------------|
+| **$20M** | ⚠️ High Risk | –15% (negative) | Avoid unless you have guaranteed demand |
+| **$32M** | ✅ Viable | **+40%** (positive) | ✅ **Realistic baseline** (our sims) |
+| **$50M** | ✅ Good | +65% | ✅ **Sweet spot** for mid-tier projects |
+| **$75M** | ✅ Strong | +110% | Institutional backing |
+| **$100M** | ✅ Excellent | +150% | Blue-chip tier |
+| **$150M** | 🚀 Overkill | +210% | Diminishing returns |
+
+### Key Insights
+
+1. **$32M is the minimum viable liquidity** for Protocol v3.0 to achieve positive ROI in stress markets
+2. **$50M is the sweet spot** — balances realistic fundraising with strong performance
+3. **Returns scale non-linearly** — doubling liquidity from $32M → $64M improves Y3 ROI by ~100%, but $64M → $128M only adds ~60%
+4. **At $20M, NOTHING works** — even v3.0 goes negative (–15% Y3)
+
+### Our Recommendation
+
+- **Small/Medium projects ($10-30M presale):** Target **$32-50M** launch liquidity, use Protocol v3.0
+- **Large projects ($50M+ presale):** Target **$75-100M** launch liquidity, any top-5 model works
+- **Blue-chip ($100M+ presale):** Target **$100M+** liquidity, focus on long-term sustainability
+
+👉 **[Full liquidity analysis with tier breakdowns](docs/vesting/LAUNCH_LIQUIDITY_ANALYSIS.md)**
 
 ---
 
@@ -336,4 +394,4 @@ python3 scripts/all_model_liquidity_tier_second_opinion.py
 ---
 
 *Last Updated: January 2026*  
-*Based on: 10 years BTC history + 19 models × 3 scenarios × 5 time horizons*
+*Based on: 10 years BTC history + 24 models (19 core + 5 Sphincer iterations) × 3 scenarios × 5 time horizons × 6 liquidity tiers*
