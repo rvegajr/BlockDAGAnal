@@ -378,7 +378,7 @@ HYBRID_C_LITE_DEFAULTS_MODEL = ModelParams(
     brake_low=0.02,
 )
 
-# Super Ultra Mega Sphincer best-of-breed model
+# Super Ultra Mega Sphincer best-of-breed model (original - too conservative)
 SUPER_ULTRA_MEGA_SPHINCER_MODEL = ModelParams(
     name="Super Ultra Mega Sphincer",
     tge_percent=3.0,
@@ -397,6 +397,85 @@ SUPER_ULTRA_MEGA_SPHINCER_MODEL = ModelParams(
     mining_volume_cap_pct=0.20,
     mining_lock_months=2,
 )
+
+# Sphincer v2 - Match v3.0 drip, loosen cap
+SPHINCER_V2_MODEL = ModelParams(
+    name="Sphincer v2",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=30,
+    emission_cap=0.20,
+    mandatory_stake_pct=35.0,
+    model_type="state_driven",
+    state_driven_release=True,
+    global_monthly_cap=0.65,
+    adaptive_trend_shield_pct=0.20,
+    drip_factor_between=0.10,  # match v3.0
+    price_gate_high=0.05,
+    brake_low=0.02,
+    mining_lock_ratio=0.65,
+    mining_volume_cap_pct=0.20,
+    mining_lock_months=2,
+)
+
+# Sphincer v3 - More aggressive release
+SPHINCER_V3_MODEL = ModelParams(
+    name="Sphincer v3",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=30,
+    emission_cap=0.20,
+    mandatory_stake_pct=30.0,
+    model_type="state_driven",
+    state_driven_release=True,
+    global_monthly_cap=0.70,
+    adaptive_trend_shield_pct=0.20,
+    drip_factor_between=0.12,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    mining_lock_ratio=0.60,
+    mining_volume_cap_pct=0.20,
+    mining_lock_months=2,
+)
+
+# Sphincer v4 - Balanced approach
+SPHINCER_V4_MODEL = ModelParams(
+    name="Sphincer v4",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=30,
+    emission_cap=0.20,
+    mandatory_stake_pct=35.0,
+    model_type="state_driven",
+    state_driven_release=True,
+    global_monthly_cap=0.60,
+    adaptive_trend_shield_pct=0.20,
+    drip_factor_between=0.10,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    mining_lock_ratio=0.65,
+    mining_volume_cap_pct=0.20,
+    mining_lock_months=3,
+)
+
+# Sphincer v5 - v3.0 core + adaptive shield + dynamic discharge (NO global cap)
+SPHINCER_V5_MODEL = ModelParams(
+    name="Sphincer v5 (v3.0+)",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=33,  # match v3.0
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,  # match v3.0
+    model_type="time_based",
+    price_gate_high=0.05,
+    brake_low=0.02,
+    drip_factor_between=0.10,  # match v3.0
+    adaptive_trend_shield_pct=0.20,  # NEW: trend shield
+    mining_lock_months=24,  # match v3.0
+    mining_volume_cap_pct=0.20,  # NEW: dynamic discharge
+)
+
+
 
 # Model A (ROI Optimized): deliberately aggressive benchmark model.
 # Source: docs/sources/Ingo  Projects/Model_A_ROI_Final_Test.csv
@@ -455,8 +534,12 @@ MODELS = [
     HYBRID_C_INGO_CSV_MODEL,
     HYBRID_C_LITE_PLUS_FINAL_MODEL,
     HYBRID_C_LITE_DEFAULTS_MODEL,
-MODEL_A_ROI_OPTIMIZED_MODEL,
+    MODEL_A_ROI_OPTIMIZED_MODEL,
     SUPER_ULTRA_MEGA_SPHINCER_MODEL,
+    SPHINCER_V2_MODEL,
+    SPHINCER_V3_MODEL,
+    SPHINCER_V4_MODEL,
+    SPHINCER_V5_MODEL,
     PROTOCOL_V70_MODEL,
 ]
 

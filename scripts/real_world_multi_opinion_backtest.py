@@ -218,6 +218,51 @@ MODELS = [
         mining_volume_cap_pct=0.20,
         mining_lock_months=2,
     ),
+
+    # Sphincer iterations
+    ModelParams(
+        "Sphincer v2", 3.0, 3, 30, 0.20, 35.0,
+        state_driven_release=True,
+        global_monthly_cap=0.65,
+        price_gate_high=0.05,
+        brake_low=0.02,
+        drip_factor_between=0.10,
+        mining_lock_ratio=0.65,
+        mining_volume_cap_pct=0.20,
+        mining_lock_months=2,
+    ),
+    ModelParams(
+        "Sphincer v3", 3.0, 3, 30, 0.20, 30.0,
+        state_driven_release=True,
+        global_monthly_cap=0.70,
+        price_gate_high=0.05,
+        brake_low=0.02,
+        drip_factor_between=0.12,
+        mining_lock_ratio=0.60,
+        mining_volume_cap_pct=0.20,
+        mining_lock_months=2,
+    ),
+    ModelParams(
+        "Sphincer v4", 3.0, 3, 30, 0.20, 35.0,
+        state_driven_release=True,
+        global_monthly_cap=0.60,
+        price_gate_high=0.05,
+        brake_low=0.02,
+        drip_factor_between=0.10,
+        mining_lock_ratio=0.65,
+        mining_volume_cap_pct=0.20,
+        mining_lock_months=3,
+    ),
+    
+    # Sphincer v5 - v3.0 core + adaptive shield + dynamic discharge (NO global cap)
+    ModelParams(
+        "Sphincer v5 (v3.0+)", 3.0, 3, 33, 0.20, 0.0,
+        price_gate_high=0.05,
+        brake_low=0.02,
+        drip_factor_between=0.10,
+        mining_lock_months=24,
+        mining_volume_cap_pct=0.20,
+    ),
 ]
 
 

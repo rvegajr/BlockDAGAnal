@@ -396,6 +396,74 @@ SUPER_ULTRA_MEGA_SPHINCER = ModelParams(
     mining_lock_months=2,
 )
 
+# Sphincer iterations
+SPHINCER_V2 = ModelParams(
+    name="Sphincer v2",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=30,
+    emission_cap=0.20,
+    mandatory_stake_pct=35.0,
+    state_driven_release=True,
+    global_monthly_cap=0.65,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    drip_factor_between=0.10,
+    mining_lock_ratio=0.65,
+    mining_volume_cap_pct=0.20,
+    mining_lock_months=2,
+)
+
+SPHINCER_V3 = ModelParams(
+    name="Sphincer v3",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=30,
+    emission_cap=0.20,
+    mandatory_stake_pct=30.0,
+    state_driven_release=True,
+    global_monthly_cap=0.70,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    drip_factor_between=0.12,
+    mining_lock_ratio=0.60,
+    mining_volume_cap_pct=0.20,
+    mining_lock_months=2,
+)
+
+SPHINCER_V4 = ModelParams(
+    name="Sphincer v4",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=30,
+    emission_cap=0.20,
+    mandatory_stake_pct=35.0,
+    state_driven_release=True,
+    global_monthly_cap=0.60,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    drip_factor_between=0.10,
+    mining_lock_ratio=0.65,
+    mining_volume_cap_pct=0.20,
+    mining_lock_months=3,
+)
+
+SPHINCER_V5 = ModelParams(
+    name="Sphincer v5 (v3.0+)",
+    tge_percent=3.0,
+    cliff_months=3,
+    vesting_months=33,
+    emission_cap=0.20,
+    mandatory_stake_pct=0.0,
+    price_gate_high=0.05,
+    brake_low=0.02,
+    drip_factor_between=0.10,
+    mining_lock_months=24,
+    mining_volume_cap_pct=0.20,
+)
+
+
+
 MODELS = [
     ORIGINAL_MODEL,
     HYBRID_MODEL,
@@ -416,6 +484,10 @@ MODELS = [
     HYBRID_C_LITE_DEFAULTS_INGO_CSV,
     MODEL_A_ROI_OPTIMIZED_INGO_CSV,
     SUPER_ULTRA_MEGA_SPHINCER,
+    SPHINCER_V2,
+    SPHINCER_V3,
+    SPHINCER_V4,
+    SPHINCER_V5,
     PROTOCOL_V70,
 ]
 
