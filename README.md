@@ -42,6 +42,7 @@ If 10 years of the S&P 500 means the odds of positive returns are in my favor, I
 | Protocol v2.6 | [`https://a-changer-plus-tard.github.io/BlockDag-Launch-Protocol-v2.6/`](https://a-changer-plus-tard.github.io/BlockDag-Launch-Protocol-v2.6/) |
 | Protocol v3.0 | [`https://a-changer-plus-tard.github.io/Protocol-3.0/`](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
 | Protocol v3.1 (Adjusted) | [`https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/`](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/) |
+| Hybrid B | CSV source: [`docs/sources/Ingo  Projects/Hybrid B.csv`](docs/sources/Ingo%20%20Projects/Hybrid%20B.csv) |
 | Protocol v5.3 | [`https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/`](https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/) |
 | Protocol v5.5 | [`https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/`](https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/) |
 | Protocol v5.7 | [`https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/`](https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/) |
