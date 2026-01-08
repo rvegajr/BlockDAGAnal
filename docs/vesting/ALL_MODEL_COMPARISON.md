@@ -1,6 +1,6 @@
 # All Model Comparison: Investor Returns (Second Opinion, Order-Book + Sell Pressure)
 
-**Generated**: 2026-01-08T11:06:03.100383
+**Generated**: 2026-01-08T11:24:03.504988
 
 This document mirrors the *format/style* of `docs/vesting/THREE_MODEL_COMPARISON.md`, but covers **all models** currently tested.
 

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-08T11:06:03.100383",
+  "timestamp": "2026-01-08T11:24:03.504988",
   "methodology": {
     "pricing": "baseline liquidity/circulating + order-book depth + sell-pressure impacts",
     "buy_support_pct": 0.3,
