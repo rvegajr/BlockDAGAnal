@@ -16,6 +16,100 @@
 
 ---
 
+## Floki's Initial Launch Metrics (June 2021)
+
+### Launch Day Stats
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| **Launch Date** | June 2021 | Meme coin inspired by Elon's dog |
+| **Initial Price** | ~$0.0000656 | Extremely low (micro-cap) |
+| **Total Supply** | 10 Trillion FLOKI | Massive supply (typical meme coin) |
+| **Initial Market Cap** | ~$656M (if fully circulating) | But likely much lower at launch |
+| **Launch Type** | Fair launch (no presale) | Community-driven |
+| **Initial Liquidity** | Unknown (DEX launch) | Likely small, grew over time |
+
+### Early Price Performance
+
+| Timeframe | Price | Change | Notes |
+|-----------|-------|--------|-------|
+| **Launch (June 2021)** | $0.0000656 | - | Initial listing |
+| **October 2021** | $0.0000656 | Stable | Early trading |
+| **Peak (June 2024)** | $0.0003462 | +427% | All-time high |
+| **Current (2025)** | ~$0.000051 | -22% from launch | Still above many meme coins |
+
+### Key Launch Characteristics
+
+**What Made Floki Different at Launch:**
+
+1. **No Presale**
+   - Fair launch = community-driven
+   - No "insider advantage"
+   - Everyone started equal
+
+2. **Meme Coin Origins**
+   - Started as pure meme (Elon's dog)
+   - No utility at launch
+   - Community built around meme
+
+3. **Massive Supply**
+   - 10 trillion tokens
+   - Low price per token
+   - Accessible to small investors
+
+4. **Community-First**
+   - "Floki Vikings" identity from day 1
+   - Strong branding
+   - Meme culture + utility vision
+
+**The Launch Strategy:**
+```
+June 2021: Launch as meme coin
+  ↓
+Community building (Floki Vikings)
+  ↓
+Marketing campaigns (billboards)
+  ↓
+First product announcement (Valhalla)
+  ↓
+Product launches (2022-2024)
+  ↓
+Ecosystem growth
+```
+
+### Comparison: Floki vs BlockDAG Launch
+
+| Aspect | Floki (2021) | BlockDAG (Planned) |
+|--------|--------------|-------------------|
+| **Launch Type** | Fair launch, no presale | Presale ($32M raised) |
+| **Initial Price** | $0.0000656 | $0.05 (target) |
+| **Total Supply** | 10 Trillion | 50 Billion |
+| **Initial Utility** | None (meme coin) | Mining hardware (utility) |
+| **Community** | Built around meme | Built around technology |
+| **Marketing** | Billboards, sports | TBD |
+| **Products at Launch** | 0 | Mining hardware (planned) |
+| **Vesting** | None (fully liquid) | 2% TGE, 60-month vest |
+
+**Key Differences:**
+
+1. **Floki:** Started with zero utility, built products later
+2. **BlockDAG:** Starting with utility (mining), building more products
+
+3. **Floki:** No presale, fair launch
+4. **BlockDAG:** $32M presale, structured launch
+
+5. **Floki:** Meme-driven community
+6. **BlockDAG:** Technology-driven community
+
+**What BlockDAG Can Learn:**
+
+- ✅ Floki had NO utility at launch but succeeded through continuous rollouts
+- ✅ BlockDAG HAS utility at launch (mining) - even stronger position
+- ✅ Floki's community was key - BlockDAG needs same focus
+- ✅ Floki's marketing never stopped - BlockDAG must do same
+
+---
+
 ## The Floki Success Formula
 
 ### 1. **Continuous Product Rollouts (The Core Strategy)**
