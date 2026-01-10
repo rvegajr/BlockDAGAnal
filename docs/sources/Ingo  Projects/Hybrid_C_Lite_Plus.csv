@@ -1,0 +1,20 @@
+Parameter,Value,Notes
+Total Supply,"150,000,000,000",BDAG
+Presale Allocation,"50,000,000,000",BDAG
+Mining Pool,"75,000,000,000",BDAG
+Global Cap (30d),0.40–0.45%,variable
+Emission Period,30,days
+State NORMAL Factor,1.00,
+State RESTRICTED Factor,0.60–0.70,variable
+State EMERGENCY Factor,0.10–0.20,variable
+Presale Vesting Early,≤0.40%,per month
+Presale Vesting Stable,≤0.80%,per month
+Auto-Staking,20–40%,
+Mining Liquid Share,45–50%,
+Mining Locked Share,35–40%,
+Mining Performance Share,10–15%,
+Bonus Split BDAG,35%,
+Bonus Split Utility,65%,
+Buybacks,Disabled,
+Circuit Breaker,Disabled,
+Governance Intervention,,

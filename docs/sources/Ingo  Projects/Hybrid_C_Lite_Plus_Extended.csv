@@ -1,0 +1,34 @@
+Category,Parameter,Value,Unit,Notes
+,Total Supply,"150,000,000,000",,BDAG
+,Presale Allocation,"50,000,000,000",,BDAG
+,Mining Pool,"75,000,000,000",,BDAG
+,Global Cap (30d),0.40–0.45%,,variable
+,Emission Period,30,,days
+,State NORMAL Factor,1.00,,
+,State RESTRICTED Factor,0.60–0.70,,variable
+,State EMERGENCY Factor,0.10–0.20,,variable
+,Presale Vesting Early,≤0.40%,,per month
+,Presale Vesting Stable,≤0.80%,,per month
+,Auto-Staking,20–40%,,
+,Mining Liquid Share,45–50%,,
+,Mining Locked Share,35–40%,,
+,Mining Performance Share,10–15%,,
+,Bonus Split BDAG,35%,,
+,Bonus Split Utility,65%,,
+,Buybacks,Disabled,,
+,Circuit Breaker,Disabled,,
+,Governance Intervention,,,
+Stability Logic,Throttle Mode,Enabled (conservative defaults),Policy,Reduces emissions under stress; does not increase supply
+Stability Logic,Throttle Zone Bonus Multiplier,0.5,Multiplier,If stress (non-emergency)
+Stability Logic,Throttle Zone Mining Multiplier,0.5,Multiplier,If stress (non-emergency)
+Stability Logic,Throttle Zone Trigger,Market stress band (framework-defined),Trigger,No fixed price anchors required
+Stability Logic,Emergency Brake,Enabled,Module,Halts bonus + mining during extreme drawdown
+Stability Logic,Emergency Brake Max Duration,30,Days,Hard cap per activation
+Stability Logic,Emergency Brake Cooldown,30,Days,Minimum time between activations
+Stability Logic,Emergency Brake Effect,"Bonus=0, Mining=0 while active",Rule,Purely defensive
+Distribution,Streaming Release,Optional,Module,Block-by-block or daily streaming to avoid claim spikes
+Deflation,Burn Fee,0.3,%,Applied to selected protocol fees; simple & transparent
+Deflation,Burn Fee Applies To,Marketplace / protocol fee flows,Scope,No burn on normal transfers unless defined
+Staking,Staking Incentive,Optional,Module,No mandatory staking; incentive only
+Staking,Staking APY Cap,25,%,Hard cap to prevent runaway emissions
+Staking,Staking Term Options,3 or 6,Months,"Short, understandable periods"

@@ -1,0 +1,15 @@
+Category,Parameter,Value,Unit
+Meta,Model Name,Hybrid E.1,
+Meta,Status,Official Governance Model,
+Listing,TGE Unlock,0% or 3% (Bought Tokens only),Percentage
+Listing,Bonus at TGE,0,Percentage
+Listing,Mining at TGE,0,Percentage
+Purchased Tokens,Vesting Schedule,12 months linear,Schedule
+Purchased Tokens,Monthly Release,8.33,Percent
+Bonus,Lock Period,12,Months
+Bonus,Vesting Schedule,24 months linear,Schedule
+Mining,Emission Model,Smooth emission (-light),Rule
+Mining,Monthly Decline,Multiplicative (soft),Rule
+Deflation,Burn Type,Usage-weighted (light),Rule
+Stability,Safeguards,Throttle + Emergency Brake (reduce only),Policy
+Governance,Immutability,Core parameters immutable,Constraint

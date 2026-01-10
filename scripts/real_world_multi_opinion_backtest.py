@@ -192,6 +192,85 @@ MODELS = [
         mining_lock_ratio=0.20,
     ),
 
+    # === NEW INGO MODELS (from docs/sources/Ingo Projects/) ===
+
+    # Hybrid D.1 - Technical Reference Model
+    # Source: docs/sources/Ingo  Projects/Hybrid_D.1.csv
+    # 0% or 3% TGE, 12mo linear vesting, 12mo bonus lock + 24mo bonus vesting
+    # Smooth emission (Kaspa-full), +15% recovery limiter, throttle + emergency brake
+    ModelParams(
+        "Hybrid D.1 (Ingo CSV)", 3.0, 0, 12, 0.20, 0.0,
+        state_driven_release=True,
+        mining_lock_months=12,  # Bonus lock period
+        price_gate_high=0.05, brake_low=0.02,
+        drip_factor_between=0.15,  # Recovery limiter effect
+    ),
+
+    # Hybrid E.1 (0% TGE variant) - Official Governance Model
+    # Source: docs/sources/Ingo  Projects/Hybrid_E_0__TGE.csv
+    # 0% TGE, 12mo linear vesting (8.33%/month), 12mo bonus lock + 24mo bonus vesting
+    # Smooth emission (-light), throttle + emergency brake (reduce only)
+    ModelParams(
+        "Hybrid E.1 0% TGE (Ingo CSV)", 0.0, 0, 12, 0.20, 0.0,
+        state_driven_release=True,
+        mining_lock_months=12,
+        price_gate_high=0.05, brake_low=0.02,
+    ),
+
+    # Hybrid E.1 (3% TGE variant)
+    # Source: docs/sources/Ingo  Projects/Hybrid_E_3__TGE.csv
+    ModelParams(
+        "Hybrid E.1 3% TGE (Ingo CSV)", 3.0, 0, 12, 0.20, 0.0,
+        state_driven_release=True,
+        mining_lock_months=12,
+        price_gate_high=0.05, brake_low=0.02,
+    ),
+
+    # Hybrid F - Beat v3 on Y3, credible & implementable
+    # Source: docs/sources/Ingo  Projects/Hybrid_F.csv
+    # 3% TGE, 3mo cliff, 21mo streaming vesting, 12mo bonus lock + 24mo bonus vesting
+    # Mining sell cap 15% of net buy, 7D MA throttle/brake, zero-spike enforcement
+    ModelParams(
+        "Hybrid F (Ingo CSV)", 3.0, 3, 21, 0.20, 0.0,
+        state_driven_release=True,
+        mining_lock_months=12,
+        price_gate_high=0.05, brake_low=0.02,
+        drip_factor_between=0.50,  # Throttle multiplier
+        mining_volume_cap_pct=0.15,  # Mining sell cap 15% of volume
+    ),
+
+    # Hybrid F.1 - Adaptive throttle variant
+    # Source: docs/sources/Ingo  Projects/Hybrid_F.1.csv
+    # TGE options 0/3/6%, adaptive throttle 25%, +12% recovery boost
+    ModelParams(
+        "Hybrid F.1 (Ingo CSV)", 3.0, 3, 21, 0.20, 0.0,
+        state_driven_release=True,
+        mining_lock_months=12,
+        price_gate_high=0.05, brake_low=0.02,
+        drip_factor_between=0.25,  # Throttle rate 25%
+    ),
+
+    # Hybrid C Lite+ Extended - with stability logic
+    # Source: docs/sources/Ingo  Projects/Hybrid_C_Lite_Plus_Extended.csv
+    # 0.40-0.45% global cap, throttle enabled, emergency brake, 0.3% burn fee
+    ModelParams(
+        "Hybrid C Lite+ Extended (Ingo CSV)", 3.0, 3, 36, 0.20, 30.0,
+        state_driven_release=True, global_monthly_cap=0.45,
+        mining_lock_ratio=0.45,  # 45-50% mining liquid means ~55% locked
+        price_gate_high=0.05, brake_low=0.02,
+        drip_factor_between=0.50,  # Throttle zone multiplier
+    ),
+
+    # Hybrid B (Ingo detailed) - State-driven with strict controls
+    # Source: docs/sources/Ingo  Projects/Hybrid B.csv
+    # 3% TGE, 90d cliff, state-driven, 0.3-1.0% global cap, ≥70% mining locked
+    ModelParams(
+        "Hybrid B (Ingo Detailed)", 3.0, 3, 36, 0.20, 50.0,
+        state_driven_release=True, global_monthly_cap=0.70,
+        mining_lock_ratio=0.70,
+        price_gate_high=0.05, brake_low=0.02,
+    ),
+
     # Protocol v7.0 (Definitive Edition) — mapped into this harness as close as possible.
     # Source: https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/
     # Notes:
@@ -206,62 +285,68 @@ MODELS = [
         mining_volume_cap_pct=0.20,
     ),
 
-    # Super Ultra Mega Sphincer — best-of-breed combining v3.0 drip + v7.0 adaptive + Hybrid C cap
+    # === ADDITIONAL INGO CSV MODELS (Jan 2026 Update) ===
+
+    # Hybrid Lite - Simpler state-driven model
+    # Source: docs/sources/Ingo  Projects/Hybrid Lite.csv
+    # 0.40-0.45% global cap, state-driven, NORMAL/RESTRICTED/EMERGENCY
+    # Mining: 45-50% liquid, 35-40% locked, 10-15% performance
+    # Bonus: 35% BDAG / 65% Utility Credits
     ModelParams(
-        "Super Ultra Mega Sphincer", 3.0, 3, 30, 0.20, 40.0,
-        state_driven_release=True,
-        global_monthly_cap=0.55,
-        price_gate_high=0.05,
-        brake_low=0.02,
-        drip_factor_between=0.07,
-        mining_lock_ratio=0.65,
-        mining_volume_cap_pct=0.20,
-        mining_lock_months=2,
+        "Hybrid Lite (Ingo CSV)", 0.0, 0, 12, 0.20, 30.0,
+        state_driven_release=True, global_monthly_cap=0.45,
+        mining_lock_ratio=0.55,  # 45-50% liquid means 50-55% locked
+        price_gate_high=0.05, brake_low=0.02,
     ),
 
-    # Sphincer iterations
+    # Hybrid C Lite+ Base - Foundation model before Final optimizations
+    # Source: docs/sources/Ingo  Projects/Hybrid_C_Lite_Plus.csv
+    # 0.40-0.45% global cap, 20-40% auto-staking, same mining split as Hybrid Lite
     ModelParams(
-        "Sphincer v2", 3.0, 3, 30, 0.20, 35.0,
-        state_driven_release=True,
-        global_monthly_cap=0.65,
-        price_gate_high=0.05,
-        brake_low=0.02,
-        drip_factor_between=0.10,
-        mining_lock_ratio=0.65,
-        mining_volume_cap_pct=0.20,
-        mining_lock_months=2,
+        "Hybrid C Lite+ Base (Ingo CSV)", 3.0, 3, 36, 0.20, 35.0,
+        state_driven_release=True, global_monthly_cap=0.45,
+        mining_lock_ratio=0.50,
+        price_gate_high=0.05, brake_low=0.02,
     ),
+
+    # Hybrid C Lite+ Variant A - 39% Bonus Paid (Conservative)
+    # Source: docs/sources/Ingo  Projects/Hybrid_C_Lite_Plus_Bonus_Variants.csv
+    # 39% BDAG / 61% non-circulating bonus treatment
+    # High crash resilience, low queue activation, +12-18% ROI vs 25% model
     ModelParams(
-        "Sphincer v3", 3.0, 3, 30, 0.20, 30.0,
-        state_driven_release=True,
-        global_monthly_cap=0.70,
-        price_gate_high=0.05,
-        brake_low=0.02,
-        drip_factor_between=0.12,
-        mining_lock_ratio=0.60,
-        mining_volume_cap_pct=0.20,
-        mining_lock_months=2,
+        "Hybrid C Lite+ Variant A (Ingo CSV)", 3.0, 3, 36, 0.20, 40.0,
+        state_driven_release=True, global_monthly_cap=0.40,
+        mining_lock_ratio=0.60,  # Conservative: higher locking
+        price_gate_high=0.05, brake_low=0.02,
     ),
+
+    # Hybrid C Lite+ Variant B - 39% Bonus Removed (Aggressive)
+    # Source: docs/sources/Ingo  Projects/Hybrid_C_Lite_Plus_Bonus_Variants.csv
+    # 61% BDAG / 39% removed from circulation
+    # Higher early liquidity, +25-35% ROI vs 25% model, medium crash resilience
     ModelParams(
-        "Sphincer v4", 3.0, 3, 30, 0.20, 35.0,
-        state_driven_release=True,
-        global_monthly_cap=0.60,
-        price_gate_high=0.05,
-        brake_low=0.02,
-        drip_factor_between=0.10,
-        mining_lock_ratio=0.65,
-        mining_volume_cap_pct=0.20,
-        mining_lock_months=3,
+        "Hybrid C Lite+ Variant B (Ingo CSV)", 3.0, 3, 36, 0.20, 25.0,
+        state_driven_release=True, global_monthly_cap=0.50,
+        mining_lock_ratio=0.45,  # Aggressive: lower locking, more liquidity
+        price_gate_high=0.05, brake_low=0.02,
     ),
-    
-    # Sphincer v5 - v3.0 core + adaptive shield + dynamic discharge (NO global cap)
+
+    # Model A (with Bonus Separation) - ROI benchmark with explicit bonus split
+    # Source: docs/sources/Ingo  Projects/Model_A_Roi_Final_With_Bonus.csv
+    # 25% BDAG / 75% Utility Credits (non-priced), 15% TGE, 12mo linear vesting
+    # Very high volatility/dump risk, optimized for pure ROI
     ModelParams(
-        "Sphincer v5 (v3.0+)", 3.0, 3, 33, 0.20, 0.0,
-        price_gate_high=0.05,
-        brake_low=0.02,
-        drip_factor_between=0.10,
-        mining_lock_months=24,
-        mining_volume_cap_pct=0.20,
+        "Model A (Bonus Separated, Ingo CSV)", 15.0, 0, 12, 1.0, 0.0,
+        mining_lock_ratio=0.20,
+    ),
+
+    # Model A (Base) - Original simpler ROI benchmark
+    # Source: docs/sources/Ingo  Projects/Model_A_ROI.csv
+    # 10-15% TGE, 12-24mo vesting, 70-80% mining liquid, optional states
+    # 100% BDAG bonus, no utility credits
+    ModelParams(
+        "Model A (Base, Ingo CSV)", 12.0, 0, 18, 1.0, 0.0,
+        mining_lock_ratio=0.25,  # 70-80% liquid = 20-30% locked
     ),
 ]
 

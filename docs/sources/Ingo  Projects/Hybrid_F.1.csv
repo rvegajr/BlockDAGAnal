@@ -1,0 +1,12 @@
+Parameter,Value
+Model_Name,Hybrid_F.1
+TGE_Options,"0%, 3%, 6%"
+Vesting_Logic,Adaptive Throttle
+Throttle_Rate,25%
+Emergency_Brake,Enabled
+Recovery_Boost,+12% post-crash acceleration
+Mining,"Enabled, dynamic, recovery-aware"
+Bonus,"Enabled, 12M lock + linear vesting"
+Crash_Recovery,Active
+Governance_Mode,Community-tunable
+Primary_Goal,Outperform v3 in Y3-Y5 ROI

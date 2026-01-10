@@ -1,0 +1,14 @@
+Category,Parameter,Value,Unit
+Meta,Model Name,Hybrid D.1,
+Meta,Status,Technical Reference Model,
+Listing,TGE Unlock,0% or 3% (Bought Tokens only),Percentage
+Purchased Tokens,Vesting Schedule,12 months linear,Schedule
+Bonus,Lock Period,12,Months
+Bonus,Vesting Schedule,24 months linear,Schedule
+Mining,Emission Model,Smooth emission (Kaspa-full),Rule
+Mining,Monthly Decline,Multiplicative (hard),Rule
+Mining,Security Budget Floor,25% baseline,Rule
+Stability,Recovery Limiter,+15% max rebound,Rule
+Deflation,Burn Type,Usage-weighted (dynamic),Rule
+Stability,Safeguards,Throttle + Emergency Brake + Recovery,Policy
+Governance,Upgrade Path,Governance vote required,Constraint

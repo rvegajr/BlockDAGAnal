@@ -1,0 +1,47 @@
+Category,Parameter,Value,Unit
+Model,Model Name,Hybrid F,
+Model,Design Goal,Beat v3 on Y3 while staying credible & implementable,
+Model,Version,1.0,
+Listing,Circulating Supply at TGE,"50,000,000,000",Tokens
+Listing,Implied Listing Price,0.0006,USD
+Listing,Listing Liquidity,"30,000,000",USD
+Listing,TGE Unlock (Purchased),3%,Percentage
+Listing,TGE Cliff (Purchased),3,Months
+Listing,Launch Liquidity Policy,Deploy maximum available LP; safeguards never increase emissions,Rule
+Purchased Tokens,Purchased Vesting Total,97%,Percentage
+Purchased Tokens,Purchased Vesting Duration (post-cliff),21,Months
+Purchased Tokens,Purchased Vesting Method,Streaming (continuous),Method
+Bonus,Bonus Share of Community Allocation,39%,Percentage
+Bonus,Bonus Token Amount,"38,415,000,000",Tokens
+Bonus,Bonus TGE Unlock,0%,Percentage
+Bonus,Bonus Lock Period,12,Months
+Bonus,Bonus Vesting Duration (after lock),24,Months
+Bonus,Bonus Vesting Method,Streaming (continuous),Method
+Mining,Active Miners,X10 / X30 / X100,Category
+Mining,Exclude Tier,X1 phased out,Policy
+Mining,Monthly Output Decline,1%,Percentage
+Mining,Mining Base Range (per miner),X10: 200; X30: 600; X100: 2000,Tokens/Month
+Mining,Mining Sell Cap,15% of Net Buy Volume (monthly),Rule
+Mining,Mining-to-Bonus Guard,Mining emission <= 0.6 × Bonus emission (month),Rule
+Deflation,Burn Fee,0.5%,Percentage
+Deflation,Burn Fee Applies To,Marketplace fees and/or high-tier claim fees,Scope
+Deflation,Deflation Sink Activation,Month 25+,Timing
+Stability Logic,Stress Metric,7-day MA band + drawdown (framework-defined),Definition
+Stability Logic,Healthy Band,Price >= 0.75 × 7D MA,Rule
+Stability Logic,Throttle Zone,0.60–0.75 × 7D MA,Band
+Stability Logic,Emergency Brake,Price < 0.60 × 7D MA or extreme drawdown,Trigger
+Stability Logic,Throttle Multiplier (Purchased),0.50,Multiplier
+Stability Logic,Throttle Multiplier (Bonus),0.30,Multiplier
+Stability Logic,Throttle Multiplier (Mining),0.30,Multiplier
+Stability Logic,Severe Stress Multiplier (Bonus),0.10,Multiplier
+Stability Logic,Severe Stress Multiplier (Mining),0.10,Multiplier
+Stability Logic,Emergency Brake Effect,Pause Bonus; set Mining to 0 during brake,Rule
+Stability Logic,Emergency Brake Max Duration,30,Days
+Stability Logic,Emergency Brake Cooldown,30,Days
+Stability Logic,Recovery Phase Duration,60,Days
+Stability Logic,Recovery Phase Policy,Gradual ramp: 30%→60%→100% weekly; no spikes,Rule
+Stability Logic,Demand Override (Bull),"If Net Buy > Emissions, allow up to 120% of baseline for Purchased only",Rule
+Stability Logic,Demand Override Cap,120%,Percentage
+Stability Logic,Zero-Spike Enforcement,All releases streamed; no claim days,Rule
+Stability Logic,Governance Constraint,"Core tokenomics immutable; safeguards may only reduce/delay, never increase caps",Constraint
+Stability Logic,Oracle Dependency,Minimize; use MA band + drawdown; avoid fixed price anchors,Constraint

@@ -37,114 +37,91 @@ If 10 years of the S&P 500 means the odds of positive returns are in my favor, I
 
 | Model | Source |
 |------|--------|
-| Original Model | Defined in repo: [`scripts/real_world_multi_opinion_backtest.py`](scripts/real_world_multi_opinion_backtest.py) + [`scripts/hybrid_tokenomics_second_opinion_compare.py`](scripts/hybrid_tokenomics_second_opinion_compare.py) |
-| Hybrid Model | Defined in repo: [`scripts/real_world_multi_opinion_backtest.py`](scripts/real_world_multi_opinion_backtest.py) + [`scripts/hybrid_tokenomics_second_opinion_compare.py`](scripts/hybrid_tokenomics_second_opinion_compare.py) |
-| Protocol v2.6 | [`https://a-changer-plus-tard.github.io/BlockDag-Launch-Protocol-v2.6/`](https://a-changer-plus-tard.github.io/BlockDag-Launch-Protocol-v2.6/) |
-| Protocol v3.0 | [`https://a-changer-plus-tard.github.io/Protocol-3.0/`](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
-| Protocol v3.1 (Adjusted) | [`https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/`](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/) |
-| Hybrid B | CSV source: [`docs/sources/Ingo  Projects/Hybrid B.csv`](docs/sources/Ingo%20%20Projects/Hybrid%20B.csv) |
-| Protocol v5.3 | [`https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/`](https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/) |
-| Protocol v5.5 | [`https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/`](https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/) |
-| Protocol v5.7 | [`https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/`](https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/) |
-| Protocol v5.8 | [`https://a-changer-plus-tard.github.io/Protocol-v5.8-Revised-Protocol-Bonus-48-Months/`](https://a-changer-plus-tard.github.io/Protocol-v5.8-Revised-Protocol-Bonus-48-Months/) |
-| Protocol v7.0 | [`https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/`](https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/) |
-| Harris Model | [`https://github.com/harrisjustinhagen-oss/Vesting-Economy_Harris/blob/main/BDAG%20VESTING%20HARRIS.pdf`](https://github.com/harrisjustinhagen-oss/Vesting-Economy_Harris/blob/main/BDAG%20VESTING%20HARRIS.pdf) |
+| Original Model | Defined in repo: [`scripts/real_world_multi_opinion_backtest.py`](scripts/real_world_multi_opinion_backtest.py) |
+| Hybrid Model | Defined in repo: [`scripts/real_world_multi_opinion_backtest.py`](scripts/real_world_multi_opinion_backtest.py) |
+| Protocol v2.6 | [`a-changer-plus-tard.github.io/BlockDag-Launch-Protocol-v2.6`](https://a-changer-plus-tard.github.io/BlockDag-Launch-Protocol-v2.6/) |
+| Protocol v3.0 | [`a-changer-plus-tard.github.io/Protocol-3.0`](https://a-changer-plus-tard.github.io/Protocol-3.0/) |
+| Protocol v3.1 | [`a-changer-plus-tard.github.io/Protocol-3.1-Ajusted`](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/) |
+| Protocol v5.3 | [`a-changer-plus-tard.github.io/Protocol-v5.3-Original`](https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/) |
+| Protocol v5.5 | [`a-changer-plus-tard.github.io/Protocol-v5.5-Original`](https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/) |
+| Protocol v5.7 | [`a-changer-plus-tard.github.io/Protocol-v5.7-Revised`](https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/) |
+| Protocol v5.8 | [`a-changer-plus-tard.github.io/Protocol-v5.8-Revised`](https://a-changer-plus-tard.github.io/Protocol-v5.8-Revised-Protocol-Bonus-48-Months/) |
+| Protocol v7.0 | [`a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0`](https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/) |
+| Harris Model | [`github.com/harrisjustinhagen-oss`](https://github.com/harrisjustinhagen-oss/Vesting-Economy_Harris/blob/main/BDAG%20VESTING%20HARRIS.pdf) |
 | HybridC | Spreadsheet: [`docs/HybridC_Tokenomics_Test.xlsx`](docs/HybridC_Tokenomics_Test.xlsx) |
-| Hybrid (Ingo CSV) | CSV source: [`docs/sources/Ingo  Projects/Hybrid.csv`](docs/sources/Ingo%20%20Projects/Hybrid.csv) |
-| Hybrid C (Ingo CSV) | CSV source: [`docs/sources/Ingo  Projects/hybrid C.csv`](docs/sources/Ingo%20%20Projects/hybrid%20C.csv) |
-| Hybrid C Lite+ (Final, Ingo CSV) | CSV source: [`docs/sources/Ingo  Projects/Hybrid_C_Lite_Plus_Final.csv`](docs/sources/Ingo%20%20Projects/Hybrid_C_Lite_Plus_Final.csv) |
-| Hybrid C Lite (Defaults, Ingo CSV) | CSV source: [`docs/sources/Ingo  Projects/Hybrid_C_Lite_Defaults.csv`](docs/sources/Ingo%20%20Projects/Hybrid_C_Lite_Defaults.csv) |
-| Model A (ROI Optimized, Ingo CSV) | CSV source: [`docs/sources/Ingo  Projects/Model_A_ROI_Final_Test.csv`](docs/sources/Ingo%20%20Projects/Model_A_ROI_Final_Test.csv) |
-| Ingo Projects (CSV sources) | [`docs/sources/Ingo  Projects/README.md`](docs/sources/Ingo%20%20Projects/README.md) |
+| Community CSV Models (17) | [`docs/sources/Ingo Projects/`](docs/sources/Ingo%20%20Projects/) — See [analysis](docs/reports/INGO_MODEL_ANALYSIS.md) |
 
-## 📊 Comprehensive Simulation Analysis (24 Models Tested)
+## 📊 Comprehensive Simulation Analysis (All 31 Models)
 
-We tested **24 tokenomics models** using **10 years of real BTC market data** (2015-2024), including COVID crash, FTX collapse, bull runs, and bear markets.
+We tested **31 tokenomics models** using **10 years of real BTC market data** (2015-2024), including COVID crash, FTX collapse, bull runs, and bear markets.
 
-This includes:
-- **Core 14 protocols** (Original, Hybrid, v2.6, v3.0, v3.1, Hybrid B, Hybrid Tokenomics, Harris, v5.3/5.5/5.7/5.8, HybridC, v7.0)
-- **5 "Ingo CSV" variants** (Hybrid, Hybrid C, Hybrid C Lite+, Hybrid C Lite Defaults, Model A)
-- **5 "Sphincer" iterations** (attempts to beat Protocol v3.0 — all failed except v5 which tied)
+This includes the **core 14 protocols** plus **17 community-submitted variants** from CSV specifications.
 
-### The Core 19 Models (Pre-Iteration)
+### The 31 Models Tested
 
 | # | Protocol | What It Does |
 |---|----------|--------------|
 | 1 | **Original Model** | Time-based (2% TGE, 12mo cliff, 60mo vesting) |
 | 2 | **Hybrid Model** | Time-based + emergency brake protection |
-| 3 | **Protocol v2.6** | Oracle price gate at $0.05 ([source](https://a-changer-plus-tard.github.io/BlockDag-Launch-Protocol-v2.6/)) |
-| 4 | **Protocol v3.0** | Oracle gate + emergency brake + drip throttling + mining locks ([source](https://a-changer-plus-tard.github.io/Protocol-3.0/)) |
-| 5 | **Protocol v3.1** | Volume pegging + volume-capped mining ([source](https://a-changer-plus-tard.github.io/Protocol-3.1-Ajusted-/)) |
+| 3 | **Protocol v2.6** | Oracle price gate at $0.05 |
+| 4 | **Protocol v3.0** | Oracle gate + emergency brake + drip throttling + mining locks |
+| 5 | **Protocol v3.1** | Volume pegging + volume-capped mining |
 | 6 | **Hybrid B** | State-gated issuance under caps |
 | 7 | **Hybrid Tokenomics** | State-driven vesting/mining + heavy staking locks |
-| 8 | **Harris Model** | 10% TGE, 9mo vesting, miner incentive ([source](https://github.com/harrisjustinhagen-oss/Vesting-Economy_Harris/blob/main/BDAG%20VESTING%20HARRIS.pdf)) |
-| 9 | **Protocol v5.3** | Original 6-pillar protocol, 36mo bonus ([source](https://a-changer-plus-tard.github.io/Protocol-v5.3-Original-Protocol-Bonus-36-Months-/)) |
-| 10 | **Protocol v5.5** | Original 6-pillar protocol, 48mo bonus ([source](https://a-changer-plus-tard.github.io/Protocol-v5.5-Original-Protocol-Bonus-48-Months-/)) |
-| 11 | **Protocol v5.7** | Revised: Adaptive Shield + Block Streaming, 36mo ([source](https://a-changer-plus-tard.github.io/Protocol-v5.7-Revised-Protocol-Bonus-36-Months-3/)) |
-| 12 | **Protocol v5.8** | Revised: Adaptive Shield + Block Streaming, 48mo ([source](https://a-changer-plus-tard.github.io/Protocol-v5.8-Revised-Protocol-Bonus-48-Months/)) |
+| 8 | **Harris Model** | 10% TGE, 9mo vesting, miner incentive |
+| 9 | **Protocol v5.3** | Original 6-pillar protocol, 36mo bonus |
+| 10 | **Protocol v5.5** | Original 6-pillar protocol, 48mo bonus |
+| 11 | **Protocol v5.7** | Revised: Adaptive Shield + Block Streaming, 36mo |
+| 12 | **Protocol v5.8** | Revised: Adaptive Shield + Block Streaming, 48mo |
 | 13 | **HybridC** | Ultra-conservative: 0.3% monthly cap, 50% auto-stake |
-| 14 | **Protocol v7.0** | Definitive edition w/ 9 pillars (trend shield, dynamic discharge, circuit breaker, daily airdrops, etc.) ([source](https://a-changer-plus-tard.github.io/BlockDAG-Protocol-v7.0-Definitive-Edition/)) |
-| 15 | **Hybrid (Ingo CSV)** | State-driven emissions under a wide global cap range (0.3–1.0%/mo) |
-| 16 | **Hybrid C (Ingo CSV)** | State-driven with strict 0.30%/30d global cap |
-| 17 | **Hybrid C Lite+ (Final, Ingo CSV)** | State-driven with 0.40–0.45%/30d cap + lower auto-stake |
-| 18 | **Hybrid C Lite (Defaults, Ingo CSV)** | Defaults snapshot of “Lite” parameters (0.45%/30d cap; higher auto-stake midpoint) |
-| 19 | **Model A (ROI Optimized, Ingo CSV)** | Aggressive ROI benchmark (high TGE, fast vesting, high liquid mining) |
+| 14 | **Protocol v7.0** | Definitive edition w/ 9 pillars |
+| 15-31 | **Community CSV Models** | 17 variants with different risk-reward profiles (see [full list](docs/sources/Ingo%20%20Projects/README.md)) |
 
 ---
 
 ## 🏆 Final Rankings
 
-### Conservative Scenario (Stress-Test) — Year 3 ROI
+### Conservative Scenario (Stress-Test) — 72-Month ROI
 
-| Rank | Protocol | Y1 | Y3 | Y6 | Verdict |
-|:----:|----------|---:|---:|---:|---------|
-| 1 | **Protocol v3.0** | -58% | **+40%** | +27% | ✅ **WINNER** |
-| 2 | **Protocol v7.0** | -53% | +9% | +9% | 🥈 Strong runner-up |
-| 3 | Protocol v5.8 | -38% | +7% | -14% | 🥈 Strong |
-| 4 | Protocol v5.5 | -38% | +6% | -15% | 🥈 Strong |
-| 5 | Protocol v5.3 | -50% | +4% | -15% | ⚠️ Good |
-| 6 | Protocol v5.7 | -50% | +4% | -15% | ⚠️ Good |
-| 7 | Hybrid Model | -72% | -35% | +3% | Breaks even Y6 |
-| 8 | Protocol v2.6 | -65% | -41% | -49% | ❌ Underperforms |
-| 9 | Original Model | -92% | -45% | +3% | Breaks even Y6 |
-| 10 | Protocol v3.1 (Adjusted) | -66% | -46% | -54% | ❌ Volume peg too restrictive |
-| 11 | Hybrid Tokenomics | -80% | -58% | -27% | ❌ Over-conservative |
-| 12 | Hybrid C (Ingo CSV) | -82% | -63% | -36% | ❌ Too restrictive (cap + gating) |
-| 13 | HybridC | -83% | -66% | -41% | ❌ Too restrictive |
-| 14 | Harris Model | -83% | -67% | -48% | ❌ TGE too high |
-| 15 | Hybrid B | -86% | -68% | -44% | ❌ Weakest |
-| 16 | Hybrid C Lite (Defaults, Ingo CSV) | -85% | -70% | -47% | ❌ Too restrictive |
-| 17 | Model A (ROI Optimized, Ingo CSV) | -84% | -76% | -71% | ❌ High dump risk |
-| 18 | Hybrid C Lite+ (Final, Ingo CSV) | -88% | -76% | -64% | ❌ Too restrictive (still “stuck”) |
-| 19 | Hybrid (Ingo CSV) | -92% | -92% | -86% | ❌ Mostly “stuck” under stress |
+| Rank | Protocol | M12 | M36 | M72 | Verdict |
+|:----:|----------|----:|----:|----:|---------|
+| 1 | **Protocol v3.0** | -54% | **+34%** | **+23%** | ✅ **WINNER** |
+| 2 | **Protocol v7.0** | -50% | +5% | +4% | 🥈 Strong runner-up |
+| 3 | Protocol v5.8 | -31% | +4% | -18% | 🥈 Best early returns |
+| 4 | Protocol v5.5 | -32% | +4% | -18% | 🥈 Strong |
+| 5 | Protocol v5.3 | -48% | 0% | -19% | ⚠️ Good |
+| 6 | Protocol v5.7 | -48% | 0% | -19% | ⚠️ Good |
+| 7 | Original Model | -92% | -46% | +2% | Long-term recovery |
+| 8 | Hybrid Model | -73% | -36% | +2% | Long-term recovery |
+| 9 | Hybrid Tokenomics | -80% | -59% | -30% | ❌ Over-conservative |
+| 10 | Protocol v2.6 | -65% | -42% | -50% | ❌ Binary gate problem |
+| 11 | Protocol v3.1 | -66% | -48% | -55% | ❌ Volume peg too restrictive |
+| 12+ | Community CSV Models | -82% to -94% | -63% to -90% | -41% to -84% | Varies by config |
 
 ---
 
 ## 💰 Real-World ROI: If You Invest $100,000
 
-### All 19 Models — Year 3 / Year 6 Values
+### Top 14 Core Models — M36 / M72 Values
 
-| Protocol | Conservative | Ideal Growth | With Crashes |
-|----------|--------------|--------------|--------------|
-| **Protocol v3.0** | **$140k / $126k** | **$309k / $745k** | **$106k / $93k** |
-| **Protocol v7.0** | **$109k / $109k** | $245k / $703k | $82k / $79k |
-| Protocol v5.8 | $107k / $86k | $229k / $696k | $85k / $69k |
-| Protocol v5.5 | $106k / $85k | $230k / $696k | $86k / $69k |
-| Protocol v5.3 | $104k / $85k | $225k / $673k | $78k / $67k |
-| Protocol v5.7 | $104k / $85k | $225k / $672k | $78k / $67k |
-| Hybrid Model | $65k / $103k | $253k / $1.34M | $39k / $62k |
-| Original Model | $55k / $103k | $213k / $1.35M | $33k / $62k |
-| Protocol v2.6 | $59k / $51k | $186k / $406k | $35k / $30k |
-| Protocol v3.1 (Adjusted) | $54k / $46k | $144k / $388k | $34k / $29k |
-| Hybrid Tokenomics | $42k / $73k | $168k / $980k | $22k / $36k |
-| Hybrid C (Ingo CSV) | $37k / $64k | $149k / $870k | $19k / $31k |
-| HybridC | $34k / $59k | $137k / $790k | $16k / $25k |
-| Harris Model | $33k / $52k | $129k / $676k | $20k / $31k |
-| Hybrid B | $32k / $56k | $127k / $761k | $14k / $24k |
-| Hybrid C Lite (Defaults, Ingo CSV) | $30k / $53k | $121k / $709k | $13k / $20k |
-| Model A (ROI Optimized, Ingo CSV) | $24k / $29k | $92k / $382k | $14k / $18k |
-| Hybrid C Lite+ (Final, Ingo CSV) | $24k / $36k | $91k / $535k | $9k / $13k |
-| Hybrid (Ingo CSV) | $8k / $14k | $64k / $378k | $5k / $6k |
+| Protocol | Conservative | Ideal Growth | Choppy Stress |
+|----------|--------------|--------------|---------------|
+| **Protocol v3.0** | **$134k / $123k** | **$292k / $733k** | **$102k / $90k** |
+| **Protocol v7.0** | **$105k / $104k** | $232k / $684k | $79k / $76k |
+| Protocol v5.8 | $104k / $82k | $212k / $685k | $82k / $67k |
+| Protocol v5.5 | $104k / $82k | $212k / $685k | $82k / $67k |
+| Protocol v5.3 | $100k / $81k | $210k / $662k | $75k / $65k |
+| Protocol v5.7 | $100k / $81k | $210k / $662k | $75k / $65k |
+| Hybrid Model | $64k / $102k | $245k / $1.32M | $39k / $61k |
+| Original Model | $54k / $102k | $207k / $1.32M | $33k / $61k |
+| Protocol v2.6 | $58k / $50k | $179k / $406k | $35k / $30k |
+| Protocol v3.1 | $52k / $45k | $139k / $379k | $32k / $28k |
+| Hybrid Tokenomics | $42k / $70k | $163k / $965k | $21k / $35k |
+| HybridC | $33k / $54k | $132k / $778k | $16k / $25k |
+| Harris Model | $33k / $51k | $125k / $666k | $20k / $31k |
+| Hybrid B | $29k / $52k | $124k / $750k | $14k / $23k |
+
+*31 models tested total. See [Multi-Opinion Report](docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md) for complete results.*
 
 ---
 
@@ -162,67 +139,12 @@ This includes:
 
 ---
 
-## 🔥 We Tried to Break Protocol v3.0 (And Failed)
-
-After v3.0 dominated every scenario, I ran **24+ iterations** trying to beat it by combining "best-of-breed" features from all top performers:
-
-| Iteration | What We Tried | Conservative Y3 ROI | Result |
-|-----------|---------------|---------------------|--------|
-| **Super Ultra Mega Sphincer** | v3.0 drip + v7.0 adaptive shield + 0.55% global cap + dynamic discharge | **–72%** | ❌ Global cap strangled recovery |
-| **Sphincer v2** | Matched v3.0's 10% drip, loosened cap to 0.65% | **–74%** | ❌ Cap still too tight |
-| **Sphincer v3** | More aggressive: 12% drip, 0.70% cap | **–76%** | ❌ Even worse |
-| **Sphincer v4** | Balanced approach: 10% drip, 0.60% cap | **–74%** | ❌ No improvement |
-| **Sphincer v5 (v3.0+)** | **Removed cap entirely**, kept v3.0 core + extras | **+40%** | ✅ **TIED v3.0** |
-
-### What We Learned
-
-1. **Global monthly caps < 1.0% are toxic** — even at 0.70%, they create "double jeopardy" (cap + gates) that prevents recovery
-2. **v3.0's 10% drip is perfectly calibrated** — slower starves the market, faster defeats the purpose
-3. **Simple > Complex** — drip throttling + price gates + mining locks beats multi-layered cap systems
-4. **"Sphincer v5" = v3.0 with extra features** — proves you can add adaptive shield + dynamic discharge without hurting performance, but they don't materially improve outcomes either
-
-**Bottom line:** After testing 24 models across 10 years of market data, **Protocol v3.0 remains unbeaten**. We literally couldn't design something better.
-
-👉 **[Full iteration details & results](docs/vesting/SUPER_ULTRA_MEGA_SPHINCER_MODEL.md)**
-
----
-
-## 💎 Optimal Launch Liquidity
-
-Launch liquidity is the single biggest factor determining whether your tokenomics model succeeds or fails. Here's what the data shows:
-
-| Liquidity Tier | Success Probability | Conservative Y3 ROI (v3.0) | Best Use Case |
-|----------------|---------------------|---------------------------|---------------|
-| **$20M** | ⚠️ High Risk | –15% (negative) | Avoid unless you have guaranteed demand |
-| **$32M** | ✅ Viable | **+40%** (positive) | ✅ **Realistic baseline** (our sims) |
-| **$50M** | ✅ Good | +65% | ✅ **Sweet spot** for mid-tier projects |
-| **$75M** | ✅ Strong | +110% | Institutional backing |
-| **$100M** | ✅ Excellent | +150% | Blue-chip tier |
-| **$150M** | 🚀 Overkill | +210% | Diminishing returns |
-
-### Key Insights
-
-1. **$32M is the minimum viable liquidity** for Protocol v3.0 to achieve positive ROI in stress markets
-2. **$50M is the sweet spot** — balances realistic fundraising with strong performance
-3. **Returns scale non-linearly** — doubling liquidity from $32M → $64M improves Y3 ROI by ~100%, but $64M → $128M only adds ~60%
-4. **At $20M, NOTHING works** — even v3.0 goes negative (–15% Y3)
-
-### Our Recommendation
-
-- **Small/Medium projects ($10-30M presale):** Target **$32-50M** launch liquidity, use Protocol v3.0
-- **Large projects ($50M+ presale):** Target **$75-100M** launch liquidity, any top-5 model works
-- **Blue-chip ($100M+ presale):** Target **$100M+** liquidity, focus on long-term sustainability
-
-👉 **[Full liquidity analysis with tier breakdowns](docs/vesting/LAUNCH_LIQUIDITY_ANALYSIS.md)**
-
----
-
 ## 🔬 Why Each Model Got Its Result
 
 | Model | Why It Performs This Way |
 |-------|-------------------------|
 | **Protocol v3.0** | Drip throttling creates gradual recovery; doesn't "bunch up" supply |
-| **Protocol v7.0** | Adds more throttling + early mining lock; tends to reduce mid-cycle drawdowns vs v5.x |
+| **Protocol v7.0** | Adds more throttling + early mining lock; reduces mid-cycle drawdowns |
 | **Protocol v5.5/v5.8** | 48-month bonus lock reduces long-term pressure; volume pegging helps |
 | **Protocol v5.3/v5.7** | 36-month bonus is shorter than v5.5; slightly more pressure |
 | **Hybrid/Original** | Long vesting (36-60mo) eventually pays off; no price adaptation |
@@ -232,10 +154,7 @@ Launch liquidity is the single biggest factor determining whether your tokenomic
 | **HybridC** | 0.3% monthly cap is far too restrictive |
 | **Harris Model** | 10% TGE creates massive day-1 sell pressure |
 | **Hybrid B** | State-gating causes tokens to "bunch up" and release in clusters |
-| **Hybrid C (Ingo CSV)** | Very strict cap + gating keeps it “stuck” under stress |
-| **Hybrid C Lite+ / Lite Defaults (Ingo CSV)** | Slightly looser than Hybrid C but still too restrictive for stress regimes |
-| **Hybrid (Ingo CSV)** | Wide parameter ranges, but in stress it behaves as “mostly halted” in this harness |
-| **Model A (ROI Optimized, Ingo CSV)** | Aggressive unlock + high liquid mining: high dump risk dominates |
+| **Community CSV Models** | Various configurations; see [Multi-Opinion Report](docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md) |
 
 👉 **[Legacy per-model analysis (13-model snapshot)](docs/vesting/13_MODEL_COMPREHENSIVE_ANALYSIS.md)**
 
@@ -246,11 +165,12 @@ Launch liquidity is the single biggest factor determining whether your tokenomic
 | Document | What It Contains |
 |----------|------------------|
 | **[Methodology & Investment Thesis](docs/vesting/METHODOLOGY_AND_INVESTMENT_THESIS.md)** | 📖 Why we use 10-year historical data instead of theoretical models |
-| **[Legacy 13-Model Comprehensive Analysis](docs/vesting/13_MODEL_COMPREHENSIVE_ANALYSIS.md)** | Legacy snapshot (does not cover later additions like Ingo variants) |
+| **[Multi-Opinion Report (31 Models)](docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md)** | ✅ Conservative + Ideal + Choppy scenarios |
 | **[Investor Comparison (Real-World)](docs/vesting/INVESTOR_COMPARISON_REAL_WORLD.md)** | ✅ ROI tables for all investment levels |
-| **[Multi-Opinion Report](docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md)** | ✅ Conservative + Ideal + Choppy scenarios |
 | **[All-Model Comparison](docs/vesting/ALL_MODEL_COMPARISON.md)** | ✅ Synthetic market simulations |
 | **[Liquidity Tier Analysis](docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md)** | ✅ $20M-$150M liquidity testing |
+| **[Community Model Analysis](docs/reports/INGO_MODEL_ANALYSIS.md)** | 📊 Deep-dive on community CSV submissions |
+| **[Legacy 13-Model Analysis](docs/vesting/13_MODEL_COMPREHENSIVE_ANALYSIS.md)** | Legacy snapshot (historical reference) |
 
 ---
 
@@ -261,15 +181,15 @@ There are **two ways** to use this repo:
 - **Read the results (fastest)**: open the markdown reports in `docs/vesting/` and the raw outputs in `data/results/`.
 - **Re-run the numbers (reproducible)**: run the scripts in `scripts/` with your preferred assumptions (runs, horizons, liquidity, investment levels).
 
-### Where the “truth” lives
+### Where the "truth" lives
 
-- **Real-world backtest (19 models)**:
+- **Real-world backtest (31 models)**:
   - Results JSON: `data/results/real_world_multi_opinion_results.json`
   - Report: `docs/vesting/REAL_WORLD_MULTI_OPINION_REPORT.md`
-- **Second opinion (order-book + sell pressure, 19 models)**:
+- **Second opinion (order-book + sell pressure)**:
   - Results JSON: `data/results/second_opinion_compare_results_19_models.json`
   - Report: `docs/vesting/SECOND_OPINION_COMPARE_REPORT_19_MODELS.md`
-- **Liquidity-tier stress test (19 models)**:
+- **Liquidity-tier stress test**:
   - Results JSON: `data/results/all_model_liquidity_tier_second_opinion_results.json`
   - Report: `docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md`
 
@@ -345,13 +265,14 @@ python3 scripts/all_model_liquidity_tier_second_opinion.py
 
 | Your Goal | Best Protocol | Why |
 |-----------|---------------|-----|
-| **Best short-term (Y1-3)** | Protocol v3.0 | Only one positive by Y3 |
-| **Best long-term (Y6)** | Original or Hybrid Model | +1245% ROI in ideal scenario |
-| **Best in crashes** | Protocol v3.0 | Only one stays close to breakeven |
+| **Best short-term (M12-24)** | Protocol v5.8 | Best early ROI (-18% vs -54% others at M12) |
+| **Best mid-term (M36)** | Protocol v3.0 | Only one positive (+34%) in stress |
+| **Best long-term (M72)** | Original or Hybrid Model | +1224% ROI in ideal scenario |
+| **Best in crashes** | Protocol v3.0 | Best choppy resilience (-10% vs -35% avg) |
 | **Best v5.x variant** | Protocol v5.5 or v5.8 | 48-month bonus lock is key |
 | **Most conservative** | HybridC | 0.3% cap (but underperforms) |
 | **Avoid** | Harris Model | 10% TGE is too aggressive |
-| **Overall recommendation** | **Protocol v3.0** | Best risk-adjusted returns |
+| **Overall recommendation** | **Protocol v3.0** | Best risk-adjusted returns across all scenarios |
 
 ---
 
@@ -393,5 +314,5 @@ python3 scripts/all_model_liquidity_tier_second_opinion.py
 
 ---
 
-*Last Updated: January 2026*  
-*Based on: 10 years BTC history + 24 models (19 core + 5 Sphincer iterations) × 3 scenarios × 5 time horizons × 6 liquidity tiers*
+*Last Updated: January 10, 2026*  
+*Based on: 10 years BTC history + 31 models × 3 opinions × 10 choppy scenarios × 5 time horizons*
