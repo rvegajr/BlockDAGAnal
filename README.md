@@ -171,6 +171,7 @@ This includes the **core 14 protocols** plus **17 community-submitted variants**
 | **[Liquidity Tier Analysis](docs/vesting/ALL_MODEL_LIQUIDITY_TIER_ANALYSIS.md)** | ✅ $20M-$150M liquidity testing |
 | **[Community Model Analysis](docs/reports/INGO_MODEL_ANALYSIS.md)** | 📊 Deep-dive on community CSV submissions |
 | **[Legacy 13-Model Analysis](docs/vesting/13_MODEL_COMPREHENSIVE_ANALYSIS.md)** | Legacy snapshot (historical reference) |
+| **[Unlimited Approval Security Analysis](docs/reports/UNLIMITED_APPROVAL_SECURITY_ANALYSIS.md)** | 🔒 Investigation of "wallet drainer" FUD - DEBUNKED |
 
 ---
 
@@ -314,5 +315,5 @@ python3 scripts/all_model_liquidity_tier_second_opinion.py
 
 ---
 
-*Last Updated: January 10, 2026*  
+*Last Updated: January 19, 2026*  
 *Based on: 10 years BTC history + 31 models × 3 opinions × 10 choppy scenarios × 5 time horizons*
