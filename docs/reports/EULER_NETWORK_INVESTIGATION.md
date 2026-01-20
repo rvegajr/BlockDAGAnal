@@ -339,6 +339,31 @@ These show ~15% price increase in 10 days (from $0.0122 to $0.014).
 
 If the original listing price was $0.05, what is it now?
 
+### Keynote Events Timeline
+
+BlockDAG has used high-production "Keynote" events as major marketing milestones:
+
+| Keynote | Date | Location/Theme | Claims Made |
+|---------|------|----------------|-------------|
+| **Keynote 1** | Mar-Apr 2024 | Shibuya Crossing, Tokyo | Raised $22.4M, Batch 10 at $0.006 |
+| **Keynote 2** | Jun 2024 | "From The Moon" | $50.4M raised, X1 Miner App announced |
+| **Keynote 3** | Late 2024/Early 2025 | "Hollywood-caliber" production | $210M+ raised, Beta Testnet V1, 2,380% ROI since Batch 1 |
+| **Moonshot Teaser** | 2025 | $20 by 2026 prediction | $600M target |
+
+**Observation:** Each keynote coincided with dramatic fundraising claims, but the website counter often didn't reflect these figures.
+
+### Partnership Claims
+
+| Partner | Claimed Relationship | First Appeared | Still Active (Jan 2026)? |
+|---------|---------------------|----------------|--------------------------|
+| **Inter Milan** | "Official Blockchain Partner" | Sep 2024 | ✓ Yes |
+| **BVB Dortmund** | "Premium Partner" | Sep 2024 | ❓ Not visible on current site |
+| **Seattle Seawolves** | Sports partnership | Jul 2025 | Unknown |
+| **Seattle Orcas** | Sports partnership | Jul 2025 | Unknown |
+| **Alex Pereira** | Brand Ambassador (UFC) | Jul 2025 | Unknown |
+
+**Observation:** BVB Dortmund partnership logo was prominent in Oct 2024 but appears absent from the Jan 2026 site.
+
 ### Investor Transaction Data (From Screenshots)
 
 From the transaction portal screenshots shared by investor "Jaime":
@@ -415,23 +440,50 @@ Based on all archive evidence and investor transaction data:
 ### Price Comparison Chart
 
 ```
-                     Presale Price Over Time
+                     Presale Price Over Time (Documented)
                      
+    $0.03 ┤                              ●$0.0276 (Jul 2025 - Batch)
+           │                          ●$0.0248 (Apr 2025 - Batch 27)
     $0.02 ┤                                    
            │                                    
     $0.015┤           ●$0.014 (Jul 2024)       
            │          ●$0.0122 (Jun 2024)      
     $0.01 ┤                                    
-           │                                    
+           │      ●$0.006 (Batch 10 - Mar/Apr 2024)
     $0.005┤                                    
-           │                                    
-    $0.001┤─────────────────────────────●$0.001 (Jan 2026)
+           │                            ●$0.0016 (Jul 2025 - "Special")
+    $0.001┤●$0.001 (Batch 1)─────────────●$0.001 (Jan 2026 - Website)
            │                                    
        $0 └──────────────────────────────────────
-            Jun'24   Jul'24   ...   Jan'26     
+           Mar'24  Jun'24  Apr'25  Jul'25  Jan'26
                                                
-    ⚠️ Price DECREASED by 93% over 18 months!
+    ⚠️ Price jumped to $0.0248 then dropped to $0.001 - inconsistent!
+    ⚠️ "Special price" $0.0016 lower than June 2024 price of $0.0122
 ```
+
+### Complete Batch/Price Evidence from News Sources
+
+| Date | Source | Batch | Price | Funds Raised |
+|------|--------|-------|-------|--------------|
+| **Mar-Apr 2024** | LiveBitcoinNews | Batch 10 | **$0.006** | $22.4M (Shibuya Keynote) |
+| **May 2024** | LiveBitcoinNews | ~Batch 12 | - | **$21.4M** |
+| **Jun 15, 2024** | Wayback Machine | - | - | **$50.4M** (Keynote 2) |
+| **Jun 21, 2024** | Wayback Machine | - | **$0.0122** | $50.4M |
+| **Jul 01, 2024** | Wayback Machine | Batch 19 | **$0.014** | **$0M** ⚠️ Reset |
+| **Aug 15, 2024** | Wayback Machine | ~Batch 22 | - | **$68.1M** |
+| **Sep 15, 2024** | Wayback Machine | - | - | **$70.8M** |
+| **Oct 2024** | Wayback Machine | Batch 24 | - | **$76.5M** |
+| **Late 2024** | TechBullion | ~Batch 26 | - | **$212M** (Keynote 3) |
+| **Apr 2025** | Multiple sources | Batch 27 | **$0.0248** | **$216M** |
+| **Jul 2025** | CoinCentral | Batch 27+ | **$0.0016** (special) / **$0.0276** (batch) | **$340M-$348M** |
+| **Sep 2025** | DigitalJournal | - | - | **$410M** |
+| **Jan 2026** | Live website | "Stage 1" | **$0.001** | Not displayed |
+
+**Source URLs:**
+- https://www.livebitcoinnews.com/best-crypto-to-invest-in-blockdags-21-4m-presale-triumph-and-moon-keynote-captivate-beyond-kelexo-bitbots-efforts/
+- https://techbullion.com/blockdag-unveils-beta-testnet-in-keynote-3-presale-hits-212m-amidst-ethereum-dip-xrp-price-uncertainty/
+- https://coincentral.com/340m-raised-blockdag-presale-is-ending-final-call-at-0-0016-before-this-layer-1-explodes/
+- https://www.digitaljournal.com/pr/news/binary-news-network/pump-sees-new-highs-ondo-1340760201.html
 
 ### Red Flags Identified
 
@@ -488,6 +540,57 @@ For at least 2+ months, the website showed "$\*\*.\*\* Million Raised" - literal
 
 Where's the verifiable raise data?
 
+**🚩 RED FLAG #7: "Special Price" Lower Than Year-Old Price**
+
+In July 2025, BlockDAG offered a "special access price" of **$0.0016** despite the batch price being **$0.0276**. 
+
+But wait—the June 2024 price was **$0.0122**!
+
+| Date | Type | Price |
+|------|------|-------|
+| Jun 2024 | Regular | $0.0122 |
+| Jul 2025 | "Special" | $0.0016 |
+| Jul 2025 | "Batch" | $0.0276 |
+
+The "special" price in 2025 was **87% LOWER** than the regular price a year earlier. This makes no economic sense unless tokens are being arbitrarily priced.
+
+**🚩 RED FLAG #8: "No Vesting Pass" Promotion**
+
+In July 2025, BlockDAG introduced a "No Vesting Pass" offering:
+- Tokens purchased during a 10-day window would be **100% unlocked at launch**
+- This bypasses the standard **1-year lockup** for all other investors
+
+Why would a legitimate project allow some investors to bypass lockup? This creates:
+- Two classes of investors (locked vs. unlocked)
+- Immediate selling pressure from "special" investors
+- Incentive for insiders to dump on locked investors
+
+**🚩 RED FLAG #9: Constantly Moving Launch Date**
+
+| Date | Claimed Launch Timeline |
+|------|------------------------|
+| Jan 2024 | "Coming Soon" |
+| Jun 2024 | Launch price $0.05 |
+| Oct 2024 | "Testnet Live" |
+| Jul 2025 | "August 11, 2025" Global Launch |
+| Jan 2026 | Still "PRESALE FINISHING" |
+
+The presale has been "ending soon" for **2+ years**.
+
+**🚩 RED FLAG #10: User/Holder Count Claims**
+
+| Date | Claimed Users/Holders |
+|------|----------------------|
+| Apr 2025 | 1 million X1 users |
+| Jul 2025 | 200,000+ holders |
+| Sep 2025 | 3 million X1 users, 312,000+ holders |
+
+If accurate, this means:
+- $410M / 312,000 holders = **$1,314 average investment**
+- 3 million "users" but only 312,000 "holders" = 90% didn't invest
+
+These numbers need independent verification.
+
 ---
 
 ## A Note on Methodology
@@ -513,6 +616,11 @@ Anyone can replicate these searches. The goal isn't to reach a predetermined con
 | 2026-01-20 | Added complete timeline tables with dates, prices, batches, promo codes |
 | 2026-01-20 | Documented 5+ counter resets, 6 red flags, price regression analysis |
 | 2026-01-20 | Added counter reset visualization and price comparison chart |
+| 2026-01-20 | **Major update:** Added evidence from news sources (LiveBitcoinNews, TechBullion, CoinCentral, DigitalJournal) |
+| 2026-01-20 | Added Keynote events timeline and partnership claims analysis |
+| 2026-01-20 | Added 4 additional red flags (#7-#10): special pricing, no vesting pass, moving launch dates, user count anomalies |
+| 2026-01-20 | Documented complete batch/price history from Batch 1 ($0.001) to Batch 27 ($0.0248) |
+| 2026-01-20 | Added claimed fundraising progression: $22M → $50M → $70M → $212M → $340M → $410M |
 
 ---
 
