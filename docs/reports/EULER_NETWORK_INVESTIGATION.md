@@ -228,32 +228,46 @@ This indicates the presale is supposedly ending, but the price shown ($0.001) is
 
 ### Historical Snapshots from Web Archive (Comprehensive)
 
-I systematically reviewed **20+ Wayback Machine snapshots** throughout 2024-2026 to document the presale progression:
+I systematically reviewed **30+ Wayback Machine snapshots** throughout 2018-2026 to document the complete presale progression:
+
+#### Domain History (Pre-Project)
+
+| Date | Status | Evidence |
+|------|--------|----------|
+| **Jun 26, 2018** | **DOMAIN FOR SALE** | blockdag.network was parked on toprank.domain as a premium domain for sale |
+| **2018-2023** | Unknown | No accessible snapshots; domain may have been parked or inactive |
+| **Late 2023** | Unknown | No archive data available for Nov-Dec 2023 (claimed "Euler Network" period) |
+
+**⚠️ CRITICAL FINDING:** The domain `blockdag.network` was being sold as early as June 2018. This predates any crypto project by several years.
 
 #### Complete Timeline: 2024
 
 | Date | Snapshot | Amount Raised | Current Price | Batch | Key Observations |
 |------|----------|---------------|---------------|-------|------------------|
-| **Jan 18, 2024** | ✓ | **$1.00M** | Not shown | - | First accessible snapshot, "Top Crypto Presale 2024" |
-| **Feb 02, 2024** | ✓ | **$1.00M** | Not shown | - | "The New Epoch of Blockchain Evolution" |
+| **Jan 18, 2024** | ✓ | **$1.00M** | Not shown | ~1-2 | First accessible snapshot, "Top Crypto Presale 2024" |
+| **Feb 02, 2024** | ✓ | **$1.00M** | Not shown | ~2-3 | "The New Epoch of Blockchain Evolution", Times Square display |
 | **Mar 01, 2024** | ✓ | **$0M** | Not shown | - | ⚠️ **COUNTER RESET TO ZERO** |
-| **Mar 18, 2024** | ✓ | **$0.39M** | Not shown | - | Counter shows partial amount |
+| **Mar 12, 2024** | ✓ | **$0M** | Not shown | ~8-10 | **KEYNOTE 1: Shibuya Crossing, Tokyo** 🎬 |
+| **Mar 18, 2024** | ✓ | **$0.39M** | Not shown | ~10 | Counter shows partial amount |
 | **Apr 02, 2024** | ✓ | **$0M** | Not shown | - | ⚠️ **COUNTER RESET AGAIN** |
 | **Apr 15, 2024** | ✓ | Not visible | Not shown | - | Large verification badge display |
-| **May 02, 2024** | ✓ | **$27.2M** | Not shown | - | Big jump from $0 |
-| **Jun 01, 2024** | ✓ | **$35.0M** | Not shown | - | "Welcome to Your New Dashboard" |
-| **Jun 15, 2024** | ✓ | **$50.4M** | Not shown | - | "KEYNOTE 2 - From The Moon is Live" |
-| **Jun 21, 2024** | ✓ | **$50.4M** | **$0.0122** | - | **FIRST PRICE DATA!** Listing Price: **$0.05** |
+| **Apr 25, 2024** | ✓ | **$27.2M** | Not shown | ~12-14 | "DEV RELEASES" menu added |
+| **May 02, 2024** | ✓ | **$27.2M** | Not shown | ~14 | Consistent with Apr 25 |
+| **May 10, 2024** | ✓ | **$27.2M** | Not shown | ~14-15 | Keynote video with presenter visible |
+| **Jun 01, 2024** | ✓ | **$35.0M** | Not shown | ~15-16 | "Welcome to Your New Dashboard" |
+| **Jun 08, 2024** | ✓ | **$47.7M** | Not shown | ~17-18 | **"X1 Miner - Mobile App LAUNCHED"** 📱 |
+| **Jun 15, 2024** | ✓ | **$50.4M** | Not shown | ~18 | **KEYNOTE 2: "From The Moon is Live"** 🎬 |
+| **Jun 21, 2024** | ✓ | **$50.4M** | **$0.0122** | ~18 | **FIRST PRICE DATA!** Listing Price: **$0.05** |
 | **Jul 01, 2024** | ✓ | **$0M** | **$0.014** | **Batch 19** | ⚠️ **COUNTER RESET**; Second price data point |
-| **Jul 10, 2024** | ✓ | Not shown | Not shown | - | "X1 Miner Released on Apple App Store" |
+| **Jul 10, 2024** | ✓ | Not shown | Not shown | ~19-20 | "X1 Miner Released on Apple App Store" |
 | **Jul 20, 2024** | ✓ | **$0M** | Not shown | - | ⚠️ **COUNTER RESET AGAIN** |
-| **Aug 15, 2024** | ✓ | **$68.1M** (banner: $65M) | Not shown | - | "TEAM" menu added, Aug 22 event countdown |
+| **Aug 15, 2024** | ✓ | **$68.1M** (banner: $65M) | Not shown | ~21-22 | "TEAM" menu added, Aug 22 event countdown |
 | **Sep 02, 2024** | ✓ | **$0M** | Not shown | - | ⚠️ **COUNTER RESET** (was $68M 2 weeks prior!) |
-| **Sep 15, 2024** | ✓ | **$70.8M** (banner: $70M) | Not shown | - | "TESTNET GOING LIVE!" countdown, Inter Milan + BVB |
-| **Oct 01, 2024** | ✓ | **$76.5M** | Not shown | - | "TESTNET IS LIVE!", partnership logos |
-| **Oct 09, 2024** | ✓ | **$0M** | Not shown | - | ⚠️ **COUNTER RESET**; "BDAG50" promo code |
-| **Nov 09, 2024** | ✓ | **BROKEN** ($\*\*.\*\*) | Not shown | - | New design, "BULLRUN100" code, golden bull image |
-| **Dec 02, 2024** | ✓ | Not shown | Not shown | - | "Use Code BDAG250", "Bonus Unchained" promo |
+| **Sep 15, 2024** | ✓ | **$70.8M** (banner: $70M) | Not shown | ~22-23 | "TESTNET GOING LIVE!" countdown, Inter Milan + BVB |
+| **Oct 01, 2024** | ✓ | **$76.5M** | Not shown | ~23-24 | "TESTNET IS LIVE!", partnership logos |
+| **Oct 09, 2024** | ✓ | **$0M** | Not shown | ~24 | ⚠️ **COUNTER RESET**; "BDAG50" promo code |
+| **Nov 09, 2024** | ✓ | **BROKEN** ($\*\*.\*\*) | Not shown | ~25-26 | New design, "BULLRUN100" code, golden bull image |
+| **Dec 02, 2024** | ✓ | Not shown | Not shown | ~26 | "Use Code BDAG250", "Bonus Unchained" promo |
 
 #### Complete Timeline: 2025-2026
 
@@ -343,14 +357,32 @@ If the original listing price was $0.05, what is it now?
 
 BlockDAG has used high-production "Keynote" events as major marketing milestones:
 
-| Keynote | Date | Location/Theme | Claims Made |
-|---------|------|----------------|-------------|
-| **Keynote 1** | Mar-Apr 2024 | Shibuya Crossing, Tokyo | Raised $22.4M, Batch 10 at $0.006 |
-| **Keynote 2** | Jun 2024 | "From The Moon" | $50.4M raised, X1 Miner App announced |
-| **Keynote 3** | Late 2024/Early 2025 | "Hollywood-caliber" production | $210M+ raised, Beta Testnet V1, 2,380% ROI since Batch 1 |
-| **Moonshot Teaser** | 2025 | $20 by 2026 prediction | $600M target |
+| Keynote | Date (Archive) | Location/Theme | Funds Claimed | Price at Time |
+|---------|----------------|----------------|---------------|---------------|
+| **Keynote 1** | Mar 12, 2024 | Shibuya Crossing, Tokyo, Japan | $22.4M (news) / $0M (website) | $0.006 (Batch 10) |
+| **Keynote 2** | Jun 15, 2024 | "From The Moon" - Lunar landscape | $50.4M (website) | $0.0122 |
+| **Keynote 3** | Late 2024/Early 2025 | "Hollywood-caliber" production | $210M+ (news) | $0.0248 (Batch 27) |
+| **Moonshot Teaser** | 2025 | $20 by 2026 prediction | $600M (target) | - |
 
-**Observation:** Each keynote coincided with dramatic fundraising claims, but the website counter often didn't reflect these figures.
+**⚠️ Keynote 1 Anomaly:** On March 12, 2024 (Keynote 1 launch), the website showed **$0M Raised** despite news claiming $22.4M raised!
+
+### Major Product Milestones (from Archives)
+
+| Date | Milestone | Evidence |
+|------|-----------|----------|
+| **Feb 2024** | Times Square/Wall Street display | Screenshot shows NYC billboard |
+| **Mar 2024** | **Keynote 1 - Shibuya Crossing Tokyo** | First major marketing event |
+| **Apr 2024** | "DEV RELEASES" menu added | Technical updates section |
+| **Jun 08, 2024** | **X1 Miner Mobile App LAUNCHED** | Android + iOS beta apps |
+| **Jun 2024** | **Keynote 2 - Moon theme** | "From The Moon is Live" |
+| **Jul 2024** | X1 Miner on Apple App Store | App Store release |
+| **Aug 2024** | "TEAM" page added | Team reveal |
+| **Sep 2024** | **TESTNET announced** | Countdown started |
+| **Oct 2024** | **TESTNET LIVE** + Explorer + IDE | Technical milestones |
+| **Nov 2024** | Complete website redesign | New golden bull aesthetic |
+| **Late 2024** | **Keynote 3** | "Hollywood-caliber" production |
+
+**Observation:** Each keynote coincided with dramatic fundraising claims, but the website counter often didn't reflect these figures or was reset to $0.
 
 ### Partnership Claims
 
@@ -612,7 +644,7 @@ Anyone can replicate these searches. The goal isn't to reach a predetermined con
 |------|--------|
 | 2026-01-19 | Initial investigation published |
 | 2026-01-19 | Added Part 9: Presale Price Progression Analysis |
-| 2026-01-20 | Expanded with comprehensive Wayback Machine analysis (20+ snapshots across 2024-2026) |
+| 2026-01-20 | Expanded with comprehensive Wayback Machine analysis (30+ snapshots across 2018-2026) |
 | 2026-01-20 | Added complete timeline tables with dates, prices, batches, promo codes |
 | 2026-01-20 | Documented 5+ counter resets, 6 red flags, price regression analysis |
 | 2026-01-20 | Added counter reset visualization and price comparison chart |
@@ -621,6 +653,10 @@ Anyone can replicate these searches. The goal isn't to reach a predetermined con
 | 2026-01-20 | Added 4 additional red flags (#7-#10): special pricing, no vesting pass, moving launch dates, user count anomalies |
 | 2026-01-20 | Documented complete batch/price history from Batch 1 ($0.001) to Batch 27 ($0.0248) |
 | 2026-01-20 | Added claimed fundraising progression: $22M → $50M → $70M → $212M → $340M → $410M |
+| 2026-01-20 | **CRITICAL:** Found domain history - blockdag.network was FOR SALE in June 2018 |
+| 2026-01-20 | Added detailed product milestones: Keynote dates, X1 Miner launch, Testnet launch |
+| 2026-01-20 | Expanded timeline to 30+ snapshots with estimated batch numbers |
+| 2026-01-20 | Documented Keynote 1 anomaly: $0M shown on website same day as $22.4M claimed in news |
 
 ---
 
