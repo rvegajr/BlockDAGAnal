@@ -657,6 +657,147 @@ Anyone can replicate these searches. The goal isn't to reach a predetermined con
 | 2026-01-20 | Added detailed product milestones: Keynote dates, X1 Miner launch, Testnet launch |
 | 2026-01-20 | Expanded timeline to 30+ snapshots with estimated batch numbers |
 | 2026-01-20 | Documented Keynote 1 anomaly: $0M shown on website same day as $22.4M claimed in news |
+| 2026-01-20 | **EXPLOSIVE:** Added Part 11 - Gürhan Kızılöz deep dive from Reddit r/BlockDAGInvestors |
+| 2026-01-20 | Added ZachXBT October 2025 exposé, WPRO connection, Lanistar FCA warning |
+| 2026-01-20 | Documented alleged fund diversion to Nexus International gambling operations |
+| 2026-01-20 | Added corporate registry evidence from Estonia |
+
+---
+
+## Part 11: The Gürhan Kızılöz Investigation (Reddit Deep Dive)
+
+This section documents findings from an extensive Reddit investigation (r/BlockDAGInvestors, January 2026) that connects BlockDAG to a larger network of fintech and online gambling enterprises.
+
+### Who is Gürhan Kızılöz?
+
+According to the Reddit investigation:
+
+| Attribute | Details |
+|-----------|---------|
+| **Nationality** | British-Turkish |
+| **Primary Role** | Founder and CEO of Nexus International |
+| **Corporate Entity** | Nexus International Entertainment OÜ (Estonia, Registry #16992162) |
+| **Registration Date** | May 2024 |
+| **Ownership** | 100% shareholder |
+
+### The Nexus International Network
+
+Gürhan Kızılöz operates a network of fintech and gambling companies:
+
+| Company | Type | Status |
+|---------|------|--------|
+| **Nexus International** | Holding company | Active |
+| **MegaPosta** | Brazil-facing online sportsbook & casino | Active |
+| **Spartans.com** | Crypto-friendly casino ("flagship" platform) | Active |
+| **Lanistar** | Fintech (debit card) | ⚠️ FCA Warning (2020), UK entity bankrupt (2022) |
+| **WPRO (Worldwide Promotions)** | PR/Marketing for crypto presales | Linked to multiple token presales |
+
+### The BlockDAG Connection
+
+**October 2025 AMA Session:**
+According to the Reddit post, BlockDAG's true founder was revealed in an October 2025 "Ask Me Anything" session:
+
+> "In an October 2025 AMA session, BlockDAG's true founder was revealed to be Gürhan Kızılöz: Kızılöz himself appeared and acknowledged originating the BlockDAG concept and personally funding its early development, investing about $14 million and assembling the technical team."
+
+**Key Revelations from the AMA:**
+- Kızılöz acknowledged **originating** the BlockDAG concept
+- Claimed to have invested **$14 million** in early development
+- Assembled the original technical team
+- Announced new CEO (former CMO Nic van den Bergh) and CTO (Jeremy Harkness)
+- Admitted prior CEO **Antony Turner** was "installed as a frontman" to distance the project from Kızılöz's past ventures
+
+### ZachXBT Investigation (October 2025)
+
+Well-known blockchain investigator ZachXBT publicly accused BlockDAG's team:
+
+> "In late October 2025, well-known crypto sleuth ZachXBT publicly accused BlockDAG's team of concealing Kızılöz's leadership. ZachXBT asserted that Antony Turner (BlockDAG's listed CEO) was merely a paid figurehead, and that 'the grifter Gurhan Kiziloz is the real co-founder secretly behind BlockDAG.'"
+
+**Response from BlockDAG:**
+- Mentions of "Gurhan Kiziloz" in BlockDAG's Telegram were **auto-deleted**
+- Community members noticed **deliberate censorship**
+- BlockDAG **blocked ZachXBT** on social media
+- **No detailed rebuttal or transparency report** issued
+
+### Fund Diversion Allegations
+
+The Reddit investigation raises concerns about potential misuse of presale funds:
+
+**The Timing Problem:**
+| Event | Timing | Amount |
+|-------|--------|--------|
+| BlockDAG presale ongoing | Early 2024 - Late 2025 | **$433-435 million** (claimed) |
+| Kızılöz commits "self-funded" investment to Spartans.com | Early 2025 | **$200 million** |
+
+**Key Quote from Reddit:**
+> "For a privately held company that only a year prior grossed $400M revenue (not profit), having $200M cash on hand to plow into a new casino platform is striking. This $200M capital infusion into Spartans.com closely coincided with BlockDAG raising a similar scale of funds from its token presale, inviting speculation that the presale may have been a source of liquidity."
+
+**Allegations:**
+- Funds allegedly moved through **Middle Eastern OTC brokers**
+- Pattern of "cashing out or moving through over-the-counter desks in the Middle East"
+- No official audit of BlockDAG's use of presale proceeds
+- No public third-party audit or KYC verification of team wallets
+
+### Regulatory Red Flags
+
+**1. Lanistar FCA Warning (November 2020)**
+- UK Financial Conduct Authority issued public warning
+- Lanistar was promoting a banking app/card **without proper authorization**
+- FCA "effectively cautioned that Lanistar might be a scam"
+- Lanistar Ltd (UK) went into **bankruptcy (administration) in 2022**
+
+**2. Big Eyes Coin / WPRO Investigation**
+- Israeli Securities Authority (2023) scrutinized Big Eyes Coin promotions
+- Big Eyes Coin linked to WPRO (Worldwide Promotions)
+- Internal whistleblowers identify Kızılöz as "the mastermind behind WPRO's operations"
+
+### Summary: The Alleged Network
+
+```
+                    ┌─────────────────────┐
+                    │  Gürhan Kızılöz     │
+                    │  (100% Shareholder) │
+                    └──────────┬──────────┘
+                               │
+                    ┌──────────▼──────────┐
+                    │ Nexus International │
+                    │   Entertainment OÜ  │
+                    │     (Estonia)       │
+                    └──────────┬──────────┘
+                               │
+        ┌──────────────────────┼──────────────────────┐
+        │                      │                      │
+        ▼                      ▼                      ▼
+  ┌───────────┐         ┌───────────┐         ┌───────────┐
+  │ MegaPosta │         │ Spartans  │         │  Lanistar │
+  │  (Brazil) │         │   .com    │         │(UK - DEAD)│
+  │  Casino   │         │  Casino   │         │  Fintech  │
+  └───────────┘         └───────────┘         └───────────┘
+                               │
+                               │ ($200M "self-funded"?)
+                               │
+                    ┌──────────▼──────────┐
+                    │    BlockDAG?        │
+                    │  (Presale Funds?)   │
+                    │   $433M claimed     │
+                    └─────────────────────┘
+```
+
+### What Remains Unverified
+
+| Claim | Evidence Level |
+|-------|----------------|
+| Kızılöz is BlockDAG's true founder | ⚠️ Reddit claims (not independently verified) |
+| $14M personal investment in BlockDAG | ⚠️ Self-claimed in alleged AMA |
+| Fund diversion to gambling operations | ⚠️ Circumstantial (timing + amounts) |
+| Antony Turner was a "frontman" | ⚠️ Alleged but plausible given his departure |
+| Lanistar FCA warning | ✅ Verifiable via FCA public register |
+| Estonian corporate registration | ✅ Verifiable via Estonian business registry |
+
+### Sources for Part 11
+
+- Reddit: [r/BlockDAGInvestors - Deep dive into Gurhan Kiziloz](https://www.reddit.com/r/BlockDAGInvestors/comments/1qbqdlc/deep_dive_into_gurhan_kiziloz_how_did_he/)
+- UK FCA Register (for Lanistar warning)
+- Estonian Business Registry (for Nexus International Entertainment OÜ)
 
 ---
 
