@@ -172,6 +172,8 @@ This includes the **core 14 protocols** plus **17 community-submitted variants**
 | **[Community Model Analysis](docs/reports/INGO_MODEL_ANALYSIS.md)** | 📊 Deep-dive on community CSV submissions |
 | **[Legacy 13-Model Analysis](docs/vesting/13_MODEL_COMPREHENSIVE_ANALYSIS.md)** | Legacy snapshot (historical reference) |
 | **[Unlimited Approval Security Analysis](docs/reports/UNLIMITED_APPROVAL_SECURITY_ANALYSIS.md)** | 🔒 Investigation of "wallet drainer" FUD - DEBUNKED |
+| **[Euler Network Investigation](docs/reports/EULER_NETWORK_INVESTIGATION.md)** | 🔍 Full investigative report on BlockDAG/Euler Network rebrand |
+| **[Crypto Due Diligence Guide](docs/reports/CRYPTO_DUE_DILIGENCE_GUIDE.md)** | 📝 Medium-style article: 5-minute checklist to spot crypto scams |
 
 ---
 
