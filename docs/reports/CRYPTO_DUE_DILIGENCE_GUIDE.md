@@ -32,7 +32,7 @@ The basic checklist catches lazy scams. For sophisticated ones, you need **VERIF
 | They Claim... | You Must Verify... |
 |---------------|---------------------|
 | "We have audits" | **Can you read the full PDF on CertiK/Hacken's OFFICIAL website?** Not their site—the auditor's site. |
-| "Our team is public" | **When did they join?** A CEO who appears AFTER millions raised may be a hired face, not a founder. |
+| "I founded this project" | **Can you verify this independently?** Check Wayback Machine for earliest mentions. The CEO in this investigation claimed to have "created" the project, but evidence suggests it was rebranded from a different project (Euler Network) before he appeared. Origin stories can be fabricated. |
 | "Tier-1 exchange coming" | **Did it happen?** Promises are worthless. Check CoinGecko for actual listings. |
 | "We hit our roadmap" | **Can you USE what they built?** A testnet announcement ≠ a working blockchain. |
 | "Major partnerships" | **Are those logos still there 6 months later?** Disappearing partners = failed or fake deals. |
@@ -245,7 +245,7 @@ The project I investigated didn't ignore due diligence—they created the **illu
 | Red Flag | What They Claimed | The Reality |
 |----------|-------------------|-------------|
 | **Smart Contract Audit** | ✅ "Independently audited" displayed on website | ⚠️ **Unverifiable.** No link to actual audit report. No CertiK/Hacken verification page. "We have audits" ≠ audits exist. |
-| **Doxxed Team** | ✅ CEO name, photos, LinkedIn profiles | ⚠️ **Frontmen, not founders.** CEO appeared AFTER initial fundraising. Real controllers (alleged) remain hidden. |
+| **Doxxed Team / Origin Story** | ✅ CEO claims "I created BlockDAG" | ⚠️ **Fabricated history.** Wayback Machine shows the project existed as "Euler Network" (Nov-Dec 2023) before "BlockDAG" appeared (Jan 2024). The CEO claims founding the project, but evidence suggests it was rebranded. **Origin stories can be lies.** |
 | **Tier-1 Exchange Listings** | ✅ "Coming to major exchanges" promised repeatedly | ❌ **Never happened.** After 2+ years, only minor exchanges. Promises ≠ delivery. |
 | **Product Roadmap** | ✅ Benchmarks hit consistently for ~1 year | ⚠️ **Minimum viable deception.** Testnet, app mockups, keynotes—enough to maintain belief, not enough to be a real product. |
 | **Partnerships** | ✅ Inter Milan, Borussia Dortmund, F1 logos | ❌ **Logos disappeared.** Alleged contract defaults. Partnerships were marketing, not technology. |
@@ -270,6 +270,33 @@ The basic checklist catches lazy scams. For sophisticated ones, you need **verif
 | "They promised Tier-1 listings" | **Did any listing actually happen? Promises are worthless.** |
 | "They hit their roadmap" | **Are the deliverables real products or just announcements? Can I USE what they built?** |
 | "They have big partnerships" | **Are the partner logos still there 6 months later? Did the partners confirm the relationship?** |
+
+### The Fabricated Origin Story Problem
+
+One of the most insidious tactics: **claiming to have founded a project you didn't create.**
+
+In this investigation:
+- The CEO (Anthony Turner) publicly claims he **"created BlockDAG"**
+- Wayback Machine evidence shows a project called **"Euler Network"** existed Nov-Dec 2023
+- "BlockDAG" appeared in January 2024, **25 days after** the last Euler Network snapshot
+- The app mockup showing "168.0341" mined balance appears on **BOTH** sites
+- Reddit users claim to have invested in "Euler Network" in November 2023
+
+**If the origin story doesn't match the archives, someone is lying.**
+
+This matters because:
+1. A "founder" who didn't actually found the project may be a **hired spokesperson**
+2. A rebrand often happens to **escape bad reputation** from a failed/exposed project
+3. The **real controllers** remain hidden while the public face takes attention
+
+**How to verify:**
+```
+1. Wayback Machine the project's domain
+2. Check for EARLIEST snapshot
+3. Compare claimed founding date vs. actual first appearance
+4. Search for alternative project names in the same timeframe
+5. Look for identical assets (logos, app mockups, numbers) across projects
+```
 
 ### The Trust Timeline Pattern
 
@@ -400,12 +427,15 @@ If any box is unchecked: DO NOT INVEST.
 ### Level 2: Verification Checks (Catches Sophisticated Scams)
 ```
 □ Can I find the audit PDF on the AUDITOR'S website (not project's)?
-□ Was the current team there FROM THE BEGINNING, or did they appear later?
+□ Can I INDEPENDENTLY verify the founder's origin story? (Wayback Machine their claims!)
+□ Does the project have a different name/brand in earlier archives?
 □ Have promised Tier-1 listings ACTUALLY HAPPENED (not just announced)?
 □ Can I USE the product they claim to have built (not just see announcements)?
 □ Are partnership logos from 6+ months ago STILL on the website?
 □ Has the "TGE date" been pushed back more than twice?
 □ Are bonus percentages INCREASING over time (50% → 100% → 500%)?
+
+⚠️ CRITICAL: People can LIE about being founders. Wayback Machine their story.
 
 If any Level 2 box fails: VERIFY DEEPER BEFORE INVESTING.
 ```
