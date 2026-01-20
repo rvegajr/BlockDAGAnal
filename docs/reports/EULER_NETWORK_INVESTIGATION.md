@@ -661,6 +661,14 @@ Anyone can replicate these searches. The goal isn't to reach a predetermined con
 | 2026-01-20 | Added ZachXBT October 2025 exposé, WPRO connection, Lanistar FCA warning |
 | 2026-01-20 | Documented alleged fund diversion to Nexus International gambling operations |
 | 2026-01-20 | Added corporate registry evidence from Estonia |
+| 2026-01-20 | **MAJOR:** Added Part 12 - DL News Investigation "$442M Mirage" |
+| 2026-01-20 | Documented contract defaults with Inter Milan, BVB, F1 teams |
+| 2026-01-20 | Added "Comms Playbook" analysis: Institutional Signal Mimicry, Sphere Illusion, Community Gaslighting |
+| 2026-01-20 | Added Part 13 - Reddit r/CryptoScams reports compilation |
+| 2026-01-20 | Added Part 14 - Complete 15-point red flag summary |
+| 2026-01-20 | Added Part 15 - Investment psychology analysis (why people invested despite red flags) |
+| 2026-01-20 | Documented "Adam" case study ($25k invested by Australian restaurateur) |
+| 2026-01-20 | Added unpaid employees and missing miners allegations from DL News |
 
 ---
 
@@ -798,6 +806,150 @@ The Reddit investigation raises concerns about potential misuse of presale funds
 - Reddit: [r/BlockDAGInvestors - Deep dive into Gurhan Kiziloz](https://www.reddit.com/r/BlockDAGInvestors/comments/1qbqdlc/deep_dive_into_gurhan_kiziloz_how_did_he/)
 - UK FCA Register (for Lanistar warning)
 - Estonian Business Registry (for Nexus International Entertainment OÜ)
+
+---
+
+## Part 12: DL News Investigation - "The $442M Mirage"
+
+A major professional news investigation by **DL News** (January 2026) exposed critical issues with BlockDAG's operations. This section summarizes their findings.
+
+### The Investigation Summary
+
+**Article Title:** *"Inside BlockDAG's $442m crypto maze of missing miners, unpaid employees, and breached contracts"*
+
+**Source:** [DL News - January 2026](https://www.dlnews.com/articles/defi/inside-crypto-project-blockdag-442-million-usd-maze/)
+
+### Key Allegations
+
+| Allegation | Details |
+|------------|---------|
+| **Total Claimed Raised** | $442 million from retail investors |
+| **Contract Defaults** | Allegedly defaulted on multi-million dollar contracts |
+| **Affected Partners** | Inter Milan, Borussia Dortmund, F1 teams |
+| **Unpaid Employees** | Reports of staff not receiving salaries |
+| **Missing Miners** | Customers allegedly not receiving ordered mining hardware |
+
+### "The Comms Playbook" - How They Allegedly Bypassed Due Diligence
+
+According to the DL News investigation and Reddit summaries, BlockDAG employed three main tactics:
+
+**1. Institutional Signal Mimicry**
+- "They didn't build tech; they bought prestige"
+- Paid for logo placements on football jerseys (Inter Milan, BVB)
+- Investor logic: "If a legendary football club like Inter Milan has them on the pitch, they *must* be legit"
+- **Reality:** The investigation shows these teams pulled out after the checks didn't clear
+
+**2. The Sphere Illusion**
+- Spent massive sums to appear on the **Las Vegas Sphere**
+- In the eyes of retail investors, "Sphere money" equals "successful project"
+- Created false appearance of legitimacy through expensive marketing
+
+**3. Community Gaslighting**
+- Investors sank thousands based on "online excitement"
+- Example cited: "Adam" (Australian restaurateur) invested **$25,000** due to perceived hype
+- Classic "Vibe-Based Investing" trap where marketing hides total lack of technical progress
+
+### Critical Quote from the Investigation
+
+> *"This is a massive reminder: A logo on a jersey or a screen in Vegas is NOT due diligence."*
+
+---
+
+## Part 13: Additional Reddit Scam Reports
+
+Multiple posts on r/CryptoScams and r/CryptoCurrency have documented concerns:
+
+### Post 1: "Silent Night: The BlockDAG's Version 'Unholy Night'"
+**Subreddit:** r/CryptoScam
+**Key Point:** No official AMA updates on transition since December 4th (over a month of silence)
+
+### Post 2: "BlockDAG: The Presale Deception and the Illusion of a 'Community' Transition"
+**Subreddit:** r/CryptoScam
+**Key Point:** Documents the pattern of presale extensions and "community transition" narratives
+
+### Post 3: r/CryptoCurrency - DL News Investigation Post
+**Key Findings Shared:**
+- 10 upvotes, 3 comments
+- AutoModerator response warned: "New victims, please read this..."
+- Moderator advice: "If you suspect the site is a scam, it probably is"
+
+### Community Warning Signs Identified
+
+| Warning Sign | Status |
+|--------------|--------|
+| "No legit company/trader/investor is using WhatsApp" | BlockDAG uses Telegram extensively |
+| "No legit company has 'professors', 'assistants', or 'teachers'" | BlockDAG prominently features "Maurice Herlihy, Professor at Brown University" |
+| "No legit company forces you to pay a 'fee' or 'taxes' to withdraw money" | Reported claims of withdrawal issues |
+
+---
+
+## Part 14: Updated Red Flags Summary
+
+Based on all evidence gathered from DL News, Reddit, Wayback Machine, and web searches:
+
+### 🚩 CRITICAL RED FLAGS
+
+| # | Red Flag | Evidence |
+|---|----------|----------|
+| 1 | **Counter Resets** | Fundraising counter reset to $0M at least 5 times in 2024 |
+| 2 | **Price Regression** | Price went from $0.014 (Jul 2024) to $0.001 (Jan 2026) - 93% decrease |
+| 3 | **Contract Defaults** | Allegedly defaulted on Inter Milan, BVB, F1 sponsorship contracts |
+| 4 | **Unpaid Employees** | DL News reports staff not receiving salaries |
+| 5 | **Missing Miners** | Customers not receiving ordered mining hardware |
+| 6 | **Hidden Founder** | Gürhan Kızılöz allegedly concealed as true founder |
+| 7 | **Frontman CEO** | Antony Turner allegedly "installed as a frontman" |
+| 8 | **Gambling Diversion** | Allegations of funds diverted to casino operations |
+| 9 | **ZachXBT Exposé** | Famous investigator called project out; BlockDAG blocked him |
+| 10 | **No Mainnet** | After 2+ years and $442M+ claimed, no functioning mainnet |
+| 11 | **500% Bonuses** | Extreme bonuses (BDAG1000) suggest desperation for liquidity |
+| 12 | **AMA Silence** | No official updates since December 4th (as of Jan 2026) |
+| 13 | **Parked Domain** | Domain was for sale in 2018, bought to fake longevity |
+| 14 | **FCA Warning** | Kızılöz's Lanistar received UK FCA warning in 2020, bankruptcy 2022 |
+| 15 | **No Audit Verification** | Claimed Halborn/Certik audits not verifiable on auditor portals |
+
+---
+
+## Part 15: Investment Psychology Analysis
+
+### Why People Invest Despite Red Flags
+
+Based on the DL News investigation and community reports:
+
+| Psychological Trap | How BlockDAG Exploited It |
+|--------------------|---------------------------|
+| **Authority Bias** | Maurice Herlihy (Brown University Professor) on advisory board |
+| **Social Proof** | "800,000 users", "312,000 holders", "3M X1 App users" |
+| **Scarcity/FOMO** | "LAST CHANCE", "PRESALE FINISHING", countdown timers |
+| **Anchoring** | "Listing price $0.05" vs current "low" presale prices |
+| **Sunk Cost** | Investors who bought early feel compelled to defend/buy more |
+| **Bandwagon Effect** | "If Inter Milan trusts them..." (until they didn't) |
+
+### The "Adam" Case Study
+An Australian restaurateur mentioned in the investigation who invested **$25,000** based on:
+- "Online excitement"
+- Seeing the project on sports jerseys
+- High-production keynote videos
+
+**Lesson:** No amount of marketing spend equals technical validation.
+
+---
+
+## Updated Sources
+
+### Primary Sources (This Investigation)
+- **Wayback Machine:** 30+ snapshots analyzed (2018-2026)
+- **Reddit:** r/CryptoScams, r/CryptoCurrency, r/BlockDAGInvestors
+- **DL News:** Professional investigative journalism
+- **Etherscan/BscScan:** Transaction verification
+- **Estonian Business Registry:** Corporate records
+
+### News Articles Referenced
+- DL News: "Inside BlockDAG's $442m crypto maze..."
+- LiveBitcoinNews: Keynote coverage
+- TechBullion: Testnet announcement
+- CoinCentral: Presale closing claims
+- DigitalJournal: $410M milestone claim
+- TradingView/Reuters: Technical whitepaper announcement
 
 ---
 
