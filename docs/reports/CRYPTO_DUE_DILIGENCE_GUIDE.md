@@ -21,7 +21,8 @@
 11. [Part 9: Lessons Learned](#part-9-lessons-learned---what-this-investigation-taught-me)
 12. [Part 10: Corporate Structure - The CEO Illusion](#part-10-corporate-structure-analysis---the-ceo-illusion)
 13. [Part 11: What ICO Buyers Actually Own](#part-11-the-fundamental-misunderstanding---what-ico-buyers-actually-own)
-14. [📋 Printable Checklist](#tldr-checklist-print-this)
+14. [Part 12: PROOF - BlockDAG's Own Legal Documents](#-part-12-proof---what-blockdags-own-legal-documents-say)
+15. [📋 Printable Checklist](#tldr-checklist-print-this)
 
 ---
 
@@ -51,63 +52,9 @@ If the company has ONE shareholder, that ONE person:
 - Owes you NOTHING legally
 - Can do whatever they want
 
-**"Community ownership" is a marketing slogan, not a legal relationship.**
+**"COMMUNITY OWNERSHIP" IS A MARKETING SLOGAN, NOT A LEGAL RELATIONSHIP.**
 
 *Read Part 11 for the full breakdown of this fundamental misunderstanding.*
-
----
-
-# 📜 PROOF: What BlockDAG's Own Legal Documents Say
-
-I found BlockDAG's **Terms of Use** at `blockdag.network/terms`. Here's what their own legal documents reveal:
-
-## The Legal Entity
-
-> **"DAG Systems LTD"** operates BlockDAG Network
-
-## What You're Actually Buying (From Their Own Terms)
-
-> *"BlockDAG Network offers a digital platform for the presale of the BlockDAG (BDAG) **coins**."*
-
-**Note:** They say "coins" - NOT shares, NOT equity, NOT ownership stakes.
-
-## Their Disclaimers (They Tell You Directly)
-
-| Section | What They Say | What It Means |
-|---------|---------------|---------------|
-| **Disclaimer** | "Not intended as financial, investment, legal, or other professional advice" | Don't rely on anything we say |
-| **Risk Acknowledgement** | "Value of BDAG coins is highly volatile" + "dependent on presale success" | We might fail, and your coins could be worthless |
-| **No Liability** | "Shall not be liable for any loss or damage arising from your participation" | If you lose everything, too bad |
-| **Indemnification** | "You agree to indemnify and hold harmless" | If WE get sued, YOU pay |
-| **Governing Law** | "Laws of the jurisdiction where BlockDAG Network is registered" | They don't even tell you WHAT jurisdiction |
-
-## What's NOT in the Terms
-
-❌ **No mention of equity or shares**  
-❌ **No voting rights**  
-❌ **No profit-sharing**  
-❌ **No shareholder status**  
-❌ **No board representation**  
-❌ **No claim on company assets**  
-❌ **No specific jurisdiction disclosed**  
-
-## 🚨 REGULATORY WARNING: FSA Seychelles
-
-The **Financial Services Authority (FSA) of Seychelles** has flagged **DAG Systems Ltd.** for:
-
-> **"Conducting unauthorized virtual asset service activities"**
-
-This means the regulatory body in their apparent jurisdiction has publicly stated they are operating **without authorization**.
-
-## The Bottom Line
-
-**BlockDAG's own Terms of Use confirm:**
-1. You are buying "coins" (tokens) - NOT company ownership
-2. They accept NO liability for your losses
-3. They don't tell you what jurisdiction governs disputes
-4. A regulator has flagged them as unauthorized
-
-**This isn't speculation. This is what THEY wrote in THEIR legal documents.**
 
 ---
 
@@ -1206,6 +1153,60 @@ But the alternative—staying silent while more people lose money—is worse.
 5. **If you can't sell, you don't own anything.** Paper gains are meaningless.
 
 **The best investment you'll ever make is the one you didn't make after 5 minutes of research.**
+
+---
+
+## 📜 Part 12: PROOF - What BlockDAG's Own Legal Documents Say
+
+I found BlockDAG's **Terms of Use** at `blockdag.network/terms`. Here's what their own legal documents reveal:
+
+### The Legal Entity
+
+> **"DAG Systems LTD"** operates BlockDAG Network
+
+### What You're Actually Buying (From Their Own Terms)
+
+> *"BlockDAG Network offers a digital platform for the presale of the BlockDAG (BDAG) **coins**."*
+
+**Note:** They say "coins" - NOT shares, NOT equity, NOT ownership stakes.
+
+### Their Disclaimers (They Tell You Directly)
+
+| Section | What They Say | What It Means |
+|---------|---------------|---------------|
+| **Disclaimer** | "Not intended as financial, investment, legal, or other professional advice" | Don't rely on anything we say |
+| **Risk Acknowledgement** | "Value of BDAG coins is highly volatile" + "dependent on presale success" | We might fail, and your coins could be worthless |
+| **No Liability** | "Shall not be liable for any loss or damage arising from your participation" | If you lose everything, too bad |
+| **Indemnification** | "You agree to indemnify and hold harmless" | If WE get sued, YOU pay |
+| **Governing Law** | "Laws of the jurisdiction where BlockDAG Network is registered" | They don't even tell you WHAT jurisdiction |
+
+### What's NOT in the Terms
+
+❌ **No mention of equity or shares**  
+❌ **No voting rights**  
+❌ **No profit-sharing**  
+❌ **No shareholder status**  
+❌ **No board representation**  
+❌ **No claim on company assets**  
+❌ **No specific jurisdiction disclosed**  
+
+### 🚨 REGULATORY WARNING: FSA Seychelles
+
+The **Financial Services Authority (FSA) of Seychelles** has flagged **DAG Systems Ltd.** for:
+
+> **"Conducting unauthorized virtual asset service activities"**
+
+This means the regulatory body in their apparent jurisdiction has publicly stated they are operating **without authorization**.
+
+### The Bottom Line
+
+**BlockDAG's own Terms of Use confirm:**
+1. You are buying "coins" (tokens) - NOT company ownership
+2. They accept NO liability for your losses
+3. They don't tell you what jurisdiction governs disputes
+4. A regulator has flagged them as unauthorized
+
+**This isn't speculation. This is what THEY wrote in THEIR legal documents.**
 
 ---
 
