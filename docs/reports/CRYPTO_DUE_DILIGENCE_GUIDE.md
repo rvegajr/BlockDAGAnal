@@ -548,6 +548,184 @@ These aren't flaws—they're human nature. Scammers have simply learned to weapo
 
 ---
 
+## Part 10: Corporate Structure Analysis - The CEO Illusion
+
+One of the most effective deceptions in crypto projects is **role ambiguity**. Investors assume titles mean what they mean in traditional corporations. They don't.
+
+---
+
+### The Anthony Turner Case Study
+
+Many BlockDAG investors believed Anthony Turner was **the CEO**—the person in charge of everything, accountable for all decisions.
+
+**The reality:** Anthony Turner's work was solely related to **building the blockchain**. Financial management and marketing were not in his jurisdiction at all.
+
+This creates a critical problem:
+
+| What Investors Assumed | What Was Actually True |
+|------------------------|------------------------|
+| Anthony = CEO = responsible for everything | Anthony = technical role only |
+| He controls the money | Financial decisions made elsewhere |
+| He approves marketing claims | Marketing run by others |
+| He's accountable for the presale | Presale management not his department |
+| Complaints to him will change things | He has no authority over those areas |
+
+---
+
+### Why This Matters: Distributed Unaccountability
+
+Traditional corporations have clear hierarchies:
+- **CEO** → Sets strategy, accountable to board
+- **CFO** → Controls finances, signs off on money
+- **CMO** → Approves marketing, responsible for claims
+
+In many crypto projects, this structure is **deliberately fragmented**:
+
+```
+"Technical Lead" → Builds code (can claim "I don't handle money")
+"Marketing Lead" → Makes claims (can claim "I just promote what I'm told")
+"Finance Lead"   → Controls funds (can claim "I just follow instructions")
+"Founder"        → Vague role (can claim "I'm just the visionary")
+```
+
+**Result:** When things go wrong, EVERYONE can point to someone else.
+
+---
+
+### The Shell Game of Accountability
+
+Here's how the deflection works:
+
+**Investor:** "Why haven't you launched yet?"  
+**Tech Lead:** "Ask the business team—they control timelines."
+
+**Investor:** "Why are there misleading claims on the website?"  
+**Marketing:** "We just publish what we're told. Talk to leadership."
+
+**Investor:** "Where is the money going?"  
+**Leadership:** "Finance handles that. We're focused on product."
+
+**Investor:** "Why can't I sell my tokens?"  
+**Finance:** "That's a technical/listing issue. Talk to tech."
+
+**The cycle continues indefinitely.** No one is ever responsible.
+
+---
+
+### Red Flags in Corporate Structure
+
+| Red Flag | What It Might Mean |
+|----------|-------------------|
+| No clear CEO with full accountability | Deliberate structure to avoid blame |
+| "Founder" but unclear operational role | Figurehead for PR, not actual control |
+| Technical person presented as "the face" | Real decision-makers stay hidden |
+| Financial decisions made by unnamed parties | Money trail intentionally obscured |
+| Multiple companies/jurisdictions involved | Legal complexity to prevent lawsuits |
+| "Advisory" roles with no actual authority | Famous names with no real involvement |
+
+---
+
+### Questions to Ask About Corporate Structure
+
+1. **Who SPECIFICALLY controls the presale wallet?**
+   - Name, not title
+   - What jurisdiction are they in?
+
+2. **Who approves marketing claims?**
+   - If claims are false, who is legally liable?
+
+3. **If I wanted to sue, who would I sue?**
+   - Is there a registered company?
+   - What country is it registered in?
+
+4. **Who can unilaterally decide to delay TGE?**
+   - One person? A committee? No one knows?
+
+5. **Is the "CEO" actually the CEO?**
+   - Do they control finances?
+   - Do they approve marketing?
+   - Or are they just the technical/public face?
+
+---
+
+### The Jurisdictional Shell Game
+
+Many crypto projects structure themselves across multiple jurisdictions:
+
+```
+Company A (Marketing) → Dubai/Singapore (favorable crypto laws)
+Company B (Tech)      → Estonia/Switzerland (crypto-friendly)
+Company C (Finance)   → BVI/Cayman (offshore, minimal disclosure)
+Foundation            → Panama/Liechtenstein (asset protection)
+```
+
+**Why this matters:**
+- Each entity can blame the others
+- No single jurisdiction has full oversight
+- Lawsuits become impossibly complex
+- Funds can move between entities untraceable
+
+---
+
+### The "Doxxed Team" Caveat
+
+Having a "doxxed team" means nothing if:
+
+1. **The doxxed person isn't in charge**
+   - Anthony Turner was doxxed, but didn't control finances
+
+2. **They're in a non-extradition country**
+   - Being known doesn't mean being reachable
+
+3. **The corporate structure shields them**
+   - They personally did nothing wrong—the "company" did
+
+4. **They're a figurehead**
+   - Real controllers stay anonymous
+
+**Question to ask:** "If this person disappeared tomorrow, could the project continue exactly as before?"
+
+If yes → They're not actually in charge.
+
+---
+
+### How to Verify Corporate Structure
+
+1. **Search company registries:**
+   - UK: Companies House (free)
+   - US: State Secretary of State websites
+   - Dubai: DED, DMCC, DIFC registries
+   - Singapore: ACRA
+
+2. **Check who signed legal documents:**
+   - Token purchase agreements
+   - Terms of service
+   - Privacy policies
+
+3. **Look for the registered agent:**
+   - If it's a generic "formation service," that's a red flag
+   - Real companies have real offices
+
+4. **Follow the money:**
+   - Where do presale funds actually go?
+   - What company receives the payments?
+
+---
+
+### The Lesson
+
+**A "doxxed CEO" who doesn't control finances, marketing, or timelines isn't a CEO—they're a mascot.**
+
+Before investing, map out:
+- Who controls the money (name, not title)
+- Who approves public claims (name, not title)
+- Who can be legally held accountable (registered company, jurisdiction)
+- What happens if the public face disappears
+
+**If you can't answer these questions, you don't understand who you're giving money to.**
+
+---
+
 ## Conclusion: The Best Investment Advice I Can Give
 
 **The best crypto investment you'll ever make is the one you didn't make after 5 minutes of research.**
@@ -595,6 +773,20 @@ If any box is unchecked: DO NOT INVEST.
 ⚠️ CRITICAL: People can LIE about being founders. Wayback Machine their story.
 
 If any Level 2 box fails: VERIFY DEEPER BEFORE INVESTING.
+```
+
+### Level 3: Corporate Structure Checks (Catches Professional Scams)
+```
+□ Does the "CEO" actually control finances, marketing, AND timelines?
+□ Can I find the registered company in an official government registry?
+□ Do I know WHO (name, not title) controls the presale wallet?
+□ Is the company in a jurisdiction where I could sue if needed?
+□ Are the key decision-makers the same as the public-facing team?
+□ If the "face" of the project left, would the project function the same?
+
+⚠️ CRITICAL: A "doxxed CEO" who doesn't control money isn't a CEO—they're a mascot.
+
+If you can't answer these questions: YOU DON'T KNOW WHO YOU'RE GIVING MONEY TO.
 ```
 
 ### The Trust Timeline Question
