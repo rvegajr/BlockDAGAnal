@@ -14,8 +14,9 @@
 4. [Part 2: The Wayback Machine Reveals Everything](#part-2-the-wayback-machine-reveals-everything)
 5. [Part 3: The Presale That Never Ends](#part-3-the-presale-that-never-ends)
 6. [Part 4: The Fabricated Origin Story Problem](#part-4-the-fabricated-origin-story-problem)
-7. [Part 5: Psychology of Scam Victims](#part-5-the-psychology-of-scam-victims)
-8. [Part 6: How Scammers Divide Communities](#part-6-how-scammers-divide-communities)
+7. [Part 5: Seeing What You Want to See](#part-5-the-psychology-of-seeing-what-you-want-to-see)
+8. [Part 5b: The Community Is Weaponized](#part-5b-the-community-is-weaponized)
+9. [Part 6: How Scammers Divide Communities](#part-6-how-scammers-divide-communities)
 9. [Part 7: Your Verification Routine](#part-7-your-verification-routine)
 10. [Part 8: Resources If You've Been Scammed](#part-8-resources-if-youve-been-scammed)
 11. [Part 9: Lessons Learned](#part-9-lessons-learned---what-this-investigation-taught-me)
@@ -262,7 +263,157 @@ Every time you ask "when mainnet?", the answer changes:
 
 ---
 
-## Part 5: The Community Is Weaponized
+## Part 5: The Psychology of Seeing What You Want to See
+
+### Why Smart People Believe Obvious Lies
+
+This isn't about intelligence. **Confirmation bias doesn't care how smart you are.**
+
+The human brain is wired to:
+1. **Seek information that confirms existing beliefs**
+2. **Dismiss information that contradicts them**
+3. **Interpret ambiguous evidence as supportive**
+4. **Remember hits, forget misses**
+
+When you've already invested money, time, and emotion into a project, your brain literally **filters reality** to protect that investment.
+
+---
+
+### The Perception Filter
+
+Here's what happens psychologically when you're invested:
+
+| What Actually Happens | What You See | What You Tell Others |
+|----------------------|--------------|---------------------|
+| Presale extended again | "More time to buy cheap!" | "They're being thorough" |
+| Counter resets to $0 | *Didn't notice / ignored* | — |
+| Partner logos disappear | *Didn't notice / "temporary"* | "They have major partners" |
+| CEO origin story doesn't match | "FUD / doesn't matter" | "The founder is doxxed!" |
+| Price drops 24% | "Great buying opportunity!" | "Still up from where I bought" |
+| Critics present evidence | "Paid FUD / jealous / shorts" | "Haters gonna hate" |
+| 2 years, no mainnet | "Building right takes time" | "They're perfectionists" |
+
+**You're not lying to others. You genuinely perceive it this way.** That's what makes it so dangerous.
+
+---
+
+### The Three Filters of Motivated Reasoning
+
+#### Filter 1: Selective Attention
+You literally **don't see** contradictory information. Your eyes scan past it. Your brain doesn't register it as important.
+
+*Example:* The Wayback Machine shows counter resets. You look at the page, but your attention goes to the "Raised So Far" number, not the fact that it was $0 three months ago.
+
+#### Filter 2: Selective Interpretation
+When you can't avoid seeing something, you **interpret it favorably**.
+
+*Example:* 
+- Objective fact: "No GitHub repository after 2 years"
+- Invested interpretation: "They're protecting their code from competitors"
+- Reality: Legitimate blockchains can't hide code; nodes need it
+
+#### Filter 3: Selective Memory
+You remember evidence that supports your belief. You forget or minimize evidence against it.
+
+*Example:* You remember the exciting keynote announcement. You forget that the "coming soon" feature from that keynote still isn't delivered 8 months later.
+
+---
+
+### The Emotional Investment Multiplier
+
+**The more you've invested, the harder it is to see reality.**
+
+| Investment Level | Perception Distortion |
+|-----------------|----------------------|
+| $100 | "Eh, it's a gamble" - can see red flags |
+| $1,000 | "This better work out" - red flags feel like FUD |
+| $10,000 | "I've done my research" - actively defend against critics |
+| $50,000+ | "I can't be wrong" - become an unpaid promoter |
+
+This isn't weakness. This is **neurological self-protection**. Admitting a $50,000 mistake causes real psychological pain. Your brain avoids that pain by... not admitting it.
+
+---
+
+### The Echo Chamber Effect
+
+Communities amplify confirmation bias:
+
+```
+YOU: "I'm a little worried about [red flag]"
+    ↓
+COMMUNITY: "That's FUD! Don't be a paper hand!"
+    ↓
+YOU: *feels social pressure*
+    ↓
+YOU: "Yeah, you're right. I'm overthinking it."
+    ↓
+YOU: *dismisses own valid concern*
+    ↓
+YOU: *later attacks others who raise same concern*
+```
+
+**You become the very thing that silenced your own doubts.**
+
+---
+
+### How to Break Through Your Own Filters
+
+The only defense against confirmation bias is **systematized verification**:
+
+1. **Write down your concerns BEFORE joining communities**
+   - Your pre-investment concerns are cleaner than post-investment
+   - If you had concerns, don't let social pressure erase them
+
+2. **Set objective exit criteria BEFORE you need them**
+   - "If no mainnet by [date], I sell 50%"
+   - "If price drops below $X, I exit completely"
+   - Write it down. Hold yourself to it.
+
+3. **Actively seek disconfirming evidence**
+   - Search "[project name] scam" deliberately
+   - Read the critics with an open mind
+   - Ask: "What would convince me I'm wrong?"
+
+4. **Use the Wayback Machine on yourself**
+   - What did YOU think 6 months ago?
+   - Have your concerns been addressed, or have you just stopped caring?
+
+5. **Talk to someone with no investment**
+   - Show them the evidence objectively
+   - Listen to their unbiased reaction
+   - If they're concerned, your filters might be hiding something
+
+---
+
+### The "What If I'm Wrong" Exercise
+
+Ask yourself honestly:
+
+| Question | If Yes... |
+|----------|-----------|
+| Would I recommend this to my mother with her retirement savings? | Why not? What risks am I accepting that I wouldn't accept for her? |
+| If this fails, will I say "I knew the signs were there"? | Then the signs ARE there. You're ignoring them. |
+| Am I explaining away red flags that would concern me in OTHER projects? | You're applying a double standard to protect your investment. |
+| Do I get angry when people question the project? | Anger protects ego. Truth doesn't need anger. |
+| Have I done MORE research defending it than I did before buying? | You're working backward from a conclusion. |
+
+---
+
+### The Painful Truth
+
+**If you've invested, you are compromised.**
+
+Not because you're dumb. Because you're human.
+
+The only person who can see clearly is someone with **no financial or emotional stake**. The moment you buy in, your perception shifts. The moment you tell others, it shifts more. The moment you defend it publicly, you're locked in.
+
+**This is why verification must happen BEFORE investment, not after.**
+
+Once you're in, your brain is no longer a neutral observer. It's a defense attorney for your money.
+
+---
+
+## Part 5b: The Community Is Weaponized
 
 ### How They Silence Critics
 
