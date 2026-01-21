@@ -29,6 +29,34 @@
 
 ---
 
+# 🛑 THE HARD TRUTH BEFORE YOU READ ANYTHING ELSE
+
+## **YOU ARE NOT A SHAREHOLDER. YOU OWN NOTHING.**
+
+When you buy tokens in an ICO or presale:
+
+| What You Think You're Buying | What You're Actually Buying |
+|------------------------------|----------------------------|
+| Ownership of the company | ❌ **NOTHING** |
+| Voting rights | ❌ **NONE** |
+| A share of profits | ❌ **ZERO** |
+| Legal recourse if they run | ❌ **ALMOST NONE** |
+| A say in how YOUR money is spent | ❌ **ABSOLUTELY NONE** |
+
+**You are a CUSTOMER buying a digital product. The company belongs to the SHAREHOLDERS—and that's not you.**
+
+If the company has ONE shareholder, that ONE person:
+- Owns 100% of YOUR money once you send it
+- Makes ALL decisions
+- Owes you NOTHING legally
+- Can do whatever they want
+
+**"Community ownership" is a marketing slogan, not a legal relationship.**
+
+*Read Part 11 for the full breakdown of this fundamental misunderstanding.*
+
+---
+
 ## 🚨 TL;DR: The 7 Questions That Expose 90% of Crypto Scams
 
 Before you invest a single dollar, ask these questions. **If any answer is "no" or "I can't find it," that's not a yellow flag—it's a red one.**
