@@ -36,6 +36,43 @@ If the company has ONE shareholder, that ONE person:
 
 ---
 
+## ⚠️ "But What About Tokenized Shares?"
+
+Yes, **tokenized shares** (security tokens) do exist. These are blockchain-based representations of actual equity in a company. If a project explicitly offers "tokenized shares," you *might* have real ownership rights.
+
+**However, consider this:**
+
+1. **Did they actually use the phrase "tokenized shares"?** If they just say "tokens" or "coins," you own nothing. The specific legal term matters.
+
+2. **Are you registered as a shareholder?** Even with tokenized shares, you should appear in the company's shareholder registry. Can you verify this?
+
+3. **What jurisdiction recognizes this?** Not all countries treat tokenized shares as legal equity. Where is the company registered?
+
+**And here's the brutal truth:**
+
+Even IF you own "tokenized shares" of a company...
+
+**Tokenized shares of a company that never delivers are still worthless.**
+
+- 10% of $0 = $0
+- Equity in a failed project = nothing
+- Shares in a company with no product = paper
+
+**The question isn't just "Do I own shares?"**
+**The question is "Are those shares worth anything?"**
+
+If the company has:
+- No working product after 2+ years
+- No exchange listings
+- No revenue
+- No verifiable assets
+
+...then your "shares" are shares of nothing.
+
+**Don't let the word "tokenized" distract you from the fundamentals.**
+
+---
+
 # 🚨 TL;DR: The 7 Questions That Expose 90% of Crypto Scams
 
 Before you invest a single dollar, ask these questions. **If any answer is "no" or "I can't find it," that's not a yellow flag—it's a red one.**
