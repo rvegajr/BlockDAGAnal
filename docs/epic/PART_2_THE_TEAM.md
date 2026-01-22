@@ -303,7 +303,7 @@ For under $20,000, we have a structure that would take years and millions of dol
 
 ---
 
-### Next: [Part 3 - The Legitimacy Machine →](./PART_3_THE_LEGITIMACY_MACHINE.md)
+### Next: [Part 3 - My Mistakes →](./PART_3_MY_MISTAKES.md)
 
 *Where we buy our way into the Jerusalem Post, partner with sports teams, and create the illusion of mainstream acceptance.*
 

@@ -1,4 +1,4 @@
-# Part 7: The Exit
+# Part 8: The Exit
 
 ## Four Ways Out, Final Numbers, and the Reckoning
 

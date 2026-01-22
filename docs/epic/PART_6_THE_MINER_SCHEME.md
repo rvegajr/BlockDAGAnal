@@ -1,4 +1,4 @@
-# Part 5: The Miner Scheme
+# Part 6: The Miner Scheme
 
 ## Selling Hardware That Mines Nothing at Markup That Would Make Apple Jealous
 
@@ -346,7 +346,7 @@ We've spent $11M to make $149M.
 
 ---
 
-### Next: [Part 6 - Community Management →](./PART_6_COMMUNITY_MANAGEMENT.md)
+### Next: [Part 7 - Community Management →](./PART_7_COMMUNITY_MANAGEMENT.md)
 
 *Where we turn believers into soldiers, skeptics into enemies, and truth into "FUD."*
 

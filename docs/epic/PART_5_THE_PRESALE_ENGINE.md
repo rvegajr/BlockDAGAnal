@@ -1,4 +1,4 @@
-# Part 4: The Presale Engine
+# Part 5: The Presale Engine
 
 ## The Counter That Lies and the Bonuses That Should Terrify You
 
@@ -351,7 +351,7 @@ And we haven't even started the miner scheme yet.
 
 ---
 
-### Next: [Part 5 - The Miner Scheme →](./PART_5_THE_MINER_SCHEME.md)
+### Next: [Part 6 - The Miner Scheme →](./PART_6_THE_MINER_SCHEME.md)
 
 *Where we sell hardware that mines nothing, at markup that would make Apple jealous.*
 

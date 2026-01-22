@@ -1,4 +1,4 @@
-# Part 6: Community Management
+# Part 7: Community Management
 
 ## Turning Believers Into Soldiers and Truth Into "FUD"
 
@@ -352,7 +352,7 @@ A community that defends us is worth more than any PR budget.
 
 ---
 
-### Next: [Part 7 - The Exit →](./PART_7_THE_EXIT.md)
+### Next: [Part 8 - The Exit →](./PART_8_THE_EXIT.md)
 
 *Where we explore four ways to end this, calculate the final numbers, and face the question: did anyone actually lose?*
 

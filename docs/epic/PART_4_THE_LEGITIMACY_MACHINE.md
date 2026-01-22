@@ -1,4 +1,4 @@
-# Part 3: The Legitimacy Machine
+# Part 4: The Legitimacy Machine
 
 ## Buying Credibility One Article at a Time
 
@@ -7,7 +7,8 @@
 ### Previously...
 
 In [Part 1](./PART_1_THE_FOUNDATION.md), we built the technical foundation (or lack thereof).  
-In [Part 2](./PART_2_THE_TEAM.md), we assembled a team with one person who matters and many who don't.
+In [Part 2](./PART_2_THE_TEAM.md), we assembled a team with one person who matters and many who don't.  
+In [Part 3](./PART_3_MY_MISTAKES.md), I confessed how I learned all this the hard way.
 
 Now we need to look legitimate. And legitimacy, it turns out, has a price list.
 
@@ -322,7 +323,7 @@ We've spent under $3M to look like a $100M+ legitimate operation.
 
 ---
 
-### Next: [Part 4 - The Presale Engine →](./PART_4_THE_PRESALE_ENGINE.md)
+### Next: [Part 5 - The Presale Engine →](./PART_5_THE_PRESALE_ENGINE.md)
 
 *Where we learn how a counter can lie, why bonuses should scare you, and how to keep a presale running forever.*
 
