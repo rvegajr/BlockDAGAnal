@@ -17,13 +17,14 @@
 7. [Part 5: Seeing What You Want to See](#part-5-the-psychology-of-seeing-what-you-want-to-see)
 8. [Part 5b: The Community Is Weaponized](#part-5b-the-community-is-weaponized)
 9. [Part 6: How Scammers Divide Communities](#part-6-how-scammers-divide-communities)
-9. [Part 7: Your Verification Routine](#part-7-your-verification-routine)
-10. [Part 8: Resources If You've Been Scammed](#part-8-resources-if-youve-been-scammed)
-11. [Part 9: Lessons Learned](#part-9-lessons-learned---what-this-investigation-taught-me)
-12. [Part 10: Corporate Structure - The CEO Illusion](#part-10-corporate-structure-analysis---the-ceo-illusion)
-13. [Part 11: What ICO Buyers Actually Own](#part-11-the-fundamental-misunderstanding---what-ico-buyers-actually-own)
-14. [Part 12: PROOF - BlockDAG's Own Legal Documents](#-part-12-proof---what-blockdags-own-legal-documents-say)
-15. [📋 Printable Checklist](#tldr-checklist-print-this)
+10. [Part 6b: The Paid Content Flood](#part-6b-the-paid-content-flood---when-news-is-actually-advertising)
+11. [Part 7: Your Verification Routine](#part-7-your-verification-routine)
+12. [Part 8: Resources If You've Been Scammed](#part-8-resources-if-youve-been-scammed)
+13. [Part 9: Lessons Learned](#part-9-lessons-learned---what-this-investigation-taught-me)
+14. [Part 10: Corporate Structure - The CEO Illusion](#part-10-corporate-structure-analysis---the-ceo-illusion)
+15. [Part 11: What ICO Buyers Actually Own](#part-11-the-fundamental-misunderstanding---what-ico-buyers-actually-own)
+16. [Part 12: PROOF - BlockDAG's Own Legal Documents](#-part-12-proof---what-blockdags-own-legal-documents-say)
+17. [📋 Printable Checklist](#tldr-checklist-print-this)
 
 ---
 
@@ -564,6 +565,114 @@ YEAR 2: EXPLOIT TRUST
 
 ---
 
+## Part 6b: The Paid Content Flood - When "News" Is Actually Advertising
+
+### The Illusion of Mainstream Coverage
+
+One of the most effective legitimacy-building tactics is **flooding the internet with paid articles** that look like independent journalism.
+
+**Real Example:** I found an article in the **Jerusalem Post** titled "How Gurhan Kiziloz' Fiery Edge Put BlockDAG on Track for Top 100 Status" (January 2026).
+
+At first glance:
+- ✅ Legitimate major newspaper (founded 1932)
+- ✅ Professional formatting
+- ✅ Appears in the "Crypto Currency" section
+- ✅ Reads like investigative journalism
+- ✅ Compares the subject favorably to Elon Musk
+
+**But buried at the very bottom:**
+
+> *"This article was written in cooperation with Blockdag"*
+
+**This is sponsored content. BlockDAG paid for this article.**
+
+---
+
+### How to Spot Paid Content Disguised as News
+
+| Red Flag | What It Means |
+|----------|---------------|
+| **Disclosure buried at bottom** | "Written in cooperation with..." = paid advertisement |
+| **No critical analysis** | Real journalism asks hard questions; this had none |
+| **Generic praise** | "Visionary founder," "revolutionary technology" = press release language |
+| **No contrary sources** | Legitimate articles quote critics or skeptics |
+| **Every article is tagged** | If ALL coverage has "sponsored" tags, organic coverage doesn't exist |
+
+### The "Media Flood" Strategy
+
+Scam projects use paid articles strategically:
+
+**Phase 1: Create the Archive**
+- Pay for 20-30 articles across "legitimate" sites
+- These appear in Google searches, creating credibility
+
+**Phase 2: Reference the Coverage**
+- "As seen in Jerusalem Post, Forbes, Benzinga..."
+- Community members share links as "proof" of legitimacy
+
+**Phase 3: Weaponize Against Critics**
+- "How can it be a scam? The Jerusalem Post wrote about them!"
+- Critics don't realize it was paid content
+
+---
+
+### 💰 PROOF: You Can BUY "News" Coverage
+
+I found the actual services that sell these placements. **Anyone with a credit card can buy articles on major publications.**
+
+#### Chainwire Pricing (Verified Screenshots)
+
+| Package | Price | Guaranteed Articles | Includes |
+|---------|-------|---------------------|----------|
+| Lite | $1,399 | 8 articles | Google News syndication |
+| Standard | $2,499 | 16 articles | Homepage features |
+| Premium | $6,499 | 75+ articles | **Business Insider, Benzinga, TheStreet, Decrypt, Investing.com, CoinMarketCap** |
+| Gold | $13,699 | 100+ articles | **CoinTelegraph, The Block, Bitcoin.com** + "In Collaboration" badge |
+
+#### MediaX Pricing (Another Service)
+
+| Package | Price | Publishers Include |
+|---------|-------|-------------------|
+| Lite | $600 | Business Insider, APNews, Benzinga, Street Insider, MarketWatch (+6 more) |
+| Starter | $2,900 | Investing.com, Bitcoinist, Hackernoon, Blockonomi (+13 more) |
+| Gold | $6,000 | news.bitcoin.com, Be[in]crypto, Crypto.news, U.Today, CryptoBriefing (+16 more) |
+| Platinum | $9,500 | The Block, Decrypt, news.bitcoin.com, Crypto.news, Hackernoon (+17 more) |
+| Diamond | $12,500 | **CoinTelegraph**, news.bitcoin.com, Be[in]crypto, NewsBTC, Invezz (+17 more) |
+
+#### What About Jerusalem Post?
+
+While Jerusalem Post isn't explicitly listed on these specific services, a Google search for `"Jerusalem Post" crypto` reveals **dozens of sponsored crypto articles** in their "Crypto Currency" section—including multiple BlockDAG articles.
+
+The disclosure is always the same: *"Written in cooperation with..."*
+
+**The pattern is clear:** Major mainstream publications accept paid crypto content. The Jerusalem Post's crypto section appears to function similarly—it runs sponsored articles that look like journalism.
+
+#### Why This Matters
+
+1. **It's not expensive** - $6,000-$13,000 gets you on CoinTelegraph
+2. **Anyone can do it** - No verification of claims required
+3. **It looks like journalism** - Same formatting as real news
+4. **Disclosures are hidden** - Always at the very bottom in small text
+5. **The archive becomes "proof"** - Community members cite these as legitimacy
+
+**🚨 Key Insight:** If a project's ONLY positive coverage comes from paid placements, that IS the red flag. Legitimate projects attract independent journalists asking real questions.
+
+---
+
+### How to Verify: The "Disclosure Hunt"
+
+**Before trusting any positive crypto article:**
+
+1. **Scroll to the very bottom** - Is there a disclosure?
+2. **Check the section** - Is it in "Sponsored" or "Partner Content"?
+3. **Search the author** - Do they write about many unrelated crypto projects?
+4. **Look for criticism** - Does the article mention ANY negatives?
+5. **Check other coverage** - Is there independent journalism about this project?
+
+**🔑 Lesson:** In crypto, assume all positive coverage is paid until proven otherwise. Real journalism includes skepticism.
+
+---
+
 ## Part 7: What I Wish Investors Had Asked
 
 Before investing, if anyone had spent 10 minutes asking:
@@ -747,7 +856,23 @@ If you can't do that, you own numbers on a screen, not an asset.
 
 ---
 
-### Lesson 10: The 5-Minute Check Would Have Saved Everyone
+### Lesson 10: "As Seen In" Means Nothing If They Paid For It
+
+The Jerusalem Post article looked like legitimate coverage until I scrolled to the bottom and saw: *"Written in cooperation with BlockDAG."*
+
+**That means:**
+- BlockDAG paid for the article
+- It's an advertisement, not journalism
+- The newspaper's credibility is being borrowed, not earned
+
+**Publications that accept paid crypto content:**
+- Jerusalem Post, Forbes, Benzinga, Finance Magnates, CoinTelegraph...
+
+**The disclosure is ALWAYS buried at the bottom.** Scroll down before trusting any positive crypto article.
+
+---
+
+### Lesson 11: The 5-Minute Check Would Have Saved Everyone
 
 None of this investigation required special access or skills. Everything I found used:
 - Wayback Machine (free, public)
@@ -1258,8 +1383,11 @@ If any box is unchecked: DO NOT INVEST.
 □ Are partnership logos from 6+ months ago STILL on the website?
 □ Has the "TGE date" been pushed back more than twice?
 □ Are bonus percentages INCREASING over time (50% → 100% → 500%)?
+□ Is there ANY positive press coverage that ISN'T paid/sponsored content?
 
 ⚠️ CRITICAL: People can LIE about being founders. Wayback Machine their story.
+⚠️ CRITICAL: "As seen in [publication]" means nothing if they PAID for that article.
+             Scroll to the bottom—look for "in cooperation with" or "sponsored content."
 
 If any Level 2 box fails: VERIFY DEEPER BEFORE INVESTING.
 ```

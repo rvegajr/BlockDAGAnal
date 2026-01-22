@@ -30,7 +30,7 @@ This report evaluates the Ingo CSV tokenomics models against the stated design g
 |-------------|--------------|----------------|-----------------|-----------|
 | Hybrid C | Balanced | +756.6% | -40.9% | Best risk-adjusted |
 | Hybrid C Lite+ Variants | Conservative | +399-541% | -59 to -67% | Lower ceiling, better floor |
-| Hybrid D.1/E.1/F | Very Conservative | +280-301% | -78 to -82% | Survival-focused |
+| Hybrid D.1/E.1/F | Very Conservative | +280-301% | -78 to -82% | Survival-focused |ed
 | Model A variants | Aggressive | +275-277% | -71% | High volatility exposure |
 
 The models clearly demonstrate **distinct risk-reward profiles** as intended.
