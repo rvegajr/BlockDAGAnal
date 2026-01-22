@@ -36,11 +36,13 @@ Why build when you can rebrand? Find a failed crypto project with:
 
 **Example naming evolution:**
 ```
-Original: "EulerChain" (failed 2023)
+Original: "EuselessChain" (failed 2023)
     ↓
 Rebrand: "SchlockFAG" (2024)
     ↓
 If needed: "SFAG Network" (2025)
+    ↓
+If really needed: "Schlock Protocol" (2026)
 ```
 
 **Total spent so far: $25,000**
@@ -78,7 +80,28 @@ If needed: "SFAG Network" (2025)
 - Use words like "DAG," "hybrid consensus," "Layer 1.5"
 - Reference academic papers nobody will read
 
-### Option C: The Mining Illusion (Our Approach)
+### Option C: The Whitepaper Remix (Highly Recommended)
+
+Why write original research when you can... *borrow*?
+
+**The SchlockFAG Whitepaper Recipe:**
+```
+Page 1-3:   Copy Kaspa's DAG explanation (change "Kaspa" to "SchlockFAG")
+Page 4-7:   Paste Bitcoin's consensus section (add "hybrid" before everything)
+Page 8-12:  Steal Ethereum's smart contract overview (call them "Schlock Contracts")
+Page 13-15: Grab Solana's throughput claims (triple the numbers)
+Page 16:    Add "revolutionary" and "groundbreaking" every other sentence
+Page 17:    Incomprehensible math diagrams (looks smart, means nothing)
+Page 18:    "References" to papers nobody will actually check
+```
+
+**Pro tip:** Academic papers use complex language. Investors don't read them. They just see "whitepaper exists" and move on.
+
+**When someone notices the plagiarism:** "Great minds think alike. We're building on the shoulders of giants."
+
+---
+
+### Option D: The Mining Illusion (Our Approach)
 ```
 ┌─────────────────────────────────────────────────────┐
 │  "SchlockFAG Mining Dashboard v2.1"                 │
@@ -96,9 +119,58 @@ If needed: "SFAG Network" (2025)
 
 ---
 
+### The "Radical Transparency" Lie
+
+**Our official position:** "SchlockFAG is committed to radical transparency and open collaboration with the community."
+
+**Our actual code repository:**
+```
+github.com/schlockfag
+├── README.md (last updated 18 months ago)
+├── whitepaper.pdf (plagiarized, see above)
+├── logo.png
+└── coming-soon.txt
+```
+
+**When asked about source code:**
+- "Security audit is ongoing, we can't publish yet"
+- "Mainnet code will be open-sourced after launch"
+- "Our innovative algorithm is proprietary for competitive reasons"
+- "The code is available to qualified partners under NDA"
+
+**Translation:** There is no code. Or the code does nothing. Or the code is stolen from somewhere else.
+
+**The beautiful irony:** We use the word "transparent" constantly while showing absolutely nothing. The community will repeat "they're very transparent" because we told them we are.
+
+---
+
 # Phase 2: The Team (Month 2-3)
 
-## Step 2.1: Hire a "CEO"
+## Step 2.0: The Man Behind the Curtain
+
+**Meet Merkan Fleasaloz** — our *actual* operator.
+
+You'll never see his name on the website. He's not the CEO. He's not on the advisory board. He doesn't do interviews. But he:
+
+- Controls the wallets
+- Makes the real decisions  
+- Has done this before (allegedly)
+- Knows which jurisdictions don't extradite
+- Has a "network" of previous ventures (all mysteriously defunct)
+
+**Merkan's Previous Hits:**
+- 🎰 "LuckyCoin Casino" (2019) — users couldn't withdraw
+- 🐱 "Big Whiskers Token" (2021) — cat-themed, rug-pulled
+- 💳 "FastPay Digital Bank" (2022) — regulatory warning issued
+- 🎮 "GameFi Revolution" (2023) — team "stepped back"
+
+**The pattern:** Launch → Hype → Extract → Disappear → Rebrand → Repeat
+
+**Why this matters:** The "CEO" is the fall guy. Merkan is the architect. When things collapse, the CEO faces the music while Merkan is already working on the next project.
+
+---
+
+## Step 2.1: Hire a "CEO" (The Public Face)
 
 **Budget: $50,000-$150,000/year (or equity that's worth $0)**
 
@@ -108,8 +180,9 @@ Requirements:
 - ✅ Previous failed ventures (shows "experience")
 - ✅ Will sign an NDA about the real operation
 - ✅ Expendable when regulators come knocking
+- ✅ Doesn't know about Merkan
 
-**Pro tip:** The CEO doesn't need to know anything. In fact, it's better if they don't. Plausible deniability.
+**Pro tip:** The CEO doesn't need to know anything. In fact, it's better if they don't. Plausible deniability. When the CEO says "I had no idea," they might actually be telling the truth.
 
 ---
 
@@ -136,15 +209,17 @@ Requirements:
 Register multiple entities in different jurisdictions:
 
 ```
-SchlockFAG Ltd. (UK)
+SchlockFAG Ltd. (UK) ← CEO is listed here (expendable)
     ↓ "Provides technology to"
-SFAG Holdings (BVI)
+SFAG Holdings (BVI) ← Nominee directors only
     ↓ "Licensed by"
-Schlock Systems AG (Switzerland)
+Schlock Systems AG (Switzerland) ← Sounds legitimate
     ↓ "Operated by"
-Digital Schlock LLC (Delaware)
+Digital Schlock LLC (Delaware) ← Privacy-friendly
     ↓ "Funds held by"
-SFAG Foundation (Seychelles)
+SFAG Foundation (Seychelles) ← Merkan's wallet access
+    ↓ "Advised by"
+Fleasaloz Family Trust (Nevis) ← Where the money actually goes
 ```
 
 **When regulators ask who's responsible:** "That's a different entity."
@@ -152,6 +227,10 @@ SFAG Foundation (Seychelles)
 **When investors ask who's responsible:** "That's a different entity."
 
 **When anyone asks anything:** "That's a different entity."
+
+**When they try to trace the funds:** Good luck. You'll need lawyers in 6 jurisdictions.
+
+**Merkan's name appears on:** Nothing. He's a "consultant" to an "advisory firm" that "provides services" to one of the shells. Technically, he's never touched the project.
 
 ---
 
@@ -413,6 +492,8 @@ When criticism emerges, deploy community weapons:
 4. Support tickets go unanswered
 5. Eventually... silence
 
+**Meanwhile, Merkan Fleasaloz:** Already registered "SchlockFAG 2.0" domains three months ago. New whitepaper (same plagiarized content, new name) ready to go.
+
 **Advantage:** Plausible deniability. "The project failed, it happens."
 
 ---
@@ -512,14 +593,20 @@ Everything in this satirical guide has been observed in real crypto projects. Th
 - [ ] Complex corporate structure across jurisdictions
 - [ ] TGE date that keeps moving
 - [ ] Critics get banned, not answered
+- [ ] Whitepaper contains text from other projects (Kaspa, Ethereum, etc.)
+- [ ] Claims "transparency" but publishes no source code
+- [ ] The person doing interviews isn't the one controlling the funds
+- [ ] Project has a suspiciously similar predecessor with a different name
 
 ### 🔍 The 5-Minute Check
 
-1. **GitHub** → Does code exist?
-2. **Wayback Machine** → Do the numbers change?
+1. **GitHub** → Does actual code exist? Not just a README?
+2. **Wayback Machine** → Do the numbers change? Did the project have a different name?
 3. **Scroll to bottom of articles** → "Written in cooperation with"?
 4. **Try to sell** → Can you actually exit?
 5. **Ask a hard question in Telegram** → Answered or banned?
+6. **Whitepaper** → Copy a unique sentence, paste into Google. Does it appear in another project's whitepaper?
+7. **Corporate structure** → Can you identify ONE person legally responsible for the funds?
 
 ---
 
